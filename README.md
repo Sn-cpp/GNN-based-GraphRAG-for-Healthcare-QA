@@ -66,7 +66,7 @@ Query → Hybrid Retrieval → KG Traversal → Context → Qwen → Answer
 
 ## Environment installation
 
-Please visit `requirements_cpu.txt` for a CPU-only pipeline, or `requirements_gpu.txt` for a CUDA-powered pipeline.
+Please visit `requirements_cpu.txt` for a CPU-only pipeline, or `requirements_gpu.txt` for a CUDA-powered pipeline (adjust the CUDA version if necessary).
 
 For the llama-cpp-python installation, please visit its [GitHub repository](https://github.com/abetlen/llama-cpp-python) to install the correct distribution.
 

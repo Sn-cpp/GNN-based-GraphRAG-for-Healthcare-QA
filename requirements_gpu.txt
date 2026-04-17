@@ -1,10 +1,10 @@
+torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+torch_geometric==2.7.0 --index-url https://data.pyg.org/whl/torch-2.8.0+cu128.html
 datasets==3.6.0
 gradio==6.12.0
 matplotlib==3.10.8
 numpy==2.4.4
 pandas==3.0.2
 spacy==3.8.14
-torch==2.11.0+cu128
-torch_geometric==2.7.0
 tqdm==4.67.3
 transformers==5.5.4

@@ -2,7 +2,7 @@ from llama_cpp import Llama
 
 
 class QwenLLM:
-    def __init__(self, repo_id="Jackrong/Qwen3.5-4B-Neo-GGUF", filename="Qwen3.5-4B.Q4_K_M.gguf", n_ctx=8192, n_threads=8, n_gpu_layers=0):
+    def __init__(self, repo_id="Jackrong/Qwen3.5-4B-Neo-GGUF", filename="Qwen3.5-4B.Q4_K_M.gguf", n_ctx=8192, n_threads=2, n_gpu_layers=0):
         self.llm = Llama.from_pretrained(
             repo_id=repo_id,
             filename=filename,

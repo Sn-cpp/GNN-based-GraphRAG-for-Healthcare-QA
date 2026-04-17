@@ -1,3 +1,5 @@
+https://github.com/Sn-cpp/llama-cpp-python-cpu-wheels/releases/download/v0.3.20/llama_cpp_python-0.3.20-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+
 gradio==6.12.0
 numpy==2.4.4
 pandas==3.0.2
@@ -5,4 +7,3 @@ torch==2.11.0
 torch_geometric==2.7.0
 tqdm==4.67.3
 transformers==5.5.4
-llama-cpp-python

@@ -153,10 +153,13 @@ class GraphRAGApp:
         return self.clean_output(raw_answer)
 
     def clean_output(self, text: str) -> str:
-        # Remove <think> block completely
+        # Remove complete <think>...</think>
         text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL)
+
+        # Remove any leftover <think> or </think>
+        text = re.sub(r"</?think>", "", text)
 
         # Keep only first non-empty line
         lines = [l.strip() for l in text.split("\n") if l.strip()]
-        
-        return lines[0] if lines else ""
+
+        return lines[0] if lines else "I don't know"

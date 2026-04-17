@@ -1,0 +1,3386 @@
+structures,part_of,anatomy
+tissues,is_a,cellular_tissue
+macroscopic_anatomy,studies,structures
+dentist,practices,dentistry
+anatomy,studies,structures
+anatomy,practices,studying
+cells,part_of,tissues
+anatomy,is_a,medicine
+gross_anatomy,is_a,studied_anatomy
+studied_anatomy,has_part,gross_anatomy
+anatomy,studies,physical_structures
+anatomy,is_named_after,temnein
+regional_anatomy,is_a,anatomy
+anatomy,uses,terminology
+physical_structures,is_a,structure
+nasal_cavity,part_of,oral_cavity
+terminology,is_used_by,anatomy
+lingual_artery,part_of,tongue
+soft_palate,part_of,oral_cavity
+oral_cavity,has_part,nasal_cavity
+dissection,part_of,anatomy
+anatomy,part_of,dissection
+anatomy,is_a,regional_anatomy
+cardiovascular_system,has_part,blood_vessel
+respiratory_system,is_a,system
+lymphatic_system,is_a,system
+body,has_part,region
+heart,has_part,blood_vessel
+spinal_cord,connects_with,brain
+pelvis,part_of,abdomen
+body,has_part,system
+skeletal_system,is_a,system
+region,part_of,body
+vasculature,part_of,thorax
+gastrointestinal_system,is_a,system
+blood_vessel,part_of,heart
+nerves,part_of,thorax
+brain,connects_with,spinal_cord
+nervous_system,is_a,system
+bones,part_of,thorax
+muscular_system,is_a,system
+muscles,part_of,thorax
+thorax,is_a,structures
+anatomical_position,is_a,reference_position
+toes,are_part_of,foot
+eureka,is_part_of,california
+anatomy,has_part,cadaver_dissection
+eye,connects_with,ear
+standing_upright,is_instance_of,anatomical_position
+thumb,is_followed_by,index_finger
+foot,has_part,toes
+anatomical_position,is_part_of,body
+posterior,is_opposite_of,anterior
+anterior,is_opposite_of,posterior
+coronal_plane,has_posterior_part,posterior
+cadaver_dissection,is_a,anatomical_procedure
+body,has_anatomical_position,anatomical_position
+systemic_approach,is_opposite_of,cadaver_dissection
+index_finger,follows,thumb
+california,is_a,administrative_territory
+ear,connects_with,eye
+sternum,part of,vertebral column
+median sagittal plane,instance of,plane
+inferior,opposite of,superior
+sagittal plane,has part,external ear
+coronal plane,opposite of,sagittal plane
+eyes,part of,sagittal plane
+cranial,has part,caudal
+median and lateral,facet of,sagittal plane
+superior,opposite of,inferior
+knee joint,connects with,hip joint
+axial,subclass of,plane
+horizontal,subclass of,plane
+sagittal plane,opposite of,coronal plane
+hip joint,connects with,knee joint
+transverse,subclass of,plane
+caudal,part of,cranial
+external ear,part of,sagittal plane
+anterior,opposite of,posterior
+nose,part of,sagittal plane
+little finger,connects with,thumb
+posterior,opposite of,anterior
+thumb,connects with,little finger
+deep,is_same_as,superficial
+head,has_part,nose
+elbow_joint,is_part_of,hand
+linear_structure,has_part,branch
+forebrain,is_opposite_of,hindbrain
+abdominal_wall,connects_with,stomach
+branch,is_part_of,linear_structure
+nose,is_part_of,head
+superficial,is_same_as,deep
+distal_branch,opposite,proximal_branch
+cranial,connects_with,caudal
+caudal,connects_with,cranial
+superior,opposite,inferior
+surface,is_part_of,body
+rostral,is_part_of,head
+sternum,connects_with,heart
+hindbrain,is_opposite_of,forebrain
+stomach,connects_with,abdominal_wall
+proximal,opposite,distal
+heart,connects_with,sternum
+inferior,opposite,superior
+glenohumeral_joint,connects_with,elbow_joint
+proximal_branch,opposite,distal_branch
+elbow_joint,connects_with,glenohumeral_joint
+hand,has_part,elbow_joint
+distal,opposite,proximal
+deep_structures,is_a,structure
+deep,is_a,fascia
+deep_wound,is_opposite_of,superficial_wound
+wilhelm_roentgen,practiced,radiographic_exposure
+bone,is_different_from,fat
+viscera,part_of,deep_structures
+tissues,has_part,x_ray_absorber
+attenuated,is_same_as,reduced_energy
+deep_fascia,part_of,superficial_region
+layer,is_a,structure
+superficial_region,part_of,deep_fascia
+x_ray,is_instance_of,electromagnetic_radiation
+radiographic_exposure,discovered_by,wilhelm_roentgen
+superficial_wound,is_opposite_of,deep_wound
+collimated,is_type_of,x_ray
+superficial_fascia,part_of,skin
+reduced_energy,is_same_as,attenuated
+fat,is_different_from,bone
+body_imaging,is_a,technology
+superficial,is_a,region
+x_ray_tube,is_subclass_of,cathode_ray_tube
+bowel,has_part,lumen
+attenuation,studies,exposure
+fluoroscopy,is_a,angiography
+lumen,part_of,bowel
+nontoxic,is_a,substance
+barium_enema,has_part,barium_sulfate
+double-contrast,has_part,barium
+photographic_film,is_a,developed
+arteries,is_a,entity
+x_ray,part_of,air
+insoluble,is_a,salt
+ureter,is_a,urinary_system
+intravenous,is_different_from,intra_arterial
+kidneys,is_a,urinary_system
+iodine,is_subject_of,contrast_agent
+urinary_system,has_part,bladder
+arteries,connects_with,veins
+intra_arterial,is_type_of,contrast_agent
+intravenous,is_type_of,contrast_agent
+intra_arterial,is_different_from,intravenous
+veins,connects_with,arteries
+veins,part_of,circulation
+contrast_media,practices,injection
+arteries,part_of,circulation
+circulation,has_part,arteries
+bounce_back,is_a,sound_waves
+ultrasonography,practices,studying
+angiography,studies,vessels
+subtraction_angiography,is_a,angiography
+digital_imaging,is_a,computers
+precontrast,opposite,postcontrast
+circulation,has_part,veins
+postcontrast,opposite,precontrast
+display_panel,part_of,computer
+computer,has_part,display_panel
+negative,opposite_of,inverted
+inverted,opposite_of,negative
+vessels,part_of,circulation
+ultrasonography,practices,body
+body,part_of,world
+ultrasound,is_a,sound_wave
+musculoskeletal_system,has_part,soft_tissues
+ultrasound,studies,probes
+probes,practices,ultrasound
+women,is_a,human
+blood_vessel,is_part_of,blood_flow
+ultrasound,has_subclass,doppler_ultrasound
+doppler_ultrasound,is_a,ultrasound
+fetus,part_of,pregnant women
+transvaginal,is_a,ultrasound
+stomach,connects_with,esophagus
+soft_tissues,part_of,musculoskeletal_system
+pregnant women,part_of,fetus
+ct_scanner,is_a,scanner
+returned,is_caused_by,sound_wave
+esophagus,connects_with,stomach
+sound_wave,causes,returned
+godfrey_hounsfield,received_award,nobel_prize_in_medicine
+stomach,connects_with,duodenum
+endocavity_ultrasound,has_subclass,transvaginal
+transrectal,has_subclass,endocavity_ultrasound
+pregnant_women,is_a,women
+prostate_hypertrophy,is_a,prostate
+duodenum,connects_with,stomach
+speed,is_a,velocity
+blood_flow,has_part,blood_vessel
+prostate,has_subclass,prostate_hypertrophy
+axial plane,part_of,body
+free_protons,has_part,hydrogen_nucleus
+hydrogen_nucleus,has_part,free_proton
+mathematical_transformation,part_of,computer
+image,caused_by,computer
+water,has_part,hydrogen_nucleus
+bar_magnet,practices,magnetic_field
+nuclear_magnetic_resonance_imaging,practices,1946
+radio_pulse,is_a,radio_wave
+computer,has_effect,image
+water,has_part,hydrogen_proton
+nucleus,has_part,proton
+frequency,is_a,signal
+x-ray_tube,is_a,image
+puls,subclass of,sequence
+contrast,subclass of,imaging
+brain,has part,cerebrospinal fluid
+'weighting',facet of,scan
+extracellular fluid,opposite of,intracellular fluid
+cerebral circulation,part of,peripheral
+intracellular space,opposite of,extracellular space
+csf,part of,brain
+extracellular space,opposite of,intracellular space
+cerebrospinal fluid,part of,brain
+t1-weighted images,followed by,t2-weighted images
+tissues,has part,water
+brain,has part,csf
+intracellular fluid,opposite of,extracellular fluid
+urinary_tract,part_of,body
+bone,part_of,skeleton
+atom,has_part,nucleus
+absorption,practices,excretion
+excretion,causes,absorption
+methylene_diphosphonate,has_role,radiopharmaceutical
+nucleus,part_of,atom
+technetium-99m,is_a,radionuclide
+gamma_ray_emitter,practices,gamma_ray_emission
+skeleton,has_parts,bone
+gamma_ray,is_a,electromagnetic_radiation
+decay,practices,has_cause_decay
+positron,has_part,decay_positron
+compound,is_a,metabolizing_compound
+imaging modality_instance,studies,pet
+radionuclide,is_a,cyclotron
+disease_conditions,is_a,coronary_artery_disease
+3d,part_of,360_degree
+fluorine-18,is_part_of,fluorodeoxyglucose
+antimatter,is_a,subclass_antimatter
+imaging modality,is_a,imaging modality_instance
+iodine-123,iodine-131,is_same_as
+radionuclides,is_a,technetium-99m_etc
+region,part_of,anatomy
+plain_radiograph,uses,imaging_technique
+anteroposterior,is_a,radiograph
+abnormal,opposite_of,normal
+anatomy,studies,region
+foot,part_of,hand
+image,is_a,plain_radiograph
+pathological_changes,is_a,abnormal
+x_ray,practices,radiography
+chest_radiography,uses,x_ray_tube
+radiological_diagnosis,is_a,normal_variations
+radiograph,is_a,x_ray
+imaging_technique,practices,chest_radiography
+hand,part_of,foot
+imaging,studies,pathological changes
+ribs,connects_with,diaphragm
+bed,has_part,anteroposterior
+chest radiograph,is_a,radiograph
+markers,is_a,film_marker
+small_bowel_obstruction,is_treated_by,erect_plain_abdominal_radiograph
+diaphragm,connects_with,ribs
+pa chest radiograph,practices,uses_x_ray_tube
+anteroposterior,part_of,bed
+misinterpreted,is_a,dextrocardia
+abdominal_radiographs,is_a,ap_supine_position
+pa film,is_a,radiograph
+plain radiographs,is_a,radiographs
+endoscopy,is_a,upper_gastrointestinal_imaging
+mucosal_detail,part_of,mucosa
+contrast,practices,intravenous_contrast_medium
+carbon_dioxide,is_part_of,air
+large_bowel,connects_with,rectum
+urinary_tract,has_part,bladder
+films,caused_by,contrast_medium
+kidneys,part_of,urinary_tract
+esophagus,connects_with,stomach
+urinary_tract,has_part,kidneys
+mucosa,has_part,mucosal_detail
+contrast_medium,affects,films
+intravenous_contrast_medium,used_for,injected
+bladder,part_of,urinary_tract
+intravenous_urography,is_a,urinary_tract
+rectum,connects_with,large_bowel
+small_bowel,connects_with,large_bowel
+air,has_part,carbon_dioxide
+bowel_preparation,is_a,cathartics
+urinary_tract,has_part,ureter
+stomach,connects_with,large_bowel
+ureter,part_of,urinary_tract
+right_side,opposite_of,left_side
+contrast,is_a,intravenous
+abdominal_organs,has_part,vascularity
+left_side,opposite_of,right_side
+visceral_organs,has_part,tissues
+venous_phase,follows,equilibrium_phase
+computed tomography,different_from,computerized_tomography
+equilibrium_phase,followed_by,venous_phase
+computerized_tomography,different_from,computed_tomography
+head,part_of,axial_plane
+presentation_of_images,is_a,presentation
+window_centering,facet_of,window_settings
+clinician,has part,patient
+ct,subclass of,image
+musculoskeletal medicine,part of,surgery
+representative film,subclass of,interpreted directly from a computer
+plane,subclass of,sequences
+gadolinium,subject has role,paramagnetic substances
+manganese,subject has role,paramagnetic substances
+intravenous contrast agent,subclass of,contrast agent
+nuclear medicine,studies,radiation
+patient,part of,clinician
+low,subclass of,diagnostic image
+mri,studies,brain
+x-ray,has cause,radiation
+functional studies,subclass of,nuclear medicine
+brain,studied by,mri
+dosage,has cause,radiation
+radiation,studied by,nuclear medicine
+radiation,has effect,dosage
+axial_skeleton,is_a,skeleton
+clinical_history,has_part,examination
+mri,is_a,imaging
+appendicular_skeleton,is_a,skeleton
+cranium,part_of,skull
+sternum,connects_with,ribs
+examination,part_of,clinical_history
+ribs,connects_with,sternum
+axial_skeleton,opposite_of,appendicular_skeleton
+ultrasound_imaging,practices,modality_of_choice
+vertebral_column,connects_with,ribs
+skull,has_part,cranium
+cartilage,is_a,bone
+cartilage,is_a,diffusion
+matrix,part_of,cartilage
+hyaline,is_a,cartilage
+fibrocartilage,is_a,cartilage
+cartilage,is_a,connective_tissue
+elastic_fiber,is_different_from,collagen
+collagen,is_different_from,elastic_fiber
+elastic,is_a,cartilage
+long_bone,is_a,bone_articulations
+cartilage,has_part,collagen
+cartilage,has_part,matrix
+shape,used_by,classification_of_bones
+cancellous,is_a,bone
+classification_of_bones,uses,shape
+humerus,connects_with,femur
+skull,is_a,bone
+ankle,part_of,cuboidal
+spongy bone,is_a,bone
+femur,connects_with,humerus
+skeleton,part_of,bone
+irregular bone,is_a,bone
+sesamoid bone,is_a,bone
+wrist,part_of,cuboidal
+femur,part_of,skeleton
+compact bone,is_a,bone
+humerus,part_of,skeleton
+endochondral_ossification,is_opposite_of,intramembranous_ossification
+sensory_nerve,has_part,fibers
+vasomotor_fibers,practices,regulate_blood_flow
+articular_cartilage,part_of,periosteum
+fibers,part_of,sensory_nerve
+periosteum,is_a,bone
+branches,part_of,blood_vessel
+vascular,part_of,bones
+marrow,part_of,bone
+bone,part_of,periosteum
+synovial_joint,has_part,articular_cavity
+bony,is_different_from,surface
+articular_cavity,part_of,joint
+nerves,practices,innervate
+joints,is_a,joint
+solid_joint,is_a,joint
+innervate,part_of,nerves
+hyaline_cartilage,is_a,cartilage
+cartilage,part_of,bone
+surface,is_different_from,bony
+synovial_membrane,part_of,joint_capsule
+articular_cavity,part_of,synovial_joint
+synovial_joint,is_a,joint
+bone,has_part,cartilage
+cartilage,connects_with,bone
+bone,connects_with,cartilage
+bursae,is_a,tendon_sheath
+ligament,is_part_of,capsule
+tendon,connects_with,joint
+joint,has_component,ligament
+capsule,has_component,ligament
+articulating_surfaces,has_part,articular_cavity
+connective_tissue,part_of,fibrous_membrane
+joint,connects_with,tendon
+ligament,is_a,joint_component
+articular_cavity,part_of,articulating_surfaces
+tendon_sheath,part_of,tendon
+fibrocartilage,part_of,joint
+multiaxial,is_opposite_of,uniaxial
+capsule,connects_with,synovial_membrane
+synovial_joints,has_facet,types_of_synovial_joints
+articular_discs,is_a,fibrocartilage
+joint,has_type,uniaxial
+acromioclavicular_joint,is_instance_of,plane_joint
+joint_surfaces,connects_with,joint
+joint,has_part,joint_surfaces
+synovial_membrane,part_of,fibrous_membrane
+synovial_membrane,connects_with,capsule
+fibrous_membrane,is_a,synovial_membrane
+uniaxial,is_opposite_of,multiaxial
+atlanto_axial_joint,is_a,pivot_joint
+fibrocartilage,is_a,cartilage
+hinge_joint,is_a,joint
+syndesmoses,is_a,fibrous_joint
+knee_joint,is_a,condyles
+synovial_joints,is_a,joints
+gomphoses,is_a,fibrous_joint
+thumb,has_part,carpometacarpal
+carpometacarpal,part_of,thumb
+joint,is_a,condyles
+ossified,subclass of,bone growth
+pelvic bone,has part,pubic symphysis
+bone,connects with,cartilage
+vascular,subclass of,connective tissue
+body,has part,organ
+ligament,part of,joint
+synchondroses,subclass of,cartilaginous joints
+radius,connects with,ulna
+bone,has part,bony socket
+teeth,connects with,bone
+bone,connects with,teeth
+bone,part of,skull
+cartilage,connects with,bone
+skull,has parts of the class,bone
+squamous epithelium,part of,epidermis
+ulna,connects with,radius
+symphyses,subclass of,cartilaginous joints
+cartilage,part of,bone
+organ,part of,body
+pubic symphysis,part of,pelvic bone
+ossification center,part of,bone
+dermis,part of,epidermis
+epidermis,has part,dermis
+epidermis,has part,squamous epithelium
+bony socket,part of,bone
+bone,has part,cartilage
+skin,part of,body
+skin,has_part,dermis
+fascia,is_a,connective_tissue
+deep,is_a,fascia
+fat,is_a,connective_tissue
+superficial_fascia,part_of,subcutaneous_tissue
+superficial,is_a,fascia
+nerves,has_part,vessel
+thermoregulatory_organ,is_a,sensory
+primary_immune_response,practices,initiate
+dermis,part_of,skin
+vessel,has_part,nerves
+endothoracic_fascia,part_of,thorax
+retinacula,part_of,fascia
+superficial fascia,part_of,deep fascia
+extraperitoneal_fascia,is_instance_of,layer
+tendon,has_part,joint
+joint,has_part,tendon
+nerves,practices,muscles
+nerves,practices,connecting_with
+deep fascia,is_a,connective tissue
+intermuscular septa,is_a,fascial_layer
+transversalis_fascia,is_instance_of,fascia
+sternohyoid_muscle,instance_of,skeletal_muscle
+somatic,is_a,motor_nerve
+skeletal_muscle,is_a,muscle
+cardiac_muscle,is_a,smooth_muscle
+motor_nerve,is_a,nerve
+palmar_interosseous_muscle,instance_of,skeletal_muscle
+muscle_tissue,is_a,muscle
+organ,has_part,visceral
+body,has_parts,bone
+muscle,is_a,muscle_tissue
+bone,part_of,body
+visceral,part_of,organ
+skeletal_muscle,instance_of,muscle
+smooth_muscle,is_a,muscle
+branchial,is_a,motor_nerve
+visceral_motor_nerves,instance_of,innervated
+veins,connects_with,capillaries
+cardiovascular_system,has_part,heart
+cardiovascular_system,has_part,blood_vessel
+arteries,connects_with,capillaries
+capillaries,connects_with,veins
+cardiac muscle,part_of,myocardium
+skeletal_muscle,is_a,contractions
+smooth_muscle,is_a,fibers
+branching_network,is_a,interconnected
+hair_follicles,part_of,skin
+myocardium,has_part,cardiac muscle
+heart,part_of,cardiovascular_system
+tunica media,subclass of,tunics
+radial arteries,subclass of,arteries
+elastic fibers,part of,tunica media
+left subclavian artery,instance of,elastic arteries
+medium muscular arteries,subclass of,tunica media
+aorta,instance of,elastic arteries
+tunica media,has part,elastic fibers
+elastic fiber,subclass of,smooth muscle
+capillaries,part of,vascular system
+pulmonary trunk,instance of,elastic arteries
+brachiocephalic trunk,instance of,elastic arteries
+left common carotid artery,instance of,elastic arteries
+axillary,subclass of,arteries
+femoral,subclass of,arteries
+tunica externa,subclass of,tunics
+control,facet of,flow of blood
+tunica intima,subclass of,tunics
+diastole,subclass of,blood
+vascular system,has part,capillaries
+leg,connects_with,forearm
+veins,connects_with,capillaries
+vein,part_of,three_classes
+forearm,connects_with,leg
+peripheral_vessel,connects_with,heart
+tunica_media,part_of,tunica_externa
+tunica_externa,part_of,tunica_media
+heart,has_part,cusps
+arm,connects_with,forearm
+arteries,connects_with,veins
+superior_vena_cava,connects_with,inferior_vena_cava
+capillaries,connects_with,veins
+luminal,is_a,diameters
+inferior_vena_cava,connects_with,superior_vena_cava
+tunica_media,part_of,veins
+arteries,different_from,vein
+veins,part_of,peripheral_vessel
+heart,connects_with,peripheral_vessel
+tunica_externa,is_a,smooth_muscle
+venule,connects_with,capillaries
+cardiovascular_system,has_part,circulation_of_blood
+circulation_of_blood,part_of,cardiovascular_system
+three_classes,has_part,vein
+veins,connects_with,arteries
+lymph,instance_of,fluid
+venous,part_of,vascular_system
+capillaries,part_of,lymphatic_vessel
+small_intestine,has_part,lymphatic_vessels
+capillary_beds,part_of,vascular_system
+gut,is_a,lymphatic_system
+lymphatic_system,part_of,gut
+lymphatic_system,has_part,lymphatic_capillaries
+vascular_system,has_part,venous
+lymphatic_capillaries,part_of,venous_system
+venous_system,has_part,lymphatic_capillaries
+small_intestine,has_part,interstitial_compartment
+interstitial_compartment,part_of,small_intestine
+lymphocyte,part_of,lymphatic_vessels
+pathologic,causes,disease
+lymphatic_vessels,has_part,lymph
+macrophage,part_of,lymphatic_vessels
+valves,practices,unidirectional_flow
+lymphatic_vessels,part_of,lymph_nodes
+lymph,has_part,lymphatic_vessel
+disease,is_a,pathology
+lymphatic_vessels,has_part,macrophage
+lymph_nodes,has_part,lymphatic_vessels
+lymph_node,part_of,lymphatic_vessels
+antibody,has_cause,antigen
+cartilage,is_a,avascular_tissue
+lymphatic_vessel,part_of,central_nervous_system
+antigen,has_effect,antibody
+phagocytose,is_a,particulate_matter_interaction
+respiratory_system,is_a,system
+internal_jugular_veins,connects_with,brachiocephalic_veins
+fluid,has_part,lymphatic_vessels
+lymphatic_vessels,part_of,lymph
+system,part_of,digestive_system
+clusters,part_of,lymph_nodes
+trachea,is_part_of,thorax
+thorax,part_of,trachea
+pathogens,has_effect,entry_point
+bronchi,is_part_of,thorax
+lymph_nodes,has_part,clusters
+lymph,is_a,fluid
+brachiocephalic_veins,connects_with,internal_jugular_veins
+femoral_region,part_of,groin
+system,part_of,respiratory_system
+digestive_system,is_a,system
+subclavian_veins,connects_with,brachiocephalic_veins
+entry_point,affected_by,pathogens
+thorax,part_of,bronchi
+spinal_cord,connects_with,brain
+enteric_system,connects_with,cranial_nerve
+plexus,is_a,nerve
+brainstem,part_of,brain
+nerve,has_part,plexus
+cerebral_hemispheres,part_of,brain
+gray_matter,is_opposite_of,white_matter
+neural_crest,has_part,cns
+brain,connects_with,spinal_cord
+white_matter,is_opposite_of,gray_matter
+brain,has_part,brainstem
+cns,is_a,nervous_system
+cranial_nerve,connects_with,enteric_system
+spinal_cord,connects_with,cranial_nerve
+peripheral_nervous_system,part_of,nervous_system
+cerebellum,part_of,brain
+central_nervous_system,part_of,nervous_system
+midbrain
+spinal_cord,connects_with,vertebral_canal
+cns
+midbrain
+medulla,part_of,midbrain
+spinal_cord
+medulla
+diencephalon,part_of,brainstem
+midbrain
+spinal_cord
+cross_section,part_of,canal
+brain
+cranial_cavity
+spinal_cord,part_of,cranial_cavity
+cranial_cavity
+arachnoid_mater
+brain,connects_with,spinal_cord
+spinal_cord
+brain
+subarachnoid_space,part_of,csf
+csf
+brainstem
+pons,part_of,brainstem
+medulla
+cerebellum,part_of,lateral_lobes
+cerebellum
+spinal_cord
+arachnoid_mater,connects_with,dura_mater
+dura_mater
+csf
+csf,part_of,subarachnoid_space
+nervous_system
+canal
+brain,part_of,cranial_cavity
+spinal_cord
+pons
+pons,part_of,midbrain
+medulla
+somatic
+nervous_system,part_of,visceral
+subarachnoid_space
+nervous_system,part_of,somatic
+nervous_system
+spinal_cord
+spinal_cord,connects_with,brain
+subarachnoid_space
+lateral_lobes
+cerebellum,part_of,midline_portion
+brainstem
+midline_portion
+brainstem,is_a,medulla
+diencephalon
+brainstem
+medulla,has_part,pons
+pons
+brainstem
+midbrain,part_of,brainstem
+pons
+dura_mater
+dura_mater,connects_with,arachnoid_mater
+brain
+cranial_cavity
+cranial_cavity,has_part,spinal_cord
+arachnoid_mater
+spinal_cord
+vertebral_canal,connects_with,spinal_cord
+cross_section
+vertebral_canal
+cns,has_part,spinal_cord
+vertebral_canal
+dermis,part_of,skin
+trunk,is_a,limbs
+nervous_system,is_a,cns
+epaxial_muscle,is_a,intrinsic_muscle
+visceral_part,has_part,visceral_elements
+somatic_part,has_part,innervates
+visceral_elements,part_of,visceral_part
+cns,has_part,neural_tube
+cns,part_of,nervous_system
+innervates,part_of,somatic_part
+neural_tube,part_of,cns
+skin,has_part,dermis
+detecting,practices,responding
+responding,is_studied_by,detecting
+dermatomyotome,part_of,differentiating_regions
+sensory_neuron,is_a,neuron
+neuron,is_a,cell
+nerve_cell,part_of,neural_tube
+motor_fiber,practices,uses_sensory_information
+motor_neuron,is_a,neuron
+spinal_nerve,is_a,cranial_nerve
+sensory_ganglia,has_part,sensory_nerve_cell_bodies
+neural_tube,has_part,posterior_aspect
+posterior_aspect,part_of,neural_tube
+sensory_nerve_cell_bodies,part_of,sensory_ganglia
+neural_tube,has_part,nerve_cell
+muscle,is_a,musculoskeletal_system
+cns,connects_with,skeletal_muscle
+spinal_nerve,part_of,spinal_cord
+tendon,is_a,musculoskeletal_system
+periphery,part_of,cns
+skin,part_of,body
+musculoskeletal_system,has_part,tendon
+body,has_part,skin
+touch,part_of,proprioception
+skeletal_muscle,connects_with,cns
+spinal_cord,has_part,cell_bodies
+somatic_motor_fiber,is_a,somatic_sensory_fiber
+cns,has_part,periphery
+nerves,part_of,spinal_cord
+spinal_nerve,part_of,spinal_cord
+c8,part_of,spinal_cord
+spinal_cord,has_part,dermatome
+dermatome,part_of,spinal_cord
+motor_fiber,part_of,spinal_nerve
+c6,part_of,spinal_cord
+spinal_cord,has_part,spinal_nerve
+c7,part_of,spinal_cord
+spinal_cord,has_part,nerves
+t1,part_of,spinal_cord
+spinal_nerve,has_part,motor_fiber
+spinal_cord,has_part,t1
+somite,is_a,skeletal_muscle
+nervous system,part_of,somatic part
+visceral_motor_neuron,part_of,neural tube
+sympathetic,part_of,autonomic division
+nervous system,part_of,visceral part
+mechanoreception,is_a,sensory neuron
+visceral nerves,has_part,sensory nerves
+visceral sensory neuron,is_a,neural crest cell
+somatic part,part_of,nervous system
+chemoreception,is_a,sensory neuron
+neural crest,is_a,cell
+motor,part_of,nervous system
+parasympathetic,part_of,autonomic division
+neural tube,has_part,neural crest
+stretch_reception,is_a,sensory neuron
+sensory,part_of,nervous system
+visceral part,has_part,visceral sensory neuron
+motor_neuron,practices,innervate
+cell_bodies,part_of,ganglion
+anterior_spinal_nerve,is_a,spinal_nerve
+axon,is_a,nerve_fiber
+vii,is_a,cranial_nerve
+spinal_cord,part_of,spinal_nerves
+postganglionic_motor_neuron,part_of,axon
+motor_fiber,is_a,nerve_fiber
+posterior_spinal_nerve,is_a,spinal_nerve
+ix,is_a,cranial_nerve
+cn_iii,is_a,cranial_nerve
+motor_fiber,is_a,fiber
+viscera,connects_with,plexus
+x,is_a,cranial_nerve
+motor_fiber,has_part,sensory_fiber
+preganglionic_motor_neuron,part_of,axon
+plexus,connects_with,viscera
+spinal_nerves,part_of,spinal_cord
+phenotypic,caused_by,developmental
+neuron,part_of,spinal
+viscera,part_of,body
+developmental,practices,phenotypic
+t1-l2_visceral_motor_fibers,is_a,postganglionic_fiber
+s2_to_s4,has_part,spinal_cord
+spinal_cord_levels,is_a,level
+sympathetic,opposite_of,parasympathetic
+sympathetic,is_a,motor_neuron
+viscera,is_a,innervation
+parasympathetic,opposite_of,sympathetic
+parasympathetic,is_a,motor_neuron
+spinal_cord,part_of,spinal_cord_levels
+l2,has_part,spinal cord
+anterior rami,part_of,spinal nerves
+anterior rami,connects_with,sympathetic trunks
+ganglion_impar,connects_with,coccyx
+l2,is_a,spinal nerve
+spinal nerves,part_of,spinal cord
+coccyx,connects_with,ganglion_impar
+sympathetic part,part_of,autonomic division
+spinal cord,part_of,vertebral column
+sympathetic trunks,connects_with,anterior rami
+vertebral column,has_part,spinal cord
+preganglionic_neuron,follows,postganglionic_neuron
+spinal cord,part_of,l2
+autonomic division,part_of,sympathetic part
+t1,is_a,spinal nerve
+t1_spinal_nerve,is_a,spinal_nerve
+l2_spinal_nerve,is_a,spinal_nerve
+gray_ramus_communicans,follows,white_ramus_communicans
+sympathetic_trunk,connects_with,paravertebral_ganglion
+gray_ramus_communicans,has_part,anterior_ramus
+white_ramus_communicans,followed_by,gray_ramus_communicans
+postganglionic_fibers,is_a,fibers
+spinal_nerve,is_a,innervate_structures
+paravertebral_ganglion,connects_with,sympathetic_trunk
+anterior_ramus,has_part,gray_ramus_communicans
+sympathetic_part,is_a_part_of,autonomic_division
+autonomic_division,has_part,sympathetic_part
+t1,is_a,spinal_nerve
+sympathetic_innervation,is_a_part_of,thoracic
+anterior_rami,connects_with,posterior
+t1,is_a_part_of,spinal_cord
+paravertebral_sympathetic_trunk,is_a_part_of,vertebral_column
+l2,is_a,spinal_nerve
+spinal_cord,has_part,l2
+t5,is_a_part_of,spinal_cord
+dilator,is_a_part_of,pupil
+vertebral_column,has_part,paravertebral_sympathetic_trunk
+3.3,is_a,point_in_time
+posterior,connects_with,anterior_rami
+l2,is_a_part_of,spinal_cord
+motor neuron,is_a,synapse
+paravertebral_ganglia,connects_with,sympathetic_trunk
+cardiac nerve,is_a,visceral nerve
+branches_of_the_plexus,part_of,organ
+cardiac,is_instance_of,plexus
+cranial,part_of,spinal_cord
+spinal_cord,has_part,l2
+organ,has_part,branches_of_the_plexus
+cervical,part_of,spinal_cord
+t5,part_of,spinal_cord
+4,is_point_in_time,4.4
+thoracic,part_of,spinal_cord
+pulmonary,is_instance_of,plexus
+l2,is_part_of,spinal_cord
+sympathetic_trunk,connects_with,paravertebral_ganglia
+cranial_nerves,are_parts_of,central_nervous_system
+adrenal_medulla,is_part_of,adrenal_gland
+autonomic_division_of_pns,has_part,parasympathetic
+noradrenaline,is_a,adrenaline
+central_nervous_system,has_parts,cranial_nerves
+parasympathetic,is_part_of,autonomic_division
+abdominal_aorta,is_a,arteries
+sympathetic,is_opposite_of,parasympathetic
+parasympathetic,is_part_of,autonomic_division_of_pns
+abdomen,connects_with,pelvis
+adrenal_gland,has_part,adrenal_medulla
+parasympathetic,is_opposite_of,sympathetic
+pelvis,connects_with,abdomen
+autonomic_division,has_part,parasympathetic
+pupil,has_part,constrictor_muscle
+constrictor_muscle,part_of,pupil
+ganglia,is_a,enteric_system
+abdominal,connects_with,pelvic
+viscera,has_part,motor_neuron
+anterior_rami,part_of,s4
+enteric_system,has_part,ganglia
+visceral_branches,is_a,vagus_nerve
+pelvic,connects_with,abdominal
+abdomen,connects_with,pelvis
+sympathetic_fibers,part_of,plexus
+viscera,has_part,walls
+motor_fiber,is_a,fiber
+pelvis,connects_with,abdomen
+s2,part_of,anterior_rami
+postganglionic_motor_neuron,is_a,ganglia
+sympathetic_fiber,is_followed_by,visceral_sensory_fiber
+pharynx,is_part_of,neck
+s2,is_part_of,spinal_nerves
+t1,is_instance_of,spinal_cord_level
+thorax,connects_with,abdomen
+pelvic_viscera,is_part_of,colon
+colon,has_part,pelvic_viscera
+s4,is_part_of,spinal_nerves
+visceral_sensory_fiber,has_part,parasympathetic_fiber
+motor_output,part_of,spinal_cord
+motor_fiber,is_a,fibers
+parasympathetic_fiber,is_part_of,visceral_sensory_fiber
+abdomen,connects_with,thorax
+sympathetic_fiber,is_subclass_of,visceral_sensory_fiber
+visceral_sensory_fiber,follows,sympathetic_fiber
+ganglia,has_part,nerve_fibers
+peristalsis,is_a,secretomotor_activity
+motor,is_a,neuron
+gastrointestinal_system,has_part,enteric_system
+spinal_cord,connects_with,brain
+visceral_sensory_fiber,is_part_of,cns
+occipitocervical,connects_with,sacral
+enteric_system,is_part_of,gastrointestinal_system
+sacral,connects_with,occipitocervical
+visceral,is_a,nerve_plexus
+brain,connects_with,spinal_cord
+nerve_fibers,part_of,ganglia
+somatic,is_a,nerve_plexus
+plexus,is_part_of,enteric_system
+enteric_system,practices,gastrointestinal_function
+gastrointestinal_system,practices,digestion
+sensory,is_a,neuron
+nerve_cell_bodies,part_of,ganglia
+spinal_cord,studies,motor_control
+coccygeal,connects_with,sacral
+efferent,has_part,visceral_ nerve_plexus
+lumbar,connects_with,sacral
+gastrointestinal,is_a,respiratory
+abdominal,connects_with,pelvic
+anatomical_position,is_a,plane
+visceral_nerve_plexus,part_of,afferent
+fluoroscope,is_a,imaging_device
+afferent,has_part,visceral_nerve_plexus
+spinal_nerve_t1,has_part,thoracic_spinal_nerve
+cervical,connects_with,lumbar
+respiratory,has_part,gastrointestinal
+x_ray,practices,cathode_ray_tube
+abdomen,connects_with,thorax
+figure,is_a,list
+barium,is_part_of,barium_sulfate
+thoracic_spinal_nerve,is_a,spinal_nerve
+digital_subtraction_angiogram,is_a,angiogram
+pelvic,connects_with,abdominal
+sacral,connects_with,coccygeal
+thorax,connects_with,abdomen
+signal_return,caused_by,fat
+vertebral_level,part_of,abdomen
+femoral_necks,part_of,femoral_heads
+coronal_plane,part_of,brain
+accessory,is_a,accessory_bone
+ulna,part_of,elbow_joint
+os_trigonum,part_of,ankle
+femoral_heads,part_of,femoral_necks
+elbow_joint,part_of,ulna
+fat,has_effect,signal_return
+gamma,is_a,camera
+axial_skeleton,part_of,appendicular_skeleton
+carpal,part_of,wrist
+abdomen,part_of,ultrasound
+marrow,part_of,vertebral_bodies
+pelvic,has_part,viscera
+abdomen,part_of,pelvic
+ultrasound,studies,abdomen
+solid_joint,is_a,joint
+patella,part_of,femoral_condyles
+left_hip_joint,instance_of,degenerative_joint
+osteophyte,has_part,joint_space
+synovial_joints,length,1
+socket,part_of,hip
+pivot,is_a,atlantoaxial_joint
+knee_replacement,treats_medical_condition,1.24
+femoral_head,connects_with,hip_joints
+hip,has_part,socket
+carpalometacarpal,part_of,thumb
+joint,has_part,joint_space
+femoral_condyles,part_of,patella
+synovial_joint,is_a,joint
+fig.,is_a,figure
+joint_space,part_of,osteophyte
+hip_joints,connects_with,femoral_head
+hinge,practices_on,elbow
+1.23,point_in_time,23
+disuse,has_effect,pain
+major_features,is_part_of,synovial_joint
+joint_space,part_of,joint
+1.25,point_in_time,1
+gluteal_muscle,part_of,left_hip
+solid_joints,is_a,joint
+prosthesis,is_a,radiograph
+left_hip,part_of,gluteal_muscle
+thumb,has_part,carpalometacarpal
+anteroposterior_view,is_subclass_of,radiograph
+condylar,is_a,wrist
+radio_ulnar,is_a,gliding_joint
+19,number_of_instances,synovial_joint
+synovial_joints,is_a,accessory_structure
+varicose_veins,has_length,1
+adductor_longus,is_instance_of,muscle
+axial_inversion_recovery,is_a,mr_imaging
+mediastinal_mass,is_part_of,soft_tissue
+fig.,contains,figure
+venous,is_part_of,lymphatic_vessels
+somite,develops_from,embryo
+clusters,are_located_in,lymph_nodes
+bibliothèque_nationale_de_france,located_at,paris
+clusters,is_a,lymph_nodes
+veins,is_part_of,venous_system
+totrachea,is_type_of,tracheal_nodes
+bronchi,is_type_of,tracheal_nodes
+peripheral_nervous_system,is_subsystem_of,central_nervous_system
+cranial_cavity,is_enclosed_by,meninges
+capillary_beds,is_part_of,vascular_system
+central_nervous_system,has_subsystem,peripheral_nervous_system
+meninges,covers,cranial_cavity
+lymphatic_vessels,transports,lymph
+lymphatic_vessels,has_part,veins
+spinal_cord,has_part,spinal_level
+visceral_part,part_of,nervous_system
+epaxial_muscles,follows,hypaxial_muscles
+myotomes,area,1
+caudalcranialsomite,is_a,somite
+posterior,is_a,view
+sensory_nerves,opposite,motor_nerves
+fig,is_a,figure
+spinal_level,part_of,spinal_cord
+nervous_system,has_part,visceral_part
+anterior,is_a,view
+motor_neuron,is_a,sensory
+hypaxial_muscles,followed_by,epaxial_muscles
+motor_nerves,opposite,sensory_nerves
+dermatome,area,1
+spinal_ganglion,part_of,spinal_cord
+s4,is_a,brainstemcranial_nerves
+spinal_nerve,part_of,spinal_cord
+spinal_ganglia,part_of,spinal_cord
+smooth_muscle,connects_with,glands
+spinal_cord,has_part,spinal_ganglion
+visceral_motor_components,part_of,cns
+ix,is_a,brainstemcranial_nerves
+glands,connects_with,smooth_muscle
+fig,is_a,figure
+spinal_nerve,part_of,thoracic
+autonomic_division,part_of,pns
+pns,has_part,autonomic_division
+spinal_cord,has_part,spinal_nerve
+sympathetic_fibers,part_of,spinal_nerve
+xs2,is_a,brainstemcranial_nerves
+vii,is_a,brainstemcranial_nerves
+sympathetic_nervous_system,connects_with,heart
+sympathetic_nerve,is_a,sympathetic_trunk
+abdominal,connects_with,pelvic
+paravertebral_sympathetic_trunk,part_of,abdominal_and_pelvic_viscera
+sympathetic_cord,part_of,spinal_cord
+pelvic,connects_with,abdominal
+autonomic_nerve,has_part,parasympathetic
+abdominal_and_pelvic_viscera,part_of,paravertebral_sympathetic_trunk
+spinal nerve,part_of,motor_nerve
+gray_ramus,is_a,cowhite_ramus
+parasympathetic,is_a,autonomic_nerve
+heart,connects_with,sympathetic_nervous_system
+motor_nerve,has_part,spinal_nerve
+table_1_1,is_a,1
+enteric,is_a,nervous_system
+nerve,practices,connects_with
+fig,is_a,list
+nerve,practices,plexus
+dosage,is_a,facet
+clitoris,is_a,part_of
+plexus,practices,connects_with
+sacral_plexusanterior_rami,practices,lumbar_plexusanterior_rami
+plexus,practices,nerve
+lumbar_plexusanterior_rami,practices,connects_with
+clitoris,is_a,penis
+enteric,is_a,part_of
+penis,has_part,clitoris
+sacral_plexusanterior_rami,practices,connects_with
+nervous_system,has_part,enteric
+lumbar_plexusanterior_rami,practices,sacral_plexusanterior_rami
+radiation_exposure,has_facet,dosage
+table_1_1,is_a,point_in_time
+patella,is_instance_of,tendon
+genetic_factors,affects,disease_states
+wrist,part_of,hand
+big_toe,connects_with,thumb
+puberty,precedes,skeletally_mature_adult
+pain,practices,physiotherapy
+skeletally_mature_adult,follows,puberty
+socioeconomic_conditions,is_facet_of,geography
+thumb,connects_with,big_toe
+physiotherapy,treats,pain
+fracture,is_studied_by,imaging
+20,is_same_as,25_years
+hand,connects_with,foot
+anatomy,studies,bones
+foot,connects_with,hand
+25_years,is_same_as,20
+disease_states,caused_by,genetic_factors
+skeleton,is_a,anatomy
+medulla,part_of,long_and_flat_bone
+age,facet_of,subject
+mri,is_a,radiograph
+standard_radiograph,is_a,radiograph
+medicolegal,practices,medico
+malnutrition,instance_of,disease_state
+long_and_flat_bone,has_part,medulla
+age,facet_of,bone
+white_cells,part_of,marrow
+yellow_marrow,is_a,bone_marrow
+bone_age,facet_of,age
+red_blood_cell,has_part,white_blood_cell
+skeletal_bone_age,different_from,age
+bone_marrow,part_of,clinic
+red_marrow,is_a,bone_marrow
+platelet,is_a,red_blood_cell
+age,different_from,skeletal_bone_age
+white_blood_cell,is_a,red_blood_cell
+clinic,has_part,bone_marrow
+stress,fracture) or is_a (osteoporosis,fracture
+medullary,part_of,cortical_bone
+fracture,is_a,bone_lesion
+cortical_bone,part_of,medullary_bone
+bone_matrix,has_part,osteoblasts
+blood_clot,has_part,vessel
+cellular_death,is_a,avascular_necrosis
+fracture_site,part_of,callus
+matrix,is_a,jelly-like_material
+heal,practices,fracture
+avascular_necrosis,is_a,medical_condition
+vessel,part_of,blood_clot
+treatment_for_fractures,is_a,fracture_line_reduction
+femoral_neck,is_a,bone
+necrosis,is_a,collapses
+prosthesis,is_a,femoral_head
+clinic1,different_from,clinic2
+plaster_of_paris,is_a,paris_cast
+head,part_of,bone
+puberty,is_a,growth
+fracture_reduction,is_a,fracture
+asymmetrical_growth,is_a,growth_plate_compression
+fracture,has_cause,dislocation
+bone,has_part,shaft
+shaft,part_of,bone
+force analysis,studies,biomechanical
+fissured,is_a,thickening
+thickening,has_subclass,fissured
+united states,is_located_in,country
+biomechanical,practices,force analysis
+proteoglycan,has_part,water
+biology,studies,aging
+cysts,is_a,synovial fluid
+proper exercise,is_a,weight reduction strategy
+aging,is_a,process
+weight reduction,practices,proper exercise
+process,is_studied_by,biology
+cartilage,has_part,mechanical disruption
+degenerative joint disease,is_a,osteoarthritis
+juxta,is_a,bony nodule
+joint disruption,has_effect,abnormal stresses
+synovial fluid,has_subclass,cysts
+related aging,is_different_from,aging
+joint disease,is_a,rheumatoid arthritis
+aging,is_different_from,related aging
+country,is_located_in,united states
+joint disease,is_a,disease
+bony nodule,has_subclass,juxta
+abnormal stresses,causes,joint disruption
+rheumatoid arthritis,is_a,joint disease
+mechanical disruption,is_a,cartilage damage
+osteoarthritis,is_a,joint disease
+shoulder,instance_of,joint
+joint,instance_of,joint_destruction
+joint,instance_of,degenerative_joint_disease
+pain,location_is,joint
+knee,instance_of,joint
+joints,is_a,joint
+discomfort,is_different_from,pain
+joint_replacement_materials,is_subclass_of,surgical_techniques
+pain,is_different_from,discomfort
+arthroscopy,part_of,surgeon
+hip,instance_of,joint
+joint,has_part,menisci
+cruciate_ligament,is_a,ligament
+ligament,connects_with,cruciate_ligament
+joint,instance_of,has_subclass
+menisci,is_a,ligament
+arthroscopy,studies,joints
+structures,part_of,tissues
+aseptic_lymphocyte_dominated_vasculitis_associated_lesion,is_a,hypersensitivity
+tissues,has_part,structures
+femoral,connects_with,femur
+tumor,is_a,malignant_disease
+femur,connects_with,femoral
+pain,studies,surgery
+three_d_structure,has_part,tissue
+malignant_disease,affects,infection
+hip_joint,part_of,acetabulum
+tissue,part_of,three_d_structure
+psoas fascia,connects with,psoas muscle
+psoas muscle,connects with,psoas fascia
+scarring,has effect,heal better
+keloid,subclass of,scar
+muscle group,has part,muscle
+spinal cord,connects with,brain
+brain,connects with,spinal cord
+muscle wasting,subclass of,atrophy
+poliomyelitis,has cause,trauma
+tuberculosis,has effect,infection
+muscle,part of,muscle group
+psoas muscle,has part,fascial layer
+langer's lines,subclass of,surgical skin incisions
+atherosclerosis,is_instance_of,disease
+secondary_calcification,is_a,calcification
+plate_fissuring,has_effect,occlusion
+muscle atrophy,is_a,wasting_disorder_of_muscle
+muscle_injuries_and_strains,is_a,strain
+muscle_atrophy,practices,muscle_building_exercises
+nerve_damage,has_effect,disuse
+inflammatory_reaction,has_effect,cholesterol_deposition
+muscle_tears,is_a,interstitial_injury
+cholesterol_deposition,has_cause,inflammatory_reaction
+athlete,practices,sport
+rehabilitation,is_a,treatment
+platelet,facets,embolize
+occlusion,has_cause,plate_fissuring
+muscle_building_exercises,has_effect,muscle_atrophy
+vein,has part,valves
+vessel,has effect,atherosclerosis
+fascia,has part,investing layer
+gangrene of the toes,subclass of,distal ischemia
+pressure bandages,medical condition treated,skin ulceration
+myocardial infarction,has cause,acute vessel thrombosis
+arm,has part,vein
+acute vessel thrombosis,has effect,myocardial infarction
+atrophic,subclass of,skin
+atherosclerosis,has cause,vessel
+emboli,has effect,stroke
+vein,part of,arm
+heart,connects with,veins
+tortuosity,subclass of,dilatation
+veins,connects with,heart
+deep_system,has_part,varicose_veins
+perfusing,practices_on,tissue
+tissue,is_practiced_by,perfusing
+treatment,studies,medical_condition_treated
+arteries,connects_with,veins
+varicose_veins,part_of,deep_system
+radial,connects_with,ulnar_arteries
+portal_vein_thrombosis,is_a,occlusion
+venous,connects_with,vein
+vein,connects_with,venous
+ulnar_arteries,connects_with,radial
+bleeding,causes,venous_collaterals
+medical_condition_treated,is_a,varicose_veins
+veins,connects_with,arteries
+celiac_trunk,connects_with,duodenum
+duodenum,connects_with,celiac_trunk
+lymph_node,part_of,lymphatics
+vascular_anastomoses,is_a,anastomoses
+vessels,is_a,end_arteries
+lymph_node_malignancies,is_a,lymphoma
+inflammatory_mediators,has_effect,tender
+tender,is_caused_by,inflammatory_mediators
+enlarged,is_a,inflamed
+carotid_arteries,connects_with,vertebral_arteries
+vertebral_arteries,connects_with,carotid_arteries
+bodily_cell,is_a,lymphocyte
+lymphatics,has_part,lymph_nodes
+organ,has_part,blood_supply
+spinal_nerve,part_of,spinal_cord
+high_output_region,is_opposite_of,low_output_region
+pain,causes,sensory
+low_output_region,is_opposite_of,high_output_region
+sensory_output,caused_by,neuron
+visceral_part_of_nervous_system,is_opposite_of,somatic_side_of_nervous_system
+spinal_cord,has_part,spinal_nerve
+neuron,causes,sensory_output
+sensory,has_effect,pain
+dermatome,part_of,map
+somatic_side_of_nervous_system,is_opposite_of,visceral_part_of_nervous_system
+cns,has_part,spinal_cord
+1.38,is_a,point_in_time
+myotome,is_a,dermatome
+innervated,is_a,spinal_cord
+appendix,has_part,abdominal_surgeon
+iliac_fossa,connects_with,peritoneum
+harvard_university,is_a,university
+colic_pain,opposite,focal_pain
+colicky,subclass_of,abdominal_pain
+diffuse,opposite,focal
+spinal_cord,has_part,t10_vertebra
+sensory_fibers,part_of,visceral_nerve
+pain,subclass_of,colic
+t10_vertebra,is_a,dermatome
+one,opposite,another
+abdominal_surgeon,studies,appendix
+parietal_peritoneum,connects_with,iliac_fossa
+iliac_fossa,connects_with,parietal_peritoneum
+peritoneum,connects_with,iliac_fossa
+t10_vertebra,is_a,vertebra
+john_f_kennedy_school_of_medicine,part_of,harvard_university
+skull,is_a,bony_element
+appendix,part_of,structures
+bowel,connects_with,pelvis
+ribs,connects_with,vertebrae
+pelvic_bone,is_a,bony_element
+spinal_cord,has_part,spinal_nerves
+trunk,is_a,musculoskeletal
+vertebra,is_a,bony_element
+pelvis,connects_with,bowel
+structures,has_part,appendix
+iliac_fossa,connects_with,parietal_peritoneum
+vertebra,connects_with,ribs
+spinal_nerves,is_a,nerve
+rib,is_a,bony_element
+pelvis,connects_with,skull
+parietal_peritoneum,connects_with,iliac_fossa
+vertebra,has_part,rib
+skull,connects_with,pelvis
+rib,has_part,vertebra
+appendix,connects_with,ureter
+ureter,connects_with,appendix
+thoracic,part_of,vertebral_column
+lumbar,part_of,vertebral_column
+vertebral_column,has_part,lumbar
+sacral,part_of,vertebral_column
+body,has_part,vertebral_column
+upper_limbs,part_of,lower_limbs
+vertebral_column,has_part,sacral
+spine,connects_with,vertebral_column
+lower_limbs,part_of,upper_limbs
+extrinsic,part_of,muscle_of_the_back
+lumbar_regions,connects_with,cervical
+cervical,part_of,vertebral_column
+intrinsic,part_of,muscle_of_the_back
+curvature,facet,laterally
+vertebral_column,is_a,body_part
+muscle_of_the_back,has_part,intrinsic_muscles
+vertebral_column,connects_with,spine
+cervical,connects_with,lumbar_regions
+cervical,is_a,vertebra
+coccygeal,is_a,vertebra
+vertebrae,part_of,cervical_region
+vertebrae,part_of,vertebral_column
+thoracic,is_a,vertebra
+vertebral_column,has_part,anterior_regions
+spinal_cord,has_part,spinal_nerves
+sacrum,connects_with,sacral_vertebrae
+head,part_of,body
+anterior_regions,part_of,vertebral_column
+lumbar_part,opposite_of,thoracic_region
+lumbar,is_a,vertebra
+vertebral_body,has_part,vertebral_arch
+vertebral_column,has_part,vertebrae
+body_region,has_part,vertebrae
+cervical_region,has_part,vertebrae
+sacral_vertebrae,connects_with,sacrum
+thoracic_region,opposite_of,lumbar_part
+vertebral_arch,part_of,vertebral_body
+spinal_nerves,part_of,spinal_cord
+vertebrae,part_of,body_region
+cii,connects_with,ci
+sacral,is_a,vertebra
+coccyx,connects_with,vertebrae
+vertebrae,connects_with,coccyx
+vertebrae,is_a,bone
+ci,connects_with,cii
+spinous_process,part_of,vertebral_arch
+lv,connects_with,cii
+cervical_vertebra,part_of,vertebral_canal
+vertebral_body,part_of,bone
+vertebrae,connects_with,vertebral_bodies
+superior_articular_process,opposite_of,inferior_articular_process
+bone,has_part,vertebral_arch
+cii,connects_with,lv
+lamina,connects_with,pedicle
+vertebral_arch,part_of,laminae
+pedicle,connects_with,lamina
+vertebral_bodies,connects_with,vertebrae
+spinal_cord,has_part,spinal_nerves
+sacral_vertebra,part_of,vertebral_canal
+vertebral_body,has_part,vertebral_arch
+vertebral_arch,part_of,vertebral_body
+ligament,part_of,muscle
+spinal_nerves,part_of,spinal_cord
+cervical,is_a,lumbar.lower
+posterior_rami,part_of,spinal_nerves
+ribs,part_of,vertebral_column
+vertebral_canal,is_a,bony_canal
+spinal_nerves,has_part,anterior_rami
+extrinsic,different_from,intrinsic
+transverse_processes,has_part,rib_elements
+head,part_of,vertebral_column
+anterior_rami,part_of,spinal_nerves
+vertebral_column,part_of,ribs
+upper_limb,part_of,thoracic_wall
+vertebral_column,part_of,head
+lumbar,is_a,cervical.higher
+spinal_nerves,has_part,posterior_rami
+rib,part_of,vertebral_bodies
+ligament,part_of,vertebral_arches
+thoracic_wall,part_of,upper_limb
+vertebral_bodies,part_of,ribs
+intrinsic,different_from,extrinsic
+spinal cord,has part,pia mater
+venous plexus,connects with,extradural
+coccygeal,connects with,sacral
+meninges,part of,spinal cord
+pedicles,connects with,vertebrae
+lumbar,connects with,sacral
+posterior ramus,followed by,anterior ramus
+dura mater,opposite of,arachnoid mater
+anterior ramus,follows,posterior ramus
+anterior root,follows,posterior root
+spinal cord,has part,meninges
+extradural,connects with,venous plexus
+subarachnoid space,has part,cerebrospinal fluid
+arachnoid mater,opposite of,dura mater
+cerebrospinal fluid,part of,subarachnoid space
+posterior root,followed by,anterior root
+pia mater,part of,spinal cord
+sacral,connects with,coccygeal
+vertebrae,connects with,pedicles
+thoracic,connects with,lumbar
+brachial,connects_with,lumbar
+thorax,part_of,thorax_abdomen_pelvis
+brain,connects_with,skull
+brain,connects_with,cervical_vertebrae
+fascia,part_of,muscle
+muscular_framework_of_neck,part_of,skeletal
+skeletal,has_part,muscular_framework_of_neck
+anterior_rami,is_a,spinal_nerve
+spinal_cord,connects_with,skull
+thorax_abdomen_pelvis,has_part,thorax
+abdomen,connects_with,pelvis
+skull,connects_with,spinal_cord
+pelvis,connects_with,abdomen
+lumbar,connects_with,sacral
+cervical_vertebrae,connects_with,brain
+cervical_region,part_of,skeletal
+vertebral_arches,connects_with,pedicles
+lumbar,is_a,spinal_nerve
+intervertebral_foramen,part_of,vertebral_canal
+vertebral_column,connects_with,spinal_cord
+spinal_cord,connects_with,vertebral_canal
+sacrum,connects_with,pelvic_bone
+cervical,is_a,vertebral_column_part
+spinal_cord,connects_with,vertebral_column
+ci,connects_with,co
+co,connects_with,ci
+sacral,is_a,spinal_nerve
+pelvic_bone,connects_with,sacrum
+upper limbs,part_of,trunk
+lumbosacral,is_a,vertebral_column_part
+vertebral_column,has_part,lumbosacral
+disc,connects_with,spinal_cord
+trunk,has_part,upper limbs
+pedicles,connects_with,vertebral_arches
+zygapophysial_joint,part_of,articular_processes
+vertebra,connects_with,vertebral_bodies
+skull,part_of,bony_framework_of_the_back
+skull,connects_with,thorax
+vertebra,connects_with,intervertebral_disc
+joint,has_part,vertebral_arches
+gluteal_region,part_of,lower_limb
+lower_limb,has_part,gluteal_region
+intervertebral_disc,connects_with,vertebra
+pelvic_bone,part_of,bony_framework_of_the_back
+articular_processes,has_part,zygapophysial_joint
+posterior_rami,part_of,spinal_nerve
+bony_framework_of_the_back,has_part,ribs
+scapulae,part_of,bony_framework_of_the_back
+vertebral_arches,part_of,joint
+posterior_branches,is_a,spinal_nerve
+vertebral_bodies,connects_with,vertebra
+spinal_nerve,has_part,posterior_rami
+ribs,part_of,bony_framework_of_the_back
+thorax,connects_with,skull
+articulated_rib,part_of,vertebra
+muscle_attachment,is_a,articulation
+lumbar_vertebrae,opposite,thoracic_vertebrae
+pelvic_bone,part_of,pelvic_wall
+vertebra,connects_with,somites
+vertebra,is_a,vertebral_body
+coccyx,connects_with,coccygeal_vertebrae
+coccygeal_vertebrae,connects_with,coccyx
+pelvic_wall,has_part,pelvic_bone
+somites,connects_with,vertebra
+vertebral_body,has_part,vertebral_arch
+thoracic_region,part_of,rib
+rib,part_of,thoracic_region
+vertebrae,part_of,laminae
+ligament,has_part,muscle
+spinal_cord,part_of,vertebral_canal
+vertebra,part_of,vertebral_bodies
+vertebral_foramen,part_of,vertebral_arch
+vertebral_bodies,has_part,weight_supported
+vertebral_arch,part_of,vertebral_foramen
+laminae,part_of,vertebral_arch
+bifid,is_a,spinous_process
+axis,part_of,cervical_vertebrae
+atlas,part_of,cervical_vertebrae
+vertebral_body,is_a,distinguishing_feature
+ci,is_a,dens_of_cii
+cervical_vertebra,is_a,vertebra
+dens_of_cii,follows,cii
+anterior_arch,follows,posterior_arch
+vertebra_ci,part_of,atlas
+cii,part_of,ci
+atlas,has_part,vertebra_ci
+transverse_process,has_part,transversarium
+ci,part_of,cii
+cii,is_a,dens_of_cii
+superior_surface,opposite_of,inferior_surface
+transversarium,part_of,transverse_process
+cii,has_part,dens_of_cii
+intervertebral,is_a,vertebral
+pedicle,part_of,articular processes
+transverse_process,part_of,cervical_vertebrae
+inferior_surface,opposite_of,superior_surface
+vertebral_foramen,part_of,triangular
+cervical_vertebrae,has_part,axis
+cervical_vertebrae,part_of,transverse_process
+vertebral_column,connects_with,head
+anterior_arch,part_of,atlas
+vertebral_body,has_part,articular_facet
+pivot,is_a,rotate
+atlanto_axial_joints,connects_with,cervical_vertebrae
+vertebral_body,has_part,tooth
+atlas,has_part,anterior_arch
+transverse_ligament,is_a,ligament
+cervical_vertebrae,connects_with,atlanto_axial_joints
+superior_articular_process,part_of,cii
+inferior_articular_surface,opposite,superior_articular_surface
+cii,has_part,superior_articular_process
+superior_articular_surface,opposite,inferior_articular_surface
+head,connects_with,vertebral_column
+atlas,part_of,transverse_ligament
+iliolumbar_ligament,part_of,pelvic_bone
+alar_ligament,part_of,occipital_condyles
+ribs,has_part,facets
+axis,part_of,head
+tubercle,part_of,rib
+vertebra,connects_with,vertebral_body
+vertebral_body,connects_with,vertebra
+rib,connects_with,thoracic_vertebra
+thoracic_vertebra,connects_with,rib
+inferior_costal_facet,opposite_of,superior_costal_facet
+lumbar_vertebra,opposite_of,thoracic_vertebra
+superior_costal_facet,opposite_of,inferior_costal_facet
+thoracic_vertebrae,connects_with,rib
+thoracic_vertebra,opposite_of,lumbar_vertebra
+lumbar_vertebrae,is_a,vertebrae
+occipital_condyles,has_part,alar_ligament
+rib,connects_with,thoracic_vertebrae
+vertebrae,connects_with,intervertebral_disc
+vertebral_canal,connects_with,spinal_nerve
+inferior_end,is_part_of,sacrum
+sacrum,connects_with,coccygeal_vertebrae
+anterior_surface,opposite,posterior_surface
+coccygeal_vertebrae,connects_with,sacrum
+intervertebral_disc,connects_with,vertebrae
+coccyx,is_part_of,vertebra_lv
+sacrum,has_part,inferior_end
+sacrum,connects_with,vertebrae
+vertebrae,connects_with,sacrum
+s4,is_instance_of,spinal_nerve
+vertebral_canal,opposite,vertebral_arches
+spinal_nerve,connects_with,vertebral_canal
+posterior_surface,opposite,anterior_surface
+s1,is_instance_of,spinal_nerve
+vertebra_lv,is_part_of,coccyx
+pelvic_bone,is_a,articulation
+symphyses,is_a,joints_between_vertebrae_in_the_back
+synovial_joints,is_a,joints_between_vertebrae_in_the_back
+vertebral_canal,is_a,clinical_procedures
+vertebral_column,has_part,flexion
+ligament,is_a,bone
+intervertebral_disc,is_a,vertebral_bodies
+superior_vertebral_notch,part_of,inferior_vertebral_notch
+laminae,part_of,spinous_processes
+spinous_processes,has_part,laminae
+vertebra_li,connects_with,vertebra_lv
+structures,part_of,pathology
+vertebra_lv,connects_with,vertebra_li
+inferior_vertebral_notch,part_of,superior_vertebral_notch
+lumbar_region,connects_with,vertebral_arches
+vertebral_arches,connects_with,lumbar_region
+pathology,studies,structures
+anulus_fibrosus,connects_with,pulposus
+intervertebral_disc,part_of,vertebrae
+vertebrae,part_of,intervertebral_disc
+symphysis,part_of,anulus_fibrosus
+thoracic,connects_with,lumbar
+flexion,is_a,lateral_flexion
+cervical,connects_with,lumbar
+vertebrae,practices,rotation
+lumbar,connects_with,thoracic
+pulposus,connects_with,anulus_fibrosus
+joint,is_a,synovial joints
+synovial joints,part_of,vertebral column
+intervertebral_disc,is_a,symphysis
+vertebral_column,has_part,vertebrae
+anulus_fibrosus,has_part,lamellar
+intervertebral_foramen,connects_with,spinal_nerve
+rotation,opposite_of,flexion
+facet,part_of,capsule
+zygapophysial_joints,is_a,synovial_joints
+vertebral_bodies,connects_with,vertebral_arches
+anulus fibrosus,part_of,nucleus pulposus
+anterior,opposite_of,posterior
+vertebra,connects_with,synovial_joints
+synovial_joints,connects_with,vertebra
+interlock,is_a,joint_surface
+vertebral_bodies,has_part,vertebral_column
+posterior,opposite_of,anterior
+uncinate_process,part_of,cervical_vertebrae
+nucleus pulposus,part_of,anulus fibrosus
+vertebral_column,part_of,vertebral_bodies
+vertebral_arches,connects_with,vertebral_bodies
+spinal nerve,connects_with,intervertebral_foramen
+tectorial_membrane,is_part_of,posterior_longitudinal_ligament
+ligamenta_flava,connects_with,laminae
+cvii,is_a,vertebral_spinous_processes
+skull,connects_with,sacrum
+vertebral_bodies,has_part,vertebral_canal
+laminae,is_part_of,vertebrae
+intervertebral_discs,connects_with,vertebral_bodies
+vertebral_bodies,connects_with,intervertebral_discs
+cvii,is_instance_of,vertebra
+vertebral_canal,part_of,vertebral_bodies
+laminae,connects_with,ligamenta_flava
+lamina,is_part_of,vertebra
+sacrum,connects_with,skull
+posterior_surface,is_part_of,vertebral_canal
+superficial,is_a,muscle
+head,part_of,anatomical_position
+ligamenta_flava,connects_with,supraspinous_ligament
+ribs,part_of,respiratory
+muscle,has_part,ligament
+ci,is_a,cervical_vertebrae
+ligamentum_nuchae,has_part,median_sagittal_plane
+extrinsic_muscle,is_a,muscle
+skull,part_of,occipital_protuberance
+intermediate,is_a,muscle
+vertebral_spinous_processes,connects_with,interspinous_ligament
+deep,is_a,muscle
+anatomical_position,part_of,head
+interspinous_ligament,connects_with,vertebral_spinous_processes
+spinal_nerves,has_subclass,anterior_rami
+median sagittal plane,part_of,ligamentum_nuchae
+supraspinous_ligament,connects_with,ligamenta_flava
+head,part_of,ligamentum_nuchae
+skull,is_a,cranium
+respiratory,part_of,ribs
+occipital_protuberance,part_of,skull
+cvii,is_a,vertebra
+ligament,part_of,muscle
+trapezius,connects_with,levator_scapulae
+latissimus_dorsi,connects_with,rhomboid_minor
+muscle,subclass_of,trapezoid
+rhomboid_major,connects_with,trapezius
+vertebral_column,connects_with,shoulder
+rib,is_a,bone
+posterior_rami,part_of,spinal_nerves
+appendicular_group,part_of,appendicular_skeleton
+muscle,connects_with,trapezius
+rhomboid_major,connects_with,rhomboid_minor
+levator_scapulae,connects_with,trapezius
+trapezoid,part_of,muscles
+trapezius,connects_with,latissimus_dorsi
+joint,connects_with,vertebral_column
+head,part_of,vertebral_column
+bone,connects_with,rib
+vertebral_column,connects_with,rib
+muscle,is_a,intrinsic_muscle
+intrinsic_muscle,part_of,muscle
+rib,connects_with,vertebral_column
+spinal_nerves,has_part,posterior_rami
+appendicular_skeleton,has_part,appendicular_group
+shoulder,is_a,joint
+rhomboid_minor,connects_with,rhomboid_major
+vertebral_column,has_part,head
+skin,has_part,superficial_fascia
+skull,connects_with,vertebral_column
+superior_fibers,opposite_of,inferior_fibers
+dorsal_branches,part_of,posterior_intercostal_arteries
+latissimus_dorsi,is_instance_of,muscle
+latissimus_dorsi,connects_with,shoulder
+shoulder,connects_with,latissimus_dorsi
+posterior_intercostal_arteries,has_part,dorsal_branches
+vertebral_column,part_of,clavicle
+extension,is_a,movement
+clavicle,part_of,vertebral_column
+adduction,is_a,movement
+spinal_cord,has_part,cervical_plexus
+scapula,is_instance_of,elevates
+accessory_nerve,is_a,motor_innervation
+cervical_plexus,part_of,spinal_cord
+inferior_fibers,opposite_of,superior_fibers
+medial_rotation,is_a,movement
+scapula,is_a,muscle
+anterior_rami,part_of,spinal_nerve
+levator_scapulae,connects_with,rhomboid_muscles
+thoracodorsal nerve,part_of,brachial_plexus
+c3,part_of,spinal_nerve
+cervical_vertebrae,connects_with,scapula
+thoracodorsal_artery,is_a,blood_supply
+ti,connects_with,cvii
+rhomboid_major,follows,rhomboid_minor
+rhomboid_minor,is_followed_by,rhomboid_major
+posterior_intercostal,connects_with,lumbar_arteries
+rhomboid_muscles,connects_with,levator_scapulae
+scapula,connects_with,cervical_vertebrae
+spinal_nerve,has_part,c4
+lumbar_arteries,connects_with,posterior_intercostal
+cvii,connects_with,ti
+c4,part_of,spinal_nerve
+respiratory_group,is_a,respiratory_function
+scapula,is_a,muscle
+inferior,opposite_of,superior
+respiratory_function,has_part,respiratory_group
+latissimus_dorsi,connects_with,rhomboid_muscles
+vertebral_column,connects_with,scapula
+ribs,connects_with,vertebral_column
+superior,opposite_of,inferior
+rhomboid_muscles,connects_with,latissimus_dorsi
+vertebral_column,connects_with,ribs
+brachial_plexus,has_part,dorsal_scapular_nerve
+ribs,is_a,muscle
+dorsal_scapular_nerve,is_part_of,brachial_plexus
+scapula,connects_with,vertebral_column
+fascial_layer,part_of,organization
+organization,has_part,fascial_layer
+spinal_ nerves,is_a,posterior_ rami
+serratus_posterior_muscle,connects_with,fascia
+transverse_cervical,connects_with,occipital
+transversospinales,part_of,cervical_column
+cervical_column,has_part,transversospinales
+intercostal_ nerves,connects_with,anterior_ rami
+back,connects_with,trunk
+vascular_ supply,is_a,subclass
+thoracic_region,has_part,deep_ muscles
+erector_spinae,part_of,cervical_column
+occipital,connects_with,cervical
+thoracic_vertebrae,part_of,ribs
+vertebral,connects_with,transverse_cervical
+fascia,connects_with,serratus_posterior_muscle
+ribs,part_of,thoracic_vertebrae
+anterior rami,connects_with,intercostal_ nerves
+cervical,connects_with,transverse_cervical
+trunk,connects_with,back
+iliac_crest,part_of,pelvis
+lumbar_vertebrae,part_of,vertebral_column
+lumbar_vertebrae,connects_with,sacral_vertebrae
+latissimus_dorsi,connects_with,thoracolumbar_fascia
+serratus_posterior_inferior,connects_with,thoracolumbar_fascia
+rib_xii,part_of,abdominal_wall
+sacral_vertebrae,part_of,vertebral_column
+thoracolumbar_fascia,part_of,transversus_abdominis
+thoracolumbar_fascia,part_of,erector_spinae
+lumbar,connects with,thoracic vertebrae
+ribs,connects with,cervical vertebrae
+thoracic vertebrae,connects with,lumbar
+erector spinae,subclass of,back muscles
+vertebral column,connects with,ribs
+lumborum,part of,lumbar region
+thoracis,part of,lumbar region
+cervical vertebrae,connects with,ribs
+head,connects with,neck
+capitis,part of,lumbar region
+mastoid process,part of,temporal bone
+cervical vertebrae,subclass of,transverse processes
+neck,connects with,head
+cervicis,part of,lumbar region
+occipital bone,part of,temporal bone
+temporal bone,has part,mastoid process
+ribs,connects with,vertebral column
+lumbar,connects with,thoracic
+contracting muscle,subclass of,muscle
+thoracic,connects with,lumbar
+unilateral_contractions,opposite_of,bilateral_contraction
+vertebrae,is_a,bone
+vertebral_column,is_a,column
+unilateral,opposite_of,lateral
+head,part_of,vertebral_column
+vertebrae,part_of,transverse_processes
+spinalis,part_of,vertebrae
+erector_spinae,part_of,longissimus
+bilateral_contraction,opposite_of,unilateral_contractions
+cervical_region,opposite_of,thoracic_region
+vertebrae,part_of,spinalis
+flexed_position,opposite_of,upright_position
+lateral,opposite_of,unilateral
+vertebral_column,practices,relaxation
+contracting,is_a,state
+upright_position,opposite_of,flexed_position
+relaxing,is_a,state
+thoracic_region,opposite_of,cervical_region
+erector_spinae,has_part,semispinalis_capitis
+vertebral_column,has_part,head
+vertebrae,part of,vertebral column
+transversospinales,subclass of,muscle fibers
+multifidus,part of,erector spinae
+occipital bone,part of,skull
+erector spinae,has part,rotatores
+rotatores,part of,erector spinae
+multifidus,has part,semispinalis
+spinous processes,connects with,transversospinales
+skull,connects with,thoracic region
+lumbar region,part of,vertebral column
+transverse processes,connects with,transversospinales
+skull,has part,occipital bone
+semispinalis,part of,multifidus
+vertebral column,has part,vertebrae
+vertebral column,has part,lumbar region
+transversospinales,connects with,spinous processes
+semispinalis,part of,erector spinae
+thoracic region,connects with,skull
+spinous_process,followed_by,transverse_process
+spinal_nerves,has_part,posterior_rami
+transverse_process,follows,spinous_process
+transverse_processes,opposite_of,spinous_processes
+unilateral_contraction,opposite_of,bilaterally
+posterior_rami,part_of,spinal_nerves
+bilaterally,opposite_of,unilateral_contraction
+rotators,is_a,transversospinales
+erector_spinae,is_a,action
+semispinalis_capitis,part_of,transversospinales
+erector_spinae,is_a,transversospinales
+spinous_processes,opposite_of,transverse_processes
+rib,connects_with,tubercle
+ribs,has_cause,contraction
+transverse_processes,opposite_of,spinous_processes
+vertebral_column,has_part,vertebrae
+cervical_region,has_part,occipital_bone
+vertebrae,part_of,vertebral_column
+occipital_bone,part_of,cervical_region
+cii,connects_with,ci
+atlantoaxial_joints,connects_with,atlantooccipital
+txi,connects_with,cvii
+cvii,connects_with,txi
+ci,connects_with,cii
+tubercle,connects_with,rib
+suboccipital_muscle,is_a,muscle
+obliquus_capitis_inferior,follows,obliquus_capitis_superior
+obliquus_capitis_inferior_muscle,part_of,inferior_border
+conus_medullaris,is_a,cone
+vertebra_liv,connects_with,vertebra_liii
+ci,connects_with,spinal_cord
+occipital_arteries,connects_with,vertebral
+suboccipital_triangle,has_part,suboccipital_muscle
+posterior ramus,has_part,cervical nerve
+conus_medullaris,connects_with,filum_terminale
+filum_terminale,connects_with,conus_medullaris
+spinal_cord,connects_with,ci
+vertebral,connects_with,occipital_arteries
+obliquus_capitis_superior_muscle,part_of,lateral_border
+rectus_capitis_posterior_major_muscle,part_of,medial_border
+vertebra_liv,connects_with,spinal_cord
+vertebra_liii,connects_with,spinal_cord
+spinal_cord,connects_with,vertebra_liv
+inferior_border,has_part,obliquus_capitis_inferior_muscle
+suboccipital_muscle,part_of,suboccipital_triangle
+lateral_border,has_part,obliquus_capitis_superior_muscle
+cervical nerve,part_of,posterior ramus
+medial_border,has_part,rectus_capitis_posterior_major_muscle
+nerve_cell_bodies,is_a,gray_matter_subclass
+t1,is_a,spinal_nerve_type
+anterior_median_fissure,part_of,anterior_surface
+spinal_nerve,part_of,spinal_cord
+sulci,is_a,fissure_subclass
+l1,is_a,spinal_nerve_type
+s3,is_a,spinal_nerve_type
+c5,is_a,spinal_nerve_type
+spinal_nerves,part_of,t1
+spinal_cord,has_part,spinal_nerve
+posterior_median_sulcus,part_of,posterior_surface
+white_matter,is_opposite_of,gray_matter
+spinal_nerves,part_of,s3
+spinal_cord,is_a,length_instance
+spinal_nerve,is_a,innervate_subclass
+gray_matter,is_opposite_of,white_matter
+anterior,connects_with,posterior_roots
+medullary_arteries,connects_with,spinal_arteries
+radicular_arteries,connects_with,posterior_roots
+longitudinally_oriented_vessels,is_subclass_of,vessels
+vertebral,is_instance_of,level
+posterior_radicular_arteries,followed_by,anterior
+anterior,follows,posterior_radicular_arteries
+spinal_cord,has_part,arterial_supply
+spinal_arteries,connects_with,medullary_arteries
+abdomen,connects_with,lumbar_arteries
+lumbar_arteries,connects_with,abdomen
+thorax,connects_with,abdomen
+posterior_roots,connects_with,anterior
+posteriorlatersulscus,part_of,spinalcord
+anterior,connects_with,posteriorspinalarteries
+posteriormediansulfus,part_of,midlinechannel
+arteriaradicularismagna,is_a,artery
+midlinechannel,has_part,anteriormediansulfuss
+anteriormedianfissure,has_part,posteriormediansulfus
+spinalcord,connects_with,thoracic
+thoracic,part_of,spinalcord
+posteriorspinalarteries,has_part,anteriorspinalarteries
+subarachnoid_space,has_part,ventricular_system
+epineurium,part_of,spinal_nerve
+bone,has_part,sii
+vertebral_canal,part_of,extradural
+meningeal_membrane,is_a,cranial_dura_mater
+spinal_cord,has_part,filum_terminale
+extradural,has_part,meningeal_membrane
+filum_terminale,part_of,spinal_cord
+cranial_dura_mater,has_part,meningeal_layer
+arachnoid_mater,connects_with,dura_mater
+pia_mater,part_of,subarachnoid_space
+dura_mater,connects_with,arachnoid_mater
+sii,is_a,vertebral_body
+spinal_nerve,practices,innervation
+vertebra,is_a,bone
+pia_mater,part_of,arachnoid_trabeculae
+pia_mater,has_part,arachnoid_trabeculae
+subarachnoid_space,has_part,cauda_equina
+blood_vessel,has_part,subarachnoid_space
+spinal_cord,connects_with,subarachnoid_space
+subarachnoid_space,part_of,pia_mater
+arachnoid_trabeculae,is_a,arachnoid_mater
+subarachnoid_space,connects_with,spinal_cord
+arachnoid_mater,part_of,arachnoid_trabeculae
+vertebra_sii,part_of,subarachnoid_space
+mater,part_of,arachnoid
+spinal_cord,has_part,rootlets
+dura_mater,connects_with,arachnoid
+pia_mater,is_a,vascular_membrane
+spinal_cord,studies,subarachnoid_space
+subarachnoid_space,is_studied_by,spinal_cord
+root,has_part,rootlet
+rootlets,part_of,spinal_cord
+rootlet,part_of,root
+arachnoid_mater,connects_with,dura_mater
+arachnoid,connects_with,dura_mater
+dura_mater,connects_with,arachnoid_mater
+vertebral_canal,part_of,arrangement_of_structures_in_the_vertebral_canal
+arachnoid,has_part,mater
+spinal_nerve,part_of,spinal_cord
+ligamenta_flava,connects_with,laminae
+supraspinous,is_a,ligament
+vertebral_plexus,part_of,vertebral_canal
+laminae,part_of,spinous_processes
+superficial_fascia,part_of,skin
+csf,part_of,subarachnoid_space
+spinal_cord,has_part,spinal_nerve
+thoracic,part_of,back
+lumbar,part_of,back
+vertebral_canal,part_of,vertebral_plexus
+ligamenta_flava,is_a,ligament
+back,has_part,lumbar
+interspinous,is_a,ligament
+subarachnoid_space,has_part,csf
+intrinsic_back_muscles,is_a,muscle
+spinal_nerve,part_of,spinal_cord
+cell,part_of,cell bodies
+spinal_cord,has_part,spinal_nerve
+epaxial_muscle,is_a,intrinsic_back_muscle
+hypaxial_muscle,is_a,skeletal_muscle
+posterior_ramus,followed_by,anterior_ramus
+central_nervous_system,has_part,spinal_cord
+cns,part_of,central_nervous_system
+anterior_ramus,follows,posterior_ramus
+sensory neuron,is_a,cell
+spinal_cord,part_of,cns
+skeletal_muscles,is_a,muscle
+lumbar,studies,structures
+sacral,part_of,spinal_cord
+cauda_equina,is_instance_of,terminal_cluster
+spinal_cord,has_part,vertebral_canal
+sacral,studies,structures
+anterior,is_a,spinal nerve
+dura,part_of,ligament
+brachial,part_of,spinal_cord
+posterior,is_a,spinal nerve
+lumbar,part_of,spinal_cord
+spinal_nerve,has_part,spinal_cord
+vertebral_canal,part_of,spinal_cord
+ligament,part_of,dura
+coccygeal,part_of,spinal_cord
+spinal cord,connects with,vertebral column
+vertebral column,connects with,spinal cord
+lumbar nerve,subclass of,spinal nerve
+skull,connects with,vertebra ci
+ti,connects with,cvii
+c2,part of,cervical nerve
+sacral nerve,subclass of,spinal nerve
+skin,part of,muscle
+cervical nerve,has part,c7
+t1,part of,spinal nerve
+cervical nerve,subclass of,spinal nerve
+muscle,has part,skin
+sagittal plane,part of,sagittal
+vertebra ci,connects with,skull
+lateral curvatures,opposite of,absence of lateral curvatures
+thorax,connects with,abdomen
+spinal nerve,has part,t1
+abdomen,connects with,thorax
+thoracic nerve,subclass of,spinal nerve
+c7,part of,cervical nerve
+absence of lateral curvatures,opposite of,lateral curvatures
+cvii,connects with,ti
+iliac_crest,connects_with,scapula
+spinal_cord,connects_with,subarachnoid_space
+vertebral_column,has_part,scapula
+head,has_part,hairline
+concave,is_a,curvature
+anterior_superior_iliac_spine,precedes,posterior_superior_iliac_spine
+spine,connects_with,scapula
+vertebral_column,part_of,lumbar
+thoracic,is_a,vertebral_column
+lumbar,is_a,bony
+sacral,is_a,vertebral_column
+concave,is_a,secondary_curvatures
+scapula,connects_with,iliac_crest
+scapula,connects_with,spine
+subarachnoid_space,connects_with,spinal_cord
+posterior_superior_iliac_spine,follows,anterior_superior_iliac_spine
+posterior,has_part,superior_iliac_spine
+cervical,is_a,vertebral_column
+iliac_crest,connects_with,scapula
+ligamentum_nuchae,connects_with,cvi
+tiii,connects_with,tvii
+a,has_part,b
+lv,is_a,vertebral_spinous_process
+cvii,is_a,vertebral_spinous_process
+scapula,connects_with,iliac_crest
+vertebra_liv,connects_with,iliac_crest
+b,part_of,a
+iliac_crest,connects_with,vertebra_liv
+tvii,connects_with,tiii
+cvii,is_a,spinous_process
+ti,is_a,spinous_process
+cvi,connects_with,ligamentum_nuchae
+thoracic,connects_with,vertebral_body
+spinous_process_end,part_of,spinous_process
+vertebral_bodies,has_part,vertebral_spinous_processes
+spinal_cord,connects_with,subarachnoid_space
+vertebral_canal,connects_with,spinal_cord
+vertebra_sii,part_of,subarachnoid_space
+vertebral_body,part_of,thoracic
+lumbar,connects_with,thoracic
+spinal_cord,is_in,vertebral_canal
+posterior_superior_iliac_spine,connects_with,sii_vertebral_spinous_process
+subarachnoid_space,connects_with,spinal_cord
+sii_vertebral_spinous_process,part_of,vertebral_column
+vertebral_column,has_part,coccyx
+thoracic,connects_with,lumbar
+coccyx,is_a,vertebral_column_part
+trapezius_muscle,connects_with,rhomboid_muscles
+subarachnoid_space,connects_with,spinal_cord
+lumbar_curvature,follows,cervical_curvature
+liv_vertebral_spinous_process,part_of,iliac_crests
+lumbar_vertebral_spinous_processes,connects_with,spinal_cord
+spinal_cord,connects_with,subarachnoid_space
+harvard_university,has_part,john_f_kennedy_school_of_government
+rhomboid_muscles,connects_with,trapezius_muscle
+lumbar_region,connects_with,vertebral_bodies
+vertebral_bodies,connects_with,lumbar_region
+muscle,is_a,intrinsic
+john_f_kennedy_school_of_government,is_part_of,harvard_university
+iliac_spines,part_of,sacral_dimples
+muscle,is_a,erector_spinae
+spinal cord,connects_with,lumbar_vertebral_spinous_processes
+muscle,is_a,extrinsic
+skeletal_framework_of_the_back,length,2
+vertebral_column,curvatures,2
+latissimus_dorsi,connects_with,trapezius
+back_movements,part_of,back
+4_nervous_system,is_a,area
+back,is_a,vertebrae
+spinal_cord,has_part,spinal_nerves
+lumbar_region,connects_with,abdomen
+relationships_of_the_back_to_other_regions,is_a,area
+spinal_ganglion,part_of,spinal_cord
+intrinsic_muscle,is_a,b_b
+vertebral_canal,has_part,length
+superior,connects_with,a_a
+extrinsic_muscle,is_a,a_a
+posterior_rami,part_of,cranial_nerve
+fig,part_of,figure
+spinal_cord,connects_with,cervical_region
+abdomen,connects_with,lumbar_region
+spinal_cord,has_part,spinal_ganglion
+anterior_rami,part_of,cranial_nerve
+cranial_nerve,has_part,anterior_rami
+lateral,subclass_of,view
+2_5_vertebra,is_a,vertebra
+spinal_nerves,part_of,spinal_cord
+cervical_region,connects_with,spinal_cord
+typical_vertebra,has_part,length
+7_back_muscles,has_part,length
+thorax,connects_with,abdomen
+vertebral column,has part,thoracic region
+posterior rami,part of,spinal nerves
+spinalganglion,has part,iidura mater
+rib,connects with,vertebrae
+c2c3c4t2t3t4t5t6t7t8t9l5s1s2s4s3s5,co*,part of,dorsal rami
+lumbar region,part of,vertebral column
+vertebral column,has part,lumbar region
+intervertebral,subclass of,foramina
+lateral,subclass of,view
+vertebral column,has part,cervical region
+iidura mater,part of,spinalganglion
+atlas,has_part,axis
+cii,is_a,vertebrae
+cervical_vertebra,is_a,vertebra
+thoracic_vertebra,has_part,c
+ci,is_a,vertebrae
+ciiden,has_part,ci
+regional_vertebrae,is_a,vertebrae
+ci,part_of,ciiden
+figure,part_of,fig
+c,part_of,thoracic_vertebra
+anteroposterior,part_of,odontoid
+sacrum,named_after,e
+transverse_process,part_of,transversarium
+fig,is_a,list
+lumbar_vertebra,is_a,d_d
+transversarium,has_part,transverse_process
+coccyx,named_after,f
+axis,part_of,atlas
+vertebrae,practices,spine
+ct_scan,is_a,positional_emission_tomography
+mri_scan,is_a,imaging_technique
+spine,practices,vertebral_column
+scoliosis,practices,spine_curvature
+transverse_process,part_of,lv_vertebra
+lumbar_region,part_of,vertebral_column
+vertebral_bodies,is_a,cervical_vertebra
+cervical_vertebrae,has_part,sacral_vertebra
+vertebral_column,part_of,lumbar_region
+intervertebral_foramen,is_a,figure_part
+fig,part_of,figure
+spinous_process,has_part,laminae
+bone_cement,is_a,radiopaque_material
+vertebral_arches,practices,support_lumbar_region
+myelomeningocele,is_a,lumbosacral_disorder
+kyphosis,is_a,spinal_deformity
+vertebral_number_variation,practices,vertebrae_count_variation
+bone1,borders_with,bone2
+osteoporosis,practices,bone_condition
+sacral_vertebra,part_of,cervical_vertebrae
+anteroposterior_view,part_of,radiograph
+l1_vertebra,is_a,lumbar_vertebra
+lumbar_region,is_a,vertebral_column_region
+vertebral_column,has_part,lumbar_region
+lumbar_region,has_part,vertebral_arches
+ct_scan,is_a,imaging_technique
+hemivertebra,is_a,bone_anomaly
+laminae,part_of,spinous_process
+bone2,borders_with,bone1
+hemivertebra,part_of,cervical_vertebrae
+2.33_uncovertebral_joint,connects_with,uncovertebral_joint
+intervertebral_joints,length,2
+ligamenta_flava,area,2
+interspinous_ligament,length,2
+collar,part_of,neck
+lumbar_spine,has_part,ligamentum_flavum
+lv_pars_interarticularis,part_of,lumbar_spine
+lumbar_region,part_of,vertebral_column
+pars_interarticularis,is_a,interarticularis
+superior_articular_process,connects_with,inferior_articular_process
+ligamentum_flavum,part_of,lumbar_spine
+fig.,is_a,figure
+nucleus_pulposus,connects_with,anulus_fibrosus
+supraspinous_ligament,connects_with,ligamentum_nuchae
+transverse_process,connects_with,inferior_articular_process
+latissimus_dorsi,practices,muscle_attachment
+sagittal_plane,named_after,sagittal
+lumbar_spine,has_part,lv_pars_interarticularis
+inferior_articular_process,connects_with,superior_articular_process
+posterior_lumbar_interbody_fusion,is_a,interbody_fusion
+pedicle,connects_with,transverse_process
+anterior,connects_with,posterior_longitudinal_ligament
+ligamentum_nuchae,connects_with,supraspinous_ligament
+vertebral_column,has_part,lumbar_region
+anulus_fibrosus,connects_with,nucleus_pulposus
+axial_plane,is_a,plane
+trapezius,practices,muscle_attachment
+anterior_lumbar_interbody_fusion,practices,fusion
+disc_protrusion,is_a,protrusion
+posterior_longitudinal_ligament,connects_with,anterior
+serratus_posterior,is_a,back_muscle
+splenius_cervicis,is_subclass_of,spinotransversales_muscles
+spine_of_scapula,has_part,iliac_crest
+splenius_capitis,is_subclass_of,spinotransversales_muscles
+rhomboid_major,connects_with,rhomboid_minor
+erector_spinae,is_a,back_muscles
+transverse_cervical_artery,has_part,superficial_branch
+superficial_branch,part_of,transverse_cervical_artery
+iliac_crest,part_of,spine_of_scapula
+deep_back_muscles,connects_with,thoracolumbar_fascia
+latissimus_dorsi,is_a,back_muscle
+spinous process of cviacromion,part_of,spine_of_scapula
+dorsal_scapular_nerve,connects_with,rhomboid_major
+thoracolumbar_fascia,connects_with,deep_back_muscles
+trapezius,length,2
+fig,list_of,figure
+rhomboid_minor,is_a,back_muscle
+rhomboid_major,is_a,back_muscle
+rhomboid_minor,connects_with,rhomboid_major
+levator_scapulae,connects_with,rhomboid_major
+rhomboid_major,connects_with,levator_scapulae
+rhomboid_muscles,is_subclass_of,innervation
+levator_scapulae,is_a,back_muscle
+trapezius,is_a,back_muscle
+spinotransversales_muscles,is_a,back_muscles
+levator_scapulae,is_subclass_of,rhomboid_muscles
+rhomboid_minor,connects_with,levator_scapulae
+back muscles,is_a,segmented_muscles
+suboccipital_muscles,part_of,back_muscles
+segmental_supply,is_a,spinal_supply
+segmental_spinal_arteries,is_a,spinal_artery
+spinal_cord,has_part,pial_part
+pial_part,is_a,pedicle_vertebrae_connecting_point
+pedicle_vertebrae,has_part,pial_part
+back muscles,is_a,suboccipital_muscles
+spinal_cord,has_part,arteries
+arteries,part_of,spinal_cord
+spinal_cord,is_a,spinal_feature
+segmental_muscles,part_of,back_muscles
+spinal_cord,has_part,segmental_supply
+spinal_nerve,part_of,vertebral_canal
+anterior_spinal_artery,is_a,veins
+vertebral_canal,connects_with,lumbar_region
+posterior_intercostal_artery,is_a,veins
+prevertebral_abscess,is_a,epidural_abscess
+interspinous_ligament,connects_with,supraspinous_ligament
+costocervical_trunk,is_a,veins
+vertebral_canal,has_part,spinal_nerve
+lumbar_region,connects_with,vertebral_canal
+supraspinous_ligament,connects_with,interspinous_ligament
+artery_of_adamkiewicz,is_a,veins
+fig,part_of,figure_list
+subclavian_artery,is_a,veins
+ligamenta_flava,connects_with,interspinous_ligament
+meninges,has_area,2.59
+t10,is_a,intervertebral_disc
+posterior_spinal_artery,is_a,veins
+vertebral_artery,is_a,veins
+t11,is_a,intervertebral_disc
+lateral_sacral_artery,is_a,veins
+mri,studies,spine
+ci,is_a,ct_scan
+vertebral column,is_a,curvatures
+d.c.,twinned_with,washington
+iliac crest,part_of,iliac spine
+spinal ganglion,has_part,spinal cord
+2.64 normal appearance,part_of,back
+2.63 nomenclature of the spinal nerves,part_of,nomenclature of the spinal nerves
+fig.,instance_of,in men
+nomenclature of the spinal nerves,is_a,2.63 nomenclature of the spinal nerves
+l.a.,located_in,m.a.
+spinous processes,is_a,cvii
+man,instance_of,in a man
+m.a.,capital_of,l.a
+cvii vertebra,is_a,vertebrae
+back,part_of,bony
+bibliothèque nationale de france,located_in,paris
+washington,twinned_with,d.c.
+bony,has_part,back
+spinous processes,is_a,ti
+spinal cord,part_of,spinal ganglion
+m.a.,capital_of,l.a.
+women,opposite_of,men
+spinous processes,part_of,vertebral
+neck,part_of,ligamentum nuchae
+iliac spine,has_part,iliac crest
+d_c,practices,washington
+washington,practices,twinned_administrative_body_with
+subarachnoid_space,connects_with,spinal_cord
+back_muscles,practices,length
+l_a,is_a,administrative_territorial_entity
+spinal_cord,connects_with,subarachnoid_space
+washington,practices,d_c
+erector_spinae,is_a,muscle
+back_muscles,practices,2
+d_c,practices,twinned_administrative_body_with
+rhomboid_muscles,part_of,scapulae
+spine,part_of,scapula
+m_a,practices,l_a
+lumbar_vertebral,part_of,vertebral_arches
+vertebral_arches,part_of,lumbar_vertebral
+back_muscles,part_of,back
+spinal_cord,has_part,lii_vertebra
+m_a,practices,capital_city_of
+lii_vertebra,part_of,spinal_cord
+latissimus_dorsi,is_a,muscle
+scapulae,part_of,rhomboid_muscles
+bibliotheque_nationale_de_france,is_a,administrative_territorial_entity
+scapula,has_part,spine
+m_a,practices,capital_of
+trapezius,is_a,muscle
+midline,part_of,posterior_arch
+clinically,studies,asymptomatic
+posterior_arch,part_of,midline
+fig.,part_of,figure
+si,part_of,vertebral_arch
+cerebrospinal_fluid,is_a,meningocele
+walking,has_facet,bladder_function
+spina_bfida,is_a,two_types
+l2_3_disc,part_of,lumbar_spine
+lower_vertebrae,causes,spina_bfida
+meninges,connects_with,lumbosacral_junction
+lumbosacral_junction,connects_with,meninges
+lumbar_spine,part_of,l2_3_disc
+lv,part_of,si
+sedation,is_a,general_anesthetic
+pedicle,part_of,vertebral_body
+cannula,practices,bone_cement
+vertebral_body,has_property,height
+bone_cement,has_part,cement
+x_ray_guidance,is_a,anteroposterior_image
+vertebral_body,part_of,pedicle
+osteoporotic_wedge_fracture,location,thoracolumbar_region
+bone_cement,part_of,bone
+vertebroplasty,practices,bone cement
+kyphoplasty,treats,wedge_fracture
+lateral_curvature_of_the_vertebral_column,is_a,scoliosis
+cannula,practices,injects
+wedge_fracture,is_a,osteoporotic_wedge_fracture
+height,has_property,value
+pain,is_a,nerve_ending_pain
+nerve_endings,part_of,body
+vertebral_body_collapse,is_a,pain_from_vertebral_body
+vertebroplasty,practices,uses
+spinal_curvature,has_cause,axial_rotation
+specialists,part_of,evaluation
+pedicles,part_of,vertebral_bodies
+diagnosis,subclass_of,muscle_biopsy
+idiopathic_scoliosis,is_a,scoliosis
+vertebra,part_of,rotational element
+laminae,part_of,vertebral_bodies
+muscle_dystrophy,is_a,commonest_example
+infantile,instance_of,age_group
+vertebral_bodies,has_part,laminae
+curvature,is_a,muscle
+scoliosis,is_subclass_of,abnormal
+congenital_scoliosis,is_a,developmental_abnormalities
+chest_wall,has_effect,heart_disease
+adolescent,instance_of,age_group
+axial_rotation,has_effect,spinal_curvature
+juvenile,instance_of,age_group
+vertebral_column,has_part,lumbar_region
+lumbar_region,part_of,vertebral_column
+cv,is_a,cervical_vertebra
+tuberculosis,instance_of,disease_state
+cvi,is_a,cervical_vertebra
+vertebral_column,part_of,thoracic_region
+vertebrae,part_of,thoracic
+spinal cord tumor,is_a,bone_tumor
+gibbus_deformity,instance_of,deformity
+cervical_vertebrae,is_a,fused_vertebrae
+thoracic_region,has_part,vertebral_column
+ci,is_a,cervical_vertebra
+metastatic,is_a,cancer
+transverse_process,part_of,lv_vertebra
+posterior_elements,part_of,vertebral_bodies
+hemivertebra,is_a,vertebra
+spinal_cord,is_a,nerves
+cancer_cells,is_opposite_of,bone_cells
+first_sacral_vertebra,is_a,sacrum
+bone_cells,is_opposite_of,cancer_cells
+lumbar_vertebra,connects_with,sacrum
+vertebral_bodies,has_part,posterior_elements
+nerves,has_part,spinal_cord
+vertebral_collapse,practices,injury
+metastatic_disease,is_a,cancer
+sacrum,part_of,lumbar_vertebra
+lv_vertebra,has_part,transverse_process
+estrogen,has_effect,osteoporosis
+osteoporotic_fracture,is_a,fracture
+men,is_opposite_of,women
+women,is_opposite_of,men
+disc_protrusion,is_a,mechanical_problem
+nerve,has_part,disc
+low_dose_x_rays,is_a,x_rays
+osteoporosis,is_a,pathophysiologic_condition
+fracture,is_a,bone
+hip_fracture,is_a,fracture
+back_pain,is_a,disorder
+rehabilitation,is_a,healing
+disc,is_part_of,nerve
+osteoporosis,has_cause,estrogen
+dual_photon_x_ray_absorptiometry,treats,osteoporosis
+synovial joints,opposite of,symphyses
+nucleus pulposus,has part,anulus fibrosus
+nucleus pulposus,connects with,anulus fibrosus
+local anesthetic,subclass of,corticosteroid
+anulus fibrosus,part of,nucleus pulposus
+cervical,part of,vertebral column
+back pain,subclass of,common cause
+rheumatoid arthritis,has cause,synovial bursae
+lumbar nerves,connects with,cord
+symphyses,instance of,preserved
+synovial bursae,has effect,rheumatoid arthritis
+herniation of intervertebral discs,subclass of,herniation
+anulus fibrosus,connects with,nucleus pulposus
+vertebral column,has part,cervical
+intervertebral foramen,part of,vertebral canal
+cord,connects with,lumbar nerves
+mechanical discomfort,subclass of,pain
+zygapophysial_joints,is_a,arthritic
+interspinous_ligament,part_of,vertebral_column
+spinal_stenosis,has_cause,zygapophysial_joint_hypertrophy
+vertebral_column,instance_of,tissues
+ligamentum_nuchae,part_of,vertebral_column
+anterior_longitudinal_ligament,part_of,vertebral_column
+ligamenta_flava,part_of,vertebral_canal
+vertebral_column,has_fracture,fracture
+fracture,heals,heal
+supraspinous_ligament,part_of,vertebral_column
+ligamenta_flava,part_of,vertebral_column
+posterior_longitudinal_ligament,part_of,vertebral_column
+vertebral_column,part_of,ligamenta_flava
+ligament,part_of,craniocervical_junction
+immobilization,is_a,fixation
+quadriplegia,is_a,consequence
+craniocervical_junction,part_of,ligament
+significant_force,is_a,force
+c5,part_of,cervical_vertebral_column
+spinal_cord,part_of,craniocervical
+spinal injury,is_a,neurological_event
+craniocervical,part_of,spinal_cord
+sympathetic,has_part,autonomic_division
+nervous_system,has_part,autonomic_division
+cervical_vertebral_column,has_part,c5
+lumbar_vertebral_column_injuries,instance_of,rare
+axial_skeleton,has_part,abdominal_organs
+rest,is_a,analgesia
+autonomic_division,is_a,nervous_system
+abdominal_organs,part_of,axial_skeleton
+liv,follows,lv
+athletes,practices,trauma
+superior,connects_with,inferior
+b,has_part,c
+pars_interarticularis,connects_with,vertebral_canal
+inferior_counterpart,is_a,vertebra
+abnormal_anatomy_of_the_facet_joints,caused_by,facet_joint_degenerative_change
+c,part_of,b
+vertebral_canal,connects_with,pars_interarticularis
+clinic,has_part,surgical_procedures_on_the_back
+spondylolisthesis,is_a,disorder
+surgical_procedures_on_the_back,belongs_to,clinic
+facet_joint_degenerative_change,affects,abnormal_anatomy_of_the_facet_joints
+bifacetal,is_a,vertebral_dislocations
+inferior,connects_with,superior
+supporting_structures,has_part,soft_tissues
+vertebral_column,opposite_of,spinal_column
+unifacetal,is_a,vertebral_dislocations
+soft_tissues,part_of,supporting_structures
+spinal_column,opposite_of,vertebral_column
+cord,part_of,nerve root
+surgery,has_effect,pain
+right,opposite_of,left
+canal,provides_access_to,nerve_root
+involution,is_a,symptom
+canal,connects_with,nerve_root
+nerve root,has_part,cord
+surgery,treats,disc_protrusion
+mri,is_a,scanning
+nerve_root,has_disc,disc
+fenestration,part_of,ligamentum_flavum
+lamina,part_of,potential_space
+potential_space,has_part,lamina
+nerve_root,connects_with,canal
+pain,has_cause,surgery
+left,opposite_of,right
+disc,is_part_of,nerve_root
+fracture,has_effect,mechanical_pain
+inferior_vertebra,part_of,superior
+superior,part_of,inferior_vertebra
+anterior_fusion,is_a,fusion
+shoulder,connects_with,scapula
+thoracodorsal_nerve,connects_with,latissimus_dorsi
+latissimus_dorsi,connects_with,thoracodorsal_nerve
+scapula,connects_with,shoulder
+rhomboid,has_part,dorsal_scapular_nerve
+terminal_branches,part_of,spinal_arteries
+spinal_arteries,has_part,terminal_branches
+axial_loading_injuries,caused_by,motor_vehicle_accident
+geoffrey_jefferson,country_of_citizenship,british
+spinal_cord,has_part,brainstem
+vertebral_body,opposite_of,closed_ring
+motor_vehicle_accident,causes,axial_loading_injuries
+dorsal_scapular_nerve,part_of,rhomboid
+brainstem,part_of,spinal_cord
+urinary_tract,is_a,sources_of_infection
+paralysis,is_a,paraplegia
+flexion,is_a,hyperextension
+vertebral_column,part_of,spinal_cord
+diaphragm,part_of,cervical_vertebral_column
+fracture,is_a,hangman_fracture
+cervical_vertebral_column,part_of,diaphragm
+chemotherapeutic_agent,is_a,anesthetics
+hyperextension,is_a,flexion
+spinal_cord,part_of,vertebral_column
+hyperextension,has_effect,fracture
+spinal_cord,part_of,brainstem
+brainstem,part_of,spinal_cord
+uncture,is_a,lumbar_tap
+sacral,connects_with,sacral_nerve
+sacral_nerve,connects_with,lumbar
+erect_position,opposite_of,lying_on_his_or_her_side
+arachnoid_mater,part_of,subarachnoid_space
+spinal cord,connects_with,disc
+midline,part_of,extradural_space
+si_vertebra,part_of,subarachnoid_space
+legs,connects_with,pelvis
+sacral_nerve,connects_with,sacral
+pressure,part_of,csf
+subarachnoid_space,has_part,arachnoid_mater
+lumbar,connects_with,sacral_nerve
+subarachnoid_space,is_a,aspirated_space
+prone,opposite_of,lateral
+unilateral,is_a,anesthesia_type
+head_down,part_of,cranially
+symptoms,is_a,symptom
+extradural_space,has_part,midline
+lying_on_his_or_her_side,opposite_of,erect_position
+disc,connects_with,spinal_cord
+pelvis,connects_with,legs
+supraspinous ligament,connects with,ligamenta flava
+herpes zoster,has effect,chickenpox
+extradural anesthesia,subclass of,anesthesiologist
+chickenpox,has cause,herpes zoster
+interspinous ligament,connects with,ligamenta flava
+rash,has effect,exquisitely painful
+dermatome,part of,neuron
+vertebral column,has part,attachments
+dermatomal distribution,subclass of,characteristic
+attachments,part of,vertebral column
+neuron,has part,dermatome
+ligamenta flava,connects with,interspinous ligament
+subarachnoid space,connects with,vertebral canal
+vertebral canal,connects with,subarachnoid space
+exquisitely painful,has cause,rash
+spinal ganglia,instance of,cells
+back pain,instance of,condition
+stones_in_renal_collecting_system,affects,renal_pain
+retroperitoneum,is_a,organs
+mortality,has_effect,morbidity
+chest,connects_with,abdomen
+back_pain,treated_by,lifesaving_treatment
+acute_back_pain,caused_by,abdominal_aortic_aneurysm
+abdominal_aortic_aneurysm,is_a,abdominal_aorta
+lifesaving_treatment,used_for,back_pain
+abdomen,connects_with,chest
+abdominal_aortic_aneurysm,causes,acute_back_pain
+renal_pain,caused_by,stones_in_renal_collecting_system
+pancreatic_pain,causes,pancreatic_cancer
+hodgkin_lymphoma,is_a,solid_tumor_malignancy
+unilateral,is_a,back_pain
+hospital,part_of,emergency_department
+s2,is_a,nerve_root
+s3,is_a,nerve_root
+ankles,connects_with,knees
+spine,has_part,sacral_nerve
+s1,is_a,nerve_root
+feet,part_of,toes
+knee,practices,knee_reflexes
+s5,is_a,nerve_root
+emergency_department,is_a,inability_to_pass_urine
+hospital,has_part,emergency_department
+spine,has_part,lumbar
+sacral_nerve,is_a,nerve_root
+knees,connects_with,ankles
+lumbar,is_a,spine
+s4,is_a,nerve_root
+decompression,subclass of,surgical
+herniating disc,has effect,compression of the cauda equina
+vertebral column,connects with,spinal cord
+cauda equina syndrome,subclass of,surgical emergency
+spinal cord,connects with,vertebral column
+lumbar,connects with,sacral nerve
+george orwell,notable work,nineteen eighty-four
+cauda equina syndrome,named after,cauda equina
+cervical region,part of,vertebral column
+nineteen eighty-four,author,george orwell
+sacral nerve,connects with,lumbar
+diaphragm,connects with,phrenic nerve
+spinal cord,has part,c5 level
+cough,has part,sputum
+brain,subclass of,communication
+sternocleidomastoid,subclass of,neck muscles
+c5 level,connects with,brachial plexus
+trapezius muscle,subclass of,neck muscles
+cervical spinal cord,has part,c5
+phrenic nerve,connects with,diaphragm
+lower limbs,opposite of,upper
+brachial plexus,connects with,c5 level
+c5,instance of,level
+edematous,subclass of,lesion
+nineteen eighty-four,author,orwell
+cervical region,part of,cord
+c5 level,part of,spinal cord
+quadriplegic,subclass of,paralysis
+lumbar back,subclass of,pain
+george orwell,notable work,nineteen eighty-four
+c5,part of,cervical spinal cord
+upper,opposite of,lower limbs
+blood_in_sputum,subclass_of,hemoptysis
+cancellous_bone,part_of,vertebral_body
+lung_cancer,is_a,primary_lung_cancer
+pulmonary_history,studies,cavitating_apical_lung_mass
+pus,has_part,aspiration
+eroded,is_a,intervertebral_disc
+psoas_muscle,part_of,psoas
+vertebral_column,has_part,lumbar_portion
+typical_finding,subclass_of,psoas_abscess
+intervertebral_disc,part_of,vertebral_body
+lung,part_of,chest
+spinal_cord,connects_with,body
+vertebral_body,has_part,intervertebral_disc
+inguinal_ligament,connects_with,psoas_muscle
+psoas_muscle,connects_with,inguinal_ligament
+chest_radiographic,practices,studying_lung
+sheath,part_of,psoas_muscle_sheath
+body,has_part,spinal_cord
+lumbar_portion,part_of,vertebral_column
+vertebra,part_of,li
+radiologically_guided_drainage,studies,psoas_abscess
+psoas_abscess,is_a,symptom
+tachycardia,is_a,blood_pressure_disorder
+extensor,is_type_of,muscle
+signs,are_symptoms_of,disease
+ambulance,has_part,gurney
+flexor_muscle,is_type_of,muscle
+gurney,part_of,ambulance
+progressive,is_type_of,paraplegia
+shoulder_blades,part_of,body
+leg,has_part,flexor_muscle
+midlumbar_region,part_of,body
+george_orwell,wrote,nineteen_eighty_four
+nineteen_eighty_four,is_work_of,george_orwell
+acute,is_a,pain
+healed,is_a,sclerosis
+cavities_within_the_lungs,is_a,clinical_symptom
+hypotension,is_a,blood_pressure_disorder
+false lumen,subclass of,lumen
+tunica media,has part,tunica adventitia
+left arm,opposite of,right arm
+blood pressure,subclass of,measurements
+tunica adventitia,part of,tunica media
+tunica intima,part of,tunica media
+channels,part of,blood
+abdomen,connects with,pelvis
+aorta,has part,aortic lumen
+inferiorly,part of,aortic lumen
+aortic,connects with,thoracic
+shoulder blades,connects with,back
+right arm,opposite of,left arm
+aortic lumen,part of,aorta
+blood pressure,part of,arms
+back,connects with,shoulder blades
+thoracic,connects with,aortic
+pelvis,connects with,abdomen
+pain,has cause,aortic dissection
+thoracic,connects_with,lumbar_region
+ruptured,location_of,aorta
+dissection,has_effect,blood pressure
+anterior_spinal_artery,connects_with,posterior_spinal_arteries
+brachiocephalic_trunk,part_of,right_upper_limb
+lumbar_region,connects_with,thoracic
+left_subclavian_artery,is_a,point_of_entry
+artery_of_adamkiewicz,is_a,segmental_medullary_arteries
+paraplegia,is_caused_by,acute_spinal_cord_ischemia
+spinal_cord,practices,ischemia
+posterior_spinal_arteries,connects_with,anterior_spinal_artery
+spinal_arteries,is_a,segmental
+acute_spinal_cord_ischemia,practices,paraplegia
+right_upper_limb,has_part,brachiocephalic_trunk
+low_blood_pressure,is_a,blood_flow
+extensor_digitorum_longus,is_a,muscle
+left_sacrum,is_a,lesion
+extensor_digitorum_longus,part_of,foot
+pain,is_a,symptom
+gluteal_region,is_connected_to,anus
+anus,is_connected_to,gluteal_region
+fibularis_tertius,part_of,leg
+extensor_hallucis_longus,part_of,foot
+gluteal,is_a,muscle
+extensor_hallucis_longus,is_a,muscle
+x-ray,studies,pelvis
+buttock,part_of,gluteal
+sacro-iliac_joint,part_of,sacro-iliac_region
+fibularis_tertius,is_a,muscle
+conceptual_overview,part_of,in_the_clinic
+radiographs,is_a,imaging
+s3,part_of,anterior_sacral_foramina
+nonexpansile,is_a,metastases
+lytic,is_a,lesion
+breast_metastase,is_a,sarcoma
+tumor,practices,anatomical
+sacral_nerve_roots,connects_with,sacrum
+multiple_myeloma,is_a,renal_metastases
+sacrum,connects_with,sacral_nerve_roots
+anterior_sacral_foramina,has_part,s3
+s1,part_of,anterior_sacral_foramina
+x-ray,studies,inspection
+expansile,is_a,metastases
+s2,part_of,anterior_sacral_foramina
+chemoimmunotherapy,is_different_from,radiotherapy
+expansile,is_a,lesion
+radiotherapy,is_different_from,chemoimmunotherapy
+lytic,is_a,sclerotic
+inspection,part_of,x-ray
+trachea,practices,connects_with
+trachea,practices,esophagus
+mediastinum,is_a,cavity
+inferior_thoracic_aperture,part_of,superior_thoracic_aperture
+superior_thoracic_aperture,part_of,inferior_thoracic_aperture
+cylinder,is_a,thorax
+sternum,has_part,rib
+thoracic_cavity,has_part,diaphragm
+pleural_cavities,part_of,mediastinum
+esophagus,practices,connects_with
+figure,is_a,fig
+rib,has_part,sternum
+fig,is_a,list
+diaphragm,has_part,thoracic_cavity
+cavity,is_a,mediastinum
+thorax,is_a,cylinder
+mediastinum,part_of,pleural_cavities
+organ,is_part_of,tissue
+liver,connects_with,spleen
+rib_xii,part_of,diaphragm
+lungs,is_a,vitalorgan
+rib i,part_of,pleural_cavities
+lung,part_of,pleura
+breathing,located_in,thorax
+thoracic_wall,connects_with,diaphragm
+ribs_xi,follows,ribs_xii
+heart,is_a,vitalorgan
+thoracic_wall,is_part_of,thoracic_cavity
+lung,connects_with,neck
+ribs,is_part_of,thoracic_cavity
+ribs_xii,followed_by,ribs_xi
+diaphragm,connects_with,thoracic_wall
+spleen,connects_with,stomach
+diaphragm,practices,breathing_through_contraction
+thoracic_cavity,has_part,ribs
+diaphragm,part_of,rib_xii
+neck,connects_with,lung
+stomach,connects_with,spleen
+diaphragm,is_part_of,thoracic_cavity
+costal_cartilage,part_of,costal
+diaphragm,part_of,phrenic_nerves
+skeletal_elements,has_part,muscles
+thorax,has_part,sternum
+mediastinum,part_of,esophagus
+thoracic_vertebrae,part_of,intervertebral_discs
+esophagus,part_of,mediastinum
+sternum,is_part_of,thorax
+muscles,is_a,tissue
+superior_vena_cava,connects_with,thoracic_aorta
+phrenic_nerves,is_a,nerves
+thoracic_duct,part_of,esophagus
+intervertebral_discs,part_of,thoracic_vertebrae
+rib_i,connects_with,manubrium
+rib,part_of,costal_cartilage
+x,is_a,rib
+tip,part_of,costal_cartilages
+vertebra,has_part,transverse_process
+vertebral_column,connects_with,rib_cage
+vertebra,part_of,rib_cage
+rib,part_of,vertebra
+rib_viii,is_a,rib
+ribs,has_part,last_ribs
+first_rib,part_of,ribs
+thoracic_wall,connects_with,back
+vertebra,part_of,thoracic_wall
+rib,connects_with,vertebral_column
+costal_cartilage,has_part,rib_tip
+sternum,connects_with,rib
+rib_tip,part_of,costal_cartilage
+last_ribs,part_of,ribs
+manubrium,part_of,sternum
+costal_cartilages,has_part,tip
+rib,connects_with,sternum
+thoracic_wall,connects_with,neck
+rib_i,part_of,mediastinum
+cartilage,part_of,bone
+ligament,part_of,bone
+mediastinum,part_of,pleural_cavities
+superior_thoracic_aperture,part_of,thorax
+rib,connects_with,manubrium
+thorax,connects_with,rib_i
+mediastinum,part_of,rib_i
+manubrium,connects_with,rib
+inferior_thoracic_aperture,is_a,expandable
+abdomen,connects_with,thorax
+rib_vii,connects_with,rib_x
+rib_xi,connects_with,rib_x
+superior_thoracic_aperture,is_a,oblique_angle
+rib_x,connects_with,rib_vii
+pleural_cavities,part_of,mediastinum
+thorax,has_part,superior_thoracic_aperture
+rib_xii,connects_with,rib_xi
+thorax,connects_with,abdomen
+tx,connects_with,tix
+diaphragm,connects_with,thorax
+3.4b,point_in_time,3
+diaphragm,connects_with,esophagus
+inferior_thoracic_aperture,has_part,musculotendinous_diaphragm
+rib,has_part,v
+thorax,connects_with,diaphragm
+sternum,is_connected_to,thoracic_vertebrae
+diaphragm,connects_with,thoracic_aperture
+thoracic_aperture,connects_with,diaphragm
+musculotendinous_diaphragm,is_part_of,inferior_thoracic_aperture
+anterior_margin,opposite,inferior_thoracic_aperture
+tix,connects_with,tx
+thoracic_aperture,is_part_of,diaphragm
+superiorly,inferiorly_opposite,inferior_thoracic_aperture
+diaphragm,part_of,thoracic_aperture
+v,is_part_of,rib
+dome,is_part_of,diaphragm
+esophagus,connects_with,diaphragm
+inferior_thoracic_aperture,opposite,anterior_margin
+thoracic_vertebrae,is_connected_to,sternum
+lymphatic_tissues,part_of,airway
+airway,practices,lymphatic_tissues_connection
+lung,part_of,thoracic_cavity
+middle_mediastinum,has_part,heart
+tv,part_of,mediastinum
+mediastinum,part_of,pleural_cavities
+sternum,connects_with,pericardium
+mediastinum,is_a,pleural_cavities
+pericardium,has_part,pericardial_cavity
+pericardial_cavity,part_of,pericardium
+pericardium,connects_with,sternum
+tiv,part_of,mediastinum
+pleura,part_of,organ
+pleural_cavities,part_of,mediastinum
+visceral_pleura,is_a,pleura
+pericardium,part_of,middle_mediastinum
+heart,part_of,middle_mediastinum
+mediastinum,practices,pleural_cavities_connection
+parietal_pleura,is_a,pleura
+pleura,is_a,mesothelial_membrane
+thoracic_cavity,part_of,lung
+esophagus,has_part,trachea
+thoracic_wall,connects_with,diaphragm
+superior_thoracic_aperture,is_a,axillary_inlet
+scapula,connects_with,clavicle
+lung,part_of,pleural_cavity
+pleural_cavity,has_part,lung
+superior_thoracic_aperture,part_of,thorax
+clavicle,connects_with,scapula
+diaphragm,connects_with,thoracic_wall
+trachea,has_part,esophagus
+superior_mediastinum,part_of,visceral_structures
+coracoid_process,part_of,scapula
+lymphatics,has_part,vessels
+upper_limb,connects_with,neck
+txii,has_part,diaphragm
+diaphragm,part_of,mediastinum
+mediastinum,connects_with,abdomen
+breast,is_a,pectoral_region
+pectoral_region,has_part,breast
+diaphragm,has_part,txii
+esophagus,connects_with,abdomen
+abdomen,connects_with,mediastinum
+mediastinum,has_part,tiii
+neck,connects_with,upper_limb
+thorax,part_of,abdomen
+abdomen,part_of,thorax
+tiii,part_of,mediastinum
+body_regions,is_a,anatomical_structure
+breast,is_a,body_region
+anterior,part_of,general_sensation
+axillary_region,part_of,breast
+fourth_to_sixth_intercostal_nerves,is_a,nerve
+sternum,part_of,thoracic wall
+breast,part_of,axillary_region
+thoracic wall,part_of,sternum
+anatomical_structures,part_of,body_regions
+anteromedial,has_part,breast
+bronchi,connects_with,trachea
+superior_vena_cava,connects_with,inferior_vena_cava
+sternum,connects_with,rib_ii
+trachea,connects_with,bronchi
+left_to_right,has_part,venous_shunts
+heart,has_part,right_atrium
+inferior_vena_cava,connects_with,superior_vena_cava
+right_side,is_opposite_of,left_side
+right_atrium,is_a,heart
+venous_shunts,part_of,left_to_right
+rib ii,connects_with,sternum
+left_side,is_opposite_of,right_side
+veins,part_of,thorax
+thoracic_aorta,part_of,thoracic_wall
+intercostal_nerves,is_a,peripheral_nerve
+azygos_vein,part_of,superior_vena_cava
+thoracic_wall,part_of,thoracic_cavity
+thoracic_spinal_nerves,has_part,intercostal_nerves
+ribs,part_of,thoracic_wall
+superior_vena_cava,is_a,vena
+brachiocephalic_vein,part_of,superior_vena_cava
+nerves,is_a,neuronal_structure
+vessels,has_part,nerves
+anterior_abdominal_wall,connects_with,ribs
+other_components_of_the_wall,articulate_with,ribs
+spinal_cord,has_part,spinal_nerve_t1
+t1,is_subclass_of,spinal_nerve
+t2,is_part_of,anterior_chest_wall
+upper_limb,is_opposite_of,trunk
+trunk,is_opposite_of,upper_limb
+dermatome_of_thorax,part_of,thoracic_spinal_nerves
+xiphoid_process,is_part_of,skin
+sympathetic_fiber,is_part_of,spinal_nerve
+spinal_nerve_t1,is_part_of,spinal_cord
+spinal_nerve,is_a,nerve
+spinal_cord,has_part,spinal_nerve
+anterior_chest_wall,has_part,t2
+anterior_ramus,is_part_of,c4
+ribs,connects_with,anterior_abdominal_wall
+ribs,are_articulate_with,other_components_of_the_wall
+c4,is_a,vertebra
+spinal_nerve,is_part_of,spinal_cord
+l2,is_subclass_of,spinal_nerve
+c4,has_part,anterior_ramus
+c3,part_of,cervical_nerves
+anterior_attachment,part_of,posterior_attachment
+phrenic_nerves,part_of,mediastinum
+c5,part_of,cervical_nerves
+diaphragm,part_of,thorax
+c4,part_of,cervical_nerves
+posterior_wall,part_of,anterior_thoracic_wall
+diaphragm,connects_with,cervical_plexus
+superior_thoracic_aperture,connects_with,crura
+cervical_plexus,connects_with,diaphragm
+crura,connects_with,superior_thoracic_aperture
+diaphragm,is_a,muscle
+thorax,has_part,diaphragm
+inferior,part_of,thoracic_wall
+thoracic_cavity,practices,breathing
+embryological_disc,part_of,head_fold
+anterior_thoracic_wall,part_of,trunk
+pleural_cavity,part_of,thorax
+tissue,is_a,connective_tissue
+connective_tissue,part_of,connective_tissues
+thorax,connects_with,abdomen
+lung,connects_with,heart
+connective_tissue,part_of,tissue
+heart,connects_with,lung
+fascia,part_of,skin
+axilla,part_of,thoracic_wall
+connective_tissues,has_part,connective_tissue
+trunk,has_part,anterior_thoracic_wall
+mediastinum,part_of,thorax
+phrenic_nerve,part_of,spinal_cord
+head_fold,has_part,embryological_disc
+abdomen,connects_with,thorax
+pectoral muscles,connects with,thoracic wall
+carcinoma of the breast,has effect,pitting of the skin
+ducts,part of,mammary gland
+sternum,connects with,midaxillary line
+midaxillary line,connects with,sternum
+lactiferous duct,part of,nipple
+nonlactating women,opposite of,lactating women
+areola,part of,nipple
+breast,has part,mammary gland
+pectoralis major,instance of,muscle
+pitting of the skin,has cause,carcinoma of the breast
+suspensory ligaments of breast,subclass of,ligament
+nipple,has part,areola
+thoracic wall,connects with,pectoral muscles
+retromammary space,subclass of,connective tissue
+ducts,subclass of,secretory lobules
+lobules,part of,mammary gland
+mammary gland,part of,breast
+mammary gland,has part,lobules
+lactating women,opposite of,nonlactating women
+thoracic_wall,connects_with,breast
+axillary,connects_with,intercostal_veins
+thoracic_duct,is_part_of,bronchomediastinal_trunks
+anterior_thoracic_wall,has_part,internal_thoracic_artery
+subscapular_arteries,is_a,axillary_artery
+fourth_intercostal_nerve,is_instance_of,innervated
+internal_thoracic,connects_with,intercostal_veins
+subclavian_trunks,connects_with,bronchomediastinal_trunks
+bronchomediastinal_trunks,is_part_of,thoracic_duct
+thoracoacromial,is_a,axillary_artery
+bronchomediastinal_trunks,connects_with,thorax
+lymphatic_vessel,connects_with,posterior_intercostal_arteries
+second_to_sixth_intercostal_nerves,use_for,breast_innervation
+posterior_intercostal_arteries,connects_with,lymphatic_vessel
+breast,connects_with,thoracic_wall
+intercostal_veins,connects_with,internal_thoracic
+superior_thoracic,is_a,axillary_artery
+internal_thoracic_artery,is_part_of,anterior_thoracic_wall
+lateral_thoracic,is_a,axillary_artery
+lymphatic_drainage_of_the_breast,is_aspect_of,lymphatic_vessels
+areola,part_of,breast
+muscle_of_the_pectoral_region,has_part,subclavius
+3_1,part_of,table_3
+pectoralis_major,connects_with,pectoralis_minor
+pectoralis_minor,connects_with,subclavius
+anterior_thoracic_wall,part_of,upper_limb
+clavicle,connects_with,rib_i
+coracoid_process,part_of,scapula
+men,has_effect,breast_cancer
+pectoralis_major,part_of,muscle_of_the_pectoral_region
+subclavius,connects_with,pectoralis_major
+upper_limb,has_part,anterior_thoracic_wall
+clavicle,connects_with,sternum
+pectoralis_minor,connects_with,pectoralis_major
+subclavius,connects_with,pectoralis_minor
+intertubercular_sulcus,part_of,humerus
+scapula,has_part,coracoid_process
+rib_i,connects_with,clavicle
+subclavius,part_of,muscle_of_the_pectoral_region
+sternum,connects_with,clavicle
+table_3,has_part,3_1
+breast,has_cause,men
+pectoralis_major_muscle,part_of,pectoral_region_muscles
+fascia,is_a,connective_tissue
+pectoralis_major,instance_of,adductor
+pectoralis_minor,part_of,muscle_of_the_pectoral_region
+3_17,part_of,table_3
+pecoral_region_muscles,has_part,pectoralis_major_muscle
+thoracic_vertebrae,connects_with,ribs
+clavicle,connects_with,axilla
+skeletal_elements,has_part,muscles
+sternum,connects_with,ribs
+axilla,connects_with,neck
+pectoralis_minor,connects_with,pectoralis_major
+rib_i,connects_with,rib_xi
+rib_xi,connects_with,rib_xii
+ribs,connects_with,sternum
+rib_xii,connects_with,rib_xi
+ribs,connects_with,thoracic_vertebrae
+pectoralis_major,connects_with,pectoralis_minor
+muscles,part_of,skeletal_elements
+axilla,connects_with,clavicle
+neck,connects_with,axilla
+inferior,opposite_of,superior
+superior_articular_processes,opposite_of,inferior_articular_processes
+vertebra,connects_with,laminae
+club_shaped,is_a,posterolaterally
+tubercle,is_part_of,rib
+ribs,connects_with,vertebrae_articulate_with_ribs
+rib,has_part,rib_i
+rib_i,is_part_of,rib
+transverse,part_of,vertebral_body
+laminae,connects_with,vertebra
+ribs,connects_with,thoracic_vertebra
+3.19,point_in_time,3
+superior,opposite_of,inferior
+inferior_costal_facet,opposite_of,superior_costal_facet
+superior_costal_facet,opposite_of,inferior_costal_facet
+thoracic_vertebra,connects_with,ribs
+inferior_articular_processes,opposite_of,superior_articular_processes
+anteroposterior,part_of,vertebral_body
+costal_cartilage,part_of,rib
+neck,part_of,vertebral_column
+superior_costal_facet,is_opposite_of,inferior_costal_facet
+vertebra,part_of,vertebral_column
+tubercle,connects_with,head
+articular_surface,part_of,crest
+head,part_of,vertebral_column
+vertebra,is_a,object: vertebrae {when present in the input}
+inferior_costal_facet,is_opposite_of,superior_costal_facet
+head,connects_with,tubercle
+rib,connects_with,costal_cartilage
+anterior,is_opposite_of,posterior
+posterior,is_opposite_of,anterior
+sternum,part_of,self
+vertebra,has_part,crest
+sternum,connects_with,rib
+vertebra,has_part,neck
+costal_cartilage,is_a,object: anterior_end {when present in the input}
+sternum,part_of,vertebral_column
+rib,connects_with,sternum
+ligament,has_part,attachment
+attachment,part_of,ligament
+shaft,part_of,external_surfaces
+superior_margin,opposite,inferior_margin
+anterior_part,opposite,posterior_part
+posterior_part,opposite,anterior_part
+inferior_margin,part_of,internal_surface
+inferior_margin,opposite,superior_margin
+lower_ribs,connects_with,upper_ribs
+upper_rib,connects_with,lower_ribs
+external_surfaces,has_part,shaft
+angle,part_of,tubercle
+transverse_process,part_of,vertebra
+transverse process,has part,facet
+rib i,followed by,rib ii
+ti,subclass of,vertebra
+vertebral column,connects with,ribs
+superior,opposite of,inferior surfaces
+facet,part of,transverse process
+rib,connects with,vertebrae
+subclavian vein,connects with,subclavian artery
+sternum,subclass of,manubrium
+sternum,has part,xiphoid process
+ribs,has part,anteriorly
+anteriorly,part of,ribs
+rib ii,follows,rib i
+manubrium,part of,sternum
+ligament,part of,muscle
+scalene tubercle,instance of,tubercle
+sternum,has part,manubrium
+facet,part of,vertebra
+subclavian artery,connects with,subclavian vein
+ribs,connects with,vertebral column
+vertebrae,connects with,rib
+xiphoid process,part of,sternum
+inferior surfaces,opposite of,superior
+thorax,part_of,sternum
+cartilage,is_a,demifacet
+sternum,part_of,thorax
+rib,has_part,costal_cartilages
+cartilage,is_a,demifacit
+sternum,connects_with,costal_cartilages
+xiphoid_process,connects_with,sternum
+articulation,has_part,clavicle
+sternum,part_of,body_of_the_sternum
+clavicle,part_of,articulation
+jugular_notch,is_a,notch
+rib,is_a,iii
+rib,is_a,vi
+sternum,connects_with,xiphoid_process
+seventh_costal_cartilage,connects_with,sternum
+manubrium,has_part,facet
+sternum,connects_with,seventh_costal_cartilage
+costal_cartilages,connects_with,sternum
+ribs,has_part,thoracic_cavity
+bifid,is_a,shape
+thoracic_cavity,has_part,vertebral_column
+vertebral_column,has_part,thoracic_cavity
+cartilaginous,follows,ossified
+ossified,is_followed_by,cartilaginous
+xiphoid_process,part_of,sternum
+vertebral_column,connects_with,rib
+rib,is_instance_of,joint
+transverse_process,part_of,vertebrae
+rib,connects_with,vertebral_column
+demifacet,part_of,costal_cartilage
+vertebral_column,connects_with,head
+transverse_process,part_of,rib
+intervertebral_disc,is_a,rib
+tubercle,part_of,rib
+superior_costotransverse_ligament,is_instance_of,ligament
+vertebra,part_of,rib
+costotransverse_ligament,is_a,extracapsular_ligament
+costotransverse_joints,practice,gliding
+joint,is_a,capsule
+head,connects_with,vertebral_column
+rib,has_part,transverse_process
+rib,part_of,vertebra
+interchondral_ligament,connects_with,synovial
+manubrium,is_a,joint
+rib_i,connects_with,manubrium
+rib_vii,part_of,ribs
+sternum,connects_with,manubrium
+interchondral_ligament,is_a,ligament
+sternum,part_of,inferior_costal_margin
+thoracic_cavity,has_part,sternum
+manubrium,connects_with,rib_i
+x,part_of,ribs
+manubrium,studies,sternum
+synovial,practices,lubrication
+synovial,connects_with,interchondral_ligament
+manubrium,connects_with,xiphoid_process
+ribs,has_part,rib_vi
+inferior_costal_margin,has_part,sternum
+sternum,part_of,thoracic_cavity
+v,part_of,ribs
+fibrocartilaginous_connection,part_of,manubrium
+rib_i,is_a,rib
+vi,part_of,ribs
+manubrium,connects_with,sternum
+intraarticular_ligament,has_part,joint
+symphyses,is_a,joint
+sternum,is_a,bone
+manubrium,connects_with,inferior_costal_margin
+xiphoid_process,connects_with,manubrium
+inferior_costal_margin,has_part,manubrium
+synovial,is_a,joint
+sternum,connects_with,rib_ii
+clavicle,is_part_of,neck
+manubrium,connects_with,sternum
+tiv,practices_connecting_with,tv
+tv,practices_connecting_with,tiv
+ascending_aorta,practices_connecting_with,thoracic_aorta
+thoracic_aorta,practices_connecting_with,arch_of_the_aorta
+neck,has_part,clavicle
+rib_ii,connects_with,sternum
+arch_of_the_aorta,practices_connecting_with,thoracic_aorta
+intercostal_muscles,practices_connecting_with,ribs
+inferior_margin,is_part_of,superior_rib
+superior_mediastinum,is_opposite_of,inferior_mediastinum
+ribs,practices_connecting_with,intercostal_muscles
+superior_rib,has_part,inferior_margin
+sternal_angle,is_part_of,ribs
+ribs,has_part,sternal_angle
+inferior_mediastinum,is_opposite_of,superior_mediastinum
+thoracic wall,instance of,reinforce
+vein,opposite of,inferior
+upper limb,connects with,back
+inferior rib,opposite of,superior
+endothoracic fascia,subclass of,connective tissue
+costal groove,instance of,space
+intercostal space,has part,upper aspect
+inferior,opposite of,vein
+superior,opposite of,inferior rib
+sternum,connects with,ribs
+upper aspect,part of,intercostal space
+deep fascia,subclass of,superficial fascia
+back,connects with,upper limb
+vertebrae,connects with,ribs
+ribs,connects with,sternum
+intercostal_muscle,is_a,muscle
+obliquely,opposite_of,anteroinferiorly
+intercostal_muscles,is_a,muscle
+three_muscles,part_of,innermost_intercostal_muscles
+intercostal_muscle,part_of,external
+intercostal_muscles,connects_with,intercostal_space
+inferior_margins,opposite_of,superior_margins
+innermost_intercostal_muscles,has_part,three_muscles
+superior_margins,opposite_of,inferior_margins
+anteroinferiorly,opposite_of,obliquely
+intercostal_space,connects_with,intercostal_muscles
+intercostal_nerves,instance_of,innervated
+ribs,part_of,intercostal_space
+tubercles_of_the_ribs,part_of,thoracic_wall
+rib,has_part,costal_groove
+intercostal_muscle,part_of,internal
+intercostal_space,part_of,vertebral_column
+vertebral_column,has_part,intercostal_space
+lateral_thoracic_wall,instance_of,muscles
+innermost,connects_with,thoracic_wall
+costal_groove,part_of,rib
+thoracic_wall,connects_with,innermost
+intercostal_muscles,is_a,muscle_fibers
+posteroinferiorly,opposite_of,obliquely
+intercostal_muscles,practices,expiration
+innermost_intercostal_muscle,is_a,intercostal_muscle
+costal_cartilages,connects_with,parasternal_region
+parasternal_region,connects_with,costal_cartilages
+connects_with
+third_rib,is_a,rib
+second_rib
+bone
+true_ribs,part_of,sternum
+ribs_iii
+1980
+transversus_thoracis,part_of,thoracic_vessels
+third_rib
+intercostal_muscle,part_of,ribs
+transversus_thoracis
+plane
+sternum,is_a,bone
+true_ribs
+anterior_thoracic_wall
+intercostal,part_of,plane
+sternum
+ribs_vi
+ribs_vi,connects_with,ribs_iii
+1980
+thoracic_wall
+ribs,connects_with,thoracic_wall
+thoracic_wall,studies,connects_with
+third_rib
+rib
+second_rib,follows,third_rib
+intercostal_muscle
+ribs
+transversus_thoracis,part_of,anterior_thoracic_wall
+intercostal
+ribs,part_of,thoracic_wall
+ribs
+ribs_iii
+1980,point_in_time,1980
+transversus_thoracis
+sternum
+ribs_iii,connects_with,ribs_vi
+ribs_vi
+subclavian_artery,part_of,thorax
+intercostal_nerves,part_of,thoracic_wall
+posterior_intercostal_arteries,connects_with,intercostal_nerves
+aorta,connects_with,subclavian_arteries
+thoracic_wall,is_a,vascular_supply
+internal_thoracic_arteries,part_of,subclavian_artery
+thoracic_aorta,connects_with,posterior_intercostal_arteries
+vertebral_column,connects_with,thoracic_wall
+posterior_intercostal_arteries,part_of,thoracic_wall
+posterior,connects_with,anterior_intercostal_arteries
+neck,has_part,costocervical_trunk
+costocervical_trunk,part_of,neck
+anterior_intercostal_arteries,part_of,thoracic_wall
+subclavian_artery,is_a,neck_artery
+superior_thoracic_aperture,part_of,anterior_thoracic_wall
+anterior_thoracic_wall,has_part,superior_thoracic_aperture
+superior_epigastric_artery,has_part,musculophrenic_artery
+anterior_intercostal_arteries,part_of,internal_thoracic_arteries
+musculophrenic_artery,is_a,anterior_intercostal_artery
+posterior_intercostal_artery,has_part,collateral_branch
+ribs,part_of,sternum
+sternum,part_of,ribs
+anterior_intercostal_arteries,part_of,intercostal_space
+thoracic_wall,is_a,arterial_supply_structure
+superior_intercostal_vein,flows_into,azygos_vein
+anterior_intercostal_arteries,part_of,costal_cartilages
+anterior,connects_with,posterior_intercostal_vessels
+anterior_cutaneous_branches,has_part,intercostal_nerves
+left_superior_intercostal_vein,flows_into,left_brachiocephalic_vein
+internal_thoracic_veins,has_part,brachiocephalic_vein
+diaphragm,connects_with,xiphoid
+brachiocephalic_veins,connects_with,superior_mediastinum
+diaphragm,connects_with,vertebral_column
+xiphoid,connects_with,diaphragm
+spinal_nerves,has_part,intercostal_nerves
+parasternal_nodes,part_of,axillary_lymph_nodes
+t1,is_a,spinal_nerve
+rib,connects_with,diaphragm
+t11,is_a,spinal_nerve
+lower_thorax,opposite_of,upper_thorax
+intercostal_nerves,is_a,spinal_nerves
+spinal_nerve,has_part,t12
+t12,part_of,spinal_nerve
+vertebral_column,connects_with,diaphragm
+superior_mediastinum,connects_with,brachiocephalic_veins
+upper_thorax,opposite_of,lower_thorax
+parasternal_node,connects_with,bronchomediastinal_trunks
+bronchomediastinal_trunks,connects_with,parasternal_node
+axillary_lymph_nodes,has_part,parasternal_nodes
+anterior_branch,has_part,posterior_branch
+transversus_thoracis,part_of,thoracic_wall
+cervical_plexus,is_a,nerve_plexus
+posterior_branch,has_part,lateral_cutaneous_branch
+anterior_ramus,part_of,brachial_plexus
+anterior_cutaneous_branches,part_of,anterior_abdominal_wall
+thoracic_wall,part_of,intercostal_space
+intercostal_space,part_of,superior_border
+supraclavicular_nerve,practices,innervation
+superior_border,part_of,intercostal_space
+subcostal,part_of,thoracic_wall
+lateral_cutaneous_branch,is_a,intercostal_branch
+brachial_plexus,practices,innervation
+intercostobrachial_nerve,is_a,lateral_cutaneous_branch
+brachial_plexus,part_of,anterior_ramus
+intercostal_space,part_of,thoracic_wall
+intercostal,part_of,thoracic_wall
+anterior_abdominal_wall,part_of,anterior_cutaneous_branches
+sternum,connects_with,thoracic_wall
+central_tendon,connects_with,pericardium
+xiphoid,connects_with,diaphragm
+peritoneum,part_of,abdominal_wall
+thoracic_wall,connects_with,sternum
+tendon,has_part,muscle_fibers
+esophagus,part_of,diaphragm
+diaphragm,connects_with,aorta
+tviii,connects_with,inferior_vena_cava
+diaphragm,part_of,esophagus
+vertebral_level_txii,part_of,diaphragm
+aorta,connects_with,diaphragm
+diaphragm,part_of,vertebral_level_txii
+abdominal_wall,has_part,peritoneum
+sympathetic_trunks,connects_with,diaphragm
+diaphragm,connects_with,arteries
+inferior_phrenic_arteries,connects_with,abdominal_aorta
+diaphragm,connects_with,arterial_supply
+pericardiacophrenic,connects_with,musculophrenic_arteries
+musculophrenic_arteries,connects_with,pericardiacophrenic
+branches,is_a,thoracic_arteries
+c5,is_part_of,phrenic_nerves
+diaphragm,is_part_of,crura
+intercostal_arteries,connects_with,thoracic_aorta
+diaphragm,connects_with,sympathetic_trunks
+inferior_vena_cava,connects_with,abdominal_vein
+arteries,connects_with,veins
+abdominal_vein,connects_with,inferior_vena_cava
+thoracic_aorta,connects_with,intercostal_arteries
+abdominal_aorta,connects_with,inferior_phrenic_arteries
+diaphragm,connects_with,aorta
+phrenic_nerves,has_part,c5
+c3,is_part_of,phrenic_nerves
+nerves,is_a,splanchnic
+c4,is_part_of,phrenic_nerves
+crura,has_part,diaphragm
+aorta,connects_with,diaphragm
+veins,connects_with,arteries
+muscle_fibers,part_of,diaphragm
+thoracic_wall,connects_with,diaphragm
+anteroposterior,part_of,ribs
+domes_of_the_diaphragm,has_part,diaphragm
+vertebral_column,connects_with,sternum
+breathing,practices,diaphragm
+manubrium,connects_with,sternum
+sternum,connects_with,manubrium
+diaphragm,connects_with,thoracic_wall
+diaphragm,has_part,muscle_fibers
+ribs,has_part,anteroposterior
+thorax,part_of,diaphragm
+diaphragm,part_of,domes_of_the_diaphragm
+ribs,has_part,sternum
+diaphragm,is_a,muscle
+sternum,connects_with,vertebral_column
+sternum,part_of,ribs

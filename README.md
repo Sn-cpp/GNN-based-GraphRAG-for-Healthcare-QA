@@ -243,5 +243,3 @@ The model generates concise answers grounded in the graph context.
 
 * Enhance the knowledge base and the embeddings quality by upgrading the relation extraction and model training pipeline 
 * Improve the RAG response 
-
----

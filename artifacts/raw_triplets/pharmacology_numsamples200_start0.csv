@@ -1,0 +1,2017 @@
+roxicodone,is_a,opioid
+sufentanil,is_a,designated_synthetic_drug
+amphetamine,has_subclass,amphetamine_complex
+amphetamine,has_subclass,ritalin
+amphetamine,has_subclass,methylin
+levorphanol,is_a,designated_synthetic_drug
+tapentadol,is_a,designated_synthetic_drug
+percodan,is_a,opioid
+amphetamine,has_subclass,biphetamine
+codeine,is_a,opioid
+hydrocodone,is_a,opioid
+stp,is_a,hallucinogen
+percocet,is_a,opioid
+amphetamine,has_subclass,adderall
+amphetamine,has_subclass,methamphetamine
+amphetamine,has_subclass,daytrana
+amphetamine,has_subclass,medadate
+federal_law,studies,nonresearch_use
+det,is_a,hallucinogen
+amphetamine,has_subclass,dextroamphetamine
+peyote,is_a,hallucinogen
+mda,is_a,hallucinogen
+amphetamine,has_subclass,concerta
+opioid,practices,pain
+alfentanil,is_a,designated_synthetic_drug
+morphine,is_a,opioid
+fentanyl,is_a,designated_synthetic_drug
+ibogaine,is_a,hallucinogen
+hydromorphone,is_a,opioid
+dmt,is_a,hallucinogen
+remifentanil,is_a,designated_synthetic_drug
+oxycontin,is_a,opioid
+mescaline,is_a,hallucinogen
+oxycodone,is_a,opioid
+lsd,is_a,hallucinogen
+fluoxymesterone,is_a,anabolic_steroid
+oxymetholone,is_a,anabolic_steroid
+oxandrolone,is_a,anabolic_steroid
+subutex,has_part,buprenorphine
+dihydrocodeine,is_a,opioid
+codeine,is_a,opioid
+buprenorphine,has_part,opioids
+opioids,part_of,buprenorphine
+testosterone,is_a,anabolic_steroid
+opioid,is_a,stimulant
+methyltestosterone,is_a,anabolic_steroid
+suboxone,is_a,naloxone
+pregabalin,is_a,opioid_derivative
+combat_methamphetamine_epidemic_act_of_2005,point_in_time,2005
+introduction,written_by,bertram_g_katzung
+alprazolam,is_a,benzodiazepine
+ambien,is_a,nonopioid_drug
+benzodiazepine,is_a,benzodiazepine_drug
+clonazepam,is_a,benzodiazepine
+lomotil,part_of,atropine_containing_medication
+clorazepate,is_a,benzodiazepine
+zolpidem,has_property,nonopioid_drug
+klonopin,is_a,benzodiazepine
+clobazam,is_a,benzodiazepine
+xanax,is_a,benzodiazepine
+chlordiazepoxide,is_a,benzodiazepine
+?,has_effect,parasite
+parasite,infects,?
+iv,is_a,intravenous
+aspirin,is_a,tablet
+overdose,is_treated_by,aspirin
+iv,is_a,administered
+arterial_blood,is_part_of,circulation
+aspirin,studies,pharmacology
+pharmacology,studies,aspirin
+circulation,has_part,arterial_blood
+aspirin,treats_medical_condition,overdose
+venous,is_part_of,circulation
+sodium_bicarbonate,is_instance_of,bicarbonate
+joint_pain,is_treated_by,aspirin
+pharmacokinetics,studies,elimination
+pharmacology,has_subclass,toxicology
+elimination,is_studied_by,pharmacokinetics
+chemical,is_studied_by,pharmacodynamics
+toxic,is_opposite_of,beneficial
+patient,practices_by,doctor
+major_areas_of_study,is_facet_of,pharmacology
+large_domain,is_subclass_of,action_of_chemicals
+pharmacodynamics,studies,chemical
+development_of_new_drugs,has_part,regulation
+toxicology,studies,chemical
+chemical,is_studied_by,toxicology
+toxicology,is_part_of,pharmacology
+beneficial,is_opposite_of,toxic
+regulation,part_of,development_of_new_drugs
+science,is_a,pharmacology
+worthless,is_opposite_of,harmful
+blood,affects,disease
+harmful,is_opposite_of,worthless
+remedies,is_a,drug
+plant,is_a,vegetation
+school,is_a,thought_system
+disease,causes,blood_disorder
+clinical medicine,part_of,physiology
+mechanisms_of_action,facet_of,drug
+materia medica,is_a,pharmacology
+pharmacology,is_a,materia_medica
+controlled_clinical_trial,is_a,rational_therapeutics
+francois magendie,studies,claude bernard
+tissue,has_part,organ
+organ,part_of,tissue
+medicines,is_a,substance
+pharmacology,practices,medicines
+claude bernard,is_a,student
+1950s,is_a,1950
+molecular_basis_for_drug_action,is_a,information
+1940s,is_a,1940
+regulatory_protein,is_a,protein
+molecular_mechanisms_of_action,facet_of,drug
+new_members,opposite_of,old_groups
+old_groups,opposite_of,new_members
+drug_receptor,is_a,biologic_substrate
+decoding,studies,genome
+intracellular_targets,practices,next_major_wave_of_advances_in_therapeutics
+rna,is_a,small_interfering_rna
+medication,practices,pharmacologic
+pharmacologic,is_studied_by,medication
+ineffective,opposite_of,expensive
+nucleotide,part_of,dna
+expensive,opposite_of,ineffective
+rna,is_a,micro_rna
+alternative_or_complementary_medicine,is_not,scientific_medicine
+scientific_medicine,is_not,alternative_or_complementary_medicine
+herbal_supplement,is_a,botanical
+biology,is_different_from,medical_science
+medical_science,is_different_from,biology
+randomized_controlled_trial,is_a,tested
+chemical_antagonist,is_a,drug
+poison,is_a,drug
+arsenic,has_role,toxin
+lead,has_role,toxin
+receptor,is_a,molecule
+biologic,is_a,drug
+inhibitor,opposite,agonist
+hormones,is_a,drug
+drugs,facet,physical_nature
+agonist,opposite,inhibitor
+paracelsus,practices,'the dose makes the poison'
+inactivated,is_a,not_excreted
+lipids,is_a,organic_compound
+excreted,is_a,not_inactivated
+atomic_composition,has_part,molecule
+route_of_administration,is_facet_of,administration
+site_of_administration,different_from,site_of_action
+molecule,is_a,organic_compound
+site_of_action,different_from,site_of_administration
+rna,has_part,oligonucleotide
+pill,practices,orally_administered
+nitrous_oxide,is_a,gaseous_substance
+ph,is_a,acid
+bases,practices,being_opposite_of
+inorganic_element,studies,lithium
+acids,practices,bases
+bases,practices,acids
+acids,practices,being_opposite_of
+lithium,is_a,inorganic_element
+iron,is_a,inorganic_element
+permeation,is_a,diffuse
+alteplase,is_a,protein
+molecule,has_relation,binding
+intra_arterial_infusion,is_a,intravenous
+drug,is_a,molecule
+molecular_weight,has_property,drug
+binding,has_relation,molecule
+site_of_administration,is_different_from,site_of_action
+site_of_action,is_different_from,site_of_administration
+protein,is_a,drug
+specificity_of_action,is_a,requirement
+platelet_aggregation_blocking_effect_of_aspirin,causes,acetylsalicylic_acid
+cancer_chemotherapy,uses,dna-alkylating_agents
+acetylsalicylic_acid,has_effect,platelet_aggregation_blocking_effect_of_aspirin
+receptor,is_part_of,cell_membrane
+acetylsalicylic_acid,has_part,acetyl
+electrostatic,is_a,hydrogen_bond
+bond,has_type,electrostatic
+electrostatic,is_a,covalent_opposite
+reversible,is_facet_of,biologic_conditions
+electrostatic_bonding,is_opposite_of,covalent_bonding
+strong_bond,has_part,weak_bond
+receptor,is_a,pharmacologic
+bonds,is_a,covalent_bond
+pharmacologic,has_subclass,chemical_sense
+xenon,is_a,inert_gas
+drug,practices,pharmacologic_effect
+weak_bond,studies,strong_bond
+drug,part_of,receptor
+bond,has_part,molecule
+key,is_a,lock
+enantiomer,is_a,molecule
+molecule,part_of,bond
+lock,has_part,key
+ephedrine,practices,sympathomimetic
+mirror_image_enantiomer,is_a,enantiomer
+carvedilol,studies,pharmacology
+stereoselective,facet_of,transporters
+receptor,part_of,enantiomer
+racemate,is_a,enantiomers
+saturation,is_a,concentration
++_enantiomer,opposite_of,-_enantiomer
+racemic_mixture,is_a,drug
+enantiomers,is_a,chiral_center
+eur_j_clin_pharmacol_1990,point_in_time,1990
+-_enantiomer,opposite_of,+_enantiomer
+stereoselective,is_a,enantiomer
+ketamine,studies,anesthetic
+enantiomer,has_effect,duration_of_action
+s,practices,beta_receptor_blocker
+beta_receptor,part_of,r+
+alpha_receptor_blocker,is_a,equipotent
+active_isomer,is_a,isomer
+drug,practices,receptor
+iteratively_optimize,is_a,computer_program
+molecular_design,is_product_or_material_produced_by,drug
+drug,practices,through
+racemic,has_part,enantiomer
+inactive,is_a,less_active
+rational_drug_design,practices,receptor_structure
+racemic,is_a,active_isomer
+racemic,studies,through
+modification,is_a,drug
+drug,practices,drug_design
+racemic,studies,enantiomers
+molecular_structure,is_a,drug
+characterization_of_many_receptors,is_a,receptor
+enantiomers,part_of,racemic
+racemic,studies,isomer
+receptors,is_a,naming
+more rational methods of naming,studies,receptors
+pharmacological_reviews,publisher,international_union_of_pharmacology
+pharmacological_reviews,publishes,international_union_of_pharmacology
+receptor,subclass_of,naming
+more rational methods of naming,facet_of,naming receptor
+drug,has_cause,receptor
+disease,has_part,symptom
+administration,is_a,drug
+receptor,has_effect,drug
+d-r_complex,is_a,complex
+pharmacokinetic,studies,pharmacokinetic_process
+pharmacokinetics,part_of,pharmacodynamics
+pharmacodynamics,is_a,pharmacokinetics
+effector_mechanism,is_a,function
+receptor,is_a,molecule
+pseudoirreversible,opposite_of,agonist
+conformation,part_of,molecular_structure
+enzyme_activity,is_a,effector_machinery
+antagonists,opposite_of,agonist
+activate,practices,agonist
+coupling_molecule,has_part,effector_molecule
+acetylcholine,practices,is_an_agonist
+irreversible,opposite_of,agonist
+effector_molecule,is_part_of,coupling_molecule
+pharmacologic_antagonist,is_a,drug
+agonist,opposite_of,antagonists
+agonist,is_a,drug
+agonist,opposite,allosteric_inhibition
+molecule,is_a,agonist
+allosteric_inhibition,opposite,agonist
+partial_agonists,is_a,inverse_agonists
+partial_agonists,is_a,agonists_inverse
+inverse_agonists,subclass_of,partial_agonists
+agonist,is_a,drug
+agonist,uses,ligand
+ligand,use,agonist
+ligand,practices,agonist_interaction
+agonist,has_part,ligand_binding_site
+ligand,practices,agonist
+agonist,subclass_of,drug
+inactive,opposite_of,activated form
+drug-receptor interaction,depicts,figure 1/3
+coupled system,has_part,coupling molecules
+ra_configuration,used_by,agonist
+constitutive activity,opposite_of,agonist
+ra,part_of,receptor pool
+receptor pool,has_part,ra
+activated form,opposite_of,inactive
+ra/d_fraction,used_by,agonist
+agonist,uses,ra/d fraction
+coupling molecules,part_of,coupled system
+activated form,opposite_of,nonfunctional form
+figure 1/3,depicts,drug-receptor interaction
+intrinsic_efficacy,is_different_from,affinity
+full_agonist,opposite,partial_agonist
+receptor-effector system,has_part,receptor pool
+receptor pool,is_a,agonist
+full agonist,is_a,drug
+partial agonist,is_a,agonist
+partial agonist,opposite,full_agonist
+affinity,is_different_from,intrinsic_efficacy
+receptor-effector system,part_of,receptor pool
+affinity,is_a,facet
+receptors,has_part,agonist
+diagrammed,is_a,instance
+agonists,has_opposite,efficacy
+antagonist,is_a,action
+drugs,is_a,agonists
+receptors,has_part,interactors
+without_effect,is_a,effect_absence
+affinity,is_a,agonist
+agonist,practices,interacts_with
+agonist,is_a,antagonist_opponent
+diagrammed,is_a,dose_response_curve
+inhibitors,is_a,subclass
+drugs,is_a,subclass
+antagonist,is_opposite_of,agonist
+without_effect,is_a,subclass
+neutral_antagonism,is_a,blocking_action
+binding_affinity,part_of,agonist
+inhibitors,is_a,competitors
+agonist,is_a,action
+agonist,practices,receptors
+efficacy,has_opposite,affinity
+ra,part_of,id_pool
+ri,part_of,id_pool
+gaba,subject_has_role,transmitter
+id_pool,has_part,ra
+gaba,is_a,benzodiazepine
+drug_action,facet_of,duration
+histamine_h1,is_a,receptor
+flumazenil,subject_has_role,neutral_antagonist
+h2_receptor,is_a,receptor
+gaba_receptor_effector,instance_of,chloride_channel
+inverse_agonist,is_a,drug
+agonist,is_a,drug
+coupling_molecule,is_a,dissociated_molecule
+aspirin,has_role,covalently_bonded
+termination_of_drug_action,is_a,process
+dissociation_of_drug_from_receptor,terminates,drug_action
+agonist,opposite_of,receptor
+ra,has_part,conformation
+ri,follows,ra
+constitutive_activity,part_of,physiologic
+inactive,is_a,drug
+conformations,part_of,receptor
+full agonist,is_a,drug
+equilibrium,practices,isoforms
+receptor,opposite_of,agonist
+drug-receptor interaction,is_a,interaction
+conventional_antagonist,opposite_of,constitutive_activity
+inert_binding_sites,part_of,ee_receptors_and_inert_binding_sites
+cell,part of,biologic system
+regulatory molecules,subclass of,molecules
+biologic system,has part,tissue
+inert binding site,subclass of,binding site
+ligand,part of,receptor
+tissue,part of,biologic system
+circulation,part of,body
+pharmacologic,has part,ligand
+prodrug,is_a,precursor_chemical
+absorbed,subclass_of,administered
+therapeutics,subclass_of,molecule
+therapeutics,is_a,molecule
+absorbed,has_part,administered
+prodrug,prodrug,precursor_chemical
+route,part_of,therapeutics
+excretion,is_a_type,elimination
+intestine,is_part_of,central_nervous_system
+site of administration,differs_from,site of action
+central nervous system,has_part,brain
+inflamed skin,is_treated_by,anti-inflammatory agent
+antiseizure medication,is_a,drug
+site of action,differs_from,site of administration
+blood-brain barrier,is_part_of,central_nervous_system
+brain,is_part_of,central_nervous_system
+mdr_pump,is_a,drug_export_pump
+lipid_medium,is_a,aqueous
+encapsulating,is_a,drug_vehicle
+1,is_a,point_in_time
+brain,has_part,capillaries
+new_york_city,contains,manhattan
+endothelial_lining,part_of,blood_vessel
+manhattan,located_in,new_york_city
+permeation,is_a,drug_permeation
+figure_1,part_of,figure_4a
+figure_4a,has_part,figure_1
+sanctuary,is_a,tissue
+blood_vessel,has_part,endothelial_lining
+coupling,practices,uses_nanoparticles
+tight junctions,is_a,intercellular junction
+endocytosis,location,extracellular space
+transtubular potential,is_a,electrical_field
+mechanisms of drug permeation,studies,figure 1/4 mechanisms of drug permeation
+albumin,is_instance_of,protein
+figure 1/4 mechanisms of drug permeation,part_of,mechanisms of drug permeation
+membrane potential,is_a,electrical_field
+2.2,is_point_in_time,2
+carriers,is_a,transported
+fick's law,is_a,concentration_gradient
+bases,opposite_of,acids
+lipid_media,has_part,aqueous
+acids,opposite_of,bases
+aqueous,part_of,lipid_media
+passive_diffusion,opposite_of,facilitated_diffusion
+peptides,has_part,amino_acids
+4c,has_part,figure_1
+4b,has_part,figure_1
+figure_1,part_of,4c
+weak_base,opposite_of,weak_acid
+lipid_diffusion,is_a,lipid_barrier
+peptide,has_part,amino_acid
+facilitated_diffusion,opposite_of,passive_diffusion
+figure_1,part_of,4b
+weak_acid,opposite_of,weak_base
+norepinephrine_transporter,is_a,transporter
+brain,instance_of,tissues
+nerve,has_part,membranes
+membranes,part_of,nerve
+vesicular_monoamine_transporter,is_a,transporter
+ion_gradient,practices,transport
+membrane_carrier,is_a,expelling_foreign_molecules
+bile,part_of,urine
+pharmacology,studies,transport_molecules
+serotonin_transporter,is_a,transporter
+abc,part_of,atp_binding_cassette_family
+vesicle_membrane,has_part,cytosol
+cytosol,part_of,vesicle_membrane
+red_blood_cell,part_of,hemoglobin
+diffusion,named_after,fick
+hemoglobin,has_part,red_blood_cell
+fick,named_after,diffusion
+cells,practices,secretion
+nerve_endings,part_of,cytoplasm
+intrinsic_factor,is_a,protein
+receptor,is_a,protein
+protein,is_a,receptor
+bases,opposite_of,acids
+molecule,has_part,cation
+acids,opposite_of,bases
+lipid_solubility,has_effect_on,lipid_diffusion
+ion,has_part,anion
+facet_of,is_a,concentration_gradient
+lipid_diffusion,caused_by,lipid_solubility
+cation,has_part,molecule
+cation,is_a,ion
+ficks_law,studies,concentration_gradient
+lipid_diffusion,practices,lipid_membrane
+ionization_of_weak_acids_and_weak_bases,has_part,henderson_hasselbalch_equation
+anion,is_a,ion
+henderson_hasselbalch_equation,part_of,ionization_of_weak_acids_and_weak_bases
+lipid_membrane,is_part_of,lipid_diffusion
+acid,opposite,alkaline
+acid,opposite_of,alkaline_ph
+alkaline,opposite,acid
+pyrimethamine,is_a,antimalarial_drug
+ph,facet_of,acid
+ph,different_from,pka
+alkaline_ph,opposite_of,acid_ph
+pka,different_from,ph
+case_study,studies,manipulation_of_drug_excretion_by_the_kidney
+glomerulus,is_a,drug_producer
+acidic_urine,is_opposite_of,alkaline_urine
+alkaline_urine,is_opposite_of,acidic_urine
+passive_diffusion,is_a,reabsorption
+drug_overdose,causes,excretion
+stomach,connects_with,small_intestine
+small_intestine,connects_with,stomach
+trapping,is_a,partitioning_process
+ph,is_aspect_of,urine
+proton,opposes,electrons
+ionizable_group,has_property,pka
+amine,is_a,ionizable_group
+amine,has_part,nitrogen
+primary amine,follows,secondary amine
+secondary amine,has_part,nitrogen
+drug,is_a,molecule
+ph,equals,pka
+lipid,has_part,charged
+neutral amine,is_a,amine
+molecule,has_part,nitrogen
+electrons,attracts,proton
+quaternary amine,is_a,amine
+tertiary amine,has_part,nitrogen
+variants_of_prototype,is_a,drug
+pharmacodynamic,has_part,pharmacokinetic
+pathophysiologic,is_a,disease
+h_hr_n_h_hr_n_10_mg,part_of,cells_of_nephron_lipid_diffusion
+cells_of_nephron_lipid_diffusion,part_of,h_hr_n_h_hr_n_10_mg
+pharmacokinetic,part_of,pharmacodynamic
+many hundreds of drugs,studies,drug
+disease,studies,pathophysiologic
+groups,instance_of,several_thousand_drugs_currently_available
+prototype_drug,is_a,drug
+1/5,is_a,figure
+advertising,part of,marketing
+cost of health care,has part,inflationary increase in the cost of health care
+profit margins,facet of,pharma
+drug pricing,instance of,controversy
+price gouging,has effect,public outrage
+united nations,has part,general assembly of the united nations
+marketing,has part,advertising
+price increased by several hundred or several thousand percent,part of,drug-pricing scandals
+general assembly of the united nations,part of,united nations
+drug-pricing scandals,has part,price increased by several hundred or several thousand percent
+practitioner,is_field_of,this_occupation
+discovery,part_of,development
+in_vitro,is_different_from,in_vivo
+approval_for_general_use,is_part_of,regulatory_approval
+highly_toxic,is_a,drugs
+interactions,has_cause,biologic_targets
+safety_monitoring,is_a,data_gathering
+licensed_practitioner,practices,licensed
+regulatory_approval,has_part,approval_for_general_use
+biologic_targets,has_effect,interactions
+potency,is_a,compounds
+efficacy,is_different_from,safety
+safety,is_different_from,efficacy
+synthesis,part_of,development
+in_vivo,is_different_from,in_vitro
+nucleic acid,is_a,chemical_entity
+chemical_modification,is_a,me_too_analog
+drug,is_a,requirement_for_life_threatening_diseases
+academic_research,practices,industry_but_differs_from
+testing,practices,development
+industry,practices,academic_research_laboratories_but_differs_from
+industry,practices,academic_research
+development,part_of,testing
+academic_research,practices,industrial_research
+animal_testing,is_a,clinical_testing
+pharmacologic,different_from,therapeutic
+laboratory,is_a,basic_science
+pharmacologic_profile,studies,drug
+therapeutic,different_from,pharmacologic
+infectious_organisms,has_subclass,resistant_to_standard_agents
+drug,has_part,pharmacologic_profile
+basic_science,part_of,clinic
+veterinary_drug,is_a,clinical_trial
+clinic,is_a,basic_science
+preclinical,practices,clinical
+homologous_animal_receptor,is_a,receptor
+thrombotic_disease,has_cause,hypertension
+alzheimer_disease,is_a,disease
+inhibitor,is_a,substrate
+autism,is_a,disease
+drug_metabolism,practices,toxicology
+toxicology,studies,drug_metabolism
+toxic,is_a,effect
+hypertension,has_effect,thrombotic_disease
+sulfonamide,practices,antimicrobial
+selectivity,is_a,mechanism
+animal_model,is_a,human_disease
+parenteral,instance_of,oral
+organ_system,has_part,disease_model
+organ,instance_of,central_nervous_system
+agonist,is_a,partial agonist
+performance,is_a,selectivity
+agonist,opposite,antagonist
+renal_function,part_of,cardiovascular
+cardiovascular,part_of,organ
+hypertension,is_treated_by,antihypertensive
+studies,is_a,in_vivo
+antihypertensive,is_used_for,hypertension
+pharmacologic,part_of,selectivity
+physical_dependence,is_a,dependence
+drug_interaction,practices,examined
+pharmacokinetic,part_of,pharmacodynamic
+composition_of_matter_patent,is_a,patent_application
+examined,studies,drug_interaction
+lead_compound,is_a,new_drug
+oral_administration,is_a,metabolized
+tolerance_development,is_a,assessment
+psychological_dependence,is_a,dependence
+patent_application,has_part,use_patent
+median lethal dose,is_a,no-effect dose
+dose,is_a,estimated
+dose,is_a,no-effect dose
+minimum lethal dose,is_a,no-effect dose
+facet,is_a,toxic
+risk,is_a,dose
+risk,is_a,no-effect dose
+quantitative estimates,is_a,studies
+ld50,is_an_instance_of,estimated
+clinical testing,is_a,screening
+preclinical toxicity testing,is_a,toxicity testing
+preclinical toxicity studies,part_of,clinical trial
+harvard_university,has_part,john_f_kennedy_school_of_government
+toxicity_testing,practices,testing
+cell_and_tissue_culture,is_a,in_vitro_method
+toxicity,is_a,chemical_property
+halt_all_animal_testing,is_an_instance_of,unfounded_belief
+human,is_different_from,animal
+2.2,is_a,instance
+john_f_kennedy_school_of_government,part_of,harvard_university
+preclinical_testing,practices,statistical_analysis
+animal,is_different_from,human
+3.3,is_a,instance
+preclinical testing,is_a,in_vitro_testing
+safety_test,has_part,quarterly_safety_test
+preclinical,is_a,data
+testing,studies,toxicity
+4.4,is_a,instance
+natural_history_of_most_diseases,genre_of,natural_history
+clinical_pharmacologists,part_of,clinical_trial
+m.a.,is_capital_of,l.a
+federal_law,is_a,country
+country,is_capital_of,usa
+confounding_factors,facet_of,study_of_any_drug_in_humans
+l.a.,located_in,m.a.
+drug,is_studied_by,clinical_trial
+clinical trial,studies,drug
+cancer,is_a,disease
+bibliotheque_nationale_de_france,located_in,paris
+experimental_design,studies,population_of_subjects
+population_of_subjects,part_of,experimental_design
+systematically_varied,practices,sequences_of_treatment
+diseases,has_part,risk_factors
+risk_factors,part_of,diseases
+crossover_design,is_a,error_of_interpretation
+tissue,has_part,blood
+study_groups,are_used_by,crossover_technique
+statistical,facet_of,randomization
+lifestyle,is_a,risk_factor
+drugs,are_studied_by,pharmacokinetics
+drug,is_studied_by,pharmacokinetics
+pharmacokinetics,studies,drugs
+blood,part_of,tissue
+subject_and_observer_bias,is_a,observer_bias
+pharmacokinetics,studies,drug
+gene,is_a,genetic_element
+crossover_technique,practices,study_groups
+therapeutic_intervention,practices,medical_personnel
+biochemical,part_of,physiologic
+adverse_effect,has_subclass,toxicity
+active_dosage_form,is_opposite_of,inert_material
+medical_personnel,is_a,therapeutic_intervention
+inert_material,is_opposite_of,active_dosage_form
+physiologic,has_part,biochemical
+patient,has_facet,duration_of_study
+placebo,has_effect,positive_response
+crossover_design,studies,control_group
+phase_2,practices,study
+drug_effects,part_of,clinical_trial
+conclusions,caused_by,studies
+double-blind_design,is_a,observer_bias
+clinical_data,is_a,data
+single-blind_design,practices,subject_bias
+compliance_confirmation,is_same_as,adherence
+drug_studies,part_of,box_drug_studies
+adherence,is_same_as,compliance_confirmation
+studies,has_effect,conclusions
+control_group,studies,crossover_design
+trial,has_facet,3
+concentration-response,is_a,inhibits_enzyme
+laboratory,has_part,concentration-response
+mechanism_of_the_drug's_action,studies,reproducible
+university of pennsylvania,part_of,school of medicine
+patients,is_studied_by,clinicians
+trial,has_facet,phase_1
+clinicians,practices,studies
+school of medicine,is_a,laboratory
+clinicians,practices,patients
+2009,point_in_time,2009_world_championships_in_athletics
+cohort,is_a,epidemiologic_study
+meta_analyses,practices,statistical_power
+cause_and_effect,is_different_from,meta_analysis
+meta_analysis,is_different_from,cause_and_effect
+case_control,is_a,epidemiologic_study
+thiazolidinedione,is_a,antidiabetic_drug
+large_randomized_controlled_trial,is_a,rct
+confounding_variables,has_facet,cause_and_effect
+missing data phenomenon,is_a,falsely_exaggerates_benefits_of_new_drugs
+clinical end points,is_a,surrogate end point
+harvard_university,has_subclass,john_f_kennedy_school_of_government
+confounding factors,has_part,randomization
+surrogate end point,studies,clinical end points
+gold standard,studies,evaluating drugs
+drug,part_of,data
+data,is_a,drug
+john_f_kennedy_school_of_government,part_of,harvard_university
+standard therapy,is_a,drug
+randomization,practices,confounding factors
+evaluating drugs,is_a,gold standard
+adequately controlled testing,facet of,safe and effective
+fda,applies to jurisdiction,usa
+new york city,contains administrative territorial entity,manhattan
+safety,has part,effectiveness
+effectiveness,part of,safety
+antibiotics,subclass of,drug
+drug approval,part of,regulatory
+specific legislation,main subject,fda
+manhattan,located in the administrative territorial entity,new york city
+us department of agriculture,field of work,food safety
+food & drug administration,subsidiary,the food & drug administration
+energy food,subclass of,food supplement
+physician,part_of,patient
+dissatisfaction_with_drugs_and_medical_care,is_a,litigation
+medication,has_facet,side effect
+patient,has_part,physician
+drug_commerce,subclass_of,interstate_production_and_marketing_of_drugs
+pregnancy,has_part,fetus
+pregnancy,has_part,first_trimester
+kefauver_harris_amendments_of_1962,is_a,point_in_time
+kefauver_harris_amendments_of_1962,is_a,legislation
+fetus,part_of,pregnancy
+point_in_time,part_of,1938
+point_in_time,part_of,1962
+federal_food_drug_and_cosmetic_act_of_1938,is_a,point_in_time
+opinion,studies,philosophy
+hypnotic,is_a,sleep_aid
+phocomelia,is_a,birth_defect
+birth_defects,has_cause,maternal_exposure_to_one_agent
+managed,practices,avoided
+maternal_exposure_to_one_agent,has_effect,birth_defects
+first_trimester,part_of,pregnancy
+thalidomide,treats,leprosy
+leprosy,is_treated_by,thalidomide
+nda,studies,clinical_trials
+notice_of_claimed_investigational_exemption_for_a_new_drug,studies,clinical_trials
+table_1_5,part_of,ind
+clinical_trials,is_a,clinical_trial
+ind,studies,clinical trials
+ind,has_part,table_1_5
+animal_studies,is_a,clinical_trial
+institutional_review_board,is_a,clinical_drug_trial
+phase,practices,clinical_trial
+subacute,is_a,toxicity
+carcinogenicity_studies,studies,chronic_safety_testing
+clinical testing,studies,analyze all required data
+absorption,studied_by,pharmacokinetic
+half-life,studied_by,pharmacokinetic
+phase_2,is_a,proof_of_concept
+predictable,causes,toxicities
+blinded,is_a,placebo_controlled
+metabolism,studied_by,pharmacokinetic
+pharmacokinetic,studies,absorption
+phase 1,studies,development
+pharmacokinetic,studies,metabolism
+pharmacokinetic,studies,half-life
+toxicities,has_effect,predictable
+phase 1,studies,aids_therapy
+phase_1_trial,part_of,clinical_dosage_range
+open,is_a,nonblind
+phase_1_studies,practices,clinical_pharmacologists
+studies,has part,studied
+university hospital,subclass of,clinical center
+phase 3,follows,phase 2 trial
+active drug,opposite of,placebo
+placebo,opposite of,active drug
+toxicities,part of,phase
+specialists,practice,disease_being_treated
+phase_3,is_a,study
+phase_3,has_facet,toxic_effects
+crossover,is_a,double_blind
+phase 3,studies,evaluated
+disease_being_treated,is_treated_by,specialists
+phase_3_trial,is_a,trial
+intended_for_the_market,is_a,formulated_statement
+1,follows,phase 3_trial
+approval,has_part,approval_granted
+application,is_a,new_drug_application
+approval_process,studies,approval
+new_drug_application,practices,fda
+preclinical,is_a,clinical_phase
+phase 3,part_of,application
+studies,required_for,approval_process
+molecular_entities,is_a,new_drug
+bhatt_mehta,published,"2016-01-01"
+drug_trial,part_of,statistical_methods
+statistical_methods,practices,drug_trial
+phase_2,studies,phase_3
+interim_data_evaluation,is_a,statistical_methods
+confounding_variables,is_a,interpretation
+phase_3_studies,studies,phase_2_studies
+fda,has_part,enforcement_of_requirement
+approved_for_restricted_marketing,is_a,phase_1
+phase_2_studies,part_of,phase_3_studies
+phase_3,practices,controlled_marketing
+fast_track,is_a,fda
+preclinical,studies,clinical testing
+clinical_testing,studied_by,preclinical
+toxicity,opposite_of,effectiveness
+enforcement_of_requirement,part_of,fda
+phase_1,practices,approved_for_restricted_marketing
+adverse_effect,is_a,drug_induced_effect
+phase_2,follows,phase_4
+phase_4,part_of,accelerated_approval
+phase 4,studies,approval to market
+drug_induced_events,is_a,toxicities
+phase_3,follows,phase_4
+safety,is_a,drug
+1_in_10_000,is_a,toxicity
+phase_4,follows,phase_3
+phase_1,precedes,phase_4
+phase_4,has_instance,no_fixed_duration
+antibodies,subclass of,proteins
+marketing,has part,approval
+patient protection and affordable care act of 2010,point in time,2010
+generic drug,subclass of,prescriptions
+drugs/developmentapprovalprocess/ ucm079031.htm,part of,fda website
+marketing,facet of,pharmaceutical company
+nda,author,fda
+abbreviated new drug application,subclass of,fda approval
+approval of a new drug application,facet of,patent
+government,has_subsidiary,fda
+effective_agent,different_from,efficacy
+generic_name,different_from,trademark_name
+fda,is_a,organization
+conflicts_of_interest,facet_of,fda_approval_processes
+drug,manufactured_by,companies
+phase_2,facet_of,trial
+companies,produces,drug
+marketing,practices,development
+trial,studies,phase_2
+clinical,part_of,scientific
+efficacy,different_from,effective_agent
+trade_name,is_a,trademark
+agent,different_from,drug
+manufacturers,is_a,manufacturer
+distributing,subclass_of,free_samples
+patients,practiced_by,physicians
+drug,different_from,agent
+drug,used_by,physician
+exclusive_marketing_status,instance_of,pay_to_delay
+continuing_medical_education,practices,physician
+physicians,practices,patients
+aids,is_a,fourth_leading_cause_of_death
+automobile_deaths,is_a,fourth_leading_cause_of_death
+serious,has_part,unexpected
+adverse_drug_reactions,is_a,fourth_leading_cause_of_death
+drug_incompatibilities,is_a,preventable_adverse_events
+pharmacogenetic,is_a,medicine
+accidents,is_a,fourth_leading_cause_of_death
+unexpected,part_of,serious
+intolerance,is_a,adverse_reaction
+allergy,is_a,adverse_reaction
+overdose,is_a,adverse_event
+pulmonary_disease,is_a,fourth_leading_cause_of_death
+ind_studies,practices,clinical_trial
+adverse_drug_event,is_a,unintended_response
+orphan_drugs,is_a,drugs_for_rare_diseases
+huntington_s_disease_society_of_america,instance_of,not-for-profit
+gates_foundation,instance_of,not-for-profit
+michael_j_fox_foundation_for_parkinson_s_disease,instance_of,not-for-profit
+efficacy,different_from,safety
+safety,different_from,efficacy
+cystic_fibrosis_foundation,instance_of,not-for-profit
+mechanisms,is_studied_by,pathophysiology
+pathophysiology,studies,mechanisms
+cost_of_developing,facet_of,drug
+pharmacology,publication_date,2015
+orphan_drug,is_a,rare_diseases
+usmle,publication_date,2006
+orphan_drug,studied_by,1983
+usmle,part_of,clinical_vignettes
+usmle,instance_of,1000_questions_and_explanations
+world_wide_web,different_from,internet
+pharmacology,is_a,clinical_specialties
+internet,different_from,world_wide_web
+clinical_specialties,is_studied_by,pharmacology
+ukraine,diplomatic_relation,russia
+toxicologic,studies,drug_dosage
+interactions,main_subject,drug_interactions
+russia,diplomatic_relation,ukraine
+usfda,instance_of,fda
+pharmacology,studies,product
+medwatch,instance_of,email_notification_service
+drug_dosage,studied_by,toxicologic
+ukraine,diplomatic_relation,united states
+licensed_practitioner,practices,physician
+product,studied_by,pharmacology
+physicians_desk_reference,instance_of,package_insert
+website,part_of,internet
+micromedex,instance_of,website
+fda,located_in,washington_d.c.
+united states,diplomatic_relation,ukraine
+physician,is_a,licensed
+subscription_service,is_a,service
+adverse_drug_reaction,is_a,toxic_effect
+n englandjmed 2016,has_point_in_time,2016
+brown w,studies,placebo_effect
+management,has_part,analysis
+restoring_confidence,is_facet_of,pharmaceutical_industry
+avorn j,practices,comparative_effectiveness_research
+menikoff_j,is_married_to,emanuel_ej
+br j pharmacol 2015,is_a,publication
+analysis,practices,management
+the_cochranelibrary,is_instance_of,website
+wolters_kluwer,produces,publications
+www.gov.,is_parent_organization_of,fda
+avorn j,is_author_of,powerful_medicines
+n englandjmed 2009,has_point_in_time,2009
+n englandjmed 2012,has_point_in_time,2012
+n englandjmed 2011,has_point_in_time,2011
+jama 2010,has_point_in_time,2010
+primary_outcomes,is_part_of,randomized_controlled_trials
+forpatientsapprovalsfast,is_subsidiary_of,fda
+emanuel_ej,is_married_to,menikoff_j
+the concise guide to pharmacology 2015/16,studies,alexander sph et al
+fda,is_instance_of,website
+fda,is_subsidiary_of,www.gov.
+adaptive_designs_for_clinical_trials,is_facet_of,clinical_trial
+jama 2013,has_point_in_time,2013
+10_best_selling_brand_name_drugs_in_2015,has_point_in_time,2015
+randomized_controlled_trials,has_part,primary_outcomes
+fda_accelerated_approval_website,is_instance_of,website
+10_best_selling_brand_name_drugs_in_2015,is_list_of,drug
+regulatory_review_of_novel_therapeutics,is_facet_of,regulatory_agencies
+cochrane_collaboration,is_instance_of,website
+bauchner h,part_of,fontanarosa
+sci_am 1998,has_point_in_time,1998
+fontanarosa,part_of,bauchner_h
+powerful_medicines,is_a,book
+mol_interventions,publication_date,2004
+contributions of different types,practices,evidence
+publication,has_date,2008
+website,part_of,organization
+letter,is_instance_of,prescriber's_letter
+huang s-m,is_a,person
+scheindlin_s,is_author_of,demystifying_new_drug_application
+event,has_effect,statistical association
+gies_j-p,is_author_of,drugs_and_their_molecular_targets
+clinical_practice,part_of,drug_development
+vaccine,is_a,drug
+jama,publication_date,2010
+statistical association,studies,causation
+causation,is_a,event
+fd,occupation,sitare
+temple r,part_of,location
+drugs,is_a,substance
+fs,has_member,collins
+fund_clin_pharmacol,publication_date,2008
+evidence,is_a,contribution
+whistle-blowers,practices,kesselheim_as
+stockton_california,located_in,administrative_territorial_entity
+jj,occupation,degeorge
+examination_board_review,practices,pharmacology
+weak_bases,opposite_of,weak_acids
+clinicaltrials.gov,field_of_work,clinical_trial
+pharmacology,practices,top-200-drugs-of-2014
+top-200-drugs-of-2014,studies,pharmacology
+medical_research,has_part,human_subjects
+world_medical_association,authors,declaration_of_helsinki
+jama_2013,point_in_time,2013
+metabolic_acidosis,is_a,alkalosis
+ph,has_effect,alkalosis
+mark_von_zastrow,occupation,md
+usmle_roadmap,is_a,pharmacology
+aspirin_overdose,causes,metabolic_acidosis
+human_subjects,studies,medical_research
+weak_acids,opposite_of,weak_bases
+drug,has_effect,interactions_with_molecules
+wheezes,part_of,chest
+epinephrine,is_a,bronchodilator
+hypertension,practices,propranolol_use
+physician,practices,alternative_treatment
+biochemical,part_of,biology
+bronchial_asthma,practices,epinephrine_use
+propranolol,is_a,antihypertensive_medication
+hypertension,practices,verapamil_treatment
+organism,has_part,cell
+difficulty_breathing,is_a,medical_condition
+acute difficulty breathing,studies,difficulty_breathing
+epinephrine,is_used_for,bronchial_asthma
+interactions_with_molecules,studies,drug_action
+tachy-pneic,is_a,tachycardic
+cell,has_part,organism
+verapamil,practices,hypertension_treatment
+mechanisms_of_action,studies,pharmacodynamics
+biologic_regulation,is_a,endocrinology
+pharmacodynamics,is_a,drug_action
+molecular_basis,is_a,drug_action
+slovenia,has_administrative_territory,ljubljana
+drug,studies,pharmacologic
+receptor,is_part_of,drug_receptor_complex
+pharmacologic,is_a,drug
+drug_receptor_complex,has_part,receptor
+2,is_point_in_time,2.2
+e.g.,"is_before",or "is_same_as"
+development_of_drugs,practices,clinical_practice
+e.g.,"is_before","is_after"
+ljubljana,is_in,slovenia
+clinical_practice,has_part,development_of_drugs
+selectivity,is_a,agonist or antagonist
+drug,is_a,therapeutic
+therapeutic,is_a,drug
+cell,part_of,tissue
+facet,is_a,drug_action
+neurotransmitters,is_a,natural_ligand
+antagonists,is_a,pharmacologic
+agonists,is_a,pharmacologic
+tissue,has_part,cell
+drug_action,practices,selectively_promote
+hormones,is_a,natural_ligand
+molecular_biology,part_of,genome_sequencing
+drug,is_a,pharmacologic antagonist
+ligand,is_a,orphan_receptor
+antagonists,studies,agonists
+bind_to_a_different_site_on_the_receptor,is_a,allosteric_modulator
+drug,is_a,selective
+protein,is_a,receptor
+inhibitor,is_a,drug
+biochemical_mechanisms,is_a,molecular_structures
+neurotransmitter,is_a,chemical_signal
+hormone,is_a,chemical_signal
+transport_protein,is_a,drug_target
+cocaine,has_role,psychostimulant
+methotrexate,has_role,antineoplastic_drug
+colchicine,has_role,anti_inflammatory_agent
+drug_receptor,is_a,protein
+autacoid,is_a,chemical_signal
+mediates,practices,therapeutic_agent
+in_vitro,is_a,system
+drug,has_effect,clinically_observed_response
+effect,caused_by,dose
+concentration_effect_curves,is_part_of,receptor_binding_of_agonists
+receptor_binding_of_agonists,has_part,concentration_effect_curves
+clinically_observed_response,causes,drug
+dose,causes,effect
+doses,has_effect,response
+low_doses,is_a,dose
+ec50,is_instance_of,hyperbolic_curve
+response,causes,doses
+ec50,different from,kd
+kd,subclass of,receptor-bound drug
+emax,subject has role,drug effect(e)
+equilibrium dissociation constant,subclass of,concentration
+receptor,has part,ligand
+biologic,subclass of,molecules
+affinity,has effect,binding
+kd,different from,ec50
+mass action law,subclass of,hyperbolic relation
+sigmoid curve,opposite of,hyperbolic curve
+drug,is_a,biochemical
+full_agonist,opposite_of,partial_agonist
+drug,practices,transduction_coupling
+high_concentrations,opposite_of,low_concentrations
+drug,studies,drug_effect
+drug_concentration,is_a,concentration
+ligand-gated_ion_channels,is_a,receptor
+low_concentrations,opposite_of,high_concentrations
+protein,part_of,receptor
+partial_agonist,opposite_of,full_agonist
+receptor,is_a,protein
+ec50(d,e) is_a occupancy-response_coupling
+abcdeec50(a) part_of ec50(d,e)
+ec50(c) part_of abcdeec50(a)
+receptor is_a ion_channel
+enzymatic is_a signal_transduction_cascade
+nonlinear is_a occupancy-response_coupling
+receptor_reserve instance_of concept
+maximal_responsiveness,practices,receptor
+agonist,is_a,antagonist
+binding_affinity,is_a,ec50
+maximal_response,has_part,receptor
+low_concentration,is_a,antagonist
+receptor,part_of,maximal_responsiveness
+irreversible_antagonist,studies,receptor
+pharmacologic_response,is_a,biologic_response
+beta_adrenoceptor,part_of,myocardial_cell
+irreversible_antagonist,opposite_of,agonist
+beta_adrenoceptor,has_product_or_material,catecholamine
+spare_receptor,is_a,receptor
+g_protein,part_of,g_proteins_and_second_messengers
+cell,part_of,tissue
+tissue,has_parts,cell
+ligandreceptor,is_a,receptor
+downstream_signaling,is_a,mediators
+g_proteins_and_second_messengers,has_part,g_protein
+temporal,is_a,receptor
+spare_receptor,is_a,receptor
+effector,is_part_of,receptor
+agonist,practices,activates
+receptor,has_part,effector
+spare,is_a,receptor
+receptor,has_parts,effctors
+receptor,part_of,cell
+receptor_number,facet_of,receptor
+receptor,is_a,effector
+effctors,is_part_of,receptor
+signaling,studies,biochemical
+antagonist,antagonizes,agonist
+agonist,agonizes,receptor
+competitive_antagonist,antagonizes,agonist
+agonist_concentration_effect_curve,is_part_of,agonist_concentration
+emax,is_a,concentration
+receptor,antagonizes,agonist
+agonist,antagonizes,antagonist
+agonist,opposite,competitive_antagonist
+antagonist,has_part,i
+inhibitor,opposite,agonist
+competitive_antagonist,opposite,agonist
+dissociation_constant,part_of,schild_equation
+irreversible_antagonist,is_a,antagonist
+agonist,opposite,inhibitor
+clinician,practices,therapeutics
+propranolol,has_part,ki
+c,has_part,ki
+pharmacologist,studies,propranolol
+therapeutics,is_a,therapeutic
+norepinephrine,is_a,adrenergic_receptor_agonist
+receptor,part_of,norepinephrine
+agonist,is_a,competitive_antagonist
+point_in_time,is_a,time
+therapeutic_response,is_a,medical_condition
+hypertension,is_a,medical_condition
+norepinephrine,is_a,neurotransmitter
+propranolol,is_used_for,hypertension
+propranolol,treats,therapeutic_response
+neurotransmitter,has_part,epinephrine
+2.2,studies,point_in_time
+point_in_time,is_a,instance
+competitive_antagonist,practices,agonist
+receptor,opposes,agonist
+irreversible_antagonist,is_opposite_of,agonist
+irreversible,is_type_of,covalent_bond
+nearly_irreversible,is_type_of,covalent_bond
+agonist,opposes,receptor
+agonist,is_opposite_of,irreversible_antagonist
+rate_of_elimination,is_type_of,irreversible_antagonist
+antagonist,opposes,agonist
+agonist,opposes,antagonist
+advantages,is_opposite_of,disadvantages
+disadvantages,is_opposite_of,advantages
+phenoxybenzamine,studies,blood pressure
+hypertension,is_a,medical_condition_treated
+hypertension,is_a,medical_condition
+blood_pressure,is_a,medical_condition
+phenoxybenzamine,studies,hypertension
+phenoxybenzamine,has_part,phenylethylamine_group
+blood_pressure,has_part,millimeter_mercury
+blood_pressure,is_a,physiological_parameter
+ivacaftor,practices,allosteric_modulation
+ivacaftor,subject has role,allosteric modulation
+partial agonist,different,agonist
+buprenorphine,practices,antianalgesic
+partial agonist,is_a,antagonist
+full agonist,opposite,partial agonist
+other mechanisms of drug antagonism,is_a,drug_antagonism
+buprenorphine,practices,analgesic
+agonist,different,partial agonist
+partial agonist,opposite,full agonist
+interactions,part_of,ligand
+partial_agonist,is_a,full_agonist
+6,shares_border_with,10
+6,same_as,8
+8,shares_border_with,10
+ligand,has_part,interactions
+regulatory_pathway,facet_of,physiologic_antagonism
+10,shares_border_with,6
+partial_agonist,opposite_of,full_agonist
+hormone,is_a,glucocorticoid
+heparin,is_a,anticoagulant
+full_agonist,has_part,partial_agonist
+glucocorticoid,different_from,insulin
+partial agonist_alone,different_from,partial agonist
+full agonist,opposite,partial agonist
+partial_agonist,is_distinct_from,partial_agonist_alone
+partial_agonist_alone,is_distinct_from,partial_agonist
+partial agonist,opposite,full agonist
+partial agonist,different_from,partial agonist_alone
+partial_agonist,opposites,full_agonist
+full_agonist,opposites,partial_agonist
+glucocorticoid_therapy,practices,glucocorticoid_hormone
+receptor_specific_antagonist,is_a,physiologic_antagonist
+bradycardia,treated_by,isoproterenol
+isoproterenol,causes,bradycardia
+atropine,acts_as,competitive_antagonist
+concentration-effect_curve,is_a,equations
+evolution,part_of,protein_families
+developing_new_drugs,facet_of,targets
+drugs,facet_of,selectivity
+structural_families,is_a,protein
+molecular_mechanisms,practices,drug
+signaling,is_a,chemical_second_messenger
+prolonged,has_part,repeated_administration
+cellular,part_of,receptors
+cytoplasm,has_part,plasma_membrane
+transmembrane_signaling,is_a,molecular_mechanisms
+plasma_membrane,part_of,cytoplasm
+repeated_administration,is_a,prolonged
+lipid_bilayer,part_of,plasma_membrane
+transmembrane_receptor,is_a,protein
+receptor,is_a,protein
+mechanisms_of_transmembrane_signaling,is_a,transmembrane_signaling
+mineralocorticoid,is_a,steroid
+vitamin_d,is_a,steroid
+sex_steroid,is_a,steroid
+extracellular domain,part_of,cytoplasmic domain
+plasma_membrane,part_of,intracellular_receptor
+phosphate,has_part,tyrosine
+corticosteroid,is_a,steroid
+chemical_signals,practices,transduce
+transduce,practices,chemical_signals
+cytoplasmic domain,part_of,extracellular domain
+intracellular_receptor,part_of,plasma_membrane
+tyrosine,has_part,phosphate
+receptor,is_a,protein
+protein,is_a,receptor
+protein,has_part,structural_domain
+dna_binding,is_a,domains
+asthma,is_treated_by,glucocorticoid
+molecular,has_subclass,protein_family
+structural_domain,part_of,protein
+binding_domain,part_of,ligand
+protein family,is_a,molecular
+point_in_time,occurred_at,2
+2,point_in_time,2.2
+glucocorticoid,used_for_treating,asthma
+domains,is_a,dna_binding
+receptor_protein,part_of,glucocorticoid_hormone
+protein,practices,gene_expression
+glucocorticoid_hormone,has_part,receptor_protein
+ligand,has_part,binding_domain
+gene_expression,product_of,protein
+2.2,studies,point_in_time:2
+guanylyl_cyclase,is_a,protein
+plasma_membrane,part_of,lipid_bilayer
+tyrosine_kinase,is_a,protein
+tyrosine,is_instance_of,protein
+oligomeric_complex,is_a,dimers
+serine_kinase,is_a,protein
+bind_to_one_another,subclass_of,dimerize
+cytoplasmic_domain,has_part,tyrosine_kinase
+polypeptide_hormone,is_a,growth_factor
+representative_receptor_tyrosine_kinase,is_a,epidermal_growth_factor_receptor
+dimeric_state,opposite_of,monomeric_state
+domains,part_of,proteins
+gene,part_of,cell
+y+egf,has_part,atp
+y,part_of,y+egf
+insulin,part_of,tyrosine_kinase_receptor
+extracellular,part_of,cytoplasmic
+catalyzing,is_a,enzymatic
+cytoplasmic,has_part,extracellular
+monoclonal_antibodies,practices,cetuximab
+cetuximab,is_a,monoclonal_antibodies
+gefitinib,has_role,inhibitor
+inhibitor,studies,gefitinib
+erlotinib,has_role,inhibitor
+trastuzumab,is_a,monoclonal_antibodies
+neoplastic_disorders,has_subclass,growth_factor_signaling
+inhibitor,studies,erlotinib
+monoclonal_antibodies,practices,trastuzumab
+growth_factor_signaling,is_a,neoplastic_disorders
+genetic_mutations,has_effect,cancer
+nerve_growth_factor,is_a,receptor_tyrosine_kinase
+endocytosis,follows,degradation
+degradation,followed_by,endocytosis
+ligand,is_part_of,receptor
+lysosome,part_of,plasma_membrane
+innervated_tissue,has_part,axon
+axon,part_of,innervated_tissue
+receptor,has_part,ligand
+tyrosine_kinase,part_of,receptor
+transcription,is_a,transduced
+gene,has_effect,expression
+expression,has cause,gene
+expression,studies,gene
+gene,has effect,expression
+downstream_signaling,is_a,signal
+downstream_signaling,subclass_of,signal
+transmembrane receptor,part_of,intracellular domain
+peptide,is_a,growth_hormone
+nucleus,part_of,transcription
+domains,subclass_of,intracellular
+protein,instance_of,tyrosine_kinase
+protein,instance_of,janus-kinase
+residues,instance_of,serine
+domains,subclass_of,extracellular
+residues,instance_of,threonine
+peptide,is_a,interferon
+protein,is_a,mobile_protein
+protein tyrosine kinase,is_a,receptor tyrosine kinases
+peptide,is_a,erythropoietin
+intracellular domain,has_part,transmembrane receptor
+plasma membrane,has part,transmembrane conductance
+serotonin,subject has role,neurotransmitter
+tyrosine phosphates,subclass of,phosphorylated
+transmembrane conductance,part of,plasma membrane
+drugs,studied by,clinical medicine
+activators of transcription,part of,complex signaling dance
+acetylcholine,subject has role,neurotransmitter
+ion channel,has part,ligand
+gaba,subject has role,neurotransmitter
+glutamate,subject has role,neurotransmitter
+tyrosine,instance of,residues
+nicotinic acetylcholine receptor,instance of,ion channel
+ligand,part of,ion channel
+extracellular_fluid,has_part,plasma_membrane
+central-nervous-system,part_of,synapse
+glutamate-receptor,part_of,flytrap-domain
+ion-channel,part_of,ligand
+extracellular-fluid,part_of,aqueous-channel
+ligand,has_part,ion-channel
+agonist,studies,binding
+learning,practices,memory
+memory,is_studied_by,learning
+synapse,is_a,transfer_of_information
+endocytosis,has_part,phosphorylation
+domain,is_a,protein
+allosteric_modulator,treats_medical_condition,cystic_fibrosis
+heart,connects_with,vascular_smooth_muscle
+ivacaftor,practices,channel_conductance
+cystic_fibrosis,is_treated_by,allosteric_modulator
+vascular_smooth_muscle,connects_with,heart
+plasma_membrane,part_of,cftr
+voltage-gated ion channel,part_of,membrane potential
+cftr,instance_of,channels
+cytoplasmic,part_of,plasma_membrane
+g_protein,has_part,gs
+gtp,has_part,gs
+protein,part_of,downstream_effectors
+signaling,is_a,spare_receptor
+family,part_of,subfamilies
+protein,has_part,gtp
+receptor,has_part,ligand
+gs,part_of,gtp
+norepinephrine,is_a,neurotransmitter
+downstream_effectors,has_part,protein
+open_arrow,has_facet,regulatory_effects
+gdp,part_of,g protein
+g protein,has_part,nucleotide
+figure 2/10,is_a,figure
+epinephrine,is_a,catecholamine
+hydrolysis,practices,gtp
+effectors,is_part_of,g protein
+g protein,has_part,effectors
+receptor,is_part_of,g protein
+g_protein-dependent,is_a,ligand
+norepinephrine,is_a,catecholamine
+drug_development,practices,receptor_classes_&_drug_development
+ip3,is_a,inositol-1-4-5-trisphosphate
+g protein,has_part,gtp
+protein-coupled receptor,is_a,receptor
+nicotinic,different_from,acetylcholine
+plasma membrane,part_of,polypeptide_chain
+acetylcholine,different_from,nicotinic
+evolutionary,instance_of,precursor
+heterodimers,subclass_of,homodimers
+monomer,is_a,cytokine_receptor
+transduce,is_a,signal
+cytoplasm,has_part,cytoplasmic_surface
+cytoplasm,has_part,nucleotide
+figure_2_11,depicts_schematically,?
+cytoplasmic_surface,part_of,cytoplasmic
+cytoplasmic,part_of,cytoplasm
+nucleotide,is_a,cytoplasmic
+g_protein,has_part,gtp
+receptor,subclass of,protein
+protein data bank,operating area,europe
+vii,part of,roman numerals
+extracellular,opposite of,intracellular
+transmembrane regions,part of,cytoplasmic region
+i,part of,roman numerals
+serine,subclass of,residues
+threonine,subclass of,residues
+receptor,has part,g protein
+intracellular,opposite of,extracellular
+protein data bank,operator,rcsb
+'serpentine' gpcr,subclass of,transmembrane topology
+g protein,has part,guanine nucleotide
+reversible,is_a,desensitization
+camp,has_part,na+
+hormonal_agonist,is_a,drug
+residues,is_a,serine
+protein_kinase,is_a,g_protein_coupled_receptor_kinase
+residues,is_a,threonine
+mechanisms,subclass_of,desensitization
+phosphorylation,is_a,cellular_phosphatase
+g_protein_coupled_receptor_kinase,is_a,protein_kinase
+phosphorylation,has_effect,receptor
+serine,is_a,residue
+threonine,is_a,residue
+stimulation,practices,adenylyl_cyclase
+desensitization,is_a,mechanism
+receptor,practices,phosphorylation
+adenylyl_cyclase,has_effect,stimulation
+cellular_phosphatase,is_a,phosphorylation
+endocytosis,part_of,plasma_membrane
+binding,has_effect,downstream_effects
+orthosteric_agonist,uses,orthosteric_ligand_binding_site
+antagonist,opposite_of,agonist
+beta-arrestin,is_a,gpcr
+beta_adrenoceptor,is_a,gpcrs
+endosome,part_of,plasma_membrane
+beta-arrestin,practices,positive_signal_transducer_role
+allosteric_ligand,is_functionally_selective_opposite_of,non_functionally_selective_ligand
+receptor_conformation,has_effect,binding
+allosteric_ligand,opposite_of_functionally_selective,non_functionally_selective_ligand
+non_functionally_selective_ligand,is_functionally_selective_opposite_of,allosteric_ligand
+dimer,is_a,kinase
+adrenal,is_a,sex_steroid
+cytoplasm,part_of,nucleus
+nucleus,has_part,cytoplasm
+sex_steroid,part_of,adrenal
+substrates,is_a,protein
+glycogen_synthase,is_a,phosphorylase_kinase
+camp-dependent_protein_kinase,has_part,camp
+acute heart failure,drug used for treatment,milrinone
+phosphatidylinositol-4,5-bisphosphate,subclass of,phospholipid
+calcium,has part,phosphoinositides
+neurotransmitter,subclass of,hormone
+cyclic nucleotide phosphodiesterase,subclass of,degraded
+phospholipidand,part of,membrane
+phosphatase,subclass of,phosphorylation
+milrinone,medical condition treated,acute heart failure
+phosphatase,practices,dephosphorylation
+cyclic_amp,is_a,agonist
+resensitization,is_a,desensitization
+g_protein_coupled_receptor_kinase,is_a,phosphorylated
+abscissa,is_a,line
+abscissa,part_of,beta_adrenoceptor_agonist
+receptor,part_of,receptor_arrestin_complex
+agonist,practices,sensitization
+desensitization,is_a,camp_response
+signaling,located_in,cytoplasm
+plasma membrane,part_of,cellular
+receptor_downregulation,opposite_of,resensitization
+cellular,has_part,plasma membrane
+camp,practices,regulatory_effects_through_open_arrow
+camp,is_a,second_messenger_pathway
+calmodulin,is_a,protein
+phosphodiesterase,is_a,protein
+camp_dependent_kinase,is_a,protein
+cytoplasm,part_of,internal_storage_vesicles
+internal_storage_vesicles,has_part,cytoplasm
+phosphatase,is_a,protein
+multiple_second_messengers,part_of,phosphoinositide_signaling_pathway
+phosphoinositide_signaling_pathway,has_part,multiple_second_messengers
+damp,is_a,terminator_signaling
+phosphatidic_acid,is_a,phospholipid
+protein_kinase_c,is_a,phosphoinositide-specific_phospholipase_c
+open_arrow,regulatory_effects_on,protein_kinase_c
+myosin_light-chain_kinase,is_a,calciumand_calmodulin-dependent_kinase
+camp,is_a,pathway
+asterisk,instance_of,activated_state
+ca2+-phosphoinositide signaling pathway,part_of,2/14 ca2+-phosphoinositide signaling pathway
+dephosphorylation,is_a,enzymatic_degradation
+cgmpdependent protein kinase,is_a,guanylyl cyclase
+nonreceptor,is_a,signaling pathway
+cyclic guanosine monophosphate,has_part,c
+camp-mediated signaling mechanism,is_a,signal transduction
+carrier of messages,is_a,signaling
+sodium_nitroprusside,has_medical_condition,hypertension
+myosin,is_a,light_chain
+guanylyl_cyclase,is_a,cytoplasmic_protein
+hypertension,is_treated_by,sodium_nitroprusside
+trans-membrane_signaling,is_studied_by,guanylyl_cyclase
+sodium_nitroprusside,is_treated_by,hypertension
+nitroglycerin,has_medical_condition,hypertension
+cytoplasmic_protein,is_a,guanylyl_cyclase
+metabolic_enzyme,is_a,phosphodiesterase
+light_chain,is_a,myosin
+transmembrane_receptor,has_part,intracellular_domain
+extracellular_domain,part_of,transmembrane_receptor
+transmembrane_receptor,has_part,extracellular_domain
+phosphodiesterase,is_a,metabolic_enzyme
+hypertension,has_drug,nitroglycerin
+nitroglycerin,is_treated_by,hypertension
+guanylyl_cyclase,practices,trans-membrane_signaling
+hypertension,is_treated_by,nitroglycerin
+intracellular_domain,part_of,transmembrane_receptor
+hypertension,has_drug,sodium_nitroprusside
+phosphodiesterase_inhibitor,is_a,drug
+camp,different_from,phosphoinositide_second_messenger
+vasopressor,opposite,relax_smooth_muscle
+phosphorylation,part_of,a_common_theme
+a_common_theme,has_part,phosphorylation
+calcium-phosphoinositide,is_a,second_messenger
+camp_signaling_pathways,studies,calcium-phosphoinositide
+relax_smooth_muscle,practices,contract_smooth_muscle
+camp_signaling_pathways,opposite,calcium-phosphoinositide
+camp_signaling_pathways,part_of,signaling
+phosphodiesterase_inhibitor,subclass_of,drug
+phosphodiesterase,subclass_of,enzymes
+phosphoinositide_second_messenger,is_different_from,camp
+calcium-phosphoinositide,part_of,camp_signaling_pathways
+phosphodiesterase,is_a,enzyme
+relax_smooth_muscle,practices,vasopressor
+contract_smooth_muscle,opposite,relax_smooth_muscle
+camp_signaling_pathways,is_a,second_messenger
+sarcoplasmic_reticulum,part_of,cytoplasm
+calcium-phosphoinositide,opposite,camp_signaling_pathways
+camp,is_a,second_messenger
+second_messenger,has_part,camp
+kinase,is_a,substrates
+reversible_phosphorylation,is_a,second_messenger_signaling
+imatinib,practices,treats
+imatinib,practices,chronic_myelogenous_leukemia
+breast_cancer,is_a,disease
+trastuzumab,practices,treats
+second_messenger,is_a,signaling_pathway
+imatinib,is_a,inhibitor
+inhibitors_of_protein_kinase,is_a,therapeutic_agent
+chronic_myelogenous_leukemia,is_a,disease
+g_protein,has_part,gtp
+trastuzumab,practices,breast_cancer
+abl,is_a,fusion protein
+bcr,is_a,fusion protein
+antagonist,is_a,pharmacologic_response
+antagonize,opposite_of,mimic
+agonist,is_a,pharmacologic_response
+receptor,is_a,agonist_response
+competitive_antagonist,opposite_of,second_competitive_antagonist
+second_competitive_antagonist,opposite_of,competitive_antagonist
+mimic,opposite_of,antagonize
+receptor,part_of,drug_molecule
+nicotinic_achrs,practices,ligand-gated_ion_channels
+receptors,studies,structural_receptor
+muscarinic_achrs,practices,g_protein_coupled_receptors
+histamine,is_a,biogenic_amine
+structural_receptor,is_a,receptor
+ligand-gated_ion_channels,is_a,ion_channels
+g_protein_coupled_receptors,is_a,receptors
+ligand,has_part,receptor
+serotonin,is_a,biogenic_amine
+receptor,part_of,ligand
+acetylcholine,is_a,biogenic_amine
+regulatory_properties,is_a,signaling
+norepinephrine,is_a,biogenic_amine
+propranolol,practices,selective_antagonist
+receptor,is_a,chemical_signal
+kinase,is_a,phosphodiesterase
+tamoxifen,practices,agonist_role
+osteoporosis,is_a,medical_condition
+drug,has_part,agonist_role
+inhibitor,is_a,modulator
+pharmaceutical_chemist,studies,drug
+protein,is_a,accessory protein
+drug,instance_of,tamoxifen
+cell,part_of,receptor
+drug-receptor interaction,is_a,pharmacologic responsiveness
+pharmacologic,studies,efficacy
+1,is_a,point in time
+pharmacologic,studies,potency
+gradied dose-response curves,depicts,figure 2/15
+prescriber,practices,dosage regimen
+ec50,is_facet_of,potency
+equi-effective_doses,is_same_as,relative_potency
+dose,part_of,potency
+dose-response_relation,part_of,response_axis
+maximal_efficacy,practices,drug_a
+drug_a,opposite,drug_b
+relative_potency,is_same_as,equi-effective_doses
+1,studies,dose-response curve
+potency,part_of,dose
+2.2,studies,dose-response_relation
+figure_2,has_number_of_participants,15
+maximal_efficacy,is_subclass_of,efficacy
+dose-response curve,is_a,potency_relation
+drug_b,opposite,drug_a
+end_point,is_facet_of,therapeutic_purposes
+drug,is_a,therapeutic
+efficacy,facet_of,drug
+fluid,is_a,electrolyte
+shape_of_dose_response_curves,facet_of,dose_response_curves
+efficacies,different_from,pharmacologic_potencies
+therapeutic,subclass_of,drug
+drug,has_facet,efficacy
+electrolyte,subclass_of,fluid
+dose_response_curves,has_facet,shape_of_dose_response_curves
+pharmacologic_potencies,not_same_as,efficacies
+cardiac_contractility,caused_by,cardiac_arrhythmia
+pharmacologic_potencies,different_from,efficacies
+efficacies,not_same_as,pharmacologic_potencies
+partial_agonist,part_of,receptor_effector_system
+receptor_effector_system,has_part,partial_agonist
+cardiac_arrhythmia,causes,cardiac_contractility
+michaelis-menten,is_a,logarithmic_plot
+heart,has_effect,blood_pressure
+coma,causes,sedative-hypnotic
+intherapeutics,has_efficacy,beachieved
+blood_pressure,caused_by,heart
+drug-receptor_interaction,is_a,therapeutic_efficacy
+new_york_city,contains,manhattan
+intherapeutics,has_efficacy,subclass_of
+manhattan,is_located_in,new_york_city
+partial_agonist,is_a,agonist
+sedative-hypnotic,has_effect,coma
+quantal_dose-effect_curves,are_part_of,cc
+graded dose-response curve,studies,use
+responsiveness_to_drugs,is_a,clinical_relevance
+use,practices,clinical decision making
+convulsions,has_effect,arrhythmia
+cardiac_stimulant,is_a,drug
+headache,practices,treatment_with_cardiac_stimulant
+2.5,equals,1.25
+1.25,equals,2.5
+gaussian_normal_curve,is_a,frequency_distribution
+quantal_dose_effect_curve,is_a,cumulative_frequency_distribution
+headache,is_treated_by,cardiac_stimulant
+log_dose,is_a,dose_required_for_effect
+quantal_dose_effect_plots,depicted_by,figure_2_16
+figure 2/16,depicts,quantal dose-effect plots
+frequency_distribution,has_part,doses
+frequency_distribution,is_a,lognormally_distributed
+doses,part_of,frequency_distribution
+lognormally_distributed,is_a,frequency_distribution
+opioid,practices,sedation
+quantal dose-effect curve,studies,quantal effect
+clinical,part_of,experimental
+graded dose-effect curve,part_of,previous_text
+median lethal dose,is_a,experimentally_defined
+median toxic dose,is_a,dose
+minimum_therapeutic_dose,differs_from,minimum_toxic_dose
+minimum_toxic_dose,differs_from,minimum_therapeutic_dose
+animal_studies,studies,therapeutically_relevant_effect
+human_experiments,differs_from,animal_experiments
+therapeutically_relevant_effect,studied_by,animal_studies
+therapeutic_index,is_a,drug
+clinically_acceptable_risk_of_toxicity,has_facet,severity_of_the_disease_being_treated
+animal_experiments,differs_from,human_experiments
+headache,causes,serious_toxicity
+serious_toxicity,has_effect,headache
+drug_trial,is_part_of,clinical_experience
+hodgkin_lymphoma,is_instance_of,disease
+margin_of_safety,has_effect,effect
+studies,is_a,part_of
+therapeutic,opposite of,toxic
+therapeutic,is_not,toxic
+studies,is_a,practices
+studies,is_a,has_part
+course_of_treatment,part_of,treatment
+idiosyncratic,is_a,drug_response
+quantal dose-effect curve,studies,dose-effect curves
+graded dose-response curve,is_a,dose-response curve
+drug,has_facet,selectivity
+rational therapeutic decisions,is_a,critical_information
+drug,has_facet,potency
+immunologic_mechanisms,causes,allergic_reactions
+concentration,is_a,drug_concentration_at_receptor
+hyporeactive,different_from,hyperreactive
+allergic,is_a,hypersensitivity
+tolerance,is_a,drug's effects
+prescriber,practices,uses_first_dose
+hyperreactive,different_from,hyporeactive
+tachyphylaxis,is_a,responsiveness_diminishes_rapidly
+quantitative variations in drug response,is_a,clinically important
+individual_patient,is_a,patient
+kidney,connects with,liver
+endogenous receptor,part of,ligand
+pharmacokinetic,facet of,clinical response
+multidrug resistance,instance of,gene
+mdr,instance of,gene
+liver,connects with,kidney
+propranolol,practices,has_role
+antagonist,opposite of,agonist
+agonist,opposite of,antagonist
+withdrawal symptoms,different from,potentially disastrous withdrawal symptoms
+antagonists,opposite of,agonist
+tissue,has parts of the class,cell
+potentially disastrous withdrawal symptoms,different from,withdrawal symptoms
+receptor,has effect,stimulation
+stimulation,has cause,receptor
+cell,part of,tissue
+ligand,part of,agonist
+agonist,has part,ligand
+biogenic amine,subclass of,congeners
+agonist,opposite of,antagonists
+organ_system,has_parts,cell
+drug_therapy,practices,clinically
+response,part_of,receptor
+genetic_analysis,studies,mutation
+gefitinib,instance_of,kinase_inhibitor
+tumor,is_a,antineoplastic
+cell,part_of,organ_system
+precision medicine,is_a,personalized
+mutation,is_studied_by,genetic_analysis
+toxic,opposite_of,beneficial
+pathophysiologic,is_a,disease_process
+drug,used_for,therapeutic
+condition,studied_by,physiologically_incomplete
+vasodilator,is_a,antihypertensive_drug
+prescribing,studies,clinical_response
+disease_process,studied_by,pathophysiologic
+beneficial,opposite_of,toxic
+diagnosis,is_a,condition
+prescriber,practices,prescribing
+compensatory_mechanisms,is_a,therapeutic_response
+effect,causes,principal
+selective,opposite_of,specific
+principal,actions,effect
+drug,is_a,molecule
+receptor,is_a,biochemical_processes
+so,is_a,why
+effect,principal,actions
+so,why,facet_of
+principal,practices,effect
+why,facet_of,so
+effect,studies,causes
+principal,effect,causes
+anticoagulant_therapy,causes,bleeding
+bleeding,is_caused_by,anticoagulant_therapy
+drug,studies,pharmacologic
+other_therapy,is_a,therapeutic
+drug_development,is_part_of,clinical_medicine
+clinical medicine,studies,drug
+ed50,is_facet_of,selectivity
+pharmaceutical_advertisements,practices,prescribers
+desired_effects,opposite_of,adverse_effects
+treatment_regimen,has_part,drug
+glucocorticoid,subclass_of,hormone
+benefit,opposite_of,toxicity
+toxicity,opposite_of,benefit
+adverse_effects,opposite_of,desired_effects
+hormone,is_a,glucocorticoid
+drug,part_of,treatment_regimen
+inflammatory disorders,drug used for treatment,glucocorticoid
+beneficial,opposite of,toxic effects
+glucocorticoid,medical condition treated,inflammatory disorders
+mitigate,subclass of,therapeutic
+lowest dose,subclass of,benefit
+toxic effects,opposite of,beneficial
+asthma,drug used for treatment,glucocorticoid
+histamine,is_a,catecholamine
+preclinical,is_a,research
+university_of_california_berkeley,located_at,berkeley_california
+berkeley_california,differs_from,university_of_california_berkeley
+microrna,is_a,small_rna
+phenothiazine,practices,anti-psychotics
+receptor,is_a,subclass_of
+receptor,has_effect,binding
+gpcr,is_a,gpcr-targeted_drugs_target
+binding,practices,receptor
+williams_m,has_member,kenakin_t
+agonists,are_opposite_of,antagonists
+oncogene,was_identified_at,2010
+voltage_gated,is_type_of,channels
+biochem_pharmacol,has_publication_date,2014
+science,was_published_at,2005
+g_protein_coupled_receptor,is_type_of,kinase
+kenakin_t,is_member_of,williams_m
+tesmer_jj,has_component,homan_kt
+antagonists,are_opposite_of,agonists
+cystic_fibrosis,is_treated_by,cftr
+cftr,treats_medical_condition,cystic_fibrosis
+arrestin_domain,is_part_of,beta_arrestin
+endocytosis,is_studied_by,pp
+curr_opin_cell_biol,has_publication_date,2014
+mol_pharmacol,has_publication_date,2014
+growth_factor_receptor,is_part_of,epidermal
+gouaux_e,is_married_to,mackinnon_r
+g_protein_coupled_receptor,has_allosteric_site,allostery
+scott_jd,is_married_to,esseltine_jl
+trends_pharmacol_sci,was_published_at,2013
+homan_kt,is_member_of,tesmer_jj
+allostery,is_part_of,g_protein_coupled_receptor
+genome,has_facet,melanoma
+pp,studies,endocytosis
+mackinnon_r,is_married_to,gouaux_e
+esseltine_jl,is_married_to,scott_jd
+genome_med,has_publication_date,2015
+elife,was_published_at,2016
+kobilka_bk,is_instance_of,bk
+micrornas,are_subclass_of,biomarkers
+nat_rev_cardiol,published,2012
+atomic_age,precedes,post_genomic_era
+karachaliou_n,is_specialist_in,genetics
+duchenne_muscular_dystrophy,causes,skeletal_muscle_regeneration
+annu_rev_pharmacol_toxicol,was_published,2015
+altered sarcoplasmic reticulum calcium cycling,treats,heart failure
+new_and_emerging_targeted_therapies,are_aspects_of,cystic_fibrosis
+bivona_tg,is_specialist_in,genetics
+curr_opin_cell_biol,was_published,2014
+sci_transl_med,was_published_at,2014
+tantisira_kg,works_in,pharmacogenomics
+g_protein,has_component,gtp
+trends_pharmacol_sci,was_published,2011
+rosell_r,is_specialist_in,genetics
+br_med_j,occurred_at,2016
+wisler_jw_et_al,focuses_on,biased_agonism
+post_genomic_era,succeeds,atomic_age
+metoprolol,is_a,adrenoceptor_antagonist
+rapid_heart_rate,is_treated_by,digoxin
+bronchoconstriction,practices,bronchoconstriction_induced_by_bronchodilation
+drug_selection,practices,receptor_selectivity
+adrenoceptor_antagonist,studies,metoprolol
+calcium_channel_blocker,studies,verapamil
+maintenance,is_a,dose_regimen
+bronchoconstriction,is_different_from,bronchodilation
+propranolol,is_a,beta-adrenoceptor_antagonist
+atrial_fibrillation,is_treated_by,digoxin
+bronchodilation,has_effect,bronchoconstriction
+bronchodilation,is_different_from,bronchoconstriction
+digoxin,is_used_for,rapid_heart_rate
+fracp,studies,nicholas_h_g_holford
+verapamil,is_a,calcium_channel_blocker
+creatinine,part_of,serum
+beta-adrenoceptor_antagonist,studies,propranolol
+receptor_selectivity,is_a,drug_selection
+digoxin,is_used_for,atrial_fibrillation
+bronchoconstriction,is_a,bronchoconstriction_state
+dose_regimen,practices,maintenance
+nicholas_h_g_holford,is_a,fracp_member
+serum,has_part,creatinine
+absorption,studied_by,pharmacokinetic
+drug,is_a,pharmacologic_agent
+target_concentration,has_part,toxic_concentration_column
+time_course_of_concentration,facet_of,pharmacologic_effect
+distribution,studied_by,pharmacokinetic
+elimination,studied_by,pharmacokinetic
+pharmacodynamics,different_from,pharmacokinetics
+pharmacokinetics,different_from,pharmacodynamics
+pharmacology,studies,drug
+clinician,is_a,medicine
+ind,follows,nda
+pharmacodynamic,has_part,pharmacokinetic
+pathologic,part_of,physiologic
+physiologic,is_a,pathologic
+clinical_trials,is_a,trial
+pharmacokinetic,has_part,pharmacodynamic
+pharmacokinetics,part_of,pharmacodynamics
+elimination,is_a,pharmacokinetics
+pharmacokinetic,subclass of,parameters
+heart failure,studied by,pathologic processes
+clearance,opposite of,volume of distribution
+renal failure,studied by,pathologic processes
+diffuse,subclass of,distribution
+listeriosis,drug used for treatment,listerium
+blood,has part,plasma
+listerium,drug used for treatment,listeriosis
+plasma,part of,blood
+volume of distribution,opposite of,clearance
+blood,part_of,plasma
+renal_physiology,is_subclass_of,drug_clearance_principles
+plasma,has_part,blood
+plasma,part_of,blood
+chloroquine,is_a,drug
+blood,has_part,plasma
+vascular compartment,is_opposite_of,extravascular tissue
+extravascular tissue,is_opposite_of,vascular compartment
+compartment_and_volume_examples_of_drugs,has_facet,drugs
+7bound,is_a_part_of,whole_blood
+lung,is_a,organ
+additive,studies,clearance
+ml/min,is_the_same_as,ml
+average_steady_state_concentration,is_an_instance_of,concentration
+concentration-dependent_clearance,is_an_instance_of,concentration
+whole_blood,has_part,7bound
+ml,is_the_same_as,ml/min
+liver,is_a,organ
+neonates,is_a,children
+clearance,is_a,elimination
+pharmacodynamic,practices,pharmacokinetic
+kidney,is_a,organ
+hematocrit,is_a_part_of,whole_blood
+whole_blood,has_part,hematocrit
+concentration-time_curve,has_facet,target_area
+liver,connects_with,kidney
+antibodies,is_a,protein
+kidney,connects_with,liver
+metabolism,has_part,muscle
+renal_clearance,is_a,clearance_of_unchanged_drug_in_urine
+ethanol,studies,small water-soluble molecules
+muscle,part_of,metabolism
+protein,is_a,antibodies
+new_york_city,contains,manhattan
+ions,instance_of,fluoride
+manhattan,located_in,new_york_city
+clearance,is_a,elimination
+ions,instance_of,lead
+liver,has_part,bile
+small water-soluble molecules,is_a,ethanol
+obese_person,opposite_of,lean_person
+lean person,opposite_of,obese_person
+ethanol,is_a,drug
+phenytoin,is_a,drug
+area_under_the_curve,is_a,time_concentration_profile
+dose,has_effect,clearance
+clearance,is_a,calculation
+first-order elimination,studies,elimination
+distribution phase,follows,elimination phase
+exponential,is_a,decay curve
+figure 3/2,studies,elimination
+extravascular volume,is_part_of,blood
+elimination,is_a,graphs
+time course,is_a,graph
+models of drug distribution,is_a,graphs
+plateau,is_followed_by,maximum
+elimination,affects,volume
+figure 3/2,studies,models of drug distribution
+intravenous injection,practices,blood injection
+pressure,is_part_of,elimination process
+maximum,follows,plateau
+elimination phase,is_followed_by,distribution phase
+route of elimination,is_a,decay
+extravascular equilibration,is_part_of,elimination mechanism
+elimination mechanism,has_part,extravascular equilibration
+concentration-limited elimination,is_a,elimination
+saturated,is_a,drug_elimination_pathway
+pseudozero_order,is_a,elimination_rate
+aspirin,is_instance_of,drug
+flow-dependent_elimination,is_instance_of,elimination
+vmax,is_a,maximum_elimination_capacity
+elimination_capacity,is_a,concentration
+capacity-limited_elimination,is_a,drugs_with_capacity-limited_elimination
+elimination_rate,has_facet,elimination
+organ_of_elimination,part_of,organ
+organ,has_part,organ_of_elimination
+blood,part_of,organ
+half_life,is_facet_of,elimination
+organ,has_part,blood
+blood_flow,part_of,organ
+natural_logarithm,has_part,2
+dosage_regimens,is_facet_of,drug
+natural_logarithm,is_a,exponential_process
+2,part_of,natural_logarithm
+organ_of_elimination,is_a,drug_delivery
+organ,has_part,blood_flow
+accumulation_curve,is_a,drug_dosing_regimen
+one_half_life,practices,two_half_lives
+two_half_lives,follows,one_half_life
+solid_line,is_a,plasma_concentration
+decay,opposite_of,steady_state
+accumulation,studies,elimination
+elimination,is_a,accumulation
+constant_rate_drug_infusion,is_a,drug_elimination
+drug,part_of,elimination
+distribution,practices,studies
+elimination,is_a,drug_accumulation
+plasma_concentration,is_a,steady_state
+infinite_time,is_a,theory
+clearance,part_of,renal_function
+renal_function,has_part,renal_clearance
+pharmacokinetic,studies,clearance
+drug_accumulation,is_a,fraction_lost
+dose,has_part,dosing_interval
+multicompartment_pharmacokinetics,is_a,pharmacokinetics
+pharmacokinetic,is_a,multicompartment_pharmacokinetics
+clearance,is_studied_by,pharmacokinetic
+fraction_lost,subclass_of,accumulate
+dosing_interval,is_different_from,half_life
+half_life,is_different_from,dosing_interval
+accumula tion factor,instance of,index of accumulation
+oral administration,part of,systemic circulation
+bioavailability,facet of,routes of administration
+systemic circulation,instance of,route
+first-order,subclass of,elimination
+first-pass elimination,subclass of,orally
+rapidly and completely available,said to be the same as,rate equal to a
+first dose,has effect,steady-state concentration
+rate equal to a,said to be the same as,rapidly and completely available
+unity,facet of,bioavailability
+acyclovir,is_a,lipophilic
+first_pass_elimination,is_instance_of,b_b.
+hydrophilic,is_opposite_of,lipophilic
+reverse_transporter,part_of,p_glycoprotein
+grapefruit_juice,has_p_glycoprotein,p_glycoprotein
+lipophilic,is_opposite_of,hydrophilic
+gut_wall_cells,part_of,gut_lumen
+duration_of_action,studies,effectiveness
+gut_lumen,has_part,gut_wall_cells
+target_concentration,is_a,concentration
+absorption,part_of,gut
+portal,part_of,systemic_circulation
+bile,is_a,liver
+er,same_as,oral_bioavailability
+first_pass_elimination,facet_of,bioavailability
+systemic_circulation,has_part,portal
+extraction_ratio,facet_of,bioavailability
+oral_bioavailability,same_as,er
+absorption,subclass_of,rate_of_absorption
+morphine,has_facet,morphine_clearance
+clinical_effectiveness,is_a,drug
+sleep,has_cause,hypnotic
+rate_of_absorption,studies,absorption
+dosage_form,part_of,multiple_dosing_regimen
+hypnotic,practices,sleep
+multiple_dosing_regimen,has_part,dosage_form
+dosage_form_a,opposite_of,dosage_form_c
+site_of_administration,is_a,drug_formulation
+systemic_clearance,has_cause,bioavailability
+oral_route_of_administration,uses,doses
+gastric_emptying,part_of,gut
+isoniazid,is_subject,tricyclic_antidepressant
+extraction_ratio,facet_of,availability
+cardiac_arrhythmias,is_treated_by,lidocaine
+first_order,is_a,absorption
+lidocaine,treats_medical_condition,cardiac_arrhythmias
+propranolol,is_subject,tricyclic_antidepressant
+intravenous_administration,is_subclass_of,concentrations
+bioavailability,has_effect,systemic_clearance
+doses,used_by,oral_route_of_administration
+tolbutamide,is_instance_of,drug
+oral,is_instance_of,routes_of_administration
+transdermal,is_instance_of,routes_of_administration
+portosystemic_shunting,practices,hepatic_cirrhosis
+doses,is_a,concentrations
+first_pass_effect,part_of,alternative_routes_of_administration
+theophylline,is_instance_of,drug
+diazepam,is_instance_of,drug
+blood_flow,part_of,hepatic_function
+chlorpropamide,is_instance_of,drug
+phenytoin,is_instance_of,drug
+topical,is_instance_of,routes_of_administration
+warfarin,is_instance_of,drug
+alternative_routes_of_administration,has_part,first_pass_effect
+liver,connects_with,inferior_vena_cava
+systemic,practices,portal
+rectal,part_of,liver
+drug_effect,is_affected_by,plasma_concentration
+rectum,part_of,liver
+liver,part_of,rectal
+liver,has_part,rectum
+portal,practices,systemic
+hepatic,has_part,nongastrointestinal
+rectal,is_a,sublingual_tablet
+inferior_vena_cava,connects_with,liver
+oral_drug,is_a,drug
+dosing_interval,has_part,peak_concentration
+enalapril,is_a,oral_drug
+enalapril,practices,ace_inhibition
+ace,has_effect,inhibition
+inhibition,studies,ace
+ace,is_a,ace_inhibitor
+c50,is_a,concentration
+peak_concentration,part_of,dosing_interval
+enalapril,has_part,ace
+initial_concentration,is_same_as,c50
+ace,part_of,enalapril
+propranolol,practices,ace_inhibition
+short_half_life,is_a,drug_property
+ace,is_a,ace_inhibitor
+c50,is_instance_of,plasma_concentration

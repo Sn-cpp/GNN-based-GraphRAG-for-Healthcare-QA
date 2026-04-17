@@ -1,0 +1,5182 @@
+structures,partof,anatomy
+anatomy,studies,structures
+anatomy,practices,studying
+gross anatomy,isa,studied anatomy
+studied anatomy,haspart,gross anatomy
+anatomy,studies,physical structures
+regional anatomy,isa,anatomy
+anatomy,uses,terminology
+physical structures,isa,structure
+nasal cavity,partof,oral cavity
+terminology,isusedby,anatomy
+oral cavity,haspart,nasal cavity
+dissection,partof,anatomy
+anatomy,partof,dissection
+anatomy,isa,regional anatomy
+cardiovascular system,haspart,blood vessel
+respiratory system,isa,system
+lymphatic system,isa,system
+body,haspart,region
+heart,haspart,blood vessel
+spinal cord,connectswith,brain
+pelvis,partof,abdomen
+body,haspart,system
+region,partof,body
+gastrointestinal system,isa,system
+blood vessel,partof,heart
+nerves,partof,thorax
+brain,connectswith,spinal cord
+nervous system,isa,system
+bones,partof,thorax
+muscles,partof,thorax
+thorax,isa,structures
+toes,arepartof,foot
+eye,connectswith,ear
+thumb,isfollowedby,index finger
+foot,haspart,toes
+anatomical position,ispartof,body
+posterior,isoppositeof,anterior
+anterior,isoppositeof,posterior
+coronal plane,hasposteriorpart,posterior
+body,hasanatomicalposition,anatomical position
+index finger,follows,thumb
+ear,connectswith,eye
+sternum,partof,vertebralcolumn
+mediansagittalplane,instanceof,plane
+inferior,oppositeof,superior
+sagittalplane,haspart,externalear
+coronalplane,oppositeof,sagittalplane
+cranial,haspart,caudal
+superior,oppositeof,inferior
+kneejoint,connectswith,hipjoint
+sagittalplane,oppositeof,coronalplane
+hipjoint,connectswith,kneejoint
+transverse,subclassof,plane
+caudal,partof,cranial
+externalear,partof,sagittalplane
+anterior,oppositeof,posterior
+nose,partof,sagittalplane
+littlefinger,connectswith,thumb
+posterior,oppositeof,anterior
+thumb,connectswith,littlefinger
+deep,issameas,superficial
+head,haspart,nose
+elbow joint,ispartof,hand
+linear structure,haspart,branch
+forebrain,isoppositeof,hindbrain
+abdominal wall,connectswith,stomach
+branch,ispartof,linear structure
+nose,ispartof,head
+superficial,issameas,deep
+distal branch,opposite,proximal branch
+cranial,connectswith,caudal
+caudal,connectswith,cranial
+superior,opposite,inferior
+surface,ispartof,body
+sternum,connectswith,heart
+hindbrain,isoppositeof,forebrain
+stomach,connectswith,abdominal wall
+proximal,opposite,distal
+heart,connectswith,sternum
+inferior,opposite,superior
+glenohumeral joint,connectswith,elbow joint
+proximal branch,opposite,distal branch
+elbow joint,connectswith,glenohumeral joint
+hand,haspart,elbow joint
+distal,opposite,proximal
+deep structures,isa,structure
+deep,isa,fascia
+deep wound,isoppositeof,superficial wound
+wilhelm roentgen,practiced,radiographic exposure
+bone,isdifferentfrom,fat
+viscera,partof,deep structures
+attenuated,issameas,reduced energy
+deep fascia,partof,superficial region
+superficial region,partof,deep fascia
+radiographic exposure,discoveredby,wilhelm roentgen
+superficial wound,isoppositeof,deep wound
+superficial fascia,partof,skin
+reduced energy,issameas,attenuated
+fat,isdifferentfrom,bone
+superficial,isa,region
+x ray tube,issubclassof,cathode ray tube
+bowel,haspart,lumen
+lumen,partof,bowel
+x ray,partof,air
+ureter,isa,urinary system
+intravenous,isdifferentfrom,intra arterial
+kidneys,isa,urinary system
+urinary system,haspart,bladder
+arteries,connectswith,veins
+intra arterial,istypeof,contrast agent
+intravenous,istypeof,contrast agent
+intra arterial,isdifferentfrom,intravenous
+veins,connectswith,arteries
+veins,partof,circulation
+arteries,partof,circulation
+circulation,haspart,arteries
+ultrasonography,practices,studying
+precontrast,opposite,postcontrast
+circulation,haspart,veins
+postcontrast,opposite,precontrast
+display panel,partof,computer
+computer,haspart,display panel
+negative,oppositeof,inverted
+inverted,oppositeof,negative
+vessels,partof,circulation
+ultrasonography,practices,body
+ultrasound,isa,sound wave
+musculoskeletal system,haspart,soft tissues
+ultrasound,studies,probes
+probes,practices,ultrasound
+blood vessel,ispartof,blood flow
+ultrasound,hassubclass,doppler ultrasound
+doppler ultrasound,isa,ultrasound
+fetus,partof,pregnantwomen
+stomach,connectswith,esophagus
+soft tissues,partof,musculoskeletal system
+pregnantwomen,partof,fetus
+returned,iscausedby,sound wave
+esophagus,connectswith,stomach
+sound wave,causes,returned
+stomach,connectswith,duodenum
+prostate hypertrophy,isa,prostate
+duodenum,connectswith,stomach
+blood flow,haspart,blood vessel
+prostate,hassubclass,prostate hypertrophy
+image,causedby,computer
+computer,haseffect,image
+x ray tube,isa,image
+contrast,subclassof,imaging
+brain,haspart,cerebrospinalfluid
+extracellularfluid,oppositeof,intracellularfluid
+intracellularspace,oppositeof,extracellularspace
+csf,partof,brain
+extracellularspace,oppositeof,intracellularspace
+cerebrospinalfluid,partof,brain
+t weightedimages,followedby,t weightedimages
+brain,haspart,csf
+intracellularfluid,oppositeof,extracellularfluid
+urinary tract,partof,body
+bone,partof,skeleton
+atom,haspart,nucleus
+absorption,practices,excretion
+excretion,causes,absorption
+nucleus,partof,atom
+skeleton,hasparts,bone
+region,partof,anatomy
+plain radiograph,uses,imaging technique
+anteroposterior,isa,radiograph
+anatomy,studies,region
+foot,partof,hand
+image,isa,plain radiograph
+chest radiography,uses,x ray tube
+radiograph,isa,x ray
+imaging technique,practices,chest radiography
+hand,partof,foot
+ribs,connectswith,diaphragm
+bed,haspart,anteroposterior
+diaphragm,connectswith,ribs
+anteroposterior,partof,bed
+mucosal detail,partof,mucosa
+carbon dioxide,ispartof,air
+large bowel,connectswith,rectum
+urinary tract,haspart,bladder
+films,causedby,contrast medium
+kidneys,partof,urinary tract
+urinary tract,haspart,kidneys
+mucosa,haspart,mucosal detail
+contrast medium,affects,films
+bladder,partof,urinary tract
+rectum,connectswith,large bowel
+air,haspart,carbon dioxide
+urinary tract,haspart,ureter
+stomach,connectswith,large bowel
+ureter,partof,urinary tract
+right side,oppositeof,left side
+contrast,isa,intravenous
+left side,oppositeof,right side
+venous phase,follows,equilibrium phase
+equilibrium phase,followedby,venous phase
+head,partof,axial plane
+clinician,haspart,patient
+nuclearmedicine,studies,radiation
+patient,partof,clinician
+mri,studies,brain
+x ray,hascause,radiation
+brain,studiedby,mri
+dosage,hascause,radiation
+radiation,studiedby,nuclearmedicine
+radiation,haseffect,dosage
+axial skeleton,isa,skeleton
+clinical history,haspart,examination
+mri,isa,imaging
+appendicular skeleton,isa,skeleton
+cranium,partof,skull
+sternum,connectswith,ribs
+examination,partof,clinical history
+ribs,connectswith,sternum
+axial skeleton,oppositeof,appendicular skeleton
+vertebral column,connectswith,ribs
+skull,haspart,cranium
+cartilage,isa,bone
+matrix,partof,cartilage
+fibrocartilage,isa,cartilage
+cartilage,isa,connective tissue
+elastic fiber,isdifferentfrom,collagen
+collagen,isdifferentfrom,elastic fiber
+cartilage,haspart,collagen
+cartilage,haspart,matrix
+shape,usedby,classification of bones
+classification of bones,uses,shape
+humerus,connectswith,femur
+skull,isa,bone
+femur,connectswith,humerus
+skeleton,partof,bone
+femur,partof,skeleton
+humerus,partof,skeleton
+sensory nerve,haspart,fibers
+fibers,partof,sensory nerve
+periosteum,isa,bone
+vascular,partof,bones
+marrow,partof,bone
+bone,partof,periosteum
+synovial joint,haspart,articular cavity
+bony,isdifferentfrom,surface
+articular cavity,partof,joint
+nerves,practices,innervate
+joints,isa,joint
+innervate,partof,nerves
+cartilage,partof,bone
+surface,isdifferentfrom,bony
+articular cavity,partof,synovial joint
+synovial joint,isa,joint
+bone,haspart,cartilage
+cartilage,connectswith,bone
+bone,connectswith,cartilage
+ligament,ispartof,capsule
+tendon,connectswith,joint
+joint,hascomponent,ligament
+capsule,hascomponent,ligament
+articulating surfaces,haspart,articular cavity
+connective tissue,partof,fibrous membrane
+joint,connectswith,tendon
+articular cavity,partof,articulating surfaces
+fibrocartilage,partof,joint
+multiaxial,isoppositeof,uniaxial
+capsule,connectswith,synovial membrane
+joint,hastype,uniaxial
+joint surfaces,connectswith,joint
+joint,haspart,joint surfaces
+synovial membrane,partof,fibrous membrane
+synovial membrane,connectswith,capsule
+fibrous membrane,isa,synovial membrane
+uniaxial,isoppositeof,multiaxial
+synovial joints,isa,joints
+thumb,haspart,carpometacarpal
+carpometacarpal,partof,thumb
+pelvicbone,haspart,pubicsymphysis
+vascular,subclassof,connectivetissue
+body,haspart,organ
+ligament,partof,joint
+radius,connectswith,ulna
+bone,haspart,bonysocket
+teeth,connectswith,bone
+bone,connectswith,teeth
+bone,partof,skull
+skull,haspartsoftheclass,bone
+squamousepithelium,partof,epidermis
+ulna,connectswith,radius
+organ,partof,body
+pubicsymphysis,partof,pelvicbone
+dermis,partof,epidermis
+epidermis,haspart,dermis
+epidermis,haspart,squamousepithelium
+bonysocket,partof,bone
+skin,partof,body
+skin,haspart,dermis
+fascia,isa,connective tissue
+fat,isa,connective tissue
+superficial,isa,fascia
+nerves,haspart,vessel
+dermis,partof,skin
+vessel,haspart,nerves
+superficialfascia,partof,deepfascia
+tendon,haspart,joint
+joint,haspart,tendon
+nerves,practices,muscles
+deepfascia,isa,connectivetissue
+somatic,isa,motor nerve
+skeletal muscle,isa,muscle
+motor nerve,isa,nerve
+muscle tissue,isa,muscle
+organ,haspart,visceral
+body,hasparts,bone
+muscle,isa,muscle tissue
+bone,partof,body
+visceral,partof,organ
+skeletal muscle,instanceof,muscle
+smooth muscle,isa,muscle
+veins,connectswith,capillaries
+cardiovascular system,haspart,heart
+arteries,connectswith,capillaries
+capillaries,connectswith,veins
+cardiacmuscle,partof,myocardium
+smooth muscle,isa,fibers
+myocardium,haspart,cardiacmuscle
+heart,partof,cardiovascular system
+tunicamedia,subclassof,tunics
+elasticfibers,partof,tunicamedia
+tunicamedia,haspart,elasticfibers
+capillaries,partof,vascularsystem
+axillary,subclassof,arteries
+femoral,subclassof,arteries
+tunicaintima,subclassof,tunics
+vascularsystem,haspart,capillaries
+leg,connectswith,forearm
+vein,partof,three classes
+forearm,connectswith,leg
+peripheral vessel,connectswith,heart
+tunica media,partof,tunica externa
+tunica externa,partof,tunica media
+arm,connectswith,forearm
+superior vena cava,connectswith,inferior vena cava
+inferior vena cava,connectswith,superior vena cava
+tunica media,partof,veins
+arteries,differentfrom,vein
+veins,partof,peripheral vessel
+heart,connectswith,peripheral vessel
+tunica externa,isa,smooth muscle
+cardiovascular system,haspart,circulation of blood
+circulation of blood,partof,cardiovascular system
+three classes,haspart,vein
+lymph,instanceof,fluid
+venous,partof,vascular system
+capillaries,partof,lymphatic vessel
+small intestine,haspart,lymphatic vessels
+capillary beds,partof,vascular system
+gut,isa,lymphatic system
+lymphatic system,partof,gut
+lymphatic system,haspart,lymphatic capillaries
+vascular system,haspart,venous
+lymphatic capillaries,partof,venous system
+venous system,haspart,lymphatic capillaries
+small intestine,haspart,interstitial compartment
+interstitial compartment,partof,small intestine
+lymphatic vessels,haspart,lymph
+macrophage,partof,lymphatic vessels
+lymphatic vessels,partof,lymph nodes
+lymph,haspart,lymphatic vessel
+disease,isa,pathology
+lymphatic vessels,haspart,macrophage
+lymph nodes,haspart,lymphatic vessels
+lymph node,partof,lymphatic vessels
+antibody,hascause,antigen
+lymphatic vessel,partof,central nervous system
+antigen,haseffect,antibody
+internal jugular veins,connectswith,brachiocephalic veins
+fluid,haspart,lymphatic vessels
+lymphatic vessels,partof,lymph
+system,partof,digestive system
+clusters,partof,lymph nodes
+trachea,ispartof,thorax
+thorax,partof,trachea
+pathogens,haseffect,entry point
+bronchi,ispartof,thorax
+lymph nodes,haspart,clusters
+lymph,isa,fluid
+brachiocephalic veins,connectswith,internal jugular veins
+system,partof,respiratory system
+digestive system,isa,system
+entry point,affectedby,pathogens
+thorax,partof,bronchi
+enteric system,connectswith,cranial nerve
+plexus,isa,nerve
+brainstem,partof,brain
+nerve,haspart,plexus
+gray matter,isoppositeof,white matter
+white matter,isoppositeof,gray matter
+brain,haspart,brainstem
+cns,isa,nervous system
+cranial nerve,connectswith,enteric system
+spinal cord,connectswith,cranial nerve
+peripheral nervous system,partof,nervous system
+central nervous system,partof,nervous system
+spinal cord,connectswith,vertebral canal
+medulla,partof,midbrain
+spinal cord,partof,cranial cavity
+subarachnoid space,partof,csf
+pons,partof,brainstem
+arachnoid mater,connectswith,dura mater
+csf,partof,subarachnoid space
+brain,partof,cranial cavity
+pons,partof,midbrain
+nervous system,partof,visceral
+nervous system,partof,somatic
+brainstem,isa,medulla
+medulla,haspart,pons
+midbrain,partof,brainstem
+dura mater,connectswith,arachnoid mater
+cranial cavity,haspart,spinal cord
+vertebral canal,connectswith,spinal cord
+cns,haspart,spinal cord
+nervous system,isa,cns
+visceral part,haspart,visceral elements
+somatic part,haspart,innervates
+visceral elements,partof,visceral part
+cns,haspart,neural tube
+cns,partof,nervous system
+innervates,partof,somatic part
+neural tube,partof,cns
+detecting,practices,responding
+responding,isstudiedby,detecting
+nerve cell,partof,neural tube
+motor neuron,isa,neuron
+spinal nerve,isa,cranial nerve
+sensory ganglia,haspart,sensory nerve cell bodies
+neural tube,haspart,posterior aspect
+posterior aspect,partof,neural tube
+sensory nerve cell bodies,partof,sensory ganglia
+neural tube,haspart,nerve cell
+muscle,isa,musculoskeletal system
+cns,connectswith,skeletal muscle
+spinal nerve,partof,spinal cord
+tendon,isa,musculoskeletal system
+periphery,partof,cns
+musculoskeletal system,haspart,tendon
+body,haspart,skin
+skeletal muscle,connectswith,cns
+cns,haspart,periphery
+nerves,partof,spinal cord
+spinal cord,haspart,dermatome
+dermatome,partof,spinal cord
+motor fiber,partof,spinal nerve
+spinal cord,haspart,spinal nerve
+spinal cord,haspart,nerves
+spinal nerve,haspart,motor fiber
+nervoussystem,partof,somaticpart
+sympathetic,partof,autonomicdivision
+somaticpart,partof,nervoussystem
+motor,partof,nervoussystem
+parasympathetic,partof,autonomicdivision
+sensory,partof,nervoussystem
+motor neuron,practices,innervate
+axon,isa,nerve fiber
+vii,isa,cranial nerve
+spinal cord,partof,spinal nerves
+postganglionic motor neuron,partof,axon
+motor fiber,isa,nerve fiber
+ix,isa,cranial nerve
+viscera,connectswith,plexus
+plexus,connectswith,viscera
+spinal nerves,partof,spinal cord
+phenotypic,causedby,developmental
+viscera,partof,body
+developmental,practices,phenotypic
+spinal cord levels,isa,level
+sympathetic,oppositeof,parasympathetic
+sympathetic,isa,motor neuron
+viscera,isa,innervation
+parasympathetic,oppositeof,sympathetic
+parasympathetic,isa,motor neuron
+spinal cord,partof,spinal cord levels
+anteriorrami,partof,spinalnerves
+anteriorrami,connectswith,sympathetictrunks
+ganglion impar,connectswith,coccyx
+spinalnerves,partof,spinalcord
+coccyx,connectswith,ganglion impar
+sympatheticpart,partof,autonomicdivision
+spinalcord,partof,vertebralcolumn
+sympathetictrunks,connectswith,anteriorrami
+vertebralcolumn,haspart,spinalcord
+autonomicdivision,partof,sympatheticpart
+gray ramus communicans,follows,white ramus communicans
+sympathetic trunk,connectswith,paravertebral ganglion
+gray ramus communicans,haspart,anterior ramus
+white ramus communicans,followedby,gray ramus communicans
+paravertebral ganglion,connectswith,sympathetic trunk
+anterior ramus,haspart,gray ramus communicans
+sympathetic part,isapartof,autonomic division
+autonomic division,haspart,sympathetic part
+anterior rami,connectswith,posterior
+paravertebral sympathetic trunk,isapartof,vertebral column
+vertebral column,haspart,paravertebral sympathetic trunk
+posterior,connectswith,anterior rami
+paravertebral ganglia,connectswith,sympathetic trunk
+branches of the plexus,partof,organ
+cranial,partof,spinal cord
+organ,haspart,branches of the plexus
+cervical,partof,spinal cord
+thoracic,partof,spinal cord
+sympathetic trunk,connectswith,paravertebral ganglia
+cranial nerves,arepartsof,central nervous system
+adrenal medulla,ispartof,adrenal gland
+autonomic division of pns,haspart,parasympathetic
+central nervous system,hasparts,cranial nerves
+parasympathetic,ispartof,autonomic division
+abdominal aorta,isa,arteries
+sympathetic,isoppositeof,parasympathetic
+parasympathetic,ispartof,autonomic division of pns
+abdomen,connectswith,pelvis
+adrenal gland,haspart,adrenal medulla
+parasympathetic,isoppositeof,sympathetic
+pelvis,connectswith,abdomen
+autonomic division,haspart,parasympathetic
+pupil,haspart,constrictor muscle
+constrictor muscle,partof,pupil
+ganglia,isa,enteric system
+abdominal,connectswith,pelvic
+viscera,haspart,motor neuron
+enteric system,haspart,ganglia
+pelvic,connectswith,abdominal
+sympathetic fibers,partof,plexus
+postganglionic motor neuron,isa,ganglia
+sympathetic fiber,isfollowedby,visceral sensory fiber
+thorax,connectswith,abdomen
+pelvic viscera,ispartof,colon
+colon,haspart,pelvic viscera
+visceral sensory fiber,haspart,parasympathetic fiber
+motor fiber,isa,fibers
+parasympathetic fiber,ispartof,visceral sensory fiber
+abdomen,connectswith,thorax
+sympathetic fiber,issubclassof,visceral sensory fiber
+visceral sensory fiber,follows,sympathetic fiber
+ganglia,haspart,nerve fibers
+motor,isa,neuron
+gastrointestinal system,haspart,enteric system
+visceral sensory fiber,ispartof,cns
+occipitocervical,connectswith,sacral
+enteric system,ispartof,gastrointestinal system
+sacral,connectswith,occipitocervical
+visceral,isa,nerve plexus
+nerve fibers,partof,ganglia
+somatic,isa,nerve plexus
+plexus,ispartof,enteric system
+sensory,isa,neuron
+coccygeal,connectswith,sacral
+lumbar,connectswith,sacral
+gastrointestinal,isa,respiratory
+anatomical position,isa,plane
+visceral nerve plexus,partof,afferent
+afferent,haspart,visceral nerve plexus
+spinal nerve t,haspart,thoracic spinal nerve
+cervical,connectswith,lumbar
+respiratory,haspart,gastrointestinal
+x ray,practices,cathode ray tube
+figure,isa,list
+thoracic spinal nerve,isa,spinal nerve
+sacral,connectswith,coccygeal
+signal return,causedby,fat
+femoral necks,partof,femoral heads
+coronal plane,partof,brain
+ulna,partof,elbow joint
+femoral heads,partof,femoral necks
+elbow joint,partof,ulna
+fat,haseffect,signal return
+axial skeleton,partof,appendicular skeleton
+abdomen,partof,ultrasound
+marrow,partof,vertebral bodies
+pelvic,haspart,viscera
+abdomen,partof,pelvic
+ultrasound,studies,abdomen
+patella,partof,femoral condyles
+osteophyte,haspart,joint space
+socket,partof,hip
+femoral head,connectswith,hip joints
+hip,haspart,socket
+carpalometacarpal,partof,thumb
+joint,haspart,joint space
+femoral condyles,partof,patella
+fig,isa,figure
+joint space,partof,osteophyte
+hip joints,connectswith,femoral head
+joint space,partof,joint
+gluteal muscle,partof,left hip
+prosthesis,isa,radiograph
+left hip,partof,gluteal muscle
+thumb,haspart,carpalometacarpal
+anteroposterior view,issubclassof,radiograph
+fig,contains,figure
+venous,ispartof,lymphatic vessels
+clusters,arelocatedin,lymph nodes
+clusters,isa,lymph nodes
+veins,ispartof,venous system
+peripheral nervous system,issubsystemof,central nervous system
+cranial cavity,isenclosedby,meninges
+capillary beds,ispartof,vascular system
+central nervous system,hassubsystem,peripheral nervous system
+meninges,covers,cranial cavity
+lymphatic vessels,transports,lymph
+lymphatic vessels,haspart,veins
+spinal cord,haspart,spinal level
+visceral part,partof,nervous system
+epaxial muscles,follows,hypaxial muscles
+posterior,isa,view
+sensory nerves,opposite,motor nerves
+spinal level,partof,spinal cord
+nervous system,haspart,visceral part
+anterior,isa,view
+motor neuron,isa,sensory
+hypaxial muscles,followedby,epaxial muscles
+motor nerves,opposite,sensory nerves
+spinal ganglion,partof,spinal cord
+smooth muscle,connectswith,glands
+spinal cord,haspart,spinal ganglion
+ix,isa,brainstemcranial nerves
+glands,connectswith,smooth muscle
+spinal nerve,partof,thoracic
+autonomic division,partof,pns
+pns,haspart,autonomic division
+sympathetic fibers,partof,spinal nerve
+vii,isa,brainstemcranial nerves
+sympathetic nervous system,connectswith,heart
+paravertebral sympathetic trunk,partof,abdominal and pelvic viscera
+autonomic nerve,haspart,parasympathetic
+abdominal and pelvic viscera,partof,paravertebral sympathetic trunk
+spinalnerve,partof,motor nerve
+parasympathetic,isa,autonomic nerve
+heart,connectswith,sympathetic nervous system
+motor nerve,haspart,spinal nerve
+enteric,isa,nervous system
+nerve,practices,connects with
+fig,isa,list
+nerve,practices,plexus
+dosage,isa,facet
+clitoris,isa,part of
+plexus,practices,connects with
+sacral plexusanterior rami,practices,lumbar plexusanterior rami
+plexus,practices,nerve
+lumbar plexusanterior rami,practices,connects with
+clitoris,isa,penis
+enteric,isa,part of
+penis,haspart,clitoris
+sacral plexusanterior rami,practices,connects with
+nervous system,haspart,enteric
+lumbar plexusanterior rami,practices,sacral plexusanterior rami
+patella,isinstanceof,tendon
+genetic factors,affects,disease states
+big toe,connectswith,thumb
+puberty,precedes,skeletally mature adult
+pain,practices,physiotherapy
+skeletally mature adult,follows,puberty
+thumb,connectswith,big toe
+physiotherapy,treats,pain
+fracture,isstudiedby,imaging
+hand,connectswith,foot
+anatomy,studies,bones
+foot,connectswith,hand
+disease states,causedby,genetic factors
+skeleton,isa,anatomy
+medulla,partof,long and flat bone
+mri,isa,radiograph
+long and flat bone,haspart,medulla
+age,facetof,bone
+red blood cell,haspart,white blood cell
+skeletal bone age,differentfrom,age
+bone marrow,partof,clinic
+age,differentfrom,skeletal bone age
+white blood cell,isa,red blood cell
+clinic,haspart,bone marrow
+blood clot,haspart,vessel
+heal,practices,fracture
+vessel,partof,blood clot
+prosthesis,isa,femoral head
+clinic,differentfrom,clinic
+head,partof,bone
+bone,haspart,shaft
+shaft,partof,bone
+forceanalysis,studies,biomechanical
+fissured,isa,thickening
+thickening,hassubclass,fissured
+unitedstates,islocatedin,country
+biomechanical,practices,forceanalysis
+biology,studies,aging
+cysts,isa,synovialfluid
+aging,isa,process
+process,isstudiedby,biology
+juxta,isa,bonynodule
+jointdisruption,haseffect,abnormalstresses
+synovialfluid,hassubclass,cysts
+relatedaging,isdifferentfrom,aging
+jointdisease,isa,rheumatoidarthritis
+aging,isdifferentfrom,relatedaging
+country,islocatedin,unitedstates
+jointdisease,isa,disease
+bonynodule,hassubclass,juxta
+abnormalstresses,causes,jointdisruption
+rheumatoidarthritis,isa,jointdisease
+shoulder,instanceof,joint
+pain,locationis,joint
+discomfort,isdifferentfrom,pain
+pain,isdifferentfrom,discomfort
+hip,instanceof,joint
+joint,haspart,menisci
+cruciate ligament,isa,ligament
+ligament,connectswith,cruciate ligament
+menisci,isa,ligament
+structures,partof,tissues
+tissues,haspart,structures
+femoral,connectswith,femur
+femur,connectswith,femoral
+pain,studies,surgery
+three d structure,haspart,tissue
+tissue,partof,three d structure
+psoasfascia,connectswith,psoasmuscle
+psoasmuscle,connectswith,psoasfascia
+musclegroup,haspart,muscle
+spinalcord,connectswith,brain
+brain,connectswith,spinalcord
+muscle,partof,musclegroup
+atherosclerosis,isinstanceof,disease
+plate fissuring,haseffect,occlusion
+muscle atrophy,practices,muscle building exercises
+inflammatory reaction,haseffect,cholesterol deposition
+cholesterol deposition,hascause,inflammatory reaction
+occlusion,hascause,plate fissuring
+muscle building exercises,haseffect,muscle atrophy
+vessel,haseffect,atherosclerosis
+myocardialinfarction,hascause,acutevesselthrombosis
+arm,haspart,vein
+acutevesselthrombosis,haseffect,myocardialinfarction
+atherosclerosis,hascause,vessel
+vein,partof,arm
+heart,connectswith,veins
+veins,connectswith,heart
+deep system,haspart,varicose veins
+perfusing,practiceson,tissue
+tissue,ispracticedby,perfusing
+varicose veins,partof,deep system
+radial,connectswith,ulnar arteries
+venous,connectswith,vein
+vein,connectswith,venous
+ulnar arteries,connectswith,radial
+celiac trunk,connectswith,duodenum
+duodenum,connectswith,celiac trunk
+lymph node,partof,lymphatics
+inflammatory mediators,haseffect,tender
+tender,iscausedby,inflammatory mediators
+carotid arteries,connectswith,vertebral arteries
+vertebral arteries,connectswith,carotid arteries
+lymphatics,haspart,lymph nodes
+high output region,isoppositeof,low output region
+pain,causes,sensory
+low output region,isoppositeof,high output region
+sensory output,causedby,neuron
+visceral part of nervous system,isoppositeof,somatic side of nervous system
+neuron,causes,sensory output
+sensory,haseffect,pain
+somatic side of nervous system,isoppositeof,visceral part of nervous system
+innervated,isa,spinal cord
+appendix,haspart,abdominal surgeon
+iliac fossa,connectswith,peritoneum
+spinal cord,haspart,t vertebra
+t vertebra,isa,dermatome
+abdominal surgeon,studies,appendix
+parietal peritoneum,connectswith,iliac fossa
+iliac fossa,connectswith,parietal peritoneum
+peritoneum,connectswith,iliac fossa
+t vertebra,isa,vertebra
+skull,isa,bony element
+appendix,partof,structures
+bowel,connectswith,pelvis
+ribs,connectswith,vertebrae
+pelvic bone,isa,bony element
+spinal cord,haspart,spinal nerves
+vertebra,isa,bony element
+pelvis,connectswith,bowel
+structures,haspart,appendix
+vertebra,connectswith,ribs
+spinal nerves,isa,nerve
+rib,isa,bony element
+pelvis,connectswith,skull
+vertebra,haspart,rib
+skull,connectswith,pelvis
+rib,haspart,vertebra
+appendix,connectswith,ureter
+ureter,connectswith,appendix
+thoracic,partof,vertebral column
+lumbar,partof,vertebral column
+vertebral column,haspart,lumbar
+sacral,partof,vertebral column
+body,haspart,vertebral column
+upper limbs,partof,lower limbs
+vertebral column,haspart,sacral
+spine,connectswith,vertebral column
+lower limbs,partof,upper limbs
+extrinsic,partof,muscle of the back
+lumbar regions,connectswith,cervical
+cervical,partof,vertebral column
+intrinsic,partof,muscle of the back
+vertebral column,connectswith,spine
+cervical,connectswith,lumbar regions
+cervical,isa,vertebra
+coccygeal,isa,vertebra
+vertebrae,partof,cervical region
+vertebrae,partof,vertebral column
+thoracic,isa,vertebra
+vertebral column,haspart,anterior regions
+sacrum,connectswith,sacral vertebrae
+head,partof,body
+anterior regions,partof,vertebral column
+lumbar part,oppositeof,thoracic region
+lumbar,isa,vertebra
+vertebral body,haspart,vertebral arch
+vertebral column,haspart,vertebrae
+body region,haspart,vertebrae
+cervical region,haspart,vertebrae
+sacral vertebrae,connectswith,sacrum
+thoracic region,oppositeof,lumbar part
+vertebral arch,partof,vertebral body
+vertebrae,partof,body region
+cii,connectswith,ci
+sacral,isa,vertebra
+coccyx,connectswith,vertebrae
+vertebrae,connectswith,coccyx
+vertebrae,isa,bone
+ci,connectswith,cii
+spinous process,partof,vertebral arch
+lv,connectswith,cii
+cervical vertebra,partof,vertebral canal
+vertebral body,partof,bone
+vertebrae,connectswith,vertebral bodies
+superior articular process,oppositeof,inferior articular process
+bone,haspart,vertebral arch
+cii,connectswith,lv
+lamina,connectswith,pedicle
+vertebral arch,partof,laminae
+pedicle,connectswith,lamina
+vertebral bodies,connectswith,vertebrae
+sacral vertebra,partof,vertebral canal
+ligament,partof,muscle
+posterior rami,partof,spinal nerves
+ribs,partof,vertebral column
+spinal nerves,haspart,anterior rami
+extrinsic,differentfrom,intrinsic
+head,partof,vertebral column
+anterior rami,partof,spinal nerves
+vertebral column,partof,ribs
+upper limb,partof,thoracic wall
+vertebral column,partof,head
+spinal nerves,haspart,posterior rami
+rib,partof,vertebral bodies
+ligament,partof,vertebral arches
+thoracic wall,partof,upper limb
+vertebral bodies,partof,ribs
+intrinsic,differentfrom,extrinsic
+spinalcord,haspart,piamater
+venousplexus,connectswith,extradural
+meninges,partof,spinalcord
+pedicles,connectswith,vertebrae
+posteriorramus,followedby,anteriorramus
+duramater,oppositeof,arachnoidmater
+anteriorramus,follows,posteriorramus
+anteriorroot,follows,posteriorroot
+spinalcord,haspart,meninges
+extradural,connectswith,venousplexus
+subarachnoidspace,haspart,cerebrospinalfluid
+arachnoidmater,oppositeof,duramater
+cerebrospinalfluid,partof,subarachnoidspace
+posteriorroot,followedby,anteriorroot
+piamater,partof,spinalcord
+vertebrae,connectswith,pedicles
+thoracic,connectswith,lumbar
+brachial,connectswith,lumbar
+thorax,partof,thorax abdomen pelvis
+brain,connectswith,skull
+brain,connectswith,cervical vertebrae
+fascia,partof,muscle
+muscular framework of neck,partof,skeletal
+skeletal,haspart,muscular framework of neck
+anterior rami,isa,spinal nerve
+spinal cord,connectswith,skull
+thorax abdomen pelvis,haspart,thorax
+skull,connectswith,spinal cord
+cervical vertebrae,connectswith,brain
+cervical region,partof,skeletal
+vertebral arches,connectswith,pedicles
+lumbar,isa,spinal nerve
+intervertebral foramen,partof,vertebral canal
+vertebral column,connectswith,spinal cord
+sacrum,connectswith,pelvic bone
+cervical,isa,vertebral column part
+spinal cord,connectswith,vertebral column
+ci,connectswith,co
+co,connectswith,ci
+sacral,isa,spinal nerve
+pelvic bone,connectswith,sacrum
+upperlimbs,partof,trunk
+lumbosacral,isa,vertebral column part
+vertebral column,haspart,lumbosacral
+disc,connectswith,spinal cord
+trunk,haspart,upperlimbs
+pedicles,connectswith,vertebral arches
+zygapophysial joint,partof,articular processes
+vertebra,connectswith,vertebral bodies
+skull,partof,bony framework of the back
+skull,connectswith,thorax
+vertebra,connectswith,intervertebral disc
+joint,haspart,vertebral arches
+gluteal region,partof,lower limb
+lower limb,haspart,gluteal region
+intervertebral disc,connectswith,vertebra
+pelvic bone,partof,bony framework of the back
+articular processes,haspart,zygapophysial joint
+posterior rami,partof,spinal nerve
+bony framework of the back,haspart,ribs
+scapulae,partof,bony framework of the back
+vertebral arches,partof,joint
+vertebral bodies,connectswith,vertebra
+spinal nerve,haspart,posterior rami
+ribs,partof,bony framework of the back
+thorax,connectswith,skull
+muscle attachment,isa,articulation
+lumbar vertebrae,opposite,thoracic vertebrae
+pelvic bone,partof,pelvic wall
+vertebra,connectswith,somites
+vertebra,isa,vertebral body
+coccyx,connectswith,coccygeal vertebrae
+coccygeal vertebrae,connectswith,coccyx
+pelvic wall,haspart,pelvic bone
+somites,connectswith,vertebra
+thoracic region,partof,rib
+rib,partof,thoracic region
+vertebrae,partof,laminae
+ligament,haspart,muscle
+spinal cord,partof,vertebral canal
+vertebra,partof,vertebral bodies
+vertebral foramen,partof,vertebral arch
+vertebral arch,partof,vertebral foramen
+laminae,partof,vertebral arch
+bifid,isa,spinous process
+axis,partof,cervical vertebrae
+atlas,partof,cervical vertebrae
+ci,isa,dens of cii
+cervical vertebra,isa,vertebra
+dens of cii,follows,cii
+anterior arch,follows,posterior arch
+vertebra ci,partof,atlas
+cii,partof,ci
+atlas,haspart,vertebra ci
+transverse process,haspart,transversarium
+ci,partof,cii
+cii,isa,dens of cii
+superior surface,oppositeof,inferior surface
+transversarium,partof,transverse process
+cii,haspart,dens of cii
+transverse process,partof,cervical vertebrae
+inferior surface,oppositeof,superior surface
+cervical vertebrae,haspart,axis
+cervical vertebrae,partof,transverse process
+vertebral column,connectswith,head
+anterior arch,partof,atlas
+atlanto axial joints,connectswith,cervical vertebrae
+atlas,haspart,anterior arch
+transverse ligament,isa,ligament
+cervical vertebrae,connectswith,atlanto axial joints
+superior articular process,partof,cii
+inferior articular surface,opposite,superior articular surface
+cii,haspart,superior articular process
+superior articular surface,opposite,inferior articular surface
+head,connectswith,vertebral column
+atlas,partof,transverse ligament
+alar ligament,partof,occipital condyles
+axis,partof,head
+tubercle,partof,rib
+vertebra,connectswith,vertebral body
+vertebral body,connectswith,vertebra
+rib,connectswith,thoracic vertebra
+thoracic vertebra,connectswith,rib
+inferior costal facet,oppositeof,superior costal facet
+lumbar vertebra,oppositeof,thoracic vertebra
+superior costal facet,oppositeof,inferior costal facet
+thoracic vertebrae,connectswith,rib
+thoracic vertebra,oppositeof,lumbar vertebra
+lumbar vertebrae,isa,vertebrae
+occipital condyles,haspart,alar ligament
+rib,connectswith,thoracic vertebrae
+vertebrae,connectswith,intervertebral disc
+vertebral canal,connectswith,spinal nerve
+inferior end,ispartof,sacrum
+sacrum,connectswith,coccygeal vertebrae
+anterior surface,opposite,posterior surface
+coccygeal vertebrae,connectswith,sacrum
+intervertebral disc,connectswith,vertebrae
+coccyx,ispartof,vertebra lv
+sacrum,haspart,inferior end
+sacrum,connectswith,vertebrae
+vertebrae,connectswith,sacrum
+vertebral canal,opposite,vertebral arches
+spinal nerve,connectswith,vertebral canal
+posterior surface,opposite,anterior surface
+vertebra lv,ispartof,coccyx
+pelvic bone,isa,articulation
+symphyses,isa,joints between vertebrae in the back
+synovial joints,isa,joints between vertebrae in the back
+vertebral column,haspart,flexion
+ligament,isa,bone
+intervertebral disc,isa,vertebral bodies
+superior vertebral notch,partof,inferior vertebral notch
+laminae,partof,spinous processes
+spinous processes,haspart,laminae
+vertebra li,connectswith,vertebra lv
+structures,partof,pathology
+vertebra lv,connectswith,vertebra li
+inferior vertebral notch,partof,superior vertebral notch
+lumbar region,connectswith,vertebral arches
+vertebral arches,connectswith,lumbar region
+pathology,studies,structures
+anulus fibrosus,connectswith,pulposus
+intervertebral disc,partof,vertebrae
+vertebrae,partof,intervertebral disc
+symphysis,partof,anulus fibrosus
+vertebrae,practices,rotation
+lumbar,connectswith,thoracic
+pulposus,connectswith,anulus fibrosus
+joint,isa,synovialjoints
+synovialjoints,partof,vertebralcolumn
+intervertebral disc,isa,symphysis
+intervertebral foramen,connectswith,spinal nerve
+rotation,oppositeof,flexion
+facet,partof,capsule
+vertebral bodies,connectswith,vertebral arches
+anulusfibrosus,partof,nucleuspulposus
+vertebra,connectswith,synovial joints
+synovial joints,connectswith,vertebra
+vertebral bodies,haspart,vertebral column
+nucleuspulposus,partof,anulusfibrosus
+vertebral column,partof,vertebral bodies
+vertebral arches,connectswith,vertebral bodies
+spinalnerve,connectswith,intervertebral foramen
+ligamenta flava,connectswith,laminae
+cvii,isa,vertebral spinous processes
+skull,connectswith,sacrum
+vertebral bodies,haspart,vertebral canal
+laminae,ispartof,vertebrae
+intervertebral discs,connectswith,vertebral bodies
+vertebral bodies,connectswith,intervertebral discs
+cvii,isinstanceof,vertebra
+vertebral canal,partof,vertebral bodies
+laminae,connectswith,ligamenta flava
+lamina,ispartof,vertebra
+sacrum,connectswith,skull
+posterior surface,ispartof,vertebral canal
+superficial,isa,muscle
+head,partof,anatomical position
+ligamenta flava,connectswith,supraspinous ligament
+ribs,partof,respiratory
+muscle,haspart,ligament
+ci,isa,cervical vertebrae
+extrinsic muscle,isa,muscle
+skull,partof,occipital protuberance
+vertebral spinous processes,connectswith,interspinous ligament
+deep,isa,muscle
+anatomical position,partof,head
+interspinous ligament,connectswith,vertebral spinous processes
+spinal nerves,hassubclass,anterior rami
+mediansagittalplane,partof,ligamentum nuchae
+supraspinous ligament,connectswith,ligamenta flava
+head,partof,ligamentum nuchae
+skull,isa,cranium
+respiratory,partof,ribs
+occipital protuberance,partof,skull
+cvii,isa,vertebra
+trapezius,connectswith,levator scapulae
+latissimus dorsi,connectswith,rhomboid minor
+muscle,subclassof,trapezoid
+rhomboid major,connectswith,trapezius
+vertebral column,connectswith,shoulder
+rib,isa,bone
+appendicular group,partof,appendicular skeleton
+muscle,connectswith,trapezius
+rhomboid major,connectswith,rhomboid minor
+levator scapulae,connectswith,trapezius
+trapezoid,partof,muscles
+trapezius,connectswith,latissimus dorsi
+joint,connectswith,vertebral column
+bone,connectswith,rib
+vertebral column,connectswith,rib
+muscle,isa,intrinsic muscle
+intrinsic muscle,partof,muscle
+rib,connectswith,vertebral column
+appendicular skeleton,haspart,appendicular group
+shoulder,isa,joint
+rhomboid minor,connectswith,rhomboid major
+vertebral column,haspart,head
+skin,haspart,superficial fascia
+skull,connectswith,vertebral column
+superior fibers,oppositeof,inferior fibers
+dorsal branches,partof,posterior intercostal arteries
+latissimus dorsi,isinstanceof,muscle
+latissimus dorsi,connectswith,shoulder
+shoulder,connectswith,latissimus dorsi
+posterior intercostal arteries,haspart,dorsal branches
+vertebral column,partof,clavicle
+clavicle,partof,vertebral column
+spinal cord,haspart,cervical plexus
+cervical plexus,partof,spinal cord
+inferior fibers,oppositeof,superior fibers
+scapula,isa,muscle
+anterior rami,partof,spinal nerve
+levator scapulae,connectswith,rhomboid muscles
+cervical vertebrae,connectswith,scapula
+ti,connectswith,cvii
+rhomboid major,follows,rhomboid minor
+rhomboid minor,isfollowedby,rhomboid major
+posterior intercostal,connectswith,lumbar arteries
+rhomboid muscles,connectswith,levator scapulae
+scapula,connectswith,cervical vertebrae
+lumbar arteries,connectswith,posterior intercostal
+cvii,connectswith,ti
+respiratory group,isa,respiratory function
+respiratory function,haspart,respiratory group
+latissimus dorsi,connectswith,rhomboid muscles
+vertebral column,connectswith,scapula
+ribs,connectswith,vertebral column
+rhomboid muscles,connectswith,latissimus dorsi
+brachial plexus,haspart,dorsal scapular nerve
+ribs,isa,muscle
+dorsal scapular nerve,ispartof,brachial plexus
+scapula,connectswith,vertebral column
+fascial layer,partof,organization
+organization,haspart,fascial layer
+spinal nerves,isa,posterior rami
+serratus posterior muscle,connectswith,fascia
+transverse cervical,connectswith,occipital
+transversospinales,partof,cervical column
+cervical column,haspart,transversospinales
+intercostal nerves,connectswith,anterior rami
+back,connectswith,trunk
+erector spinae,partof,cervical column
+occipital,connectswith,cervical
+thoracic vertebrae,partof,ribs
+vertebral,connectswith,transverse cervical
+fascia,connectswith,serratus posterior muscle
+ribs,partof,thoracic vertebrae
+anteriorrami,connectswith,intercostal nerves
+cervical,connectswith,transverse cervical
+trunk,connectswith,back
+iliac crest,partof,pelvis
+lumbar vertebrae,partof,vertebral column
+lumbar vertebrae,connectswith,sacral vertebrae
+latissimus dorsi,connectswith,thoracolumbar fascia
+rib xii,partof,abdominal wall
+sacral vertebrae,partof,vertebral column
+thoracolumbar fascia,partof,erector spinae
+lumbar,connectswith,thoracicvertebrae
+ribs,connectswith,cervicalvertebrae
+thoracicvertebrae,connectswith,lumbar
+erectorspinae,subclassof,backmuscles
+vertebralcolumn,connectswith,ribs
+cervicalvertebrae,connectswith,ribs
+head,connectswith,neck
+mastoidprocess,partof,temporalbone
+cervicalvertebrae,subclassof,transverseprocesses
+neck,connectswith,head
+occipitalbone,partof,temporalbone
+temporalbone,haspart,mastoidprocess
+ribs,connectswith,vertebralcolumn
+unilateral contractions,oppositeof,bilateral contraction
+unilateral,oppositeof,lateral
+vertebrae,partof,transverse processes
+spinalis,partof,vertebrae
+bilateral contraction,oppositeof,unilateral contractions
+cervical region,oppositeof,thoracic region
+vertebrae,partof,spinalis
+flexed position,oppositeof,upright position
+lateral,oppositeof,unilateral
+upright position,oppositeof,flexed position
+thoracic region,oppositeof,cervical region
+erector spinae,haspart,semispinalis capitis
+vertebrae,partof,vertebralcolumn
+multifidus,partof,erectorspinae
+occipitalbone,partof,skull
+erectorspinae,haspart,rotatores
+rotatores,partof,erectorspinae
+multifidus,haspart,semispinalis
+spinousprocesses,connectswith,transversospinales
+skull,connectswith,thoracicregion
+lumbarregion,partof,vertebralcolumn
+transverseprocesses,connectswith,transversospinales
+skull,haspart,occipitalbone
+semispinalis,partof,multifidus
+vertebralcolumn,haspart,vertebrae
+vertebralcolumn,haspart,lumbarregion
+transversospinales,connectswith,spinousprocesses
+semispinalis,partof,erectorspinae
+thoracicregion,connectswith,skull
+spinous process,followedby,transverse process
+transverse process,follows,spinous process
+transverse processes,oppositeof,spinous processes
+unilateral contraction,oppositeof,bilaterally
+bilaterally,oppositeof,unilateral contraction
+semispinalis capitis,partof,transversospinales
+erector spinae,isa,transversospinales
+spinous processes,oppositeof,transverse processes
+rib,connectswith,tubercle
+cervical region,haspart,occipital bone
+occipital bone,partof,cervical region
+txi,connectswith,cvii
+cvii,connectswith,txi
+tubercle,connectswith,rib
+suboccipital muscle,isa,muscle
+obliquus capitis inferior muscle,partof,inferior border
+vertebra liv,connectswith,vertebra liii
+ci,connectswith,spinal cord
+occipital arteries,connectswith,vertebral
+suboccipital triangle,haspart,suboccipital muscle
+posteriorramus,haspart,cervicalnerve
+conus medullaris,connectswith,filum terminale
+filum terminale,connectswith,conus medullaris
+spinal cord,connectswith,ci
+vertebral,connectswith,occipital arteries
+obliquus capitis superior muscle,partof,lateral border
+rectus capitis posterior major muscle,partof,medial border
+vertebra liv,connectswith,spinal cord
+vertebra liii,connectswith,spinal cord
+spinal cord,connectswith,vertebra liv
+inferior border,haspart,obliquus capitis inferior muscle
+suboccipital muscle,partof,suboccipital triangle
+lateral border,haspart,obliquus capitis superior muscle
+cervicalnerve,partof,posteriorramus
+medial border,haspart,rectus capitis posterior major muscle
+anterior,connectswith,posterior roots
+medullary arteries,connectswith,spinal arteries
+vertebral,isinstanceof,level
+posterior radicular arteries,followedby,anterior
+anterior,follows,posterior radicular arteries
+spinal cord,haspart,arterial supply
+spinal arteries,connectswith,medullary arteries
+abdomen,connectswith,lumbar arteries
+lumbar arteries,connectswith,abdomen
+posterior roots,connectswith,anterior
+spinalcord,connectswith,thoracic
+thoracic,partof,spinalcord
+bone,haspart,sii
+vertebral canal,partof,extradural
+spinal cord,haspart,filum terminale
+filum terminale,partof,spinal cord
+pia mater,partof,subarachnoid space
+sii,isa,vertebral body
+spinal nerve,practices,innervation
+vertebra,isa,bone
+pia mater,partof,arachnoid trabeculae
+pia mater,haspart,arachnoid trabeculae
+blood vessel,haspart,subarachnoid space
+spinal cord,connectswith,subarachnoid space
+subarachnoid space,partof,pia mater
+arachnoid trabeculae,isa,arachnoid mater
+subarachnoid space,connectswith,spinal cord
+arachnoid mater,partof,arachnoid trabeculae
+mater,partof,arachnoid
+spinal cord,haspart,rootlets
+dura mater,connectswith,arachnoid
+spinal cord,studies,subarachnoid space
+subarachnoid space,isstudiedby,spinal cord
+root,haspart,rootlet
+rootlets,partof,spinal cord
+rootlet,partof,root
+arachnoid,connectswith,dura mater
+arachnoid,haspart,mater
+vertebral plexus,partof,vertebral canal
+thoracic,partof,back
+lumbar,partof,back
+vertebral canal,partof,vertebral plexus
+ligamenta flava,isa,ligament
+back,haspart,lumbar
+subarachnoid space,haspart,csf
+posterior ramus,followedby,anterior ramus
+central nervous system,haspart,spinal cord
+cns,partof,central nervous system
+anterior ramus,follows,posterior ramus
+spinal cord,partof,cns
+lumbar,studies,structures
+sacral,partof,spinal cord
+spinal cord,haspart,vertebral canal
+sacral,studies,structures
+anterior,isa,spinalnerve
+dura,partof,ligament
+brachial,partof,spinal cord
+posterior,isa,spinalnerve
+lumbar,partof,spinal cord
+spinal nerve,haspart,spinal cord
+vertebral canal,partof,spinal cord
+ligament,partof,dura
+coccygeal,partof,spinal cord
+spinalcord,connectswith,vertebralcolumn
+vertebralcolumn,connectswith,spinalcord
+skull,connectswith,vertebraci
+sacralnerve,subclassof,spinalnerve
+skin,partof,muscle
+cervicalnerve,subclassof,spinalnerve
+muscle,haspart,skin
+vertebraci,connectswith,skull
+lateralcurvatures,oppositeof,absenceoflateralcurvatures
+absenceoflateralcurvatures,oppositeof,lateralcurvatures
+iliac crest,connectswith,scapula
+vertebral column,haspart,scapula
+anterior superior iliac spine,precedes,posterior superior iliac spine
+spine,connectswith,scapula
+vertebral column,partof,lumbar
+thoracic,isa,vertebral column
+lumbar,isa,bony
+sacral,isa,vertebral column
+scapula,connectswith,iliac crest
+scapula,connectswith,spine
+posterior superior iliac spine,follows,anterior superior iliac spine
+cervical,isa,vertebral column
+ligamentum nuchae,connectswith,cvi
+tiii,connectswith,tvii
+lv,isa,vertebral spinous process
+cvii,isa,vertebral spinous process
+vertebra liv,connectswith,iliac crest
+iliac crest,connectswith,vertebra liv
+tvii,connectswith,tiii
+cvii,isa,spinous process
+ti,isa,spinous process
+cvi,connectswith,ligamentum nuchae
+thoracic,connectswith,vertebral body
+vertebral bodies,haspart,vertebral spinous processes
+vertebral body,partof,thoracic
+spinal cord,isin,vertebral canal
+posterior superior iliac spine,connectswith,sii vertebral spinous process
+sii vertebral spinous process,partof,vertebral column
+vertebral column,haspart,coccyx
+coccyx,isa,vertebral column part
+trapezius muscle,connectswith,rhomboid muscles
+lumbar vertebral spinous processes,connectswith,spinal cord
+harvard university,haspart,john f kennedy school of government
+rhomboid muscles,connectswith,trapezius muscle
+lumbar region,connectswith,vertebral bodies
+vertebral bodies,connectswith,lumbar region
+muscle,isa,intrinsic
+john f kennedy school of government,ispartof,harvard university
+muscle,isa,erector spinae
+spinalcord,connectswith,lumbar vertebral spinous processes
+muscle,isa,extrinsic
+latissimus dorsi,connectswith,trapezius
+back,isa,vertebrae
+lumbar region,connectswith,abdomen
+vertebral canal,haspart,length
+superior,connectswith,a a
+extrinsic muscle,isa,a a
+posterior rami,partof,cranial nerve
+fig,partof,figure
+spinal cord,connectswith,cervical region
+abdomen,connectswith,lumbar region
+anterior rami,partof,cranial nerve
+cranial nerve,haspart,anterior rami
+lateral,subclassof,view
+vertebra,isa,vertebra
+cervical region,connectswith,spinal cord
+back muscles,haspart,length
+vertebralcolumn,haspart,thoracicregion
+spinalganglion,haspart,iiduramater
+rib,connectswith,vertebrae
+vertebralcolumn,haspart,cervicalregion
+iiduramater,partof,spinalganglion
+atlas,haspart,axis
+cii,isa,vertebrae
+ci,isa,vertebrae
+ciiden,haspart,ci
+ci,partof,ciiden
+figure,partof,fig
+transverse process,partof,transversarium
+transversarium,haspart,transverse process
+axis,partof,atlas
+vertebrae,practices,spine
+spine,practices,vertebral column
+transverse process,partof,lv vertebra
+lumbar region,partof,vertebral column
+vertebral bodies,isa,cervical vertebra
+cervical vertebrae,haspart,sacral vertebra
+vertebral column,partof,lumbar region
+spinous process,haspart,laminae
+bone,borderswith,bone
+sacral vertebra,partof,cervical vertebrae
+anteroposterior view,partof,radiograph
+vertebral column,haspart,lumbar region
+lumbar region,haspart,vertebral arches
+ct scan,isa,imaging technique
+laminae,partof,spinous process
+hemivertebra,partof,cervical vertebrae
+uncovertebral joint,connectswith,uncovertebral joint
+lumbar spine,haspart,ligamentum flavum
+lv pars interarticularis,partof,lumbar spine
+superior articular process,connectswith,inferior articular process
+ligamentum flavum,partof,lumbar spine
+nucleus pulposus,connectswith,anulus fibrosus
+supraspinous ligament,connectswith,ligamentum nuchae
+transverse process,connectswith,inferior articular process
+latissimus dorsi,practices,muscle attachment
+lumbar spine,haspart,lv pars interarticularis
+inferior articular process,connectswith,superior articular process
+pedicle,connectswith,transverse process
+anterior,connectswith,posterior longitudinal ligament
+ligamentum nuchae,connectswith,supraspinous ligament
+anulus fibrosus,connectswith,nucleus pulposus
+axial plane,isa,plane
+trapezius,practices,muscle attachment
+posterior longitudinal ligament,connectswith,anterior
+spine of scapula,haspart,iliac crest
+erector spinae,isa,back muscles
+transverse cervical artery,haspart,superficial branch
+superficial branch,partof,transverse cervical artery
+iliac crest,partof,spine of scapula
+deep back muscles,connectswith,thoracolumbar fascia
+latissimus dorsi,isa,back muscle
+dorsal scapular nerve,connectswith,rhomboid major
+thoracolumbar fascia,connectswith,deep back muscles
+fig,listof,figure
+rhomboid minor,isa,back muscle
+rhomboid major,isa,back muscle
+levator scapulae,connectswith,rhomboid major
+rhomboid major,connectswith,levator scapulae
+rhomboid muscles,issubclassof,innervation
+levator scapulae,isa,back muscle
+trapezius,isa,back muscle
+levator scapulae,issubclassof,rhomboid muscles
+rhomboid minor,connectswith,levator scapulae
+suboccipital muscles,partof,back muscles
+backmuscles,isa,suboccipital muscles
+spinal cord,haspart,arteries
+arteries,partof,spinal cord
+spinal nerve,partof,vertebral canal
+anterior spinal artery,isa,veins
+vertebral canal,connectswith,lumbar region
+interspinous ligament,connectswith,supraspinous ligament
+costocervical trunk,isa,veins
+vertebral canal,haspart,spinal nerve
+lumbar region,connectswith,vertebral canal
+supraspinous ligament,connectswith,interspinous ligament
+subclavian artery,isa,veins
+ligamenta flava,connectswith,interspinous ligament
+mri,studies,spine
+ci,isa,ct scan
+d.c,twinnedwith,washington
+iliaccrest,partof,iliacspine
+spinalganglion,haspart,spinalcord
+nomenclatureofthespinalnerves,partof,nomenclatureofthespinalnerves
+nomenclatureofthespinalnerves,isa,nomenclatureofthespinalnerves
+l.a,locatedin,m.a
+spinousprocesses,isa,cvii
+m.a,capitalof,l.a
+back,partof,bony
+washington,twinnedwith,d.c
+bony,haspart,back
+spinousprocesses,isa,ti
+spinalcord,partof,spinalganglion
+women,oppositeof,men
+spinousprocesses,partof,vertebral
+iliacspine,haspart,iliaccrest
+d c,practices,washington
+washington,practices,twinned administrative body with
+back muscles,practices,length
+washington,practices,d c
+erector spinae,isa,muscle
+d c,practices,twinned administrative body with
+rhomboid muscles,partof,scapulae
+spine,partof,scapula
+lumbar vertebral,partof,vertebral arches
+vertebral arches,partof,lumbar vertebral
+back muscles,partof,back
+spinal cord,haspart,lii vertebra
+lii vertebra,partof,spinal cord
+latissimus dorsi,isa,muscle
+scapulae,partof,rhomboid muscles
+scapula,haspart,spine
+trapezius,isa,muscle
+midline,partof,posterior arch
+posterior arch,partof,midline
+si,partof,vertebral arch
+l disc,partof,lumbar spine
+meninges,connectswith,lumbosacral junction
+lumbosacral junction,connectswith,meninges
+lumbar spine,partof,l disc
+lv,partof,si
+pedicle,partof,vertebral body
+vertebral body,partof,pedicle
+spinal curvature,hascause,axial rotation
+pedicles,partof,vertebral bodies
+laminae,partof,vertebral bodies
+vertebral bodies,haspart,laminae
+axial rotation,haseffect,spinal curvature
+cvi,isa,cervical vertebra
+vertebral column,partof,thoracic region
+vertebrae,partof,thoracic
+thoracic region,haspart,vertebral column
+ci,isa,cervical vertebra
+posterior elements,partof,vertebral bodies
+hemivertebra,isa,vertebra
+spinal cord,isa,nerves
+cancer cells,isoppositeof,bone cells
+bone cells,isoppositeof,cancer cells
+lumbar vertebra,connectswith,sacrum
+vertebral bodies,haspart,posterior elements
+nerves,haspart,spinal cord
+sacrum,partof,lumbar vertebra
+lv vertebra,haspart,transverse process
+estrogen,haseffect,osteoporosis
+men,isoppositeof,women
+women,isoppositeof,men
+nerve,haspart,disc
+fracture,isa,bone
+disc,ispartof,nerve
+osteoporosis,hascause,estrogen
+synovialjoints,oppositeof,symphyses
+nucleuspulposus,haspart,anulusfibrosus
+nucleuspulposus,connectswith,anulusfibrosus
+cervical,partof,vertebralcolumn
+rheumatoidarthritis,hascause,synovialbursae
+lumbarnerves,connectswith,cord
+synovialbursae,haseffect,rheumatoidarthritis
+anulusfibrosus,connectswith,nucleuspulposus
+vertebralcolumn,haspart,cervical
+cord,connectswith,lumbarnerves
+interspinous ligament,partof,vertebral column
+vertebral column,instanceof,tissues
+ligamentum nuchae,partof,vertebral column
+ligamenta flava,partof,vertebral canal
+vertebral column,hasfracture,fracture
+fracture,heals,heal
+supraspinous ligament,partof,vertebral column
+ligamenta flava,partof,vertebral column
+posterior longitudinal ligament,partof,vertebral column
+vertebral column,partof,ligamenta flava
+ligament,partof,craniocervical junction
+craniocervical junction,partof,ligament
+spinal cord,partof,craniocervical
+craniocervical,partof,spinal cord
+sympathetic,haspart,autonomic division
+nervous system,haspart,autonomic division
+axial skeleton,haspart,abdominal organs
+autonomic division,isa,nervous system
+abdominal organs,partof,axial skeleton
+superior,connectswith,inferior
+pars interarticularis,connectswith,vertebral canal
+abnormal anatomy of the facet joints,causedby,facet joint degenerative change
+vertebral canal,connectswith,pars interarticularis
+clinic,haspart,surgical procedures on the back
+surgical procedures on the back,belongsto,clinic
+facet joint degenerative change,affects,abnormal anatomy of the facet joints
+inferior,connectswith,superior
+supporting structures,haspart,soft tissues
+vertebral column,oppositeof,spinal column
+soft tissues,partof,supporting structures
+spinal column,oppositeof,vertebral column
+cord,partof,nerveroot
+surgery,haseffect,pain
+right,oppositeof,left
+canal,providesaccessto,nerve root
+canal,connectswith,nerve root
+nerveroot,haspart,cord
+nerve root,hasdisc,disc
+lamina,partof,potential space
+potential space,haspart,lamina
+nerve root,connectswith,canal
+pain,hascause,surgery
+left,oppositeof,right
+disc,ispartof,nerve root
+inferior vertebra,partof,superior
+superior,partof,inferior vertebra
+shoulder,connectswith,scapula
+thoracodorsal nerve,connectswith,latissimus dorsi
+latissimus dorsi,connectswith,thoracodorsal nerve
+scapula,connectswith,shoulder
+rhomboid,haspart,dorsal scapular nerve
+terminal branches,partof,spinal arteries
+spinal arteries,haspart,terminal branches
+axial loading injuries,causedby,motor vehicle accident
+spinal cord,haspart,brainstem
+motor vehicle accident,causes,axial loading injuries
+dorsal scapular nerve,partof,rhomboid
+brainstem,partof,spinal cord
+flexion,isa,hyperextension
+vertebral column,partof,spinal cord
+diaphragm,partof,cervical vertebral column
+cervical vertebral column,partof,diaphragm
+hyperextension,isa,flexion
+spinal cord,partof,vertebral column
+hyperextension,haseffect,fracture
+spinal cord,partof,brainstem
+sacral,connectswith,sacral nerve
+sacral nerve,connectswith,lumbar
+erect position,oppositeof,lying on his or her side
+arachnoid mater,partof,subarachnoid space
+spinalcord,connectswith,disc
+midline,partof,extradural space
+legs,connectswith,pelvis
+sacral nerve,connectswith,sacral
+subarachnoid space,haspart,arachnoid mater
+lumbar,connectswith,sacral nerve
+extradural space,haspart,midline
+lying on his or her side,oppositeof,erect position
+pelvis,connectswith,legs
+herpeszoster,haseffect,chickenpox
+chickenpox,hascause,herpeszoster
+interspinousligament,connectswith,ligamentaflava
+rash,haseffect,exquisitelypainful
+dermatome,partof,neuron
+vertebralcolumn,haspart,attachments
+attachments,partof,vertebralcolumn
+neuron,haspart,dermatome
+ligamentaflava,connectswith,interspinousligament
+subarachnoidspace,connectswith,vertebralcanal
+vertebralcanal,connectswith,subarachnoidspace
+exquisitelypainful,hascause,rash
+stones in renal collecting system,affects,renal pain
+chest,connectswith,abdomen
+back pain,treatedby,lifesaving treatment
+acute back pain,causedby,abdominal aortic aneurysm
+abdominal aortic aneurysm,isa,abdominal aorta
+lifesaving treatment,usedfor,back pain
+abdomen,connectswith,chest
+abdominal aortic aneurysm,causes,acute back pain
+renal pain,causedby,stones in renal collecting system
+unilateral,isa,back pain
+hospital,partof,emergency department
+ankles,connectswith,knees
+spine,haspart,sacral nerve
+hospital,haspart,emergency department
+spine,haspart,lumbar
+sacral nerve,isa,nerve root
+knees,connectswith,ankles
+lumbar,isa,spine
+lumbar,connectswith,sacralnerve
+georgeorwell,notablework,nineteeneighty four
+cervicalregion,partof,vertebralcolumn
+nineteeneighty four,author,georgeorwell
+sacralnerve,connectswith,lumbar
+diaphragm,connectswith,phrenicnerve
+spinalcord,haspart,clevel
+clevel,connectswith,brachialplexus
+phrenicnerve,connectswith,diaphragm
+lowerlimbs,oppositeof,upper
+brachialplexus,connectswith,clevel
+cervicalregion,partof,cord
+clevel,partof,spinalcord
+upper,oppositeof,lowerlimbs
+vertebral column,haspart,lumbar portion
+intervertebral disc,partof,vertebral body
+lung,partof,chest
+spinal cord,connectswith,body
+vertebral body,haspart,intervertebral disc
+inguinal ligament,connectswith,psoas muscle
+psoas muscle,connectswith,inguinal ligament
+body,haspart,spinal cord
+lumbar portion,partof,vertebral column
+ambulance,haspart,gurney
+flexor muscle,istypeof,muscle
+gurney,partof,ambulance
+leg,haspart,flexor muscle
+george orwell,wrote,nineteen eighty four
+nineteen eighty four,isworkof,george orwell
+tunicamedia,haspart,tunicaadventitia
+leftarm,oppositeof,rightarm
+tunicaadventitia,partof,tunicamedia
+tunicaintima,partof,tunicamedia
+aorta,haspart,aorticlumen
+aortic,connectswith,thoracic
+shoulderblades,connectswith,back
+rightarm,oppositeof,leftarm
+aorticlumen,partof,aorta
+back,connectswith,shoulderblades
+thoracic,connectswith,aortic
+thoracic,connectswith,lumbar region
+anterior spinal artery,connectswith,posterior spinal arteries
+brachiocephalic trunk,partof,right upper limb
+lumbar region,connectswith,thoracic
+paraplegia,iscausedby,acute spinal cord ischemia
+posterior spinal arteries,connectswith,anterior spinal artery
+acute spinal cord ischemia,practices,paraplegia
+right upper limb,haspart,brachiocephalic trunk
+extensor digitorum longus,isa,muscle
+extensor digitorum longus,partof,foot
+gluteal region,isconnectedto,anus
+anus,isconnectedto,gluteal region
+fibularis tertius,partof,leg
+extensor hallucis longus,partof,foot
+extensor hallucis longus,isa,muscle
+x ray,studies,pelvis
+fibularis tertius,isa,muscle
+sacral nerve roots,connectswith,sacrum
+sacrum,connectswith,sacral nerve roots
+x ray,studies,inspection
+chemoimmunotherapy,isdifferentfrom,radiotherapy
+radiotherapy,isdifferentfrom,chemoimmunotherapy
+inspection,partof,x ray
+trachea,practices,connects with
+trachea,practices,esophagus
+mediastinum,isa,cavity
+inferior thoracic aperture,partof,superior thoracic aperture
+superior thoracic aperture,partof,inferior thoracic aperture
+cylinder,isa,thorax
+sternum,haspart,rib
+thoracic cavity,haspart,diaphragm
+pleural cavities,partof,mediastinum
+esophagus,practices,connects with
+figure,isa,fig
+rib,haspart,sternum
+diaphragm,haspart,thoracic cavity
+cavity,isa,mediastinum
+thorax,isa,cylinder
+mediastinum,partof,pleural cavities
+organ,ispartof,tissue
+rib xii,partof,diaphragm
+ribi,partof,pleural cavities
+lung,partof,pleura
+breathing,locatedin,thorax
+thoracic wall,connectswith,diaphragm
+ribs xi,follows,ribs xii
+thoracic wall,ispartof,thoracic cavity
+lung,connectswith,neck
+ribs,ispartof,thoracic cavity
+ribs xii,followedby,ribs xi
+diaphragm,connectswith,thoracic wall
+spleen,connectswith,stomach
+thoracic cavity,haspart,ribs
+diaphragm,partof,rib xii
+neck,connectswith,lung
+stomach,connectswith,spleen
+diaphragm,ispartof,thoracic cavity
+diaphragm,partof,phrenic nerves
+skeletal elements,haspart,muscles
+thorax,haspart,sternum
+mediastinum,partof,esophagus
+thoracic vertebrae,partof,intervertebral discs
+esophagus,partof,mediastinum
+sternum,ispartof,thorax
+muscles,isa,tissue
+superior vena cava,connectswith,thoracic aorta
+phrenic nerves,isa,nerves
+thoracic duct,partof,esophagus
+intervertebral discs,partof,thoracic vertebrae
+rib i,connectswith,manubrium
+rib,partof,costal cartilage
+tip,partof,costal cartilages
+vertebra,haspart,transverse process
+vertebral column,connectswith,rib cage
+vertebra,partof,rib cage
+rib,partof,vertebra
+ribs,haspart,last ribs
+thoracic wall,connectswith,back
+vertebra,partof,thoracic wall
+costal cartilage,haspart,rib tip
+sternum,connectswith,rib
+rib tip,partof,costal cartilage
+last ribs,partof,ribs
+manubrium,partof,sternum
+costal cartilages,haspart,tip
+rib,connectswith,sternum
+thoracic wall,connectswith,neck
+rib i,partof,mediastinum
+ligament,partof,bone
+superior thoracic aperture,partof,thorax
+rib,connectswith,manubrium
+thorax,connectswith,rib i
+mediastinum,partof,rib i
+manubrium,connectswith,rib
+rib vii,connectswith,rib x
+rib xi,connectswith,rib x
+rib x,connectswith,rib vii
+thorax,haspart,superior thoracic aperture
+rib xii,connectswith,rib xi
+tx,connectswith,tix
+diaphragm,connectswith,thorax
+diaphragm,connectswith,esophagus
+inferior thoracic aperture,haspart,musculotendinous diaphragm
+thorax,connectswith,diaphragm
+sternum,isconnectedto,thoracic vertebrae
+diaphragm,connectswith,thoracic aperture
+thoracic aperture,connectswith,diaphragm
+musculotendinous diaphragm,ispartof,inferior thoracic aperture
+anterior margin,opposite,inferior thoracic aperture
+tix,connectswith,tx
+thoracic aperture,ispartof,diaphragm
+diaphragm,partof,thoracic aperture
+esophagus,connectswith,diaphragm
+inferior thoracic aperture,opposite,anterior margin
+thoracic vertebrae,isconnectedto,sternum
+lung,partof,thoracic cavity
+middle mediastinum,haspart,heart
+tv,partof,mediastinum
+sternum,connectswith,pericardium
+mediastinum,isa,pleural cavities
+pericardium,haspart,pericardial cavity
+pericardial cavity,partof,pericardium
+pericardium,connectswith,sternum
+tiv,partof,mediastinum
+pleura,partof,organ
+pericardium,partof,middle mediastinum
+heart,partof,middle mediastinum
+thoracic cavity,partof,lung
+esophagus,haspart,trachea
+scapula,connectswith,clavicle
+lung,partof,pleural cavity
+pleural cavity,haspart,lung
+clavicle,connectswith,scapula
+trachea,haspart,esophagus
+coracoid process,partof,scapula
+lymphatics,haspart,vessels
+upper limb,connectswith,neck
+txii,haspart,diaphragm
+diaphragm,partof,mediastinum
+mediastinum,connectswith,abdomen
+breast,isa,pectoral region
+pectoral region,haspart,breast
+diaphragm,haspart,txii
+esophagus,connectswith,abdomen
+abdomen,connectswith,mediastinum
+mediastinum,haspart,tiii
+neck,connectswith,upper limb
+thorax,partof,abdomen
+abdomen,partof,thorax
+tiii,partof,mediastinum
+breast,isa,body region
+axillary region,partof,breast
+sternum,partof,thoracicwall
+breast,partof,axillary region
+thoracicwall,partof,sternum
+bronchi,connectswith,trachea
+sternum,connectswith,rib ii
+trachea,connectswith,bronchi
+left to right,haspart,venous shunts
+heart,haspart,right atrium
+right side,isoppositeof,left side
+right atrium,isa,heart
+venous shunts,partof,left to right
+ribii,connectswith,sternum
+left side,isoppositeof,right side
+veins,partof,thorax
+thoracic aorta,partof,thoracic wall
+thoracic wall,partof,thoracic cavity
+ribs,partof,thoracic wall
+vessels,haspart,nerves
+anterior abdominal wall,connectswith,ribs
+other components of the wall,articulatewith,ribs
+spinal cord,haspart,spinal nerve t
+upper limb,isoppositeof,trunk
+trunk,isoppositeof,upper limb
+xiphoid process,ispartof,skin
+sympathetic fiber,ispartof,spinal nerve
+spinal nerve t,ispartof,spinal cord
+spinal nerve,isa,nerve
+ribs,connectswith,anterior abdominal wall
+ribs,arearticulatewith,other components of the wall
+spinal nerve,ispartof,spinal cord
+phrenic nerves,partof,mediastinum
+diaphragm,partof,thorax
+diaphragm,connectswith,cervical plexus
+superior thoracic aperture,connectswith,crura
+cervical plexus,connectswith,diaphragm
+crura,connectswith,superior thoracic aperture
+diaphragm,isa,muscle
+thorax,haspart,diaphragm
+inferior,partof,thoracic wall
+thoracic cavity,practices,breathing
+embryological disc,partof,head fold
+anterior thoracic wall,partof,trunk
+pleural cavity,partof,thorax
+tissue,isa,connective tissue
+connective tissue,partof,connective tissues
+lung,connectswith,heart
+connective tissue,partof,tissue
+heart,connectswith,lung
+fascia,partof,skin
+axilla,partof,thoracic wall
+connective tissues,haspart,connective tissue
+trunk,haspart,anterior thoracic wall
+mediastinum,partof,thorax
+head fold,haspart,embryological disc
+pectoralmuscles,connectswith,thoracicwall
+carcinomaofthebreast,haseffect,pittingoftheskin
+sternum,connectswith,midaxillaryline
+midaxillaryline,connectswith,sternum
+nonlactatingwomen,oppositeof,lactatingwomen
+areola,partof,nipple
+breast,haspart,mammarygland
+pittingoftheskin,hascause,carcinomaofthebreast
+nipple,haspart,areola
+thoracicwall,connectswith,pectoralmuscles
+lobules,partof,mammarygland
+mammarygland,partof,breast
+mammarygland,haspart,lobules
+lactatingwomen,oppositeof,nonlactatingwomen
+thoracic wall,connectswith,breast
+axillary,connectswith,intercostal veins
+thoracic duct,ispartof,bronchomediastinal trunks
+anterior thoracic wall,haspart,internal thoracic artery
+internal thoracic,connectswith,intercostal veins
+bronchomediastinal trunks,ispartof,thoracic duct
+bronchomediastinal trunks,connectswith,thorax
+lymphatic vessel,connectswith,posterior intercostal arteries
+posterior intercostal arteries,connectswith,lymphatic vessel
+breast,connectswith,thoracic wall
+intercostal veins,connectswith,internal thoracic
+internal thoracic artery,ispartof,anterior thoracic wall
+areola,partof,breast
+muscle of the pectoral region,haspart,subclavius
+pectoralis major,connectswith,pectoralis minor
+pectoralis minor,connectswith,subclavius
+anterior thoracic wall,partof,upper limb
+clavicle,connectswith,rib i
+pectoralis major,partof,muscle of the pectoral region
+subclavius,connectswith,pectoralis major
+upper limb,haspart,anterior thoracic wall
+clavicle,connectswith,sternum
+pectoralis minor,connectswith,pectoralis major
+subclavius,connectswith,pectoralis minor
+scapula,haspart,coracoid process
+rib i,connectswith,clavicle
+subclavius,partof,muscle of the pectoral region
+sternum,connectswith,clavicle
+breast,hascause,men
+pectoralis minor,partof,muscle of the pectoral region
+thoracic vertebrae,connectswith,ribs
+clavicle,connectswith,axilla
+axilla,connectswith,neck
+rib i,connectswith,rib xi
+rib xi,connectswith,rib xii
+ribs,connectswith,thoracic vertebrae
+muscles,partof,skeletal elements
+axilla,connectswith,clavicle
+neck,connectswith,axilla
+superior articular processes,oppositeof,inferior articular processes
+vertebra,connectswith,laminae
+tubercle,ispartof,rib
+rib,haspart,rib i
+rib i,ispartof,rib
+transverse,partof,vertebral body
+laminae,connectswith,vertebra
+ribs,connectswith,thoracic vertebra
+thoracic vertebra,connectswith,ribs
+inferior articular processes,oppositeof,superior articular processes
+anteroposterior,partof,vertebral body
+costal cartilage,partof,rib
+neck,partof,vertebral column
+superior costal facet,isoppositeof,inferior costal facet
+vertebra,partof,vertebral column
+tubercle,connectswith,head
+inferior costal facet,isoppositeof,superior costal facet
+head,connectswith,tubercle
+rib,connectswith,costal cartilage
+vertebra,haspart,neck
+sternum,partof,vertebral column
+ligament,haspart,attachment
+attachment,partof,ligament
+shaft,partof,external surfaces
+superior margin,opposite,inferior margin
+anterior part,opposite,posterior part
+posterior part,opposite,anterior part
+inferior margin,opposite,superior margin
+external surfaces,haspart,shaft
+transverse process,partof,vertebra
+transverseprocess,haspart,facet
+ribi,followedby,ribii
+ti,subclassof,vertebra
+superior,oppositeof,inferiorsurfaces
+facet,partof,transverseprocess
+subclavianvein,connectswith,subclavianartery
+sternum,subclassof,manubrium
+sternum,haspart,xiphoidprocess
+ribs,haspart,anteriorly
+anteriorly,partof,ribs
+ribii,follows,ribi
+sternum,haspart,manubrium
+facet,partof,vertebra
+subclavianartery,connectswith,subclavianvein
+vertebrae,connectswith,rib
+xiphoidprocess,partof,sternum
+inferiorsurfaces,oppositeof,superior
+thorax,partof,sternum
+cartilage,isa,demifacet
+sternum,partof,thorax
+rib,haspart,costal cartilages
+sternum,connectswith,costal cartilages
+xiphoid process,connectswith,sternum
+articulation,haspart,clavicle
+clavicle,partof,articulation
+rib,isa,vi
+sternum,connectswith,xiphoid process
+seventh costal cartilage,connectswith,sternum
+manubrium,haspart,facet
+sternum,connectswith,seventh costal cartilage
+costal cartilages,connectswith,sternum
+ribs,haspart,thoracic cavity
+bifid,isa,shape
+thoracic cavity,haspart,vertebral column
+vertebral column,haspart,thoracic cavity
+cartilaginous,follows,ossified
+ossified,isfollowedby,cartilaginous
+xiphoid process,partof,sternum
+rib,isinstanceof,joint
+transverse process,partof,vertebrae
+demifacet,partof,costal cartilage
+transverse process,partof,rib
+intervertebral disc,isa,rib
+vertebra,partof,rib
+joint,isa,capsule
+rib,haspart,transverse process
+interchondral ligament,connectswith,synovial
+manubrium,isa,joint
+rib vii,partof,ribs
+sternum,connectswith,manubrium
+interchondral ligament,isa,ligament
+sternum,partof,inferior costal margin
+thoracic cavity,haspart,sternum
+manubrium,connectswith,rib i
+manubrium,studies,sternum
+synovial,connectswith,interchondral ligament
+manubrium,connectswith,xiphoid process
+inferior costal margin,haspart,sternum
+sternum,partof,thoracic cavity
+rib i,isa,rib
+vi,partof,ribs
+manubrium,connectswith,sternum
+symphyses,isa,joint
+sternum,isa,bone
+manubrium,connectswith,inferior costal margin
+xiphoid process,connectswith,manubrium
+inferior costal margin,haspart,manubrium
+synovial,isa,joint
+clavicle,ispartof,neck
+tiv,practicesconnectingwith,tv
+tv,practicesconnectingwith,tiv
+thoracic aorta,practicesconnectingwith,arch of the aorta
+neck,haspart,clavicle
+rib ii,connectswith,sternum
+arch of the aorta,practicesconnectingwith,thoracic aorta
+intercostal muscles,practicesconnectingwith,ribs
+inferior margin,ispartof,superior rib
+superior mediastinum,isoppositeof,inferior mediastinum
+ribs,practicesconnectingwith,intercostal muscles
+superior rib,haspart,inferior margin
+sternal angle,ispartof,ribs
+ribs,haspart,sternal angle
+inferior mediastinum,isoppositeof,superior mediastinum
+vein,oppositeof,inferior
+upperlimb,connectswith,back
+inferiorrib,oppositeof,superior
+intercostalspace,haspart,upperaspect
+inferior,oppositeof,vein
+superior,oppositeof,inferiorrib
+upperaspect,partof,intercostalspace
+deepfascia,subclassof,superficialfascia
+back,connectswith,upperlimb
+vertebrae,connectswith,ribs
+intercostal muscle,isa,muscle
+obliquely,oppositeof,anteroinferiorly
+intercostal muscles,isa,muscle
+three muscles,partof,innermost intercostal muscles
+intercostal muscles,connectswith,intercostal space
+inferior margins,oppositeof,superior margins
+innermost intercostal muscles,haspart,three muscles
+superior margins,oppositeof,inferior margins
+anteroinferiorly,oppositeof,obliquely
+intercostal space,connectswith,intercostal muscles
+intercostal nerves,instanceof,innervated
+ribs,partof,intercostal space
+rib,haspart,costal groove
+intercostal space,partof,vertebral column
+vertebral column,haspart,intercostal space
+innermost,connectswith,thoracic wall
+costal groove,partof,rib
+thoracic wall,connectswith,innermost
+intercostal muscles,isa,muscle fibers
+costal cartilages,connectswith,parasternal region
+parasternal region,connectswith,costal cartilages
+intercostal muscle,partof,ribs
+intercostal,partof,plane
+ribs vi,connectswith,ribs iii
+ribs,connectswith,thoracic wall
+thoracic wall,studies,connects with
+transversus thoracis,partof,anterior thoracic wall
+ribs iii,connectswith,ribs vi
+subclavian artery,partof,thorax
+intercostal nerves,partof,thoracic wall
+posterior intercostal arteries,connectswith,intercostal nerves
+internal thoracic arteries,partof,subclavian artery
+thoracic aorta,connectswith,posterior intercostal arteries
+vertebral column,connectswith,thoracic wall
+posterior intercostal arteries,partof,thoracic wall
+posterior,connectswith,anterior intercostal arteries
+neck,haspart,costocervical trunk
+costocervical trunk,partof,neck
+anterior intercostal arteries,partof,thoracic wall
+superior thoracic aperture,partof,anterior thoracic wall
+anterior thoracic wall,haspart,superior thoracic aperture
+anterior intercostal arteries,partof,internal thoracic arteries
+ribs,partof,sternum
+sternum,partof,ribs
+anterior intercostal arteries,partof,intercostal space
+anterior intercostal arteries,partof,costal cartilages
+anterior cutaneous branches,haspart,intercostal nerves
+diaphragm,connectswith,xiphoid
+brachiocephalic veins,connectswith,superior mediastinum
+diaphragm,connectswith,vertebral column
+xiphoid,connectswith,diaphragm
+spinal nerves,haspart,intercostal nerves
+parasternal nodes,partof,axillary lymph nodes
+rib,connectswith,diaphragm
+lower thorax,oppositeof,upper thorax
+intercostal nerves,isa,spinal nerves
+vertebral column,connectswith,diaphragm
+superior mediastinum,connectswith,brachiocephalic veins
+upper thorax,oppositeof,lower thorax
+parasternal node,connectswith,bronchomediastinal trunks
+bronchomediastinal trunks,connectswith,parasternal node
+axillary lymph nodes,haspart,parasternal nodes
+transversus thoracis,partof,thoracic wall
+cervical plexus,isa,nerve plexus
+anterior ramus,partof,brachial plexus
+anterior cutaneous branches,partof,anterior abdominal wall
+thoracic wall,partof,intercostal space
+intercostal space,partof,superior border
+superior border,partof,intercostal space
+brachial plexus,practices,innervation
+brachial plexus,partof,anterior ramus
+intercostal space,partof,thoracic wall
+intercostal,partof,thoracic wall
+anterior abdominal wall,partof,anterior cutaneous branches
+sternum,connectswith,thoracic wall
+peritoneum,partof,abdominal wall
+thoracic wall,connectswith,sternum
+tendon,haspart,muscle fibers
+esophagus,partof,diaphragm
+diaphragm,connectswith,aorta
+diaphragm,partof,esophagus
+vertebral level txii,partof,diaphragm
+aorta,connectswith,diaphragm
+diaphragm,partof,vertebral level txii
+abdominal wall,haspart,peritoneum
+sympathetic trunks,connectswith,diaphragm
+diaphragm,connectswith,arteries
+inferior phrenic arteries,connectswith,abdominal aorta
+diaphragm,connectswith,arterial supply
+pericardiacophrenic,connectswith,musculophrenic arteries
+musculophrenic arteries,connectswith,pericardiacophrenic
+diaphragm,ispartof,crura
+intercostal arteries,connectswith,thoracic aorta
+diaphragm,connectswith,sympathetic trunks
+inferior vena cava,connectswith,abdominal vein
+abdominal vein,connectswith,inferior vena cava
+thoracic aorta,connectswith,intercostal arteries
+abdominal aorta,connectswith,inferior phrenic arteries
+crura,haspart,diaphragm
+muscle fibers,partof,diaphragm
+anteroposterior,partof,ribs
+domes of the diaphragm,haspart,diaphragm
+vertebral column,connectswith,sternum
+breathing,practices,diaphragm
+diaphragm,haspart,muscle fibers
+ribs,haspart,anteroposterior
+thorax,partof,diaphragm
+diaphragm,partof,domes of the diaphragm
+ribs,haspart,sternum
+sternum,connectswith,vertebral column
+hemoglobin,isinstanceof,protein
+collagen,isinstanceof,protein
+protein,isa,molecule
+protein,haspart,amino acid
+world war i,followedby,world war ii
+polypeptide,isa,hormone
+ii,isa,point in time
+amino acid,haspart,side chain
+proline,isa,amino acid
+side chain,isa,amino acid
+protein,haspart,amino group
+john f kennedy school of government,partof,harvard university
+three dimensional,haspart,protein
+ph,facetof,acidic
+ph,facetof,acid
+lipid,haspart,hydrophobic
+protein,partof,three dimensional
+hemoglobin a,haspart,beta subunit
+beta subunit,partof,hemoglobin a
+hydroxyl,isa,hydrogen bond
+alpha helices,partof,globular proteins
+glutamine,isa,carbonyl group
+asparagine,isa,carbonyl group
+tyrosine,isa,amino acid
+disulfide bond,partof,protein
+tyrosine,haspart,phosphate
+aspartic acid,isinstanceof,amino acid
+ph,isfacetof,physiologic
+glutamic acid,isinstanceof,amino acid
+activesite,partof,enzyme
+oligosaccharide,isa,amide
+hemoglobin,isa,protein
+histidine,isa,amino acid
+glutamate,isdifferentfrom,glycine
+aminoacid,partof,sidechain
+ph,facetof,physiologic
+glycine,isdifferentfrom,glutamate
+aspartic acid,isa,amino acid
+cell walls,partof,bacteria
+bacteria,partof,cell walls
+alpha carbon,partof,amino acid
+glutamine,isa,amino acid
+lysine,isa,amino acid
+asparagine,isa,amino acid
+amino acid,haspart,alpha carbon
+protein,partof,amino acid
+glycine,haspart,alpha carbon
+acidic,haspart,basic
+glutamic acid,isa,amino acid
+henderson hasselbalch equation,haspart,ph
+base,isa,acid
+proton donors,practices,proton acceptors
+acid,issubclassof,weak acid
+amino acid,partof,side chain
+weak acid,issubclassof,conjugate base
+proton acceptors,practices,proton donors
+ph,isa,ph unit
+ph unit,partof,ph
+ph,studies,pka
+acetic acid,isa,acid
+ph,isstudiedby,pka
+pka,isa,ph
+amino acid,isa,acid
+pka,studies,ph
+carboxyl group,isa,dissociation
+ph,isfacetof,acidic
+acetic acid,isinstanceof,carboxyl group
+amino acid,isa,carboxyl group
+alanine,isinstanceof,amino acid
+pk,follows,pk
+negative,isa,charge
+ph,identicalto,pk
+negative,subclass,charge
+ph,different,pi
+iii,partof,ph
+ph,hasfacet,electrically neutral
+pk,sameas,ph
+electric field,haspart,charge
+pi,different,ph
+dipolar form ii,isa,ionized
+dipolar form ii,subclass,ionized
+pk,identicalto,ph
+electric field,contains,charge
+ph,differsfrom,pi
+charge,partof,electric field
+ph,facet,electrically neutral
+pk,precedes,pk
+pi,differsfrom,ph
+alanine,instance,amino acid
+ph,sameas,pk
+base,ispartof,basic drug
+glutamate,hasinstances,aspartate
+lysine,isinstanceof,glutamate
+glutamate,hasinstances,histidine
+ph,isa,facet
+basic drug,haspart,base
+base,isoppositeof,acid
+histidine,isinstanceof,glutamate
+acid,isoppositeof,base
+bicarbonate,haspart,hco
+amino acid,hassuperclass,acid
+aspartate,isinstanceof,glutamate
+carbon dioxide,hasparts,hco
+hco,ispartof,bicarbonate
+acid,isa,amino acid
+henderson hasselbalch equation,ispracticedby,ph
+drug,isa,basic
+ph,practices,henderson hasselbalch equation
+facet,isa,physiologic
+aspirin,isa,acid
+bh+,haspart,morphine
+morphine,partof,bh+
+ph,isfacetof,acid
+linear text,oppositeof,nonlinear
+nonlinear,oppositeof,linear text
+choose the one best answer,issameas,one best answer
+pka,haspart,ph
+one best answer,issameas,choose the one best answer
+ph,partof,pka
+glycine,isa,amino acid
+protein,isa,amino acid
+weak acid,isa,conjugate base
+peptide,isa,amino acid
+asp,instanceof,peptide
+d.c,twinnedadministrativebody,washington
+asp,instanceof,aspartate
+d.d,saidtobethesameas,d.v
+sidechain,subclassof,peptide
+washington,twinnedadministrativebody,d.c
+ph,facetof,charge
+hydroxyl,haspart,phosphate
+d.v,saidtobethesameas,d.d
+negativeelectrode,oppositeof,cathode
+lysine,instanceof,aminoacid
+asparagine,subclassof,peptide
+cathode,oppositeof,negativeelectrode
+bibliothquenationaledefrance,locatedintheadministrativeterritorialentity,paris
+lysine,subclassof,aminoacid
+aspirin,medicalconditiontreated,metabolicacidosis
+disulfidebond,partof,peptide
+ph,facetof,blood
+proteins,haspart,structural elements
+primary structure,isa,structure
+domains,partof,protein
+ii,isa,ii
+structural elements,partof,proteins
+world war ii,follows,world war i
+protein,haspart,peptide bond
+peptide bond,partof,protein
+amide,isa,peptide bond
+c terminal,isa,amino acid
+valine,isinstanceof,amino acid
+protein,haspart,amino
+peptide chain,haspart,amino acid
+peptide bond,haspart,atom
+amino acid,isa,amino
+amino acid,haspart,c terminal
+c terminal,ispartof,amino acid
+n terminal,partof,peptide
+aminoacid,partof,peptide
+derivative,isa,amino acid
+amino acid,isa,derivative
+edman reagent,partof,amino acid
+peptide bond,partof,n terminal
+n terminal,partof,peptide bond
+d.v,issameas,d.d
+amino acid,haspart,edman reagent
+d.d,issameas,d.v
+polypeptide,haspart,amino acid
+enzyme,isa,chemical
+protein,facetof,primary structure
+beta sheet,isinstanceof,secondary structure
+secondary structure,isa,polypeptide
+dna,partof,nucleotide
+amino acid,isa,polypeptide
+alpha helix,isinstanceof,secondary structure
+hydrogen bond,partof,atom
+primary sequence,facetof,polypeptide
+polypeptide,isa,amino acid
+peptide bond,isa,hydrogen bond
+valine,isa,amino acid
+glutamate,isa,amino acid
+alpha helix,opposite,spiral of alpha helix
+beta sheet,isa,secondary structure
+beta pleated sheets,sameas,beta sheet
+spiral of alpha helix,opposite,alpha helix
+beta sheet,sameas,beta pleated sheets
+glycine,haspart,hydrogen
+alpha helix,haspart,amino acid
+alpha helices,isoppositeto,beta sheets
+peptide,haspart,amino acid
+n termini,partof,beta strand
+alpha helices,isa,polypeptide
+beta sheet,isa,polypeptide
+beta sheets,isoppositeto,alpha helices
+beta strand,partof,n termini
+polypeptide chain,haspart,domains
+tertiary structures,partof,globular proteins
+domains,partof,polypeptide
+globular proteins,haspart,tertiary structures
+protein,haspart,disulfidebond
+polypeptide,haspart,aminoacid
+aminoacid,partof,polypeptide
+side chain,partof,amino acid
+hydrogen bond,haspart,polar group
+lysine,instanceof,amino group
+folding,isa,protein folding
+polar group,partof,hydrogen bond
+protein,partof,six residues
+aspartate,instanceof,amino group
+hydrogen,ispartof,hydrogen bond
+six residues,haspart,protein
+glutamate,instanceof,amino group
+hydrogen,haspart,polar group
+hydrophobic,isa,group
+peptide,haspart,peptide bond
+small structures,partof,larger structures
+reversible,isa,denaturation
+larger structures,haspart,small structures
+tertiary structure,facetof,protein
+tertiary structure,precedes,secondary structure
+secondary structure,follows,tertiary structure
+world war i,precedes,world war ii
+stacked rings,partof,macromolecular structure
+primary structure,partof,protein folding
+mitochondrial,haspart,hsp
+hsp,partof,mitochondrial
+protein folding,practices,folding
+hsp,isa,polypeptide
+macromolecular structure,haspart,stacked rings
+ionic bond,isa,noncovalent interaction
+tetramer,haspart,hemoglobin
+hydrogen bond,isa,noncovalent interaction
+gene,partof,tissue
+hemoglobin,partof,tetramer
+tau,opposite,normal counterpart
+parkinson disease,causes,amyloid
+amyloid,affects,parkinson disease
+tau,isa,protein
+normal counterpart,opposite,tau
+alphahelices,follows,beta sheets
+beta sheets,followedby,alphahelices
+fatal,differentfrom,treatment
+treatment,differentfrom,fatal
+paris,iscapitalof,france
+france,hascapital,paris
+evaporation,studiedby,water
+water,practices,evaporation
+human,isa,mammal
+mammal,hassubclass,human
+newyorkcity,ispartof,unitedstatesofamerica
+unitedstatesofamerica,hasparts,newyorkcity
+amyloid beta peptide,partof,beta pleated sheets
+primary sequence,haspart,amino acid sequence
+beta pleated sheets,partof,amyloid beta peptide
+irreversible,oppositeof,reversible
+enzyme,isa,protein
+polypeptide chain,partof,amino acid
+irreversible,isoppositeof,reversible
+primary structure,isfacetof,protein
+trans,istypeof,peptide bond
+choosetheonebestanswer,isa,onebestanswer
+bibliothque nationale de france,islocatedin,paris
+secondary structure,isa,structure
+washington,istwinnedadministrativebodywith,d.c
+beta pleated sheets,isa,protein
+hemoglobin,partof,globin
+myoglobin,isa,hemeprotein
+globin,haspart,hemoglobin
+active site,partof,catalase
+catalase,haspart,active site
+reduced,oppositeof,oxidized
+hemeprotein,isa,protein
+hemoglobin,isa,hemeprotein
+myoglobin,partof,globin
+oxidized,oppositeof,reduced
+myoglobin,instanceof,structure
+myoglobin,isinstanceof,protein
+heme,isa,amino acid
+heme,haspart,fe+
+histidine,isa,residue
+globin,isa,protein
+hemoglobin,haspart,oxygen
+myoglobin,haspart,heme
+red blood cell,haspart,hemoglobin
+hemoglobin a,isa,hemoglobin
+myoglobin,differentfrom,tetrameric hemoglobin
+hemoglobin,partof,red blood cell
+tetrameric hemoglobin,differentfrom,myoglobin
+hemoglobin tetramer,partof,dimers
+hydrogen bond,subclassof,bond
+oxyhemoglobin,differentfrom,deoxyhemoglobin
+beta subunit,partof,dimers
+subunit,isa,molecule
+ionic bond,subclassof,bond
+polypeptide,haspart,hydrophobic
+deoxyhemoglobin,differentfrom,oxyhemoglobin
+alpha subunit,partof,dimers
+dimers,haspart,hemoglobin tetramer
+fe+,haspart,heme
+bibliothquenationaledefrance,locatedin,paris
+heme,partof,fe+
+globin,haspart,histidine
+histidine,partof,globin
+myoglobin,haspart,oxygen
+oxygen,haspart,oxygen molecule
+deoxyhemoglobin,partof,arterial blood
+oxygen dissociation curve,isa,curve
+myoglobin,isdifferentfrom,hemoglobin
+oxygenated,oppositeof,deoxygenated
+arterial blood,haspart,deoxyhemoglobin
+hemoglobin,isdifferentfrom,myoglobin
+molecule,partof,oxygen molecule
+deoxygenated,oppositeof,oxygenated
+hemoglobin,partof,blood
+tetramer,partof,hemoglobin
+equilibrium,partof,removed
+hemoglobin,isa,tetramer
+removed,partof,equilibrium
+hemoglobin,causedby,oxygen
+hemoglobin tetramer,haspart,oxygen
+binding,differentfrom,allosteric effectors
+allosteric effectors,differentfrom,binding
+oxygen,affects,hemoglobin
+lungs,connectswith,tissues
+tissues,partof,lungs
+lung,partof,alveoli
+alveoli,partof,lung
+body tissues,partof,lungs
+bohr effect,practices,binding
+capillaries,differentfrom,alveolar capillaries
+lungs,partof,body tissues
+alveolar capillaries,differentfrom,capillaries
+oxyhemoglobin,differentfrom,hemoglobin
+deoxy,haspart,oxygen
+hemoglobin,differentfrom,oxyhemoglobin
+deoxyhemoglobin,haspart,h+
+bloodbuffer,haspart,hemoglobin
+harvarduniversity,haspart,johnf.kennedyschoolofgovernment
+johnf.kennedyschoolofgovernment,partof,harvarduniversity
+hemoglobin,partof,bloodbuffer
+deoxyhemoglobin,isa,hemoglobin
+oxygen,haspart,hemoglobin
+bpg,partof,hemoglobin
+amino acid,haspart,phosphate
+oxyhemoglobin,isa,hemoglobin
+hemoglobin,partof,oxygen
+deoxyhemoglobin,haspart,beta globin
+hemoglobin,practices,oxygen binding
+emphysema,isa,chronic obstructive pulmonary disease
+emphysema,causes,chronic obstructive pulmonary disease
+capillaries,partof,tissues
+chronic obstructive pulmonary disease,isa,emphysema
+tissues,haspart,capillaries
+hemoglobin,partof,bpg
+blood,practices,transfused
+tissues,partof,blood
+transfused,haspart,blood
+blood,haspart,carboxyhemoglobin
+rbc,produces,no
+co toxicity,causes,tissue hypoxia
+hyperbaric oxygen therapy,treats,co poisoning
+electron transport chain,haspart,complex iv
+tissue hypoxia,effects,co toxicity
+carboxyhemoglobin,partof,blood
+co poisoning,istreatedby,hyperbaric oxygen therapy
+complex iv,ispartof,electron transport chain
+hbf,isa,hemoglobins
+placenta,haspart,maternalcirculation
+maternalcirculation,partof,placenta
+exon,partof,rna
+rna,haspart,exon
+sickle cell anemia,isa,sickle cell disease
+hemoglobin c disease,isa,sickle cell disease
+qualitative hemoglobinopathy,oppositeof,quantitative hemoglobinopathy
+quantitative hemoglobinopathy,oppositeof,qualitative hemoglobinopathy
+sicklecell,haseffect,heterozygote
+sicklecell,partof,hba
+valine,studies,amino acid substitution in hbs beta chains
+sickle cell disease,isa,sickle cell anemia
+dna,studies,analysis
+analysis,practices,dna
+harvard university,partof,john f kennedy school of government
+hba,isdifferentfrom,hbs
+anode,isa,electrophoresis
+hbs,isdifferentfrom,hba
+electrophoresis,partof,anode
+amino acid substitution in hbs beta chains,partof,valine
+iron overload,haseffect,hemosiderosis
+hemosiderosis,causes,iron overload
+point in time,isa,instance
+beta globin,partof,hemoglobin
+homozygous,oppositeof,heterozygous
+heterozygous,oppositeof,homozygous
+sicklecellanemia,isdifferentfrom,hbscdisease
+hbscdisease,isdifferentfrom,sicklecellanemia
+newborn,oppositeof,adult
+methemoglobin,partof,hemoglobin
+hemoglobin,isa,methemoglobin
+coma,haseffect,death
+adult,oppositeof,newborn
+hemoglobin,haspart,methemoglobin
+nucleotide,haspart,dna
+beta globin,isinstanceof,gene
+anemic,practices,erythropoiesis
+erythropoiesis,haseffect,anemic
+rbc,isa,cells
+blood,usedby,transfusions
+transfusions,uses,blood
+morbidity,haseffect,mortality
+mortality,hascause,morbidity
+carbondioxide,haspartsoftheclass,oxygen
+cope,partof,tocope
+tocope,haspart,cope
+hb,haspart,oxygen
+carboxyhemoglobin,haspart,hb
+hba,isdifferentfrom,fetal hemoglobin
+right,studies,left
+anemia,hascause,chronic hypoxia
+oxygen dissociation curve,isinstanceof,curve
+fetal hemoglobin,isdifferentfrom,hba
+chronic hypoxia,causes,anemia
+hb,isa,hemoglobin
+left,studiedby,right
+hemoglobin,isnot,hemoglobins
+acidosis,causes,sickle cell anemia
+hba,isinstanceof,amino acid substitution
+hba,ispartof,hemoglobin
+hemoglobin,hasmolecule,oxygen
+relaxed conformation,isoppositeof,taut conformation
+adult blood,isoppositeof,fetal blood
+hbac,isinstanceof,amino acid substitution
+onebestanswer,isa,choosetheonebestanswer
+d.c,isadministrativebodyof,washington
+hemoglobins,isnot,hemoglobin
+hbs,istypeof,hemoglobin
+hemoglobin,hascomponent,hba
+fetal blood,isoppositeof,adult blood
+taut conformation,isoppositeof,relaxed conformation
+hbac,issubclassof,hba
+hba,isa,hemoglobin
+washington,isadministrativebodyof,d.c
+ph,haseffect,acidosis
+saturation,isfacetof,oxygen
+acidosis,causes,ph
+ph,isfacetof,bohr effect
+oxygen,hasfacet,saturation
+hemoglobin,haspart,deoxy
+hemoglobin,isa,polypeptide
+d.c,istwinnedwith,washington
+hemoglobin,partof,bisphosphoglycerate
+deoxy,partof,hemoglobin
+washington,istwinnedwith,d.c
+hba,haspart,oxygen
+molecule,isa,amino acid
+hba,partof,molecule
+carbon dioxide,isa,oxygen
+molecule,partof,tissues
+hemegroup,haspart,molecule
+molecule,partof,hemegroup
+bisphosphoglycerate,partof,molecule
+dc,twinnedadministrativebodyof,washington
+washington,twinnedadministrativebodyof,dc
+bisphosphoglycerate,haspart,hba
+tissues,haspart,oxygen
+bibliothque nationale de france,locatedin,paris
+hemoglobin b,isdistinctfrom,hemoglobin f
+hbs,haspart,hbf
+death,haseffect,coma
+benzocaine,treats,methemoglobinemia
+methemoglobinemia,istreatedby,benzocaine
+hemoglobin,isa,hemoglobin c disease
+hemoglobin f,isdistinctfrom,hemoglobin b
+aminoacid,haspart,protein
+fibrousprotein,isa,collagen
+cornea,haspart,eye
+fibrousprotein,isa,elastin
+eye,partof,cornea
+fibers,partof,collagen
+collagen,isa,protein
+cornea,partof,eye
+domains,isa,proteins
+type ii,isoppositeof,type i
+type i,isoppositeof,type ii
+type i collagen fiber,isoppositeof,type ii collagen fiber
+type ii collagen fiber,isoppositeof,type i collagen fiber
+alpha chain,isa,amino acid sequence
+interchain,isa,hydrogen bond
+tissues,partof,collagen
+meshwork,partof,basement membrane
+basement membrane,haspart,meshwork
+alpha helix,isdifferentfrom,alpha chain
+hydroxylysine,isa,residue
+hydroxyproline,isa,residue
+proline,isa,residue
+alpha chain,isa,peptide chain
+collagen,haspart,glycine
+alpha chain,isdifferentfrom,alpha helix
+helix,haspart,chains
+glycine,isaninstanceof,amino acid
+chains,partof,helix
+triple helix,precedes,polypeptide chain
+hydroxylysine,isa,amino acid
+polypeptide chain,follows,triple helix
+ecm,ispartof,triple helix
+hydroxyproline,isa,amino acid
+hydroxyl group,iscomposedof,hydroxyl
+lysine,isa,residue
+hydroxyl,haspart,hydroxyl group
+collagen,isa,proteins
+lumen,partof,endoplasmic reticulum
+endoplasmic reticulum,partof,lumen
+proline,practiceshaving,h bond
+hydroxylysine,isaninstanceof,residues
+cross linked,isnot,collagen
+proline,isaninstanceof,residues
+lysine,isaninstanceof,residues
+collagen,isnot,cross linked
+lysine,practiceshaving,h bond
+hydroxyproline,isaninstanceof,residues
+molecule,haspart,atom
+triple helix,haspart,alpha chain
+interchain,isa,disulfide bond
+lysine,isa,aldehyde
+hydroxylysine,isa,aldehyde
+tissues,partof,fibers
+gene,encodes,protein
+chains,partof,collagen
+elastin,isa,protein
+point in time,studies,iii
+elastin,isa,glycoprotein
+elastin,haspart,elastin
+elastin,partof,iii
+structure,facetof,aa
+connective tissue,haspart,elastin
+hydroxyproline,isdifferentfrom,proline
+proline,isdifferentfrom,hydroxyproline
+elastin,partof,connective tissue
+ecm,partof,cell
+glycine,isa,amino acids
+valine,isa,amino acids
+alanine,isa,amino acids
+fibrillin,isa,glycoprotein
+alveolarwalls,connectswith,lungtissue
+plasma,partof,liver
+lung,haspart,alveoli
+lungtissue,connectswith,alveolarwalls
+alpha antitrypsin deficiency,haseffect,emphysema
+methionine,inhibits,protein
+blood,partof,body
+body,haspart,liver
+emphysema,haseffect,alpha antitrypsin deficiency
+gene,isa,heterozygote
+liver,partof,body
+protein,isinhibitedby,methionine
+nonsmokers,opposite,smokers
+smokers,opposite,nonsmokers
+elastin,isdifferentfrom,collagen
+humerus,connectswith,clavicle
+clavicle,connectswith,humerus
+emphysema,istreatedby,fibrillin
+collagen,isdifferentfrom,elastin
+fibrillin,treats,emphysema
+ii,instanceof,point in time
+recommended name,saidtobethesameas,short
+short,saidtobethesameas,recommended name
+catalysts,isa,enzyme
+synthase,isa,enzyme
+catalysts,practices,chemical reaction
+active site,belongsto,aa
+dehydrogenase,isa,enzyme
+enzyme,isa,catalyst
+cofactor,isa,molecule
+apoenzyme,isa,holoenzyme
+enzyme,practices,catalysis
+catalysis,uses,enzyme
+apoenzyme,partof,holoenzyme
+organelle,haspart,cell
+iv,isa,point in time
+cell,partof,organelle
+product,haspart,substrate
+holoenzyme,partof,apoenzyme
+action,haspart,mechanism
+chemical reaction,haseffect,products
+active site,practices,catalysis
+uncatalyzed reaction,isa,reaction pathway
+mechanism,partof,action
+products,isa,intermediate
+molecule,haspart,energy
+catalysis,isa,energy
+free energy,practices,equilibrium
+transition state,partof,reaction
+product,partof,molecule
+molecule,isa,product
+molecule,practices,reaction
+reaction,isa,process
+stabilized state,differentfrom,isolated
+transition state,isa,stabilized state
+ph,hasfacet,pk
+residues,isa,amino acid
+transition state,isnot,isolated
+process,practices,catalysis
+isolated,differentfrom,transition state
+isolated,isnot,transition state
+catalysis,ispracticedby,enzyme
+head,connectswith,arms
+arms,connectswith,head
+substrate,haspart,enzyme
+concentration,isa,substrate concentration
+molar amount,issubclassof,product
+reaction,studies,product
+product,isa,molar amount
+oxygen dissociation curve,ispartof,myoglobin
+myoglobin,practices,oxygen binding
+reaction velocity,hasfacet,ph effect on active site ionization
+ph effect on active site ionization,isfacetof,reaction velocity
+denaturation,studies,reactionvelocity
+enzyme class,haspart,enzyme
+enzyme,isa,enzyme class
+molecule,isa,substrate
+back reaction,partof,substrate
+vmax,saidtobesameas,michaelis constant
+substrate,usedby,enzyme
+conclusion,partof,important conclusions
+time,partof,point in time
+important conclusions,haspart,conclusion
+velocity,isa,vmax
+enzyme,isa,reaction
+steady stateassumption,isa,instance
+initial velocity,isa,initial reaction velocity
+point in time,partof,event
+michaelis constant,saidtobesameas,vmax
+initial reaction velocity,studies,initial velocity
+event,partof,point in time
+enzyme,uses,substrate
+instance,partof,steady stateassumption
+km,sameas,vmax
+velocity,sameas,vmax
+vmax,sameas,velocity
+reaction,partof,substrate concentration
+vmax,sameas,km
+noncovalent bond,causes,dissociation
+competitive,isa,reversible inhibition
+irreversible,isdifferentfrom,reversible
+noncompetitive,isa,reversible inhibition
+reversible,isdifferentfrom,irreversible
+inhibitor,isa,catalyst
+competitive inhibition,isa,inhibitor
+dissociation,occursin,noncovalent bond
+vmax,haspart,substrate
+km,partof,apparent km
+apparent km,haspart,km
+uninhibited,inhibitedby,inhibited
+enzyme substrate complex,haspart,free enzyme
+noncompetitive inhibition,istypeof,inhibition
+noncompetitive inhibitor,isa,noncompetitive inhibitor
+reaction,isa,catalyzed reaction
+inhibited,inhibits,uninhibited
+free enzyme,ispartof,enzyme substrate complex
+enzyme inhibitor,isa,drugs
+noncompetitive inhibitor,opposite,inhibitor
+noncompetitive inhibitor,instanceof,drugs
+vmax,partof,effect on
+reaction,partof,effect on
+noncompetitive inhibition,opposite,competitive inhibition
+vmax,isa,reaction
+lisinopril,practices,blood pressure
+captopril,practices,treats
+reaction rate,ismeasuredby,concentration
+enzyme inhibitor,isa,drug
+captopril,practices,blood pressure
+reaction rate,affects,concentration
+lisinopril,practices,treats
+enzyme,partof,subunit
+molecule,partof,activesite
+enzyme,haspart,substrate
+heterotropic,isa,effectors
+effectors,isa,heterotropic
+phosphate,haspart,tyrosine
+product,isa,substrate
+glycogen synthase,isdifferentfrom,glycogen phosphorylase
+enzyme synthesis,produces,enzyme
+enzyme response to phosphorylation,studies,phosphorylation
+phosphorylation,haseffect,enzyme response to phosphorylation
+glycogen phosphorylase,isdifferentfrom,glycogen synthase
+enzyme synthesis,practices,enzyme degradation
+covalent regulation,oppositeof,allosteric regulation
+enzyme,haspart,active site
+allosteric regulation,oppositeof,covalent regulation
+molecule,haspart,activesite
+enzyme,isa,molecule
+activesite,ispartof,enzyme
+enzyme degradation,practices,enzyme synthesis
+blood,partof,plasma
+plasma,studies,tissue damage
+whole blood,partof,serum
+plasma,studies,physiologic
+plasma,isdifferentfrom,serum
+plasma,partof,blood
+serum,ispartof,whole blood
+cells,partof,plasma
+tissue damage,causedby,enzyme activity
+tissue,islocatedin,plasma
+tissue damage,causes,disease
+liver,isa,tissue
+disease,haseffect,tissue damage
+enzyme activity,isin,plasma
+cellular injury,causedby,tissue
+tissue,causes,cellular injury
+creatine kinase,treats,myocardial infarction
+amino acid,partof,sequence
+electrophoresis,practices,electric field
+bb isoform,isoppositeof,mm isoform
+sequence,haspart,amino acid
+myocardial infarction,istreatedby,creatine kinase
+tissue,causes,tissue damage
+mm isoform,isoppositeof,bb isoform
+body fluid,haspart,plasma
+infarction,haseffect,myocardium
+plasma,partof,body fluid
+myocardium,ispartof,infarction
+enzyme substrate complex,haspart,substrate
+reaction pathway,isa,reaction
+michaelis constant,instanceof,km
+competitive,oppositeof,noncompetitive
+product,partof,enzyme
+active site,partof,enzyme
+free energy,haseffect,equilibrium
+noncompetitive,oppositeof,competitive
+catalysis,practices,enzyme
+catalysts,isa,chemical reaction
+myoglobin,partof,oxygen
+inhibitor,isa,catalyzed reaction
+equilibrium,causedby,free energy
+enzyme,partof,active site
+activesite,partof,molecule
+oxidized,subclassof,reaction
+irreversible,oppositeof,competitive
+onebestanswer,saidtobethesameas,choosetheonebestanswer
+catalytic,hascause,oxidized
+inhibition,hascause,ethanol
+vmax,subclassof,reactionvelocity
+competitive,oppositeof,irreversible
+ethyleneglycolpoisoning,subclassof,metabolicacidosis
+ethanol,haseffect,inhibition
+ethanol,medicalconditiontreated,ethyleneglycolpoisoning
+reduced,subclassof,reaction
+ethyleneglycolpoisoning,drugusedfortreatment,ethanol
+choosetheonebestanswer,saidtobethesameas,onebestanswer
+apoenzyme,haspart,nad+
+oxidized,haseffect,catalytic
+cofactor,isa,ion
+free energy,causes,reaction
+reaction,haseffect,free energy
+reaction,haseffect,product
+cofactor,studies,ion
+point in time,isa,time
+catalyzed reaction,practices,forward reaction
+product,haspart,reactant
+uncatalyzed reaction,isa,reaction
+product,hascause,reaction
+kinetics,oppositeof,bioenergetics
+bioenergetics,oppositeof,kinetics
+worldwarii,follows,worldwari
+reaction,hascause,chemicalreaction
+entropy,saidtobethesameas,freeenergy
+reactioncomponents,differentfrom,reactionmechanism
+biologicsystems,studiedby,bioenergetics
+freeenergy,saidtobethesameas,entropy
+chemicalreaction,haseffect,reaction
+worldwari,followedby,worldwarii
+reactionmechanism,differentfrom,reactioncomponents
+bioenergetics,studies,biologicsystems
+chemicalreaction,subclassof,process
+equilibrium,isa,reaction
+product,partof,reactant
+products,partof,reaction
+reaction,haspart,products
+natural logarithm,haspart,ln
+products,studiedby,reaction
+ln,partof,natural logarithm
+coupledreaction,haspart,intermediate
+atp,haspart,phosphate
+intermediate,subclassof,reaction
+adenosinediphosphate,haspart,phosphate
+intermediate,partof,coupledreaction
+biologicreaction,haspart,intermediate
+enzyme,subclassof,intermediate
+intermediate,partof,biologicreaction
+high energy phosphate compound,haspart,adenosine triphosphate
+adenosine triphosphate,partof,high energy phosphate compound
+adenosine monophosphate,partof,high energy phosphate compound
+atp,isa,nucleotide
+adenosine monophosphate,isa,nucleotide
+electron transport chain,isa,electron carrier
+carbondioxide,haspart,ho
+fadh,isa,flavin adenine dinucleotide
+flavin adenine dinucleotide,haspart,fadh
+ho,hasparts,oxygen
+mitochondria,partof,tissues
+water,partof,electron transport chain
+nadh,isa,nicotinamide adenine dinucleotide
+nicotinamide adenine dinucleotide,haspart,nadh
+ho,isa,oxygen
+electron carrier,partof,electron transport chain
+mitochondrialmatrix,partof,mitochondria
+ribosome,haspart,ribonucleicacid
+mitochondria,haspart,mitochondrialmembrane
+mitochondrialmembrane,partof,mitochondrion
+ribonucleicacid,partof,ribosome
+carrier,partof,transportsystem
+mitochondrialmembrane,partof,mitochondria
+transportsystem,haspart,carrier
+iv,isa,protein complex
+tca cycle,haspart,dehydrogenase
+ho,haspart,h +
+cytochromes,partof,cytochrome a a complex
+coq,isinstanceof,quinone
+ii,isa,protein complex
+dehydrogenase,partof,tca cycle
+cytochrome a a complex,haspart,cytochromes
+nadh,haspart,hydrogen
+iii,isa,protein complex
+intermembrane space,partof,mitochondrial membrane
+coenzyme q,isa,quinone
+fmnh,haspart,hydrogen
+peptide,practices,catalysis
+catalysis,haspart,peptide
+fadh,isa,cofactor
+mitochondrial membrane,partof,intermembrane space
+complex i,isa,protein complex
+cytochrome a,practices,cytochrome a
+ho,haspart,h+
+atp synthesis,iscausedby,inhibition etc
+oxidation,oppositeof,reduction
+inhibition etc,causes,atp synthesis
+catalase,isinstanceof,enzyme
+reduction,oppositeof,oxidation
+cytochrome a a,partof,cytochrome complex
+dna,encodes,proteins
+cytochrome complex,haspart,cytochrome a a
+redox reaction,haspart,electrons
+fmnh,instanceof,redox pair
+nad+,instanceof,redox pair
+oxidation,isa,redox reaction
+nadh,instanceof,redox pair
+redox pair,haspart,electrons
+atp,partof,pi
+atp,differentfrom,adp
+adp,differentfrom,atp
+intermembrane space,haspart,mitochondrial membrane
+atp synthesis,produces,atp
+ph,propertyof,chemical
+electron donor,opposite,electron acceptor
+phosphorylation,follows,oxidation
+atp,isa,free energy
+electron acceptor,opposite,electron donor
+mitochondrion,partof,mitochondrialmatrix
+adenosinediphosphate,haspart,atp
+decreasing,oppositeof,increasing
+increasing,oppositeof,decreasing
+adp,ispartof,atp
+h +,differentfrom,atp
+brown fat,oppositeof,white fat
+wrote,studies,cymbeline
+william shakespeare,practices,wrote
+cymbeline,isa,play
+play,hasauthor,william shakespeare
+white fat,oppositeof,brown fat
+mitochondrial membrane,partof,uncoupling protein
+atp,differentfrom,h +
+energy,isa,heat
+uncoupling protein,partof,mitochondrial membrane
+toxic overdoses,effects,fever
+cytosol,haspart,h+
+mitochondrial membrane,haspart,h+
+cytosol,connectswith,mitochondrial matrix
+adp,isdifferentfrom,atp
+mitochondrial matrix,connectswith,cytosol
+heat,isa,energy
+atp,isdifferentfrom,adp
+mitochondria,haspart,cytosol
+fever,causes,toxic overdoses
+mitochondrial membrane,partof,cell
+coq,isa,coenzyme q
+atp,haspart,nadh
+malate,partof,mitochondrial matrix
+nadh,haspart,dihydroxyacetone phosphate
+coq,isa,quinone
+glycolysis,haspart,cytosol
+cytosol,partof,glycolysis
+atp,haspart,fadh
+coq,haspart,atp
+dihydroxyacetone phosphate,partof,nadh
+oxidized,issubclassof,reduced
+glycolysis,isa,process
+mtdna,differentfrom,nuclear dna
+nuclear dna,differentfrom,mtdna
+mitochondria,isa,organelle
+mitochondria,haspart,mtdna
+mtdna,partof,mitochondria
+cytosol,partof,intermembrane space
+water,haspart,oxygen
+back reaction,practices,forward reaction
+forward reaction,practices,back reaction
+hydrolysis,isa,reaction
+nicotinamide adenine dinucleotide,isa,reduced cofactor
+flavin adenine dinucleotide,isa,reduced cofactor
+electron transport chain,haspart,electron carrier
+mitochondrial diseases,causedby,mitochondrial dna
+phosphorylation,partof,oxidative phosphorylation
+mitochondrial dna,affects,mitochondrial diseases
+mitochondrial membrane,partof,mitochondria
+ph,isa,synthase
+oxidative phosphorylation,haspart,phosphorylation
+mitochondria,produces,atp
+nicotinamide adenine dinucleotide,istypeof,cofactor q
+mitochondrial membrane,produces,atp
+heat,iscausedby,body temperature
+hypermetabolism,affects,body temperature
+body temperature,affects,heat
+body temperature,causes,hypermetabolism
+flavin adenine dinucleotide,istypeof,cofactor q
+mitochondrial membrane,haspart,nicotinamide adenine dinucleotide
+terminal acceptor,partof,electron transport chain
+complex iv,partof,electron transport chain
+electron transport chain,partof,complex iv
+complex i,partof,electron transport chain
+electron transport chain,partof,complex i
+electron transport chain,haspart,terminal acceptor
+cytosol,haspart,mitochondrial matrix
+malate,subjecthasrole,oxidized
+mitochondrial matrix,partof,cytosol
+classification and structure,haspart,structure
+bacteria,haspart,cell walls
+cellulose,haspart,carbohydrates
+structure,partof,classification and structure
+disaccharide,haspart,monosaccharide
+polysaccharide,haspart,monosaccharide
+galactose,isinstanceof,isomers
+monosaccharide,isa,carbohydrates
+fructose,isexception,monosaccharide
+aldose,isa,carbohydrates
+ketose,haspart,xylulose
+carbon,isa,group
+xylulose,partof,ketose
+oligosaccharide,haspart,monosaccharide
+keto,isa,carbohydrates
+glucose,isinstanceof,isomers
+fructose,isinstanceof,isomers
+monosaccharide,haspart,glycosidic bond
+keto,haspart,carbonylcarbon
+aldehyde,haspart,carbonylcarbon
+trans,subclassof,group
+carbon,haspart,hydroxyl
+disaccharide,isdifferentfrom,monosaccharide
+ketose,isaninstanceof,fructose
+enzyme,isa,structure
+beta d glucopyranose,partof,glycogen
+glycogen,haspart,beta d glucopyranose
+monosaccharide,isdifferentfrom,disaccharide
+glucose,haspart,alpha
+pyranose,isdifferentfrom,furanose
+furanose,isdifferentfrom,pyranose
+pyranose,haspart,glucose
+lactose,isa,disaccharide
+monosaccharide,haspart,polysaccharide
+monosaccharide,haspart,oligosaccharide
+monosaccharide,haspart,disaccharide
+polysaccharide,isa,starch
+sucrose,isa,disaccharide
+maltose,isa,disaccharide
+polysaccharide,isa,cellulose
+glycosidic bond,isa,bond
+lactose,isa,reducing sugar
+fructose,isa,monosaccharide
+galactose,isa,monosaccharide
+mouth,connectswith,intestinal lumen
+oligosaccharide,isa,polysaccharide
+salivary,isa,alpha amylase
+glucose,isa,monosaccharide
+intestinal lumen,connectswith,mouth
+mastication,practices,chewing
+small intestine,connectswith,stomach
+chewing,partof,mastication
+stomach,connectswith,small intestine
+jejunum,connectswith,duodenum
+maltose,haspart,glucose
+maltose,isa,substrate
+maltotriose,haspart,glucose
+duodenum,connectswith,jejunum
+maltotriose,isa,substrate
+digestion,haspart,jejunum
+jejunum,partof,digestion
+secondary active transport,practices,concurrent uptake
+concurrent uptake,partof,secondary active transport
+sugar,isa,monosaccharide
+carbon dioxide,iscomposedof,hydrogen gas
+intestinal mucosa,ispartof,large intestine
+large intestine,haspart,intestinal mucosa
+asian,differentfrom,african
+europe,haspart,northern europe
+african,differentfrom,asian
+northern europe,partof,europe
+slovenia,haspart,ljubljana
+ljubljana,ispartof,slovenia
+aldehyde,isa,keto
+aldose,isa,monosaccharide
+hydrogen gas,ispartof,carbon dioxide
+starch,haspart,alpha amylase
+hypolactasia,effect,lactose intolerance
+lactose intolerance,cause,hypolactasia
+washington,hasadministrativebody,d.c
+furanose,isa,ketose
+d.c,hasadministrativebody,washington
+alpha amylase,practices,hydrolysis
+starch,hasenzyme,alpha amylase
+starch,isa,polysaccharide
+alpha amylase,partof,salivary
+monosaccharide,isdifferentfrom,alpha amylase
+carbohydrates,haspart,amino acid
+fructose,isa,ketose
+alpha amylase,partof,pancreatic
+glucose,isa,aldose
+pyranose,isa,aldose
+pancreatic,haspart,alpha amylase
+xylulose,hasrole,reducing sugar
+glucose,isa,reducing sugar
+reducing sugar,haspart,glucose
+galactose,hasrole,reducing sugar
+fructose,hasrole,reducing sugar
+sucrose,isinstanceof,reducing sugar
+no,isdifferentfrom,sugar
+sucrose,isa,sugar
+sugar,isdifferentfrom,no
+lactose,hasrole,reducing sugar
+glucose,hasrole,reducing sugar
+carbohydrates,haspart,glucose
+polysaccharide,haspart,glycogen
+substrate,isa,product
+tissue,hasparts,cells
+pathway,studies,chemical reaction
+carbohydrates,haspart,lipid
+pathway,facetof,chemical reaction
+glycogen,isa,polysaccharide
+cells,partof,tissue
+glycolysis,isa,pathway
+carbon dioxide,isa,co
+catalytic,isa,enzyme
+co,isa,carbon dioxide
+atp,partof,catabolism
+catabolism,haspart,atp
+nicotinamide adenine dinucleotide,isa,cofactor
+complex molecule,haspart,building block
+building block,partof,complex molecule
+atp,hasoxygenaspart,oxygen
+amino acid,hasproteinaspart,protein
+activators,areoppositesof,inhibitors
+tissues,arepartsof,cells
+inhibitors,areoppositesof,activators
+chemical signaling,hassubtype,neurotransmitter
+intracellular signals,isa,signaling
+facet,hastype,survival
+messenger,hassubtype,second messenger system
+second messenger system,isa,messenger
+survival,isa,facet
+signaling,hassubtype,intracellular signals
+neurotransmitter,isa,chemical signaling
+hormone,isa,neurotransmitter
+beta,isa,gpcr
+neurotransmitter,isa,hormone
+ac,partof,gpcr
+gpcr,haspart,ac
+beta gamma subunits,oppositeof,alpha subunit
+gi,isdifferentfrom,gs
+neurotransmitter,isdifferentfrom,hormone
+galpha,oppositeof,ac
+ac,oppositeof,galpha
+alpha,isa,trimeric proteins
+beta,isa,trimeric proteins
+gs,isdifferentfrom,gi
+alpha subunit,oppositeof,beta gamma subunits
+gai,haseffect,whooping cough
+whooping cough,iscausedby,bordetella pertussis
+whooping cough,iscausedby,gai
+bordetella pertussis,haseffect,whooping cough
+world war i,precededby,world war ii
+hormone,neurotransmitterisa,neurotransmitter
+buprenorphine,haspart,opioids
+opioids,partof,buprenorphine
+overdose,istreatedby,aspirin
+arterial blood,ispartof,circulation
+aspirin,studies,pharmacology
+pharmacology,studies,aspirin
+circulation,haspart,arterial blood
+aspirin,treatsmedicalcondition,overdose
+pharmacokinetics,studies,elimination
+pharmacology,hassubclass,toxicology
+elimination,isstudiedby,pharmacokinetics
+chemical,isstudiedby,pharmacodynamics
+toxic,isoppositeof,beneficial
+pharmacodynamics,studies,chemical
+development of new drugs,haspart,regulation
+toxicology,studies,chemical
+chemical,isstudiedby,toxicology
+toxicology,ispartof,pharmacology
+beneficial,isoppositeof,toxic
+regulation,partof,development of new drugs
+worthless,isoppositeof,harmful
+blood,affects,disease
+harmful,isoppositeof,worthless
+mechanisms of action,facetof,drug
+tissue,haspart,organ
+organ,partof,tissue
+medicines,isa,substance
+pharmacology,practices,medicines
+new members,oppositeof,old groups
+old groups,oppositeof,new members
+medication,practices,pharmacologic
+pharmacologic,isstudiedby,medication
+ineffective,oppositeof,expensive
+expensive,oppositeof,ineffective
+alternative or complementary medicine,isnot,scientific medicine
+scientific medicine,isnot,alternative or complementary medicine
+biology,isdifferentfrom,medical science
+medical science,isdifferentfrom,biology
+receptor,isa,molecule
+inhibitor,opposite,agonist
+agonist,opposite,inhibitor
+site of administration,differentfrom,site of action
+site of action,differentfrom,site of administration
+ph,isa,acid
+bases,practices,being opposite of
+inorganic element,studies,lithium
+acids,practices,bases
+bases,practices,acids
+acids,practices,being opposite of
+lithium,isa,inorganic element
+molecule,hasrelation,binding
+drug,isa,molecule
+binding,hasrelation,molecule
+site of administration,isdifferentfrom,site of action
+site of action,isdifferentfrom,site of administration
+protein,isa,drug
+platelet aggregation blocking effect of aspirin,causes,acetylsalicylic acid
+acetylsalicylic acid,haseffect,platelet aggregation blocking effect of aspirin
+strong bond,haspart,weak bond
+receptor,isa,pharmacologic
+weak bond,studies,strong bond
+drug,partof,receptor
+bond,haspart,molecule
+key,isa,lock
+enantiomer,isa,molecule
+molecule,partof,bond
+lock,haspart,key
+receptor,partof,enantiomer
++ enantiomer,oppositeof,enantiomer
+enantiomer,oppositeof,+ enantiomer
+enantiomer,haseffect,duration of action
+active isomer,isa,isomer
+drug,practices,receptor
+drug,practices,through
+racemic,haspart,enantiomer
+racemic,isa,active isomer
+racemic,studies,through
+racemic,studies,enantiomers
+molecular structure,isa,drug
+enantiomers,partof,racemic
+racemic,studies,isomer
+receptors,isa,naming
+pharmacological reviews,publisher,international union of pharmacology
+pharmacological reviews,publishes,international union of pharmacology
+receptor,subclassof,naming
+drug,hascause,receptor
+receptor,haseffect,drug
+pharmacokinetics,partof,pharmacodynamics
+pharmacodynamics,isa,pharmacokinetics
+conformation,partof,molecular structure
+antagonists,oppositeof,agonist
+coupling molecule,haspart,effector molecule
+effector molecule,ispartof,coupling molecule
+agonist,oppositeof,antagonists
+agonist,isa,drug
+agonist,opposite,allosteric inhibition
+molecule,isa,agonist
+allosteric inhibition,opposite,agonist
+partial agonists,isa,inverse agonists
+inverse agonists,subclassof,partial agonists
+agonist,uses,ligand
+ligand,use,agonist
+ligand,practices,agonist
+agonist,subclassof,drug
+inactive,oppositeof,activatedform
+drug receptorinteraction,depicts,figure
+coupledsystem,haspart,couplingmolecules
+ra,partof,receptorpool
+receptorpool,haspart,ra
+activatedform,oppositeof,inactive
+couplingmolecules,partof,coupledsystem
+figure,depicts,drug receptorinteraction
+intrinsic efficacy,isdifferentfrom,affinity
+full agonist,opposite,partial agonist
+receptor effectorsystem,haspart,receptorpool
+receptorpool,isa,agonist
+fullagonist,isa,drug
+partialagonist,isa,agonist
+partialagonist,opposite,full agonist
+affinity,isdifferentfrom,intrinsic efficacy
+receptor effectorsystem,partof,receptorpool
+affinity,isa,facet
+receptors,haspart,agonist
+agonists,hasopposite,efficacy
+antagonist,isa,action
+drugs,isa,agonists
+affinity,isa,agonist
+antagonist,isoppositeof,agonist
+binding affinity,partof,agonist
+agonist,isa,action
+agonist,practices,receptors
+efficacy,hasopposite,affinity
+ra,partof,id pool
+ri,partof,id pool
+id pool,haspart,ra
+agonist,oppositeof,receptor
+ra,haspart,conformation
+ri,follows,ra
+inactive,isa,drug
+receptor,oppositeof,agonist
+cell,partof,biologicsystem
+biologicsystem,haspart,tissue
+ligand,partof,receptor
+tissue,partof,biologicsystem
+pharmacologic,haspart,ligand
+prodrug,isa,precursor chemical
+absorbed,subclassof,administered
+therapeutics,subclassof,molecule
+therapeutics,isa,molecule
+absorbed,haspart,administered
+prodrug,prodrug,precursor chemical
+siteofadministration,differsfrom,siteofaction
+siteofaction,differsfrom,siteofadministration
+new york city,contains,manhattan
+endothelial lining,partof,blood vessel
+manhattan,locatedin,new york city
+figure,partof,figure a
+figure a,haspart,figure
+blood vessel,haspart,endothelial lining
+mechanismsofdrugpermeation,studies,figuremechanismsofdrugpermeation
+figuremechanismsofdrugpermeation,partof,mechanismsofdrugpermeation
+bases,oppositeof,acids
+lipid media,haspart,aqueous
+acids,oppositeof,bases
+aqueous,partof,lipid media
+passive diffusion,oppositeof,facilitated diffusion
+weak base,oppositeof,weak acid
+facilitated diffusion,oppositeof,passive diffusion
+weak acid,oppositeof,weak base
+nerve,haspart,membranes
+membranes,partof,nerve
+bile,partof,urine
+vesicle membrane,haspart,cytosol
+cytosol,partof,vesicle membrane
+red blood cell,partof,hemoglobin
+diffusion,namedafter,fick
+hemoglobin,haspart,red blood cell
+fick,namedafter,diffusion
+receptor,isa,protein
+protein,isa,receptor
+molecule,haspart,cation
+lipid solubility,haseffecton,lipid diffusion
+ion,haspart,anion
+lipid diffusion,causedby,lipid solubility
+cation,haspart,molecule
+cation,isa,ion
+lipid diffusion,practices,lipid membrane
+ionization of weak acids and weak bases,haspart,henderson hasselbalch equation
+anion,isa,ion
+henderson hasselbalch equation,partof,ionization of weak acids and weak bases
+lipid membrane,ispartof,lipid diffusion
+acid,opposite,alkaline
+alkaline,opposite,acid
+ph,facetof,acid
+ph,differentfrom,pka
+pka,differentfrom,ph
+acidic urine,isoppositeof,alkaline urine
+alkaline urine,isoppositeof,acidic urine
+stomach,connectswith,small intestine
+small intestine,connectswith,stomach
+ph,isaspectof,urine
+proton,opposes,electrons
+ionizable group,hasproperty,pka
+amine,isa,ionizable group
+amine,haspart,nitrogen
+ph,equals,pka
+molecule,haspart,nitrogen
+electrons,attracts,proton
+pharmacodynamic,haspart,pharmacokinetic
+pathophysiologic,isa,disease
+h hr n h hr n mg,partof,cells of nephron lipid diffusion
+cells of nephron lipid diffusion,partof,h hr n h hr n mg
+pharmacokinetic,partof,pharmacodynamic
+disease,studies,pathophysiologic
+advertising,partof,marketing
+unitednations,haspart,generalassemblyoftheunitednations
+marketing,haspart,advertising
+priceincreasedbyseveralhundredorseveralthousandpercent,partof,drug pricingscandals
+generalassemblyoftheunitednations,partof,unitednations
+drug pricingscandals,haspart,priceincreasedbyseveralhundredorseveralthousandpercent
+in vitro,isdifferentfrom,in vivo
+approval for general use,ispartof,regulatory approval
+interactions,hascause,biologic targets
+licensed practitioner,practices,licensed
+regulatory approval,haspart,approval for general use
+biologic targets,haseffect,interactions
+efficacy,isdifferentfrom,safety
+safety,isdifferentfrom,efficacy
+in vivo,isdifferentfrom,in vitro
+testing,practices,development
+development,partof,testing
+pharmacologic,differentfrom,therapeutic
+pharmacologic profile,studies,drug
+therapeutic,differentfrom,pharmacologic
+drug,haspart,pharmacologic profile
+basic science,partof,clinic
+clinic,isa,basic science
+thrombotic disease,hascause,hypertension
+drug metabolism,practices,toxicology
+toxicology,studies,drug metabolism
+toxic,isa,effect
+hypertension,haseffect,thrombotic disease
+selectivity,isa,mechanism
+agonist,isa,partialagonist
+agonist,opposite,antagonist
+renal function,partof,cardiovascular
+cardiovascular,partof,organ
+hypertension,istreatedby,antihypertensive
+studies,isa,in vivo
+antihypertensive,isusedfor,hypertension
+pharmacologic,partof,selectivity
+drug interaction,practices,examined
+examined,studies,drug interaction
+dose,isa,no effectdose
+facet,isa,toxic
+risk,isa,dose
+risk,isa,no effectdose
+harvard university,haspart,john f kennedy school of government
+human,isdifferentfrom,animal
+john f kennedy school of government,partof,harvard university
+animal,isdifferentfrom,human
+testing,studies,toxicity
+clinical pharmacologists,partof,clinical trial
+m.a,iscapitalof,l.a
+l.a,locatedin,m.a
+drug,isstudiedby,clinical trial
+experimental design,studies,population of subjects
+population of subjects,partof,experimental design
+diseases,haspart,risk factors
+risk factors,partof,diseases
+tissue,haspart,blood
+study groups,areusedby,crossover technique
+drugs,arestudiedby,pharmacokinetics
+drug,isstudiedby,pharmacokinetics
+pharmacokinetics,studies,drugs
+blood,partof,tissue
+pharmacokinetics,studies,drug
+crossover technique,practices,study groups
+therapeutic intervention,practices,medical personnel
+biochemical,partof,physiologic
+active dosage form,isoppositeof,inert material
+medical personnel,isa,therapeutic intervention
+inert material,isoppositeof,active dosage form
+physiologic,haspart,biochemical
+crossover design,studies,control group
+phase,practices,study
+conclusions,causedby,studies
+compliance confirmation,issameas,adherence
+adherence,issameas,compliance confirmation
+studies,haseffect,conclusions
+control group,studies,crossover design
+patients,isstudiedby,clinicians
+trial,hasfacet,phase
+clinicians,practices,studies
+clinicians,practices,patients
+cause and effect,isdifferentfrom,meta analysis
+meta analysis,isdifferentfrom,cause and effect
+clinicalendpoints,isa,surrogateendpoint
+harvard university,hassubclass,john f kennedy school of government
+confoundingfactors,haspart,randomization
+surrogateendpoint,studies,clinicalendpoints
+goldstandard,studies,evaluatingdrugs
+drug,partof,data
+data,isa,drug
+randomization,practices,confoundingfactors
+evaluatingdrugs,isa,goldstandard
+newyorkcity,containsadministrativeterritorialentity,manhattan
+safety,haspart,effectiveness
+effectiveness,partof,safety
+manhattan,locatedintheadministrativeterritorialentity,newyorkcity
+physician,partof,patient
+patient,haspart,physician
+pregnancy,haspart,fetus
+pregnancy,haspart,first trimester
+fetus,partof,pregnancy
+birth defects,hascause,maternal exposure to one agent
+maternal exposure to one agent,haseffect,birth defects
+first trimester,partof,pregnancy
+thalidomide,treats,leprosy
+leprosy,istreatedby,thalidomide
+nda,studies,clinical trials
+table,partof,ind
+clinical trials,isa,clinical trial
+ind,haspart,table
+animal studies,isa,clinical trial
+phase,practices,clinical trial
+absorption,studiedby,pharmacokinetic
+half life,studiedby,pharmacokinetic
+predictable,causes,toxicities
+metabolism,studiedby,pharmacokinetic
+pharmacokinetic,studies,absorption
+phase,studies,development
+pharmacokinetic,studies,metabolism
+pharmacokinetic,studies,half life
+toxicities,haseffect,predictable
+phase studies,practices,clinical pharmacologists
+activedrug,oppositeof,placebo
+placebo,oppositeof,activedrug
+toxicities,partof,phase
+specialists,practice,disease being treated
+phase,isa,study
+disease being treated,istreatedby,specialists
+application,isa,new drug application
+approval process,studies,approval
+new drug application,practices,fda
+phase,partof,application
+studies,requiredfor,approval process
+drug trial,partof,statistical methods
+statistical methods,practices,drug trial
+phase,studies,phase
+phase studies,studies,phase studies
+fda,haspart,enforcement of requirement
+approved for restricted marketing,isa,phase
+phase studies,partof,phase studies
+toxicity,oppositeof,effectiveness
+enforcement of requirement,partof,fda
+phase,practices,approved for restricted marketing
+phase,follows,phase
+safety,isa,drug
+phase,precedes,phase
+antibodies,subclassof,proteins
+marketing,haspart,approval
+nda,author,fda
+effective agent,differentfrom,efficacy
+fda,isa,organization
+drug,manufacturedby,companies
+phase,facetof,trial
+companies,produces,drug
+marketing,practices,development
+trial,studies,phase
+efficacy,differentfrom,effective agent
+agent,differentfrom,drug
+patients,practicedby,physicians
+drug,differentfrom,agent
+drug,usedby,physician
+physicians,practices,patients
+serious,haspart,unexpected
+unexpected,partof,serious
+efficacy,differentfrom,safety
+safety,differentfrom,efficacy
+mechanisms,isstudiedby,pathophysiology
+pathophysiology,studies,mechanisms
+world wide web,differentfrom,internet
+pharmacology,isa,clinical specialties
+internet,differentfrom,world wide web
+clinical specialties,isstudiedby,pharmacology
+ukraine,diplomaticrelation,russia
+toxicologic,studies,drug dosage
+russia,diplomaticrelation,ukraine
+pharmacology,studies,product
+drug dosage,studiedby,toxicologic
+ukraine,diplomaticrelation,unitedstates
+licensed practitioner,practices,physician
+product,studiedby,pharmacology
+website,partof,internet
+unitedstates,diplomaticrelation,ukraine
+physician,isa,licensed
+management,haspart,analysis
+menikoff j,ismarriedto,emanuel ej
+analysis,practices,management
+www.gov,isparentorganizationof,fda
+primary outcomes,ispartof,randomized controlled trials
+emanuel ej,ismarriedto,menikoff j
+fda,isinstanceof,website
+fda,issubsidiaryof,www.gov
+randomized controlled trials,haspart,primary outcomes
+website,partof,organization
+event,haseffect,statisticalassociation
+statisticalassociation,studies,causation
+causation,isa,event
+drugs,isa,substance
+weak bases,oppositeof,weak acids
+pharmacology,practices,top drugs of
+top drugs of,studies,pharmacology
+medical research,haspart,human subjects
+human subjects,studies,medical research
+weak acids,oppositeof,weak bases
+drug,haseffect,interactions with molecules
+biochemical,partof,biology
+organism,haspart,cell
+interactions with molecules,studies,drug action
+cell,haspart,organism
+mechanisms of action,studies,pharmacodynamics
+pharmacodynamics,isa,drug action
+slovenia,hasadministrativeterritory,ljubljana
+drug,studies,pharmacologic
+receptor,ispartof,drug receptor complex
+pharmacologic,isa,drug
+drug receptor complex,haspart,receptor
+development of drugs,practices,clinical practice
+ljubljana,isin,slovenia
+clinical practice,haspart,development of drugs
+drug,isa,therapeutic
+therapeutic,isa,drug
+cell,partof,tissue
+facet,isa,drug action
+antagonists,isa,pharmacologic
+agonists,isa,pharmacologic
+tissue,haspart,cell
+antagonists,studies,agonists
+inhibitor,isa,drug
+neurotransmitter,isa,chemical signal
+hormone,isa,chemical signal
+drug,haseffect,clinically observed response
+effect,causedby,dose
+concentration effect curves,ispartof,receptor binding of agonists
+receptor binding of agonists,haspart,concentration effect curves
+clinically observed response,causes,drug
+dose,causes,effect
+doses,haseffect,response
+response,causes,doses
+ec,differentfrom,kd
+receptor,haspart,ligand
+affinity,haseffect,binding
+kd,differentfrom,ec
+drug,isa,biochemical
+full agonist,oppositeof,partial agonist
+high concentrations,oppositeof,low concentrations
+low concentrations,oppositeof,high concentrations
+protein,partof,receptor
+partial agonist,oppositeof,full agonist
+maximal responsiveness,practices,receptor
+agonist,isa,antagonist
+binding affinity,isa,ec
+receptor,partof,maximal responsiveness
+irreversible antagonist,studies,receptor
+irreversible antagonist,oppositeof,agonist
+spare receptor,isa,receptor
+g protein,partof,g proteins and second messengers
+tissue,hasparts,cell
+g proteins and second messengers,haspart,g protein
+effector,ispartof,receptor
+receptor,haspart,effector
+receptor,hasparts,effctors
+receptor,partof,cell
+receptor,isa,effector
+effctors,ispartof,receptor
+signaling,studies,biochemical
+antagonist,antagonizes,agonist
+agonist,agonizes,receptor
+competitive antagonist,antagonizes,agonist
+receptor,antagonizes,agonist
+agonist,antagonizes,antagonist
+agonist,opposite,competitive antagonist
+competitive antagonist,opposite,agonist
+irreversible antagonist,isa,antagonist
+therapeutics,isa,therapeutic
+receptor,partof,norepinephrine
+agonist,isa,competitive antagonist
+therapeutic response,isa,medical condition
+hypertension,isa,medical condition
+norepinephrine,isa,neurotransmitter
+propranolol,isusedfor,hypertension
+propranolol,treats,therapeutic response
+neurotransmitter,haspart,epinephrine
+competitive antagonist,practices,agonist
+receptor,opposes,agonist
+irreversible antagonist,isoppositeof,agonist
+agonist,opposes,receptor
+agonist,isoppositeof,irreversible antagonist
+antagonist,opposes,agonist
+agonist,opposes,antagonist
+advantages,isoppositeof,disadvantages
+disadvantages,isoppositeof,advantages
+blood pressure,isa,medical condition
+partialagonist,different,agonist
+partialagonist,isa,antagonist
+fullagonist,opposite,partialagonist
+agonist,different,partialagonist
+partialagonist,opposite,fullagonist
+interactions,partof,ligand
+partial agonist,isa,full agonist
+ligand,haspart,interactions
+hormone,isa,glucocorticoid
+full agonist,haspart,partial agonist
+partialagonist alone,differentfrom,partialagonist
+partial agonist,isdistinctfrom,partial agonist alone
+partial agonist alone,isdistinctfrom,partial agonist
+partialagonist,differentfrom,partialagonist alone
+partial agonist,opposites,full agonist
+full agonist,opposites,partial agonist
+bradycardia,treatedby,isoproterenol
+isoproterenol,causes,bradycardia
+drugs,facetof,selectivity
+prolonged,haspart,repeated administration
+cellular,partof,receptors
+cytoplasm,haspart,plasma membrane
+plasma membrane,partof,cytoplasm
+repeated administration,isa,prolonged
+lipid bilayer,partof,plasma membrane
+transmembrane receptor,isa,protein
+extracellulardomain,partof,cytoplasmicdomain
+plasma membrane,partof,intracellular receptor
+phosphate,haspart,tyrosine
+chemical signals,practices,transduce
+transduce,practices,chemical signals
+cytoplasmicdomain,partof,extracellulardomain
+intracellular receptor,partof,plasma membrane
+tyrosine,haspart,phosphate
+protein,haspart,structural domain
+dna binding,isa,domains
+asthma,istreatedby,glucocorticoid
+structural domain,partof,protein
+binding domain,partof,ligand
+glucocorticoid,usedfortreating,asthma
+domains,isa,dna binding
+receptor protein,partof,glucocorticoid hormone
+protein,practices,gene expression
+glucocorticoid hormone,haspart,receptor protein
+ligand,haspart,binding domain
+gene expression,productof,protein
+guanylyl cyclase,isa,protein
+plasma membrane,partof,lipid bilayer
+tyrosine kinase,isa,protein
+tyrosine,isinstanceof,protein
+domains,partof,proteins
+gene,partof,cell
+extracellular,partof,cytoplasmic
+cytoplasmic,haspart,extracellular
+monoclonal antibodies,practices,cetuximab
+cetuximab,isa,monoclonal antibodies
+gefitinib,hasrole,inhibitor
+inhibitor,studies,gefitinib
+erlotinib,hasrole,inhibitor
+trastuzumab,isa,monoclonal antibodies
+neoplastic disorders,hassubclass,growth factor signaling
+inhibitor,studies,erlotinib
+monoclonal antibodies,practices,trastuzumab
+growth factor signaling,isa,neoplastic disorders
+endocytosis,follows,degradation
+degradation,followedby,endocytosis
+ligand,ispartof,receptor
+innervated tissue,haspart,axon
+axon,partof,innervated tissue
+tyrosine kinase,partof,receptor
+gene,haseffect,expression
+expression,hascause,gene
+expression,studies,gene
+downstream signaling,isa,signal
+downstream signaling,subclassof,signal
+transmembranereceptor,partof,intracellulardomain
+domains,subclassof,intracellular
+protein,instanceof,tyrosine kinase
+residues,instanceof,serine
+domains,subclassof,extracellular
+residues,instanceof,threonine
+intracellulardomain,haspart,transmembranereceptor
+plasmamembrane,haspart,transmembraneconductance
+serotonin,subjecthasrole,neurotransmitter
+transmembraneconductance,partof,plasmamembrane
+drugs,studiedby,clinicalmedicine
+acetylcholine,subjecthasrole,neurotransmitter
+ionchannel,haspart,ligand
+tyrosine,instanceof,residues
+ligand,partof,ionchannel
+ion channel,partof,ligand
+ligand,haspart,ion channel
+agonist,studies,binding
+learning,practices,memory
+memory,isstudiedby,learning
+endocytosis,haspart,phosphorylation
+allosteric modulator,treatsmedicalcondition,cystic fibrosis
+heart,connectswith,vascular smooth muscle
+cystic fibrosis,istreatedby,allosteric modulator
+vascular smooth muscle,connectswith,heart
+plasma membrane,partof,cftr
+cytoplasmic,partof,plasma membrane
+g protein,haspart,gs
+gtp,haspart,gs
+protein,partof,downstream effectors
+signaling,isa,spare receptor
+protein,haspart,gtp
+gs,partof,gtp
+downstream effectors,haspart,protein
+gprotein,haspart,nucleotide
+figure,isa,figure
+epinephrine,isa,catecholamine
+effectors,ispartof,gprotein
+gprotein,haspart,effectors
+receptor,ispartof,gprotein
+norepinephrine,isa,catecholamine
+gprotein,haspart,gtp
+nicotinic,differentfrom,acetylcholine
+acetylcholine,differentfrom,nicotinic
+transduce,isa,signal
+cytoplasm,haspart,cytoplasmic surface
+cytoplasm,haspart,nucleotide
+cytoplasmic surface,partof,cytoplasmic
+cytoplasmic,partof,cytoplasm
+nucleotide,isa,cytoplasmic
+g protein,haspart,gtp
+receptor,subclassof,protein
+extracellular,oppositeof,intracellular
+serine,subclassof,residues
+threonine,subclassof,residues
+receptor,haspart,gprotein
+intracellular,oppositeof,extracellular
+residues,isa,serine
+protein kinase,isa,g protein coupled receptor kinase
+residues,isa,threonine
+mechanisms,subclassof,desensitization
+phosphorylation,isa,cellular phosphatase
+g protein coupled receptor kinase,isa,protein kinase
+phosphorylation,haseffect,receptor
+serine,isa,residue
+threonine,isa,residue
+stimulation,practices,adenylyl cyclase
+desensitization,isa,mechanism
+receptor,practices,phosphorylation
+adenylyl cyclase,haseffect,stimulation
+cellular phosphatase,isa,phosphorylation
+endocytosis,partof,plasma membrane
+antagonist,oppositeof,agonist
+allosteric ligand,isfunctionallyselectiveoppositeof,non functionally selective ligand
+allosteric ligand,oppositeoffunctionallyselective,non functionally selective ligand
+non functionally selective ligand,isfunctionallyselectiveoppositeof,allosteric ligand
+adrenal,isa,sex steroid
+cytoplasm,partof,nucleus
+nucleus,haspart,cytoplasm
+sex steroid,partof,adrenal
+substrates,isa,protein
+acuteheartfailure,drugusedfortreatment,milrinone
+neurotransmitter,subclassof,hormone
+phosphatase,subclassof,phosphorylation
+milrinone,medicalconditiontreated,acuteheartfailure
+signaling,locatedin,cytoplasm
+plasmamembrane,partof,cellular
+cellular,haspart,plasmamembrane
+phosphodiesterase,isa,protein
+cytoplasm,partof,internal storage vesicles
+internal storage vesicles,haspart,cytoplasm
+phosphatase,isa,protein
+multiple second messengers,partof,phosphoinositide signaling pathway
+phosphoinositide signaling pathway,haspart,multiple second messengers
+ca+ phosphoinositidesignalingpathway,partof,ca+ phosphoinositidesignalingpathway
+sodium nitroprusside,hasmedicalcondition,hypertension
+myosin,isa,light chain
+guanylyl cyclase,isa,cytoplasmic protein
+hypertension,istreatedby,sodium nitroprusside
+trans membrane signaling,isstudiedby,guanylyl cyclase
+sodium nitroprusside,istreatedby,hypertension
+nitroglycerin,hasmedicalcondition,hypertension
+cytoplasmic protein,isa,guanylyl cyclase
+metabolic enzyme,isa,phosphodiesterase
+light chain,isa,myosin
+transmembrane receptor,haspart,intracellular domain
+extracellular domain,partof,transmembrane receptor
+transmembrane receptor,haspart,extracellular domain
+phosphodiesterase,isa,metabolic enzyme
+hypertension,hasdrug,nitroglycerin
+nitroglycerin,istreatedby,hypertension
+guanylyl cyclase,practices,trans membrane signaling
+hypertension,istreatedby,nitroglycerin
+intracellular domain,partof,transmembrane receptor
+hypertension,hasdrug,sodium nitroprusside
+phosphodiesterase inhibitor,isa,drug
+camp,differentfrom,phosphoinositide second messenger
+vasopressor,opposite,relax smooth muscle
+phosphorylation,partof,a common theme
+a common theme,haspart,phosphorylation
+calcium phosphoinositide,isa,second messenger
+camp signaling pathways,studies,calcium phosphoinositide
+relax smooth muscle,practices,contract smooth muscle
+camp signaling pathways,opposite,calcium phosphoinositide
+camp signaling pathways,partof,signaling
+phosphodiesterase inhibitor,subclassof,drug
+phosphoinositide second messenger,isdifferentfrom,camp
+calcium phosphoinositide,partof,camp signaling pathways
+relax smooth muscle,practices,vasopressor
+contract smooth muscle,opposite,relax smooth muscle
+camp signaling pathways,isa,second messenger
+calcium phosphoinositide,opposite,camp signaling pathways
+camp,isa,second messenger
+second messenger,haspart,camp
+kinase,isa,substrates
+imatinib,practices,treats
+imatinib,practices,chronic myelogenous leukemia
+breast cancer,isa,disease
+trastuzumab,practices,treats
+imatinib,isa,inhibitor
+chronic myelogenous leukemia,isa,disease
+trastuzumab,practices,breast cancer
+antagonist,isa,pharmacologic response
+antagonize,oppositeof,mimic
+agonist,isa,pharmacologic response
+competitive antagonist,oppositeof,second competitive antagonist
+second competitive antagonist,oppositeof,competitive antagonist
+mimic,oppositeof,antagonize
+receptors,studies,structural receptor
+histamine,isa,biogenic amine
+structural receptor,isa,receptor
+ligand,haspart,receptor
+serotonin,isa,biogenic amine
+receptor,partof,ligand
+acetylcholine,isa,biogenic amine
+norepinephrine,isa,biogenic amine
+receptor,isa,chemical signal
+kinase,isa,phosphodiesterase
+tamoxifen,practices,agonist role
+drug,haspart,agonist role
+drug,instanceof,tamoxifen
+cell,partof,receptor
+pharmacologic,studies,efficacy
+pharmacologic,studies,potency
+ec,isfacetof,potency
+equi effective doses,issameas,relative potency
+dose,partof,potency
+maximal efficacy,practices,drug a
+drug a,opposite,drug b
+relative potency,issameas,equi effective doses
+potency,partof,dose
+maximal efficacy,issubclassof,efficacy
+drug b,opposite,drug a
+efficacy,facetof,drug
+fluid,isa,electrolyte
+shape of dose response curves,facetof,dose response curves
+efficacies,differentfrom,pharmacologic potencies
+therapeutic,subclassof,drug
+drug,hasfacet,efficacy
+electrolyte,subclassof,fluid
+dose response curves,hasfacet,shape of dose response curves
+pharmacologic potencies,notsameas,efficacies
+cardiac contractility,causedby,cardiac arrhythmia
+pharmacologic potencies,differentfrom,efficacies
+efficacies,notsameas,pharmacologic potencies
+partial agonist,partof,receptor effector system
+receptor effector system,haspart,partial agonist
+cardiac arrhythmia,causes,cardiac contractility
+heart,haseffect,blood pressure
+coma,causes,sedative hypnotic
+blood pressure,causedby,heart
+manhattan,islocatedin,new york city
+partial agonist,isa,agonist
+sedative hypnotic,haseffect,coma
+cardiac stimulant,isa,drug
+headache,istreatedby,cardiac stimulant
+frequency distribution,haspart,doses
+frequency distribution,isa,lognormally distributed
+doses,partof,frequency distribution
+lognormally distributed,isa,frequency distribution
+minimum therapeutic dose,differsfrom,minimum toxic dose
+minimum toxic dose,differsfrom,minimum therapeutic dose
+animal studies,studies,therapeutically relevant effect
+human experiments,differsfrom,animal experiments
+therapeutically relevant effect,studiedby,animal studies
+animal experiments,differsfrom,human experiments
+headache,causes,serious toxicity
+serious toxicity,haseffect,headache
+therapeutic,oppositeof,toxic
+therapeutic,isnot,toxic
+drug,hasfacet,selectivity
+drug,hasfacet,potency
+hyporeactive,differentfrom,hyperreactive
+hyperreactive,differentfrom,hyporeactive
+kidney,connectswith,liver
+liver,connectswith,kidney
+agonist,oppositeof,antagonist
+withdrawalsymptoms,differentfrom,potentiallydisastrouswithdrawalsymptoms
+tissue,haspartsoftheclass,cell
+potentiallydisastrouswithdrawalsymptoms,differentfrom,withdrawalsymptoms
+receptor,haseffect,stimulation
+stimulation,hascause,receptor
+ligand,partof,agonist
+agonist,haspart,ligand
+organ system,hasparts,cell
+response,partof,receptor
+genetic analysis,studies,mutation
+cell,partof,organ system
+mutation,isstudiedby,genetic analysis
+toxic,oppositeof,beneficial
+pathophysiologic,isa,disease process
+drug,usedfor,therapeutic
+disease process,studiedby,pathophysiologic
+beneficial,oppositeof,toxic
+effect,causes,principal
+principal,actions,effect
+so,isa,why
+principal,practices,effect
+why,facetof,so
+effect,studies,causes
+principal,effect,causes
+anticoagulant therapy,causes,bleeding
+bleeding,iscausedby,anticoagulant therapy
+clinicalmedicine,studies,drug
+desired effects,oppositeof,adverse effects
+treatment regimen,haspart,drug
+glucocorticoid,subclassof,hormone
+benefit,oppositeof,toxicity
+toxicity,oppositeof,benefit
+adverse effects,oppositeof,desired effects
+drug,partof,treatment regimen
+inflammatorydisorders,drugusedfortreatment,glucocorticoid
+beneficial,oppositeof,toxiceffects
+glucocorticoid,medicalconditiontreated,inflammatorydisorders
+toxiceffects,oppositeof,beneficial
+asthma,drugusedfortreatment,glucocorticoid
+histamine,isa,catecholamine
+university of california berkeley,locatedat,berkeley california
+berkeley california,differsfrom,university of california berkeley
+receptor,haseffect,binding
+binding,practices,receptor
+williams m,hasmember,kenakin t
+agonists,areoppositeof,antagonists
+g protein coupled receptor,istypeof,kinase
+kenakin t,ismemberof,williams m
+tesmer jj,hascomponent,homan kt
+antagonists,areoppositeof,agonists
+cystic fibrosis,istreatedby,cftr
+cftr,treatsmedicalcondition,cystic fibrosis
+endocytosis,isstudiedby,pp
+gouaux e,ismarriedto,mackinnon r
+g protein coupled receptor,hasallostericsite,allostery
+scott jd,ismarriedto,esseltine jl
+homan kt,ismemberof,tesmer jj
+allostery,ispartof,g protein coupled receptor
+pp,studies,endocytosis
+mackinnon r,ismarriedto,gouaux e
+esseltine jl,ismarriedto,scott jd
+atomic age,precedes,post genomic era
+g protein,hascomponent,gtp
+post genomic era,succeeds,atomic age
+metoprolol,isa,adrenoceptor antagonist
+rapid heart rate,istreatedby,digoxin
+drug selection,practices,receptor selectivity
+adrenoceptor antagonist,studies,metoprolol
+calcium channel blocker,studies,verapamil
+maintenance,isa,dose regimen
+bronchoconstriction,isdifferentfrom,bronchodilation
+propranolol,isa,beta adrenoceptor antagonist
+atrial fibrillation,istreatedby,digoxin
+bronchodilation,haseffect,bronchoconstriction
+bronchodilation,isdifferentfrom,bronchoconstriction
+digoxin,isusedfor,rapid heart rate
+verapamil,isa,calcium channel blocker
+creatinine,partof,serum
+beta adrenoceptor antagonist,studies,propranolol
+receptor selectivity,isa,drug selection
+digoxin,isusedfor,atrial fibrillation
+dose regimen,practices,maintenance
+serum,haspart,creatinine
+distribution,studiedby,pharmacokinetic
+elimination,studiedby,pharmacokinetic
+pharmacodynamics,differentfrom,pharmacokinetics
+pharmacokinetics,differentfrom,pharmacodynamics
+pharmacology,studies,drug
+ind,follows,nda
+pathologic,partof,physiologic
+physiologic,isa,pathologic
+clinical trials,isa,trial
+pharmacokinetic,haspart,pharmacodynamic
+elimination,isa,pharmacokinetics
+clearance,oppositeof,volumeofdistribution
+listeriosis,drugusedfortreatment,listerium
+blood,haspart,plasma
+listerium,drugusedfortreatment,listeriosis
+plasma,partof,blood
+volumeofdistribution,oppositeof,clearance
+blood,partof,plasma
+plasma,haspart,blood
+vascularcompartment,isoppositeof,extravasculartissue
+extravasculartissue,isoppositeof,vascularcompartment
+bound,isapartof,whole blood
+mlmin,isthesameas,ml
+whole blood,haspart,bound
+ml,isthesameas,mlmin
+liver,isa,organ
+clearance,isa,elimination
+pharmacodynamic,practices,pharmacokinetic
+kidney,isa,organ
+hematocrit,isapartof,whole blood
+whole blood,haspart,hematocrit
+antibodies,isa,protein
+metabolism,haspart,muscle
+ethanol,studies,smallwater solublemolecules
+muscle,partof,metabolism
+protein,isa,antibodies
+liver,haspart,bile
+smallwater solublemolecules,isa,ethanol
+ethanol,isa,drug
+phenytoin,isa,drug
+dose,haseffect,clearance
+distributionphase,follows,eliminationphase
+figure,studies,elimination
+elimination,isa,graphs
+modelsofdrugdistribution,isa,graphs
+plateau,isfollowedby,maximum
+figure,studies,modelsofdrugdistribution
+maximum,follows,plateau
+eliminationphase,isfollowedby,distributionphase
+extravascularequilibration,ispartof,eliminationmechanism
+eliminationmechanism,haspart,extravascularequilibration
+aspirin,isinstanceof,drug
+organ of elimination,partof,organ
+organ,haspart,organ of elimination
+blood,partof,organ
+half life,isfacetof,elimination
+organ,haspart,blood
+blood flow,partof,organ
+organ,haspart,blood flow
+one half life,practices,two half lives
+two half lives,follows,one half life
+accumulation,studies,elimination
+elimination,isa,accumulation
+drug,partof,elimination
+distribution,practices,studies
+clearance,partof,renal function
+pharmacokinetic,studies,clearance
+dose,haspart,dosing interval
+multicompartment pharmacokinetics,isa,pharmacokinetics
+pharmacokinetic,isa,multicompartment pharmacokinetics
+clearance,isstudiedby,pharmacokinetic
+dosing interval,isdifferentfrom,half life
+half life,isdifferentfrom,dosing interval
+first order,subclassof,elimination
+rapidlyandcompletelyavailable,saidtobethesameas,rateequaltoa
+rateequaltoa,saidtobethesameas,rapidlyandcompletelyavailable
+hydrophilic,isoppositeof,lipophilic
+lipophilic,isoppositeof,hydrophilic
+gut wall cells,partof,gut lumen
+duration of action,studies,effectiveness
+gut lumen,haspart,gut wall cells
+portal,partof,systemic circulation
+bile,isa,liver
+er,sameas,oral bioavailability
+systemic circulation,haspart,portal
+oral bioavailability,sameas,er
+absorption,subclassof,rate of absorption
+sleep,hascause,hypnotic
+rate of absorption,studies,absorption
+dosage form,partof,multiple dosing regimen
+hypnotic,practices,sleep
+multiple dosing regimen,haspart,dosage form
+systemic clearance,hascause,bioavailability
+oral route of administration,uses,doses
+cardiac arrhythmias,istreatedby,lidocaine
+first order,isa,absorption
+lidocaine,treatsmedicalcondition,cardiac arrhythmias
+bioavailability,haseffect,systemic clearance
+doses,usedby,oral route of administration
+first pass effect,partof,alternative routes of administration
+phenytoin,isinstanceof,drug
+alternative routes of administration,haspart,first pass effect
+liver,connectswith,inferior vena cava
+systemic,practices,portal
+rectal,partof,liver
+rectum,partof,liver
+liver,partof,rectal
+liver,haspart,rectum
+portal,practices,systemic
+inferior vena cava,connectswith,liver
+oral drug,isa,drug
+dosing interval,haspart,peak concentration
+enalapril,isa,oral drug
+enalapril,practices,ace inhibition
+ace,haseffect,inhibition
+inhibition,studies,ace
+peak concentration,partof,dosing interval
+enalapril,haspart,ace
+ace,partof,enalapril
+propranolol,practices,ace inhibition
+diagnostic and statistical manual of mental disorders,haspart,fifth edition
+american psychiatric association,isa,citation
+va,haspart,arlington
+arlington,ispartof,va
+fifth edition,partof,diagnostic and statistical manual of mental disorders
+md,isa,citation
+mental disorders,isa,disorders
+diagnosis,studies,mental disorders
+dsm,haspart,schizophrenia spectrum and other psychotic disorders
+dsm,studies,th ed mental disorders classification
+disorders,partof,dsm
+schizophrenia,partof,dsm
+dsm,studies,mentaldisorders
+american psychiatric association,practices,diagnosis
+dsm,haspart,schizophrenia spectrum
+schizophrenia spectrum and other psychotic disorders,partof,dsm
+th ed mental disorders classification,partof,dsm
+schizophrenia spectrum,partof,dsm
+bipolar,isa,related disorders
+related disorders,haspart,bipolar
+dsm,haspart,schizophrenia
+iii,isa,instance
+depressive disorders,isa,disorders
+paraphilic disorders,partof,other mental disorders
+feeding,partof,eating disorders
+other mental disorders,isa,paraphilic disorders
+disorders,isa,dissociative disorder
+neurocognitive disorders,partof,personality disorders
+somatic symptom,partof,related disorders
+dsm,follows,dsm iv
+eating disorders,isa,feeding
+dsm iv,isstudiedby,dsm
+personality disorders,isa,neurocognitive disorders
+assessment measures,isa,cultural formulation
+related disorders,isa,somatic symptom
+cultural formulation,partof,assessment measures
+dissociative disorder,partof,disorders
+dsm,haspart,lcd cm
+dsm,publisher,apa
+lcd cm,partof,dsm
+m.d,occupation,daniel
+daniel,occupation,m.d
+dsm s,isa,personality disorders
+structures,studiedby,anatomy
+james s jackson,occupation,md
+leslie compton,occupation,md
+james s jackson,occupation,m.d
+leslie compton,occupation,m.d
+ronald e dahl,occupation,md
+ronald e dahl,occupation,m.d
+md,studies,structures
+glorisa canino,occupation,m.d
+david shaffer,occupation,m.d
+glorisa canino,occupation,md
+david shaffer,occupation,md
+david shaffer,practices,mp
+william e narrow,occupation,md
+william e narrow,occupation,m.d
+anatomy,isa,structures
+dilip v jeste,occupation,md
+dilip v jeste,occupation,m.d
+darrel a regier,occupation,md
+robert taylor segraves,occupation,md
+darrel a regier,occupation,m.d
+robert taylor segraves,occupation,m.d
+david shaffer,occupation,mp
+roger peele,occupation,m.d
+roger peele,occupation,md
+lee anna clark,occupation,md
+lee anna clark,occupation,m.d
+icd cm,isdifferentfrom,icd lo cm
+intellectual developmental disorder,issubclassof,language disorder
+icd cm,isstudiedby,icd cm
+icd lo cm,isdifferentfrom,icd cm
+disorders,issubclassof,medical condition
+david shaffer,isa,m.d
+icd cm,locatedin,united states
+icd cm,follows,icd cm
+mild,isa,moderate
+severe,isa,moderate
+genetic condition,isa,medical
+mathematics,haspart,arithmetic
+fluency,studies,reading
+unspecified neurodevelopmental disorder,isa,other specified neurodevelopmental disorder
+other specified neurodevelopmental disorder,hassubclass,unspecified neurodevelopmental disorder
+unspecified tic disorder,isa,other specified tic disorder
+developmentalcoordination disorder,hassubclass,tourettes disorder
+tourettes disorder,isa,developmentalcoordination disorder
+motor tics,isa,vocal tic disorder
+other specified tic disorder,hassubclass,unspecified tic disorder
+arithmetic,partof,mathematics
+reading,isa,fluency
+vocal tic disorder,hassubclass,motor tics
+delusions,haveeffect,hallucinations
+bipolar,isoppositeof,depressive
+depressive,isoppositeof,bipolar
+icd lo cm,isa,substance specific code
+withdrawal,oppositeof,intoxication
+hallucinations,subclassof,delusions
+lcd cm,isa,substance specific code
+moderate,isa,severe
+depressive disorders,hassubclass,anxiety
+mild,issubclassof,moderate
+severe,issubclassof,moderate
+icd lo cm,isbasedon,icd cm
+seasonal pattern,follows,peripartum
+peripartum,isfollowedby,seasonal pattern
+late onset,opposite,early onset
+icd cm,follows,icd lo cm
+early onset,opposite,late onset
+icd io cm,isinstance,substance specific code
+obsessive compulsiveandrelateddisorderduetoanother,subclassof,obsessive compulsiveandrelateddisorder
+obsessive compulsiveandrelateddisorder,haspart,obsessive compulsiveandrelateddisorderduetoanother
+icd lo cm,instanceof,substance specificcode
+icd cm,instanceof,substance specificcode
+in full remission,isa,in remission
+in remission,haspart,in full remission
+moderate,isa,extreme
+binge eating disorder,isa,eating disorder
+mental disorder,isa,medical condition
+eating disorder,partof,binge eating disorder
+insomnia,haspart,daytimesleepiness
+icd lo cm,basedon,icd cm
+unspecifiedsleep wakedisorder,subclassof,otherspecifiedhypersomnolencedisorder
+pelvicpainpenetrationdisorder,drugusedfortreatment,genito
+daytimesleepiness,subclassof,insomnia
+genito,medicalconditiontreated,pelvicpainpenetrationdisorder
+otherspecifiedhypersomnolencedisorder,haspart,unspecifiedsleep wakedisorder
+john f kennedy school of government,partof,harvard university
+withdrawal,studies,intoxication
+moderate,isa,with use disorder
+alcohol induced disorders,practices,with use disorder
+with use disorder,practices,mild
+with use disorder,isa,alcohol induced disorders
+disorder,isa,alcohol induced disorders
+mild,isa,with use disorder
+with use disorder,hasmagnitude,mild
+substance,partof,severe
+without use disorder,isoppositeof,with use disorder
+sedative hypnotic or anxiolytic use disorder,isdifferentfrom,anxiolytic use disorder
+use disorder,partof,opioid intoxication
+severe,isa,with use disorder
+use disorder,isa,with use disorder
+with use disorder,isa,opioid intoxication
+sedative,isa,opioid induced disorders
+hypnotic,isa,opioid induced disorders
+disorder,isa,use disorder
+severe,haspart,substance
+anxiolytic use disorder,isdifferentfrom,sedative hypnotic or anxiolytic use disorder
+stimulant,isa,amphetamine
+hypnotic,isa,sedative
+moderate,isa,withusedisorder
+severe,isa,withusedisorder
+sedative,isa,hypnotic
+mild,isa,withusedisorder
+amphetamine,isa,stimulant
+with use disorder,oppositeof,without use disorder
+moderate,follows,mild
+harvard university,haspart,john f kennedy school of government
+without use disorder,oppositeof,with use disorder
+mild,oppositeof,moderate
+icd cm,isa,substance specific code
+moderate,oppositeof,severe
+moderate,isa,severity
+moderate,opposite,mild
+severe,isa,severity
+severe,opposite,moderate
+mild,isa,severity
+mild,instanceof,severity
+severe,instanceof,severity
+moderate,instanceof,severity
+frontotemporal lobar,haseffect,mild neurocognitive disorder due to frontotemporal lobar
+cm,partof,icd
+icd,haspart,cm
+mild neurocognitive disorder due to frontotemporal lobar,hascause,frontotemporal lobar
+mild neurocognitive disorder due huntingtons disease,isdistinctfrom,mild neurocognitive disorder due parkinsons disease
+major neurocognitive disorder due huntingtons disease,hascause,huntingtons disease
+huntingtons disease,haseffect,major neurocognitive disorder due huntingtons disease
+icd io cm,isa,substance specific code
+mild neurocognitive disorder due parkinsons disease,isdistinctfrom,mild neurocognitive disorder due huntingtons disease
+mild,isa,neurocognitive disorder
+major,isa,neurocognitive disorder
+sexually attracted to males,haspart,sexually aroused by exposing genitals to physically mature individuals
+sexually aroused by exposing genitals to physically mature individuals,haspart,sexually attracted to males
+unspecified,isa,paraphilic disorders
+suspected,ispartof,child neglect
+child neglect,haspart,suspected
+initial encounter,isa,initialencounter
+encounterformentalhealthservicesforvictimofspouseorpartnerviolence,partof,other circumstances related to spouse or partner violence
+spouse,isa,partner
+other circumstances related to spouse or partner violence,partof,encounterformentalhealthservicesforvictimofspouseorpartnerviolence
+initialencounter,haspart,initial encounter
+spouseorpartnerneglect,confirmed,initialencounter
+spouse,haspart,partner
+initialencounter,partof,spouseorpartnerneglect
+partner,isa,spouse
+spouse,practices,partner
+spouseorpartnerneglect,suspected,initialencounter
+nonpartner,subclass,adult sexual abuse
+psychological abuse,haspart,adult psychological abuse
+adult psychological abuse,haspart,psychological abuse
+nonspouse,opposite,nonpartner
+nonpartner,opposite,nonspouse
+nonspouse,subclass,adult sexual abuse
+nonspouse,isa,adult
+nonpartner,isa,adult
+imprisonment or other incarceration,differentfrom,release from prison
+lack of adequate food or safe drinking water,follows,poverty
+release from prison,differentfrom,imprisonment or other incarceration
+poverty,isa,lack of adequate food or safe drinking water
+personal history of military deployment,isa,other problem related to psychosocial circumstances
+other problem related to psychosocial circumstances,haspart,personal history of military deployment
+mentalhealth,subclassof,clinicalpractice
+treatment,hascause,diagnosis
+diagnosis,haseffect,treatment
+mentaldisorders,instanceof,classification
+slovenia,capital,ljubljana
+ljubljana,countrycapital,slovenia
+dsm,practices,clinicalpractice
+icd lo cm,partof,dsm
+dsm s,mainsubject,disorders
+dsm,haspart,icd lo cm
+icd cm,partof,dsm
+icd,isa,diagnosis
+course,differentfrom,development
+icd,studies,publication date
+development,differentfrom,course
+autism spectrum disorder,haspart,aspergers disorder
+autism spectrum disorder,isinstanceof,diagnosis
+aspergers disorder,isa,autism spectrum disorder
+depressive disorders,isa,bipolar
+educational use,partof,clinical
+bipolar ii disorder,differentfrom,bipolar i disorder
+treatment,causes,diagnosis
+bipolar i disorder,differentfrom,bipolar ii disorder
+clinical,haspart,educational use
+dsm s,partof,dsm
+neuroscience,haspart,brain imaging
+neurocognitive disorders,hassubclass,mild
+neurocognitive disorders,hassubclass,major
+dependence,differentfrom,addiction
+brain imaging,partof,neuroscience
+addiction,differentfrom,dependence
+personality,haspart,trait
+edi tions,studies,personalitydisorder
+trait,partof,personality
+previousedition,followedby,dsm s
+dsm s,follows,previousedition
+personalitydisorder,studiedby,edi tions
+psychiatric,studies,disorders
+section,partof,disorders and features
+disorders and features,haspart,section
+disorders,studies,psychiatric
+dsm s,publishes,apa
+disorders,haspart,psychiatric
+dilip v jeste,practices,m.d
+william e narrow,practices,m.d
+dsm,hasproperty,publication date
+division of research,partof,apa
+apa,isa,division of research
+dsm s,isa,diagnostic criteria
+dsm,isa,clinical utility
+diagnostic symptoms,haspart,diagnostic criteria concurrent
+diagnostic criteria,isa,diagnostic criteria antecedent
+apa,isa,organization
+diagnostic criteria,partof,diagnostic criteria concurrent
+diagnostic symptoms,haspart,diagnostic criteria prospective
+diagnostic criteria,studies,diagnostic symptoms
+diagnostic criteria,partof,diagnostic criteria prospective
+diagnostic symptoms,haspart,diagnostic criteria antecedent
+cphc,issubsidiaryof,apa
+need,haspart,clinicalexperience
+clinicalexperience,partof,need
+dsm iv,partof,dsm revision process
+dsm revision process,haspart,dsm iv
+apa,isparentorganizationof,cphc
+organization,partof,apa
+dsm iv,instanceof,diagnostic criteria
+international criminal court,partof,united nations
+united nations,haspart,international criminal court
+apa assembly,partof,dsm
+taskforce,partof,dsm s
+dsm,studies,apa assembly
+comprehensive testing,studies,field trial
+committee on dsm,practices,committee
+apa,islocatedin,united states
+committee,haspart,committee on dsm
+field trial,isa,comprehensive testing
+dsm s,studies,taskforce
+scientific review,practices,undergone field testing
+apa,partof,board of trustees
+board of trustees,studies,apa
+john f kennedy school of government,isa,harvard university
+dsm,isa,diagnostic criteria
+undergone field testing,partof,scientific review
+nos criteria,partof,dsm
+dsm iii,partof,dsm
+dsm,haspart,nos criteria
+dsm,haspart,dsm iii
+clinical,haspart,research
+international advisory group on the revision of the icd section on mental and behavioural disorders,isa,clinical
+icd,partof,international advisory group on the revision of the icd section on mental and behavioural disorders
+research,practices,clinical
+research,practices,diagnostic criteria
+personality disorder,partof,iii
+iii,partof,personality disorder
+dsm iv tr,followedby,dsm s personality and personality
+dsm s personality and personality,followedby,dsm iv tr
+viewpoint,practices,accommodate
+accommodate,isa,viewpoint
+dsm,isa,classification system
+dsm s,isa,classification system
+research initiatives,practices,clinical practice
+clinical practice,partof,research initiatives
+dsm,follows,icd
+icd,isa,classification system
+dsm s,precedes,icd
+dsm iv,follows,icd
+classification system,isa,icd
+organizational structure,partof,classifications
+icd,follows,dsm s
+classification system,haspart,organizational structure
+classification system,isa,dsm
+icd,precedes,dsm iv
+work group,isa,instance
+classifications,haspart,organizational structure
+instance,isa,work group
+dsm,isdifferentfrom,icd classifications
+psychopathology,isa,neurodevelopmental disorder
+attention deficit hyperactivity disorder,isinstanceof,neurodevelopmental disorder
+disorders,partof,psychopathology
+icd classifications,isdifferentfrom,dsm
+icd,isa,international classification of diseases
+icd ll,differentfrom,icd lo
+international classification of diseases ninth revision,haspart,icd
+dsm,partof,icd cm
+icd,isa,clinical modification of icd
+organizational structure,isa,dsm s
+clinical modification of icd,partof,international classification of diseases ninth revision
+icd lo,differentfrom,icd ll
+icd cm,followedby,icd cm
+autism spectrum disorder,isa,disorder
+environmental,subclassof,risk factors
+health,haspart,symptoms
+classification,studies,dsm
+disorder,partof,health
+genetic,subclassof,risk factors
+risk factors,subclassof,genetic
+comorbidity,practices,autism spectrum disorder
+risk factors,subclassof,environmental
+dsm,isa,classification
+mental disorder,hassymptom,symptoms
+symptoms,facetof,mentaldisorder
+symptoms,isasymptomof,mental disorder
+clinicaldecisionmaking,ispracticedby,clinicalutility
+geneticriskfactors,isa,riskfactors
+icd,followedby,dsm s
+riskfactors,studiedby,geneticriskfactors
+dsm s,isa,icd
+clinicalutility,practices,clinicaldecisionmaking
+depressive,isa,comorbidity
+anxiety,isa,comorbidity
+anxiety,isa,symptom
+dsm,studies,research
+research,practices,clinical practice
+developmental,partof,lifespan consideration
+neurocognitive disorders,isa,disorder
+lifespan consideration,haspart,developmental
+adolescence,follows,young adulthood
+young adulthood,precededby,adolescence
+schizophrenia,isa,psychotic disorders
+signs,isa,symptoms
+cultural,partof,social
+icd harmonization,haspart,dsm
+transmitted,partof,culture
+dsm,partof,icd harmonization
+symptoms,practices,diagnosis
+diagnosis,hasparts,signs
+culture,haspart,transmitted
+social,haspart,cultural
+pathological,isdifferentfrom,probable
+probable,isdifferentfrom,pathological
+clinical attention,practicedby,clinicians
+cultural,hascomponent,traditions
+behaviors,haveeffect,symptoms
+symptoms,cause,behaviors
+traditions,arecomponentsof,cultural
+clinicians,belongto,clinical attention
+culture bound syndrome,issubclassof,symptoms
+illness,studiedby,treatment
+symptoms,hassubclass,culture bound syndrome
+clinical encounter,ispracticedby,clinician
+clinical encounter,practices,clinician
+clinician,practices,clinical encounter
+treatment,hasfacet,illness
+complementary health system,isa,health care
+health care,studies,complementary health system
+clinician,isfieldof,clinical encounter
+symptom,partof,syndrome
+clinical presentation,haspart,symptomatology
+illness,haspart,clinical encounter
+syndrome,isa,disorder
+disorder,isdifferentfrom,syndrome
+biological sex,differentfrom,differences based on biological sex
+biological sex,differentfrom,gender
+women,oppositeof,men
+gender,differentfrom,biological sex
+differences based on biological sex,differentfrom,biological sex
+men,oppositeof,women
+disorder,practices,psychiatric diagnosis
+illness,isa,disorder
+attention deficit hyperactivity disorder,isa,disorder
+psychiatric diagnosis,hasproperty,disorder
+gender,partof,levels
+symptoms,partof,diagnostic criteria
+levels,haspart,gender
+diagnostic criteria,haspart,symptoms
+dsm,isa,disorder
+depressive symptomatology,studies,depressive symptoms
+disorder,haspart,unspecified disorder
+diagnostic,practices,diagnosis
+diagnosis,isa,disorder
+depressive symptoms,studies,depressive symptomatology
+clinician,practices,diagnosis
+unspecified disorder,partof,dsm
+clinical presentation,practices,clinician
+clinical presentation,usedby,clinician
+clinician,practices,clinical presentation
+clinical judgment,practices,judgment
+unspecified,isa,diagnosis
+diagnosis,subclassof,unspecified
+judgment,ispracticedby,clinical judgment
+iii,subclassof,disordersandconditionswithoutaxialdesignations
+axisi,partof,dsm iv
+icd,author,who
+axisiii,partof,dsm iv
+useofthemanual,haspart,sectioni
+axisi,subclassof,disordersandconditionswithoutaxialdesignations
+sectioni,partof,useofthemanual
+ii,subclassof,disordersandconditionswithoutaxialdesignations
+dsm,haspart,ii
+axisiii,partof,dsm
+ii,partof,dsm
+diagnosis,partof,prognosis
+z code,partof,icd io
+dsm iv,haspart,global assessment of functioning
+global assessment of functioning,partof,dsm iv
+icd io,haspart,z code
+icd io cm,isa,diagnosis
+diagnosis,practices,icd io cm
+disorders,isstudiedby,psychiatric
+dsm s,basedon,icd
+manual,hassubtype,use of the manual
+dsm s,practices,icd
+manual,haspart,use of the manual
+emotional,isa,underlying disorder
+dsm,isa,mental disorders
+clinical practice,studies,clinical
+signs and symptoms,partof,clinical course
+physiological,isa,underlying disorder
+clinical,isstudiedby,clinical practice
+clinical course,haspart,signs and symptoms
+emotional,isa,symptom
+symptoms,partof,diagnosticcriteria
+diagnosticcriteria,haspart,symptoms
+genetic,haseffect,environmental
+environmental,causes,genetic
+instance,isa,diagnostic criteria
+mental disorder,istypeof,disorder
+significant distress,causedby,mental disorder
+disorder,haseffect,significant distress
+mental disorder,differsfrom,socially deviant
+emotion regulation,isa,facet of
+cognition,partof,mental functioning
+facet of,belongsto,emotion regulation
+socially deviant,differsfrom,mental disorder
+behavior,isa,facet of
+mentaldisorder,isa,disorder
+mental functioning,hasfacet,cognition
+prognosis,studies,clinical utility
+symptoms,haspart,diagnosis
+mental disorder,isa,diagnosis
+diagnostic criteria,instanceof,dsm
+diagnostic criteria,partof,validators
+validators,studies,diagnostic criteria
+disability,isa,symptom
+international classification of diseases,partof,who system
+pathological,isa,symptom
+disability,haspart,who disability assessment schedule
+who system,haspart,international classification of functioning
+mental disorder,isa,symptom
+international classification of functioning,disabilityandhealth,who system
+who disability assessment schedule,isa,disability
+who system,haspart,international classification of diseases
+third party,partof,information
+information,haspart,third party
+impairment,isa,disability
+tion,ispracticedby,clinician
+dsm s,haspart,dsm
+subclass of,isa,diagnostic criteria
+clinician,practices,tion
+dsm,partof,dsm s
+mild,haspart,severity
+extreme,haspart,severity
+specifier,partof,criteria
+krakow,countryof,poland
+social anxiety disorder,isa,neurocognitive disorder
+criteria,haspart,specifier
+mutually exclusive,differentfrom,jointly exhaustive
+poland,capitalcity,krakow
+jointly exhaustive,differentfrom,mutually exclusive
+icd lo cm,isa,character code
+icd cm,partof,icd cm
+icd lo cm,instanceof,character code
+psychosocial,partof,environmental factors
+environmental factors,haspart,psychosocial
+treatment,isa,diagnosis
+diagnosis should,different,diagnosis
+diagnosis,different,diagnosis should
+schizophrenia,isa,mental disorder
+neurocognitive disorder,isa,mental disorder
+diagnosis,practicedby,clinician
+centers for disease control and prevention,issubsidiaryof,national center for disease control and prevention
+diagnostic,uses,statistical code
+diagnosis,differentfrom,presumption
+clinician,isfieldof,diagnosis
+schizophrenia,haseffect,remission
+statistical code,usedby,diagnostic
+national center for disease control and prevention,hasparentorganization,centers for disease control and prevention
+differential diagnosis,studies,major depressive disorder
+illness,isstudiedby,differential diagnosis
+who,iscountryof,us
+remission,hascause,schizophrenia
+major depressive disorder,isinstanceof,diagnosis
+presumption,differentfrom,diagnosis
+icd io cm,isbasedon,icd cm
+disorders,isa,dsm iv
+dsm s,isa,mental disorder
+diagnostic information,isa,information
+mental disorders,isa,disorder
+impairment,differentfrom,disabilities
+disabilities,differentfrom,impairment
+functional impairment,isa,impairment
+dsm,isa,diagnostic information
+intellectual disability,isa,intellectual developmental disorder
+law,partof,clinical diagnosis
+clinical diagnosis,isa,law
+schizophrenia spectrum,isa,psychotic disorders
+control,differentfrom,control over ones behavior
+dsm,studies,mentaldisorder
+control over ones behavior,differentfrom,control
+paraphilic disorders,isa,mental disorders
+neurocognitive disorders,isa,disorders
+personality disorders,isa,mental disorders
+clinical presentation,haspart,symptom
+autism,isa,intellectual disability
+neurodevelopmental disorder,isa,developmental period
+early development,isa,disorder
+intellectual disability,isa,disability
+attention deficit hyperactivity disorder,isa,learning disorder
+autism spectrum disorder,isa,social communication disorder
+intellectualdisability,hascause,acquiredinsult
+acquiredinsult,haseffect,intellectualdisability
+communication disorders,isa,neurodevelopmental disorders
+speech,partof,language
+childhood onset fluency disorder,isa,communication disorder
+social communication,haspart,language
+language disorder,isa,communication disorder
+language,partof,social communication
+neurodevelopmental disorders,haspart,communication disorders
+speech sound disorder,isa,communication disorder
+social communication disorder,isa,communication disorder
+development,isa,symptom
+autism spectrum disorder,isa,neurodevelopmental disorder
+tourette disorder,isa,motor
+unspecified tic disorder,isa,tic disorder
+social,partof,academic
+tourette disorder,isa,tic disorder
+motor,isa,tic disorder
+math,haspart,academicskills
+academicskills,practices,performance
+reading,haspart,academicskills
+writing,haspart,academicskills
+intellectuallygifted,isa,specificlearningdisorder
+academicskills,haspart,math
+academicskills,haspart,reading
+academicskills,haspart,writing
+performance,isstudiedby,academicskills
+specificlearningdisorder,isa,intellectuallygifted
+etiology,affects,clinical course
+clinical course,causedby,etiology
+developmental period,isa,disorder
+symptomatology,partof,clinical course
+problem solving,isa,intellectual function
+planning,isa,intellectual function
+abstract thinking,isa,intellectual function
+severity,isfacetof,clinical presentation
+reasoning,isa,intellectual function
+developmental period,haspart,adaptive
+developmental disorder,isa,intellectual disability
+adaptive,partof,developmental period
+intellectual,partof,developmental period
+developmental period,haspart,intellectual
+intellectual developmental disorder,isa,intellectual disability
+intellectual disability,sameas,intellectual developmental disorder
+intellectual disability,isa,developmental disorder
+adaptivefunctioning,partof,developmental
+developmental,haspart,adaptive
+monm,partof,mqa
+mqa,haspart,monm
+criterion c,haspart,developmental period
+standard deviation,oppositeof,mean
+mean,oppositeof,standard deviation
+problem solving,isa,intellectual functions
+cognitive efficacy,haspart,working memory
+planning,isa,intellectual functions
+developmental period,partof,criterion c
+abstract thinking,isa,intellectual functions
+working memory,haspart,cognitive efficacy
+reasoning,isa,intellectual functions
+adaptive,isa,intellectual
+strengths,oppositeof,weaknesses
+weaknesses,oppositeof,strengths
+language,partof,communication
+knowledge,isstudiedby,academic
+academic,studies,knowledge
+psychometricallysoundmeasures,usedby,clinicalevaluation
+clinicalevaluation,uses,psychometricallysoundmeasures
+mentalhealth,subclassof,medical
+adaptivefunctioning,haspart,social
+developmental period,partof,adolescence
+intellectualdisability,haspart,mentaldisor ders
+danger,haseffect,risk
+mentaldisor ders,subclassof,intellectualdisability
+risk,hascause,danger
+children,isdifferentfrom,adults
+intellectual functioning,differsfrom,intellectual disability
+intellectual disability,differsfrom,intellectual functioning
+adults,isdifferentfrom,children
+appropriate,isa,intellectual disability
+intellectual disability,isa,appropriate
+physiological,haspart,genetic
+linguistic,partof,cultural
+severe,isa,intellectual disability
+genetic,partof,physiological
+mild,isa,intellectual disability
+genetic,isa,medical condition
+neurocognitive disorders,isa,intellectual disability
+neurocognitive disorders,differentfrom,intellectual disability
+intellectual disability,differentfrom,neurocognitive disorders
+intellectual disability,isa,neurocognitive disorder
+specific learning disorder,isa,learning disorder
+social communication,isfacetof,autism spectrum disorder
+autism,isinstanceof,spectrum disorder
+neurocognitive disorder,isa,intellectual disability
+spectrum disorder,isa,intellectual disability
+specific learning disorder,isa,intellectual disability
+intellectual disability,isa,disorder
+autism spectrum disorder,isa,communication disorders
+major depressive disorder,isa,intellectual disability
+attention deficit hyperactivity disorder,isa,neurodevelopmental disorder
+years,haspart,early childhood
+early childhood,partof,years
+mild,instanceof,subtypes
+moderate,instanceof,subtypes
+severe,instanceof,subtypes
+speech,partof,communication
+communication,haspart,speech
+cultural,partof,linguistic
+fluency,partof,speech
+social pragmatic communication disorder,isa,communication disorder
+communication,haspart,nonverbal
+articulation,partof,speech
+use of language,isa,language use
+comprehension,haspart,production
+sensory impairment,differentfrom,hearing
+language abilities,haspart,academic achievement
+intellectual developmental disorder,differentfrom,intellectual disability
+production,partof,comprehension
+academic achievement,partof,language abilities
+hearing,differentfrom,sensory impairment
+language use,practices,word knowledge
+use of language,partof,written
+word knowledge,practices,language use
+d.d,sameas,d.v
+intellectual disability,differentfrom,intellectual developmental disorder
+written,isa,use of language
+spoken,isa,use of language
+d.v,sameas,d.d
+receptive ability,oppositeof,expressive ability
+use of language,isa,language
+expressive ability,oppositeof,receptive ability
+language,haspart,context
+context,isa,language
+reticent,saidtobethesameas,shy
+academicachievement,haspart,criterionb
+shy,saidtobethesameas,reticent
+criterionb,partof,academicachievement
+physiology,ispartof,genetic makeup
+language disorder,isa,developmental disorder
+genetic makeup,haspart,physiology
+landau kleffner syndrome,isa,epilepsy
+normal developmental variations,isa,dialects
+language,isa,variation in language
+neurological disorders,isstudiedby,neurology
+sensory impairment,haseffect,language deficit
+neurology,studies,neurological disorders
+epilepsy,isa,landau kleffner syndrome
+language deficit,isa,speech motor deficit
+dialects,isa,language
+speech motor deficit,practices,language deficit
+language disorder,studies,normal developmental variations
+hearing,isa,sensory impairment
+variation in language,isa,language disorder
+autism spectrum disorder,haspart,neurodevelopmental disorders
+landau kleffner syndrome,isa,autism spectrum disorder
+language,isa,regression
+social pragmatic,isa,communication disorder
+neurodevelopmental disorders,isa,disorder
+developmental coordination disorder,isa,neurodevelopmental disorder
+language disorders,haspart,speech
+regression,studies,language
+phonological,practices,speech sounds
+developmental,isinstanceof,stage
+years,follows,years
+speech sounds,isstudiedby,phonological
+word,haspart,spoken
+spoken,partof,word
+articulation,isa,sound
+language disorders,isa,speech
+years,precedes,years
+word,haspart,syllable
+developmental coordination disorder,isa,motor coordination
+motor coordination,haspart,developmental coordination disorder
+syllable,ispartof,word
+speech difficulties,differentfrom,speech sound disorder
+speech sound disorder,differentfrom,speech difficulties
+selectivemutism,differentfrom,se lectivemutism
+se lectivemutism,differentfrom,selectivemutism
+dysarthria,differentfrom,speechsounddisorder
+speechsounddisorder,differentfrom,dysarthria
+selectivemutism,subclassof,mutism
+fluency,isa,language skills
+consonant,differentfrom,vowel
+world war i,studies,world war ii
+d v,issameas,d d
+world war ii,studies,world war i
+d d,issameas,d v
+vowel,differentfrom,consonant
+stress,causes,anxiety
+academic,isa,achievement
+achievement,partof,academic
+language,haspart,sound
+sound,partof,language
+syllable,partof,sound
+sudden,differentfrom,insidious
+physiological,partof,genetic
+firstwords,partof,phrase
+genetic,haspart,physiological
+insidious,differentfrom,sudden
+phrase,haspart,firstwords
+anxiety,hascause,stress
+childhood onset fluency disorder,isinstanceof,diagnosis
+adolescence,isdifferentfrom,adult onset dysfluencies
+adult onset dysfluencies,isdifferentfrom,adolescence
+communication,partof,listener
+listener,ispartof,communication
+idioms,isa,meanings of language
+nonverbal communication,isa,communication
+meanings of language,hassubclass,idioms
+child,oppositeof,adult
+adult,oppositeof,child
+developmental period,haspart,social communication
+dv,sameas,dd
+intellectual disability,differentfrom,mental disorder
+dd,sameas,dv
+mental disorder,differentfrom,intellectual disability
+physiological,ispartof,genetic
+speech,differentfrom,language
+language,partof,speech
+social pragmatic communication disorder,practices,children
+children,haseffect,social pragmatic communication disorder
+language,haspart,speech
+autism spectrum disorder,isa,social pragmatic communication disorder
+autismspectrumdisorder,hasfacet,activities
+socialpragmaticcommunicationdisorder,issubclassof,developmentalhistory
+restrictedrepetitivepatternsofbehavior,interests,autismspectrumdisorder
+socialpragmaticcommunicationdisorder,differentfrom,autismspectrumdisorder
+socialpragmaticcommunicationdisorder,isa,developmentalhistory
+autismspectrumdisorder,differentfrom,socialpragmaticcommunicationdisorder
+autismspectrumdisorder,hasfacet,restrictedrepetitivepatternsofbehavior
+autismspectrumdisorder,hasfacet,interests
+autismspectrumdisorder,isa,disorder
+social anxiety disorder,hassymptom,symptoms
+symptoms,causedby,onset
+anxiety,causedby,fear
+onset,causes,symptoms
+fear,iscausedby,anxiety
+nonverbal,isa,communication
+social communication impairments,isinstanceof,severity
+social interaction,isa,social communication
+temperature,haseffect,pain
+interests,partof,behavior
+pain,hascause,temperature
+nonverbal,isa,behavior
+social communication impairments,isa,severity
+activities,partof,behavior
+genetic condition,isa,medical condition
+autism spectrum disorder,differentfrom,social pragmatic communication disorder
+social pragmatic communication disorder,differentfrom,autism spectrum disorder
+impairment,isa,symptom
+neurodevelopmental,isa,psychopathological
+autism spectrum disorder,isa,class of
+neurodevelopmental,isa,class of
+autism spectrum disorder,isa,domain
+neurodevelopmental,isa,domain
+autism spectrum disorder,isa,psychopathological
+subclass of,isa,behaviors
+subclass of,isa,social communication
+social communication,isa,behaviors
+with ment,haspart,with ment
+no intelligible speech,isa,accompanying language impairment
+accompanying language impairment,isa,no intelligible speech
+nonverbal,opposite,verbal
+verbal,opposite,nonverbal
+receptive language,isoppositeof,expressive language
+full sentences,ispartof,fluent speech
+expressive language,isoppositeof,receptive language
+oenee,ispartof,emee
+fluent speech,haspart,full sentences
+emee,haspart,oenee
+social communication,studies,social interaction
+autism spectrum,isa,autistic
+compensation,isa,intervention
+functional impairment,isa,stage
+social interaction,isa,functional impairment
+autistic,isa,autism spectrum
+social interaction,isa,communication
+social reciprocity,oppositeof,one sided
+one sided,oppositeof,social reciprocity
+expressive gesture,practicesdifferentfrom,functional gesture
+functional gesture,practicesdifferentfrom,expressive gesture
+interacting with much younger or older people,oppositeof,solitary activities
+solitary activities,oppositeof,interacting with much younger or older people
+nonverbal,oppositeof,verbal
+autistic,isa,autism spectrum disorder
+hypereactivity,haseffect,hyporeactivity
+hyporeactivity,causedby,hypereactivity
+texture,partof,taste
+cold,opposite,heat
+heat,opposite,cold
+texture,haspart,taste
+texture,ispartof,taste
+taste,isa,smell
+smell,isa,taste
+taste,haspart,texture
+interests,isa,activities
+intellectual developmental disorder,haspart,autism spectrum disorder
+autism spectrum disorder,isa,intellectual developmental disorder
+highintelligence,differentfrom,average
+mutism,hascause,autismspectrumdisorder
+adaptivefunctionalskills,oppositeof,intellectual
+autismspectrumdisorder,haseffect,mutism
+autismspectrumdisorder,differentfrom,intellectualdisability
+autismspectrumdisorder,country,us
+average,differentfrom,highintelligence
+intellectual,oppositeof,adaptivefunctionalskills
+intellectualdisability,differentfrom,autismspectrumdisorder
+developmental regression,isdifferentfrom,childhood disintegrative disorder
+child,isa,adult
+dsm iv,isa,autism spectrum disorder
+adult,isa,child
+childhood disintegrative disorder,isdifferentfrom,developmental regression
+language skills,partof,social
+second year of life,haspart,months
+months,partof,second year of life
+developmental plateaus or regression,isa,autism spectrum disorder
+earlychildhood,partof,firstyearoflife
+autism spectrum disorder,haseffect,developmental plateaus or regression
+autism spectrum disorder,isa,disorders
+rett syndrome,isa,differential diagnosis
+firstyearoflife,haspart,earlychildhood
+delayed language development,haseffect,autism spectrum disorder
+autistic,isatypeof,autism spectrum disorder
+third year,precedes,second year
+second year,follows,third year
+autism spectrum disorder,hascause,delayed language development
+later childhood,precedes,early childhood
+intellectual abilities,haspart,language
+deteriorates behaviorally,oppositeof,improves
+early childhood,follows,later childhood
+improves,oppositeof,deteriorates behaviorally
+language,isinstanceof,intellectual abilities
+intervention,practices,compensation
+symptom,isa,impairment
+diagnosis,isa,autism spectrum disorder
+genetic,isa,physiological
+autism spectrum disorder,hascause,low birth weight
+genetic mutation,haseffect,autism spectrum disorder
+autism spectrum disorder,hascause,genetic mutation
+low birth weight,haseffect,autism spectrum disorder
+females,isoppositeof,males
+males,isoppositeof,females
+nonverbal communication,isa,social interaction
+autism spectrum disorder,isa,intellectual disability
+interferes with eating and sleeping,hascause,sensory sensitivities
+extreme,haseffect,academic achievement
+sensory sensitivities,haseffect,interferes with eating and sleeping
+autism spectrum disorder,isa,diagnostic criteria
+selective mutism,isa,mutism
+rett syndrome,practices,autistic
+language disorder,isa,social pragmatic communication disorder
+rett syndrome,isa,syndrome
+early development,facetof,selective mutism
+intellectual disability,isdifferentfrom,autism spectrum disorder
+autismspectrumdisorder,isdifferentfrom,social pragmatic
+autism spectrum disorder,isdifferentfrom,intellectual disability
+intellectual disability,isdifferentfrom,appropriate diagnosis
+appropriate diagnosis,isdifferentfrom,intellectual disability

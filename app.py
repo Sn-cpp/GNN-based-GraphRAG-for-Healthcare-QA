@@ -33,8 +33,8 @@ with gr.Blocks() as demo:
         gr.Examples(
         examples=[
                 "What is anatomy?",
-                "What does pharmacology study?",
-                "What is part of the human body?"
+                "What is aspirin?",
+                "Is heart a part of cardiovascular system?"
             ],
             inputs=query_input
         )

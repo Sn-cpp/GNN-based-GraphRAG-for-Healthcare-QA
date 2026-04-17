@@ -15,9 +15,10 @@ class QwenLLM:
     def generate(self, prompt):
         output = self.llm(
             prompt,
-            max_tokens=128,
-            temperature=0.3,
-            top_p=0.9
+            max_tokens=384,
+            temperature=0.2,
+            top_p=0.9,
+            stop = ["</answer>"]
         )
 
         return output["choices"][0]["text"].strip()

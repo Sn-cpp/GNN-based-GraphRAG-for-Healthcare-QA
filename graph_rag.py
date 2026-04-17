@@ -130,21 +130,32 @@ class GraphRAGApp:
         # print(context)
         # print("===" * 30)
 
-        prompt = f"""Answer the question using the knowledge graph.
+        prompt = f"""You are given facts from a knowledge graph.
 
-        MUST FOLLOW Rules:
-        - Think briefly, then answer in 1 to 5 short sentences.
-        - If you are not sure about the answer, just say you don't know.
-        - DO NOT look for multiple ways to answer.
-        - DO NOT explain the answer.
+        Task:
+        - Think step by step using the facts.
+        - You MUST complete your reasoning.
+        - Then you MUST provide the final answer.
+
+        Output format (strict):
+        <think>
+        your reasoning
+        </think>
+        <answer>
+        one short sentence answer
+        </answer>
+
+        Rules:
+        - Always close both tags.
+        - The answer MUST appear inside <answer>.
+        - Do not stop early.
+        - Do not omit the answer.
 
         Context:
         {context}
 
-        Question:
-        {query}
-
-        Answer:"""
+        Question: {query}
+        """
 
         raw_answer = generate_answer(prompt)
         # print("Raw answer:")
@@ -153,13 +164,19 @@ class GraphRAGApp:
         return self.clean_output(raw_answer)
 
     def clean_output(self, text: str) -> str:
-        # Remove complete <think>...</think>
-        text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL)
+        # Case 1: proper <answer>...</answer>
+        match = re.search(r"<answer>(.*?)</answer>", text, re.DOTALL)
+        if match:
+            return match.group(1).strip()
 
-        # Remove any leftover <think> or </think>
-        text = re.sub(r"</?think>", "", text)
+        # Case 2: <answer> exists but no closing tag
+        if "<answer>" in text:
+            return text.split("<answer>")[-1].strip().split("\n")[0]
 
-        # Keep only first non-empty line
+        # Case 3: fallback to "Final Answer:"
+        if "Final Answer:" in text:
+            return text.split("Final Answer:")[-1].strip().split("\n")[0]
+
+        # Case 4: fallback to last non-empty line
         lines = [l.strip() for l in text.split("\n") if l.strip()]
-
-        return lines[0] if lines else "I don't know"
+        return lines[-1] if lines else "I don't know."

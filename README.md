@@ -11,6 +11,8 @@ Instead of retrieving isolated text chunks, the system:
 * Performs **hybrid retrieval** using both semantic and graph-based similarity
 * Generates answers using a **quantized Qwen  LLM (GGUF)** on HuggingFace Spaces
 
+HuggingFace Spaces Repository: [ndtdt/GNN-based-GraphRAG-for-Healthcare-QA](https://huggingface.co/spaces/ndtdt/GNN-based-GraphRAG-for-Healthcare-QA)
+
 ---
 
 ## 2. Dataset

@@ -53,8 +53,6 @@ We use a healthcare corpus derived from the [MedQA dataset (HuggingFace)](https:
 * Pharmacology
 * Psychiatry
 
-The dataset is cached in the `dataset` folder as backup.
-
 ---
 
 ## 3. System Architecture

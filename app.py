@@ -18,30 +18,38 @@ def answer_query(query):
 
     # Immediate UI feedback
     yield "Thinking...", gr.update(interactive=False)
+    REASONING_START_TAG = "<think>" 
     START_TAG = "</think>\n\n<answer>"
 
     # Store stream outputs from LLM with buffer, and start displaying result after the signal </think>\n\n<answer>
     buffer = ""
     start_yielding = False
+    has_think_tag = True
 
     stream_output = app.answer(query, stream=True) #Streaming LLM output
     for raw_chunk in stream_output:
         chunk = raw_chunk["choices"][0]["text"]
         buffer += chunk
 
+        # Handle when LLM didn't return <think>...</think> block
+        if has_think_tag:
+            if len(buffer) > 2 * len(REASONING_START_TAG) and REASONING_START_TAG not in buffer:
+                start_yielding = True
+                has_think_tag = False
+
         # Un-comment this for debugging
-        # print(chunk, end="", flush=True)
+        print(chunk, end="", flush=True)
 
         if start_yielding:
             yield buffer, gr.update(interactive=False)
             continue
-
+   
         idx = buffer.find(START_TAG, len(buffer) // 2)
         if idx != -1:
             buffer = buffer[idx+len(START_TAG):]
             start_yielding = True
 
-    if start_yielding == False:
+    if len(buffer) == 0:
         buffer = "I don't know"
 
     yield buffer, gr.update(interactive=True)
